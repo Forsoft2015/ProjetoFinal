@@ -66,7 +66,7 @@
 
 				<h3>Posto PIF</h3> 
 
-				<li><a href="#">Cadastrar PIF</a> 
+				<li><a href="UI023-CadastroPIF-AdmPRF.jsp">Cadastrar PIF</a> 
 							
 						</li>
 						
