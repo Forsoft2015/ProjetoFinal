@@ -17,7 +17,7 @@
 <body>
 
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI002-Home-TAC.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI047-Home-AdmTransportador.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -213,7 +213,7 @@
 				</div>
 				<br><Br>		
 	           <input type="submit" value="Alterar" name="enviar" id="enviarJ" class="botaoJ">
-	           <input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
+	           <a href="UI047-Home-AdmTransportador.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>
 		<br>
