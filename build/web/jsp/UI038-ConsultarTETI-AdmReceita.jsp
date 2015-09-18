@@ -157,7 +157,7 @@
 				</div>
 				<br><Br>		
 	           <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
-	           <input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
+	           <a href="UI034-Home-AdmReceita.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>
 		<br>
