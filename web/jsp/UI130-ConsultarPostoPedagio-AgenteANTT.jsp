@@ -30,19 +30,19 @@
 
 				<h3>Postos de Pedágio</h3>
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI129-CadastrarPostoDePedagio-AgenteANTT.jsp">Cadastrar</a> 
 						
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI131-AlterarPedagio-AgenteANTT.jsp">Alterar</a> 
 							 
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI132-ExcluirPedagio-AgenteANTT.jsp">Excluir</a> 
 						
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI130-ConsultarPostoDePedagio-AgenteANTT.jsp">Consultar</a> 
 							
 						</li>
 				</ul>
@@ -51,17 +51,17 @@
 
 				<h3>Transportadores</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI117-CadastrarTransportadorCTCeETC-AdmANTT.jsp">Cadastrar</a> 
 						
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI139-AlterarTransportadorCTCeETC-AgenteANTT.jsp">Alterar</a> 
 						</li>
 						
-						<li><a href="#">Excluir</a>
+						<li><a href="UI140-ExcluirTransportadorCTCeETC-AgenteANTT.jsp">Excluir</a>
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI118-ConsultarTransportadorCTCeETC-AdmANTT.jsp">Consultar</a> 
 						</li>
 				</ul>
 				
@@ -69,16 +69,16 @@
 
 					<h3>Autônomos</h3> 
 
-						<li><a href="#">Cadastrar</a> 
+						<li><a href="UI141-CadastrarTransportadorAutonomoTAC-AgenteANTT.jsp">Cadastrar</a> 
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI143-AlterarTransportadorAutonomoTAC-AgenteANTT.jsp">Alterar</a> 
 						</li>
 						
-						<li><a href="#">Excluir</a>
+						<li><a href="UI144-ExcluirTransportadorAutonomoTAC-AgenteANTT.jsp">Excluir</a>
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI142-ConsultarTransportadorAutonomoTAC-AgenteANTT.jsp">Consultar</a> 
 						</li>
 				</ul>	
 		</div>
