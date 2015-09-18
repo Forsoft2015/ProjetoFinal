@@ -16,7 +16,7 @@
 <body>
 <!-- NÃO EDITAR!-->
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI002-Home-TAC.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI151-Home-AgenteDNIT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -137,7 +137,7 @@
 				</div>
 				<br><Br>		
 	           <input type="submit" value="Consultar" name="enviar" id="consultarJ" class="botaoJ">
-	           <input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
+	           <a href="UI151-Home-AgenteDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>
 		<br>

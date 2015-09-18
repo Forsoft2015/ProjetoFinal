@@ -18,7 +18,7 @@
 <body>
 <!-- NÃO EDITAR!-->
 	<div id="topbar" class="conteudo-meio">
-		<a href="#" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI069-Home-AdmDNIT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -159,7 +159,7 @@
 				</div>
 				<br><Br>		
 	           <input type="submit" value="Cadastrar" name="enviar" id="enviarJ" class="botaoJ">
-	           <input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
+	           <a href="UI069-Home-AdmDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form>
 		<br>
 		<br>
