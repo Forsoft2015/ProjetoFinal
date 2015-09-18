@@ -333,7 +333,7 @@ ul#menu-user li {
 	margin-bottom: 20px;
 	border: 1px solid transparent;
 	border-color: #337ab7;
-	height: 461.141px;
+	height: 480.141px;
 }
 
 .panel-body{
@@ -404,6 +404,7 @@ ul#menu-user li {
 	text-align: center;
 	margin-left: 10%;
 	margin-right: auto;
+        height: 300px;
 }
 
 .treta2 {

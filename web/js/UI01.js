@@ -1,9 +1,11 @@
-var numeroCampos = 14;
+var numeroCampos = 14; 
+
 var formOk = new Array(numeroCampos);
 for (var i = 0; i < numeroCampos; i++) { formOk[i] = false;}
 
 window.onload = function () {
 
+	
 var topo = _$("caixa");
 var regexLETRAS = /^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$/;
 var regexCEP = /^\d+\.\d+\-\d+$/;
@@ -15,26 +17,16 @@ var regexEMAIL= /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6
 var regexHORA = /^([01]\d|2[0-3]):([0-5]\d):([0-5]\d)$/;
 var regexPLACA = /^([A-Za-z]{3})\-(\d{4})$/;
 var regexDATA=/^(0[1-9]|1\d|2[0-8]|29(?=-\d\d-(?!1[01345789]00|2[1235679]00)\d\d(?:[02468][048]|[13579][26]))|30(?!-02)|31(?=-0[13578]|-1[02]))\/(0[1-9]|1[0-2])\/([12]\d{3})$/;
+var regexSENHA = /^\S+$/;
 
 
-	setMask("cpfJ", "###.###.###-##");
-	setMask("telefoneJ","## #####-####");
-	setMask("cepJ","##.###-###");
-	setMask("cnpjJ","##.###.###/###-##")
 
+	validaChar("email1J", regexEMAIL, 0);
+	validaChar("senha1J", regexSENHA, 1);
+	validaChar("email2J", regexEMAIL, 2);
+	validaChar("senha2J", regexSENHA, 3);
 
-	validaChar("nomeJ", regexLETRAS,0);
-	validaChar("sobrenomeJ", regexLETRAS, 1);
-	validaCPF("cpfJ", regexCPF,2);
-	validaEmail("emailJ", regexEMAIL, 3);
-	validaChar("telefoneJ",regexTEL,4);
-	validaChar("cepJ",regexCEP,5);
-	validaChar("logradouroJ",regexLETRAS,6);
-	validaChar("estadoJ",regexLETRAS,7);
-	validaChar("cidadeJ",regexLETRAS,8);
-	validaEmail("emailJ",regexEMAIL,9);
-	validaChar("cnpjJ",regexCNPJ,10);
-	validaChar("idpostoJ",regexLETRAS,11);
 	
-	}
+	
+}
 
