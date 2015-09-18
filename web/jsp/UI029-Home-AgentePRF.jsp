@@ -18,7 +18,7 @@
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI002-Home-TAC.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI002-Home-AgentePRF.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -58,7 +58,7 @@
 						<li><a href="#">Consultar</a> 
 					
 						</li>
-						<li><a href="#">Emitir</a> 
+						<li><a href="UI030-EmitirRelatorioRodovia-AgentePRF.jsp">Emitir</a> 
 					
 						</li>
 				</ul>	
