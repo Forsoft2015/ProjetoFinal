@@ -18,7 +18,7 @@
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI002-Home-TAC.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI034-Home-AdmReceita.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -43,7 +43,7 @@
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI039-ConsultarUsuario-AdmReceita.jsp">Consultar</a> 
 							
 						</li>
 				</ul>
@@ -57,7 +57,7 @@
 							
 						</li>
 						  
-						<li><a href="#">Consultar Frete</a> 
+						<li><a href="UI037-ConsultarFreteInternacional-AdmReceita.jsp">Consultar Frete</a> 
 						
 						</li>
 				</ul>		
@@ -70,7 +70,7 @@
 						
 						</li>
 						
-						<li><a href="#">Consultar TETI</a>
+						<li><a href="UI038-ConsultarTETI-AdmReceita.jsp">Consultar TETI</a>
 						
 						</li>
 				</ul>
