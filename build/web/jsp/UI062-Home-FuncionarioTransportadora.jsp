@@ -18,7 +18,7 @@
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI002-Home-TAC.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI062-Home-FuncionarioTransportadora.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -32,62 +32,28 @@
 				<ul class="menu-ativo navigator">
 
 				<h3>Motorista</h3> 
-
-				<li><a href="#">Cadastrar</a> 
-							
-						</li>
-						
-						<li><a href="#">Alterar</a> 
-							
-						</li>
-						
-						<li><a href="#">Excluir</a> 
-							
-						</li>
-						
-						<li><a href="#">Consultar</a> 
-					
-						</li>
+				
+					<li><a href="UI068-ConsultarMotorista-FuncionarioTransportadora.jsp">Consultar</a></li>
 				</ul>
-					<ul class="menu-ativo navigator">
-
-				<h3>Veículo de Carga</h3> 
-
-				<li><a href="#">Cadastrar</a> 
-							
-						</li>
-						
-						<li><a href="#">Alterar</a> 
-							
-						</li>
-						
-						<li><a href="#">Excluir</a> 
-							
-						</li>
-						
-						<li><a href="#">Consultar</a> 
-					
-						</li>
-				</ul>
+				
 				<ul class="menu-ativo navigator">
 
-				<h3>Frete</h3> 
+					<h3>Veículo de Carga</h3> 
+						
+						<li><a href="UI067-ConsultarVeiculo.FuncionarioTransportadora.jsp">Consultar</a></li>
+				</ul>
+				
+				<ul class="menu-ativo navigator">
 
-				<li><a href="#">Cadastrar</a> 
-							
-						</li>
+					<h3>Frete</h3> 
+
+						<li><a href="UI063-CadastrarFrete-FuncionarioTransportadora.jsp">Cadastrar</a></li>
 						
-						<li><a href="#">Alterar</a> 
-							
-						</li>
+						<li><a href="UI065-AlterarFrete-FuncionarioTransportadora.jsp">Alterar</a></li>
 						
-						<li><a href="#">Excluir</a> 
-							
-						</li>
+						<li><a href="UI64-ConsultarFrete-FuncionarioTransportadora.jsp">Consultar</a></li>
 						
-						<li><a href="#">Consultar</a> 
-					
-						</li>
+						<li><a href="UI66-ExcluirFrete-FuncionarioTransportadora.jsp">Excluir</a></li>
 				</ul>
 		</div>
 		

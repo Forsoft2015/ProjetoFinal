@@ -17,7 +17,7 @@
 <body>
 <!-- NÃO EDITAR!-->
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI002-Home-TAC.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI062-Home-FuncionarioTransportadora.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -29,33 +29,26 @@
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
 
-				<h3>Consultas</h3> 
+					<h3>Consultas</h3> 
 
-				<li><a href="#">Motoristas</a> 
-							
-						</li>
+						<li><a href="UI068-ConsultarMotorista-FuncionarioTransportadora.jsp">Motoristas</a></li>
 						
-						<li><a href="#">Veículos de Carga</a> 
-							
-						</li>
+						<li><a href="UI067-ConsultarVeiculo-FuncionarioTransportadora.jsp">Veículos de Carga</a></li>
 						
 						
 				</ul>
+				
 				<ul class="menu-ativo navigator">
 
-				<h3>Frete</h3> 
+					<h3>Frete</h3> 
 
-				<li><a href="#">Cadastrar</a> 
-							
-						</li>
+						<li><a href="UI063-CadastrarFrete-FuncionarioTransportadora.jsp">Cadastrar</a></li>
 						
-						<li><a href="#">Alterar</a> 
-						
-						</li>
+						<li><a href="UI65-AlterarFrete-FuncionarioTransportadora.jsp">Alterar</a></li>
 												
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI64-ConsultarFrete-FuncionarioTransportadora.jsp">Consultar</a></li>
 						
-						</li>
+						<li><a href="UI66-ExcluirFrete-FuncionarioTransportadora.jsp">Consultar</a></li>
 				</ul>		
 		</div>
 		
@@ -153,7 +146,7 @@
 				</div>
 				<br><Br>		
 	           <input type="submit" value="Alterar" name="enviar" id="enviarJ" class="botaoJ">
-	           <input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
+	           <a href="UI062-Home-FuncionarioTransportadora.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
 		</form> 
 		<br>
 		<br>
