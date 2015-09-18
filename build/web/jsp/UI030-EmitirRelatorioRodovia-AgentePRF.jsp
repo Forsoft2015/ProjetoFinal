@@ -32,14 +32,14 @@
 
 				<h3>Consultas</h3> 
 
-						<li><a href="#">Motoristas</a> 
+						<li><a href="UI031-ConsultarMotorista-AgentePRF.jsp">Motoristas</a> 
 						</li>
 						
-						<li><a href="#">Veículos</a> 
+						<li><a href="UI033-ConsultarVeiculo-AgentePRF.jsp">Veículos</a> 
 				
 						</li>
 						
-						<li><a href="#">Fretes</a> 
+						<li><a href="UI032-ConsultarFrete-AgentePRF.jsp">Fretes</a> 
 							
 						</li>
 				</ul>
@@ -55,7 +55,7 @@
 
 				<h3>Relatórios</h3> 
 				
-						<li><a href="#">Consultar</a> 
+						<li><a href="">Consultar</a> 
 					
 						</li>
 						<li><a href="UI030-EmitirRelatorioRodovia-AgentePRF.jsp">Emitir</a> 
