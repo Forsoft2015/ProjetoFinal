@@ -32,19 +32,19 @@
 
 				<h3>Postos de Pesagem</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI097-CadastrarPostoPesagem-AgenteDNIT.jsp">Cadastrar</a> 
 							
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI099-AlterarPostoPesagem-AgenteDNIT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI100-ExcluirPostoPesagem-AgenteDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI098-ConsultarPostoPesagem-AgenteDNIT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>
@@ -53,19 +53,19 @@
 
 				<h3>Rodovia</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI093-CadastrarRodovia-AgenteDNIT.jsp">Cadastrar</a> 
 							
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI095-AlterarRodovia-AgenteDNIT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI096-ExcluirRodovia-AgenteDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI094-ConsultarRodovia-AgenteDNIT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>
@@ -73,19 +73,19 @@
 
 				<h3>Balança</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI105-CadastrarBalanaca-AgenteDNIT.jsp">Cadastrar</a> 
 							
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI107-AlterarBalanca-AgenteDNIT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI108-ExcluirBalanca-AgenteDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI106-ConsultarBalanca-AgenteDNIT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>	
@@ -93,19 +93,19 @@
 
 				<h3>Câmera</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI101-CadastrarCamera-AgenteDNIT.jsp">Cadastrar</a> 
 							
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI103-AlterarCamera-AgenteDNIT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI104-ExcluirCamera-AgenteDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI102-ConsultarCamera-AgenteDNIT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>	
