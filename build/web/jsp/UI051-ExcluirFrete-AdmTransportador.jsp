@@ -28,7 +28,6 @@
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
 
-				
 				<h3>Usuários</h3> 
 
 						<li><a href="#">Cadastrar</a> 
@@ -46,7 +45,6 @@
 							
 						</li>
 				</ul>
-				
 				<ul class="menu-ativo navigator">
 
 				<h3>Motorista</h3> 
@@ -55,11 +53,11 @@
 							
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI054-AlterarMotorista-AdmTransportador.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI055-ExcluirMotorista-AdmTransportador.jsp">Excluir</a> 
 							
 						</li>
 						
@@ -67,28 +65,26 @@
 					
 						</li>
 				</ul>
-				
-				<ul class="menu-ativo navigator">
+					<ul class="menu-ativo navigator">
 
 				<h3>Veículo de Carga</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI056-CadastrarVeiculo-AdmTransportador.jsp">Cadastrar</a> 
 							
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI057-AlterarVeiculo-AdmTransportador.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI059-ExcluirVeiculo-AdmTransportador.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI058-ConsultarVeiculo-AdmTransportador.jsp">Consultar</a> 
 					
 						</li>
 				</ul>
-				
 				<ul class="menu-ativo navigator">
 
 				<h3>Frete</h3> 
@@ -101,7 +97,7 @@
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI051-ExcluirFrete-AdmTransportador.jsp">Excluir</a> 
 							
 						</li>
 						
