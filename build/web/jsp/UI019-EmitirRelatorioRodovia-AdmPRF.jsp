@@ -43,7 +43,7 @@
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI027-ConsultarUsuario-AdmPRF.jsp">Consultar</a> 
 							
 						</li>
 				</ul>

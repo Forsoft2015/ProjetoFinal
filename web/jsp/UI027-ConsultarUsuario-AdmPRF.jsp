@@ -16,7 +16,7 @@
 <body>
 <!-- NÃO EDITAR!-->
 	<div id="topbar" class="conteudo-meio">
-		<a href="#" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI18-Home-AdmPRF.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -30,11 +30,45 @@
 
 				<h3>Usuários</h3> 
 
-				<li><a href="#">Cadastrar</a> 
-							
+						<li><a href="#">Cadastrar</a> 
 						</li>
 						
 						<li><a href="#">Alterar</a> 
+				
+						</li>
+						
+						<li><a href="#">Excluir</a> 
+							
+						</li>
+						
+						<li><a href="UI027-ConsultarUsuario-AdmPRF.jsp">Consultar</a> 
+							
+						</li>
+				</ul>
+				<ul class="menu-ativo navigator">
+
+				<h3>Consultas</h3> 
+
+						<li><a href="#">Motoristas</a> 
+						</li>
+						
+						<li><a href="#">Veículos</a> 
+				
+						</li>
+						
+						<li><a href="#">Fretes</a> 
+							
+						</li>
+				</ul>
+                                <ul class="menu-ativo navigator">
+
+				<h3>Posto PIF</h3> 
+
+				<li><a href="UI023-CadastroPIF-AdmPRF.jsp">Cadastrar PIF</a> 
+							
+						</li>
+						
+						<li><a href="#">Alterar PIF</a> 
 							
 						</li>
 						
@@ -43,23 +77,18 @@
 						</li>
 						
 						<li><a href="#">Consultar</a> 
-						
+					
 						</li>
-				</ul>
-				<ul class="menu-ativo navigator">
+                                </ul>
+                                <ul class="menu-ativo navigator">
 
-				<h3>Posto PIF</h3> 
-
-				<li><a href="#">Cadastrar PIF</a> 
-							
-						</li>
-						
-						<li><a href="#">Alterar PIF</a> 
-						
-						</li>
-												
+				<h3>Relatórios</h3> 
+				
 						<li><a href="#">Consultar</a> 
-						
+					
+						</li>
+						<li><a href="UI019-EmitirRelatorioRodovia-AdmPRF.jsp">Emitir</a> 
+					
 						</li>
 				</ul>		
 		</div>

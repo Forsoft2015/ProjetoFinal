@@ -42,7 +42,7 @@
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI027-ConsultarUsuario-AdmPRF.jsp">Consultar</a> 
 							
 						</li>
 				</ul>
@@ -61,7 +61,7 @@
 							
 						</li>
 				</ul>
-			<ul class="menu-ativo navigator">
+                                <ul class="menu-ativo navigator">
 
 				<h3>Posto PIF</h3> 
 
@@ -80,8 +80,8 @@
 						<li><a href="#">Consultar</a> 
 					
 						</li>
-			</ul>
-			<ul class="menu-ativo navigator">
+                                </ul>
+                                <ul class="menu-ativo navigator">
 
 				<h3>Relatórios</h3> 
 				
