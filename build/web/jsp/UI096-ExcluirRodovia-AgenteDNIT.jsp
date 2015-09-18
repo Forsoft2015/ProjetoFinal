@@ -28,100 +28,85 @@
 	
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
-				<ul class="menu-ativo navigator">
+							<ul class="menu-ativo navigator">
 
-				<h3>Motorista</h3> 
+				<h3>Postos de Pesagem</h3> 
 
-				<li><a href="#">Cadastrar</a> 
-						
-						</li>
-						
-						<li><a href="#">Alterar</a> 
+				<li><a href="UI097-CadastrarPostoPesagem-AgenteDNIT.jsp">Cadastrar</a> 
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
-							 
-						</li>
-						
-						<li><a href="#">Consultar</a> 
-							
-						</li>
-				</ul>
-				<ul class="menu-ativo navigator">
-
-				<h3>Fretes</h3> 
-
-				<li><a href="#">Cadastrar</a> 
+						<li><a href="UI099-AlterarPostoPesagem-AgenteDNIT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="#">Alterar</a> 
-						</li>
-						
-						<li><a href="#">Excluir</a> 
-						</li>
-						
-						<li><a href="#">Consultar</a> 
-						</li>
-			    </ul>	
-
-
-                <ul class="menu-ativo navigator">
-
-					<h3>Transportador</h3> 
-
-						<li><a href="#">Cadastrar</a> 
+						<li><a href="UI100-ExcluirPostoPesagem-AgenteDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI098-ConsultarPostoPesagem-AgenteDNIT.jsp">Consultar</a> 
+					
 						</li>
-						
-						<li><a href="#">Excluir</a> 
-						</li>
-						
-						<li><a href="#">Consultar</a> 
-						</li>
-				</ul>
-
-				<ul class="menu-ativo navigator">
-
-					<h3>Relatórios</h3> 
-
-						<li><a href="#">Consultar</a> 
-							
-						</li>
-												
 				</ul>
 				
-				<ul class="menu-ativo navigator menuMaior">
+					<ul class="menu-ativo navigator">
 
-					<h3>Consultar</h3> 
+				<h3>Rodovia</h3> 
 
-						<li><a href="#">Usuários</a> 
+				<li><a href="UI093-CadastrarRodovia-AgenteDNIT.jsp">Cadastrar</a> 
 							
 						</li>
 						
-						<li><a href="#">Fretes</a> 
+						<li><a href="UI095-AlterarRodovia-AgenteDNIT.jsp">Alterar</a> 
+							
 						</li>
 						
-						<li><a href="#">Motorista</a> 
+						<li><a href="UI096-ExcluirRodovia-AgenteDNIT.jsp">Excluir</a> 
+							
 						</li>
 						
-						<li><a href="#">Veículo de Carga</a> 
+						<li><a href="UI094-ConsultarRodovia-AgenteDNIT.jsp">Consultar</a> 
+					
+						</li>
+				</ul>
+				<ul class="menu-ativo navigator">
+
+				<h3>Balança</h3> 
+
+				<li><a href="UI105-CadastrarBalanaca-AgenteDNIT.jsp">Cadastrar</a> 
+							
 						</li>
 						
-						<li><a href="#">Ocorrência</a> 
+						<li><a href="UI107-AlterarBalanca-AgenteDNIT.jsp">Alterar</a> 
+							
 						</li>
 						
-						<li><a href="#">Postos</a> 
+						<li><a href="UI108-ExcluirBalanca-AgenteDNIT.jsp">Excluir</a> 
+							
 						</li>
 						
-						<li><a href="#">Rodovias</a> 
+						<li><a href="UI106-ConsultarBalanca-AgenteDNIT.jsp">Consultar</a> 
+					
+						</li>
+				</ul>	
+			<ul class="menu-ativo navigator">
+
+				<h3>Câmera</h3> 
+
+				<li><a href="UI101-CadastrarCamera-AgenteDNIT.jsp">Cadastrar</a> 
+							
 						</li>
 						
-						<li><a href="#">Relatórios</a> 
+						<li><a href="UI103-AlterarCamera-AgenteDNIT.jsp">Alterar</a> 
+							
+						</li>
+						
+						<li><a href="UI104-ExcluirCamera-AgenteDNIT.jsp">Excluir</a> 
+							
+						</li>
+						
+						<li><a href="UI102-ConsultarCamera-AgenteDNIT.jsp">Consultar</a> 
+					
 						</li>
 				</ul>
 		</div>

@@ -1,6 +1,6 @@
 <%-- 
-    Document   : UI110-ConsultarPedagio-AdmANTT
-    Created on : 18/09/2015, 04:47:39
+    Document   : UI112-ExcluirPostoPedagio-AgenteANTT
+    Created on : 18/09/2015, 06:05:32
     Author     : Javapos
 --%>
 
@@ -12,9 +12,9 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-</head>
+	</head>
 <body>
-<!-- NÃO EDITAR!-->
+
 	<div id="topbar" class="conteudo-meio">
 		<a href="#" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
@@ -26,24 +26,25 @@
 	
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
+		
 				<ul class="menu-ativo navigator">
 
-				<h3>Pedágios</h3> 
+				<h3>Pedágio</h3>
 
 				<li><a href="#">Cadastrar</a> 
-							
+						
 						</li>
 						
 						<li><a href="#">Alterar</a> 
-							
+							 
 						</li>
 						
 						<li><a href="#">Excluir</a> 
-							
+						
 						</li>
 						
 						<li><a href="#">Consultar</a> 
-						
+							
 						</li>
 				</ul>
 				<ul class="menu-ativo navigator">
@@ -51,143 +52,132 @@
 				<h3>TNTI</h3> 
 
 				<li><a href="#">Cadastrar</a> 
-							
+						
 						</li>
 						
 						<li><a href="#">Alterar</a> 
-							
+							 
 						</li>
 						
 						<li><a href="#">Excluir</a> 
-							
+						
 						</li>
 						
 						<li><a href="#">Consultar</a> 
-						
+							
 						</li>
 				</ul>
+				
 				<ul class="menu-ativo navigator">
-
-				<h3>CTC</h3> 
-
+				
+				<h3>CTC/ETC</h3> 
+				
+					<li><a href="#">Cadastrar</a> 
+						
+						</li>
+						
+						<li><a href="#">Alterar</a> 
+							 
+						</li>
+						
+						<li><a href="#">Excluir</a> 
+						
+						</li>
+						
+						<li><a href="#">Consultar</a> 
+							
+						</li>
+				</ul>
+								
+				<ul class="menu-ativo navigator">
+				
+				<h3>TAC</h3> 		
+				
 				<li><a href="#">Cadastrar</a> 
-							
+						
 						</li>
 						
 						<li><a href="#">Alterar</a> 
-							
+							 
 						</li>
 						
 						<li><a href="#">Excluir</a> 
-							
+						
 						</li>
 						
 						<li><a href="#">Consultar</a> 
-						
-						</li>
-				</ul>
-				<ul class="menu-ativo navigator">
-
-				<h3>ETC</h3> 
-
-				<li><a href="#">Cadastrar</a> 
 							
 						</li>
-						
-						<li><a href="#">Alterar</a> 
-							
-						</li>
-						
-						<li><a href="#">Excluir</a> 
-							
-						</li>
-						
-						<li><a href="#">Consultar</a> 
-						
-						</li>
-				</ul>
-				<ul class="menu-ativo navigator">
-
-				<h3>TAC</h3> 
-
-				<li><a href="#">Cadastrar</a> 
-							
-						</li>
-						
-						<li><a href="#">Alterar</a> 
-							
-						</li>
-						
-						<li><a href="#">Excluir</a> 
-							
-						</li>
-						
-						<li><a href="#">Consultar</a> 
-						
-						</li>
-				</ul>
-				<ul class="menu-ativo navigator">
-
-				<h3>Usuários</h3> 
-
-				<li><a href="#">Alterar</a> 
-						
 				</ul>
 				
 		</div>
 		
-		<!-- NÃO EDITAR!-->
+		
 		
 		<div id="centro" class="esquerda">
 		
-		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
-			<h1>Consulta de Postos de Pedágio</h1>
-			<h4>Preencha corretamente os campos!</h4>
+			<h1>Exclusão de Cadastro de Posto de Pesagem</h1>
 			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 				<div class="tabela">
 					<div class="coluna-esquerda">
 						<fieldset>
-							<legend>Dados dos Postos de Pedágio</legend>	
+							<legend>Endereço do Posto</legend>					
 								<div class="campo">
-									<label for="idpostJ">ID do Posto:</label><br> 
-									<input type="text" name="idpost" id="idpostJ" disabled>
-								</div>
-								<div class="campo">
-									<label for="idendJ">ID do Endereço:</label><br> 
-									<input type="text" name="idend" id="idendJ" disabled>
-								</div>
-								<div class="campo">
-									<label for="idrodJ">ID da Rodovia:</label><br> 
-									<input type="text" name="idrod" id="idrodJ" disabled>
-								</div>								
-								<div class="campo"> 
-									<label for="kmJ">KM:</label><br> 
-									<input type="text" name="kilometro" id="kmJ" disabled>
+									<label for="logradouroJ">Logradouro</label><br> 
+									<input type="text" name="logradouro" id="logradouroJ" disabled ><span id="x_logradouroJ" class=""></span>
 								</div>
 								<div class="campo"> 
-									<label for="estadoJ">Estado:</label><br> 
-									<input type="text" name="estado" id="estadoJ" disabled>
+									<label for="numJ">Número:</label><br> 
+									<input type="text" name="num" id="numJ" maxlength="7" disabled><span id="x_numJ"></span>
 								</div>
 								<div class="campo"> 
-									<label for="telJ">Telefone:</label><br> 
-									<input type="text" name="Telefone" id="telJ" disabled>
+									<label for="complementoJ">Complemento:</label><br> 
+									<input type="text" name="complemento" id="complementoJ" disabled><span id="x_complementoJ"></span>
 								</div>
-								<div class="campo">
-									<label for="idtpostJ">ID do Tipo do Posto:</label><br> 
-									<input type="text" name="idtpost" id="idtpostJ" disabled>
+								<div class="campo"> 
+									<label for="cepJ">CEP:</label><br> 
+									<input type="text" name="cep" id="cepJ" maxlength="10" disabled><span id="x_cepJ"></span>
 								</div>
-								
-						</fieldset>
+								<div class="campo"> 
+									<label for="cepJ">Bairro:</label><br> 
+									<input type="text" name="bairro" id="bairroJ" disabled><span id="x_bairroJ"></span>
+								</div>
+								<div class="campo"> 
+									<label for="cidadeJ">Cidade:</label><br> 
+									<input type="text" name="cidade" id="cidadeJ" disabled ><span id="x_cidadeJ"></span>
+								</div>
+													</fieldset>
 					</div>
 					
 					<div class="coluna-direita">
-						
+						<fieldset>
+							<legend>Dados da Rodovia</legend>
+								<div class="campo"> 
+									<label for="idRodoviaJ">ID da Rodovia:</label><br> 
+									<input type="text" name="idRodovia" id="idRodoviaJ" disabled><span id="x_idRodoviaJ"></span>
+								</div>
+								<div class="campo"> 
+									<label for="kmJ">Kilomento:</label><br> 
+									<input type="text" name="km" id="kmJ" disabled><span id="x_kmJ"></span>
+								</div>
+								
+								<div class="campo"> 
+									<label for="telJ">Telefone:</label><br> 
+									<input type="text" name="tel" id="telJ" disabled><span id="x_telJ"></span>
+								</div>
+							
+								<div class="campo"> 
+									<label for="tipoPostoJ">Tipo de Posto:</label><br> 
+									<input type="text" name="tipoPosto" id="tipoPostoJ"disabled><span id="x_tipoPostoJ"></span>
+								</div>
+							
+							</fieldset>
 					</div>
 					
 				</div>
 				<br><Br>		
-	           <input type="submit" value="Consultar" name="Consultar" id="consultarJ" class="botaoJ">
+	           <input type="submit" value="Excluir" name="enviar" id="enviarJ" class="botaoJ">
 	           <input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
 		</form> 
 		<br>
