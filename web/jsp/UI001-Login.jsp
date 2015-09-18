@@ -19,7 +19,7 @@
 				<div class="panel panel-primary">
 					<div class="panel-heading">
 						<h4 class="textoCentro customH4">Sistema</h4>
-						<h1 class="textoCentro customH1">CodeTrack</h1>
+						<h1 class="textoCentro customH1">DigiMon</h1>
 					</div>
 					<div class="panel-body">
 						
