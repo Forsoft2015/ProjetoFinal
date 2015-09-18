@@ -38,7 +38,7 @@
 				
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI077-ExcluirUsuarioPostoPesagem-AdmDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
@@ -87,46 +87,44 @@
 					
 						</li>
 				</ul>
-								
 				<ul class="menu-ativo navigator">
-				
-				<h3>Balanças</h3> 		
-				
-				<li><a href="#">Cadastrar</a> 
-						
-						</li>
-						
-						<li><a href="#">Alterar</a> 
-							 
-						</li>
-						
-						<li><a href="#">Excluir</a> 
-						
-						</li>
-						
-						<li><a href="#">Consultar</a> 
+
+				<h3>Balança</h3> 
+
+				<li><a href="UI086-CadastrarBalanca-AdmDNIT.jsp">Cadastrar</a> 
 							
 						</li>
-				</ul>
-				
-				<ul class="menu-ativo navigator">
-				
-				<h3>Usuário Posto de Pesagem</h3> 
-				
-				<li><a href="#">Cadastrar</a> 
 						
-						</li>
-						
-						<li><a href="#">Alterar</a> 
-							 
-						</li>
-						
-						<li><a href="#">Excluir</a> 
-						
-						</li>
-						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI088-AlterarBalanca-AdmDNIT.jsp">Alterar</a> 
 							
+						</li>
+						
+						<li><a href="UI089-ExcluirBalanca-AdmDNIT.jsp">Excluir</a> 
+							
+						</li>
+						
+						<li><a href="UI087-ConsultarBalanca-AdmDNITT.jsp">Consultar</a> 
+					
+						</li>
+				</ul>	
+			<ul class="menu-ativo navigator">
+
+				<h3>Câmera</h3> 
+
+				<li><a href="UI082-CadastrarCamera-AdmDNIT.jsp">Cadastrar</a> 
+							
+						</li>
+						
+						<li><a href="UI084-AlterarCamera-AdmDNIT.jsp">Alterar</a> 
+							
+						</li>
+						
+						<li><a href="UI085-ExcluirCamera-AdmDNIT.jsp">Excluir</a> 
+							
+						</li>
+						
+						<li><a href="UI083-ConsultarCamera-AdmDNIT.jsp">Consultar</a> 
+					
 						</li>
 				</ul>
 		</div>
