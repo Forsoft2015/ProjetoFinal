@@ -29,23 +29,24 @@
 
 				<h3>Usuários</h3> 
 
-				<li><a href="#">Cadastrar</a> 
-							
+						<li><a href="#">Cadastrar</a> 
 						</li>
 						
 						<li><a href="#">Alterar</a> 
-							
+				
 						</li>
 						
 						<li><a href="#">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
-						
+						<li><a href="UI039-ConsultarUsuario-AdmReceita.jsp">Consultar</a> 
+							
 						</li>
 				</ul>
+				
 				<ul class="menu-ativo navigator">
+
 
 				<h3>Frete</h3> 
 
@@ -53,10 +54,11 @@
 							
 						</li>
 						  
-						<li><a href="#">Consultar Frete</a> 
+						<li><a href="UI037-ConsultarFreteInternacional-AdmReceita.jsp">Consultar Frete</a> 
 						
 						</li>
 				</ul>		
+				
 				
 				<ul class="menu-ativo navigator">
 				<h3>TETI</h3>
@@ -65,12 +67,11 @@
 						
 						</li>
 						
-						<li><a href="#">Consultar TETI</a>
+						<li><a href="UI038-ConsultarTETI-AdmReceita.jsp">Consultar TETI</a>
 						
 						</li>
 				</ul>
-				
-				
+	
 				<ul class="menu-ativo navigator">
 				<h3>TNTI</h3>
 						

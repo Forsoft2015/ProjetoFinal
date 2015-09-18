@@ -27,31 +27,60 @@
 	
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
-		
-			<ul class="menu-ativo navigator">
-				<h3>Usuários</h3> 
-					<li><a href="#">Cadastrar</a></li>	
-					<li><a href="#">Alterar</a></li>	
-					<li><a href="#">Excluir</a></li>
-					<li><a href="#">Consultar</a></li>
-			</ul>
-				
-			<ul class="menu-ativo navigator">
-				<h3>Frete</h3>
-					<li><a href="#">Cadastrar</a></li>
-					<li><a href="#">Alterar</a></li>
-					<li><a href="#">Excluir</a></li>
-					<li><a href="#">Consultar</a></li>
-			</ul>
-			
-			<ul class="menu-ativo navigator">
-				<h3>Transportador Internacional</h3>
-					<li><a href="#">Cadastrar</a></li>
-					<li><a href="#">Alterar</a></li>
-					<li><a href="#">Excluir</a></li>
-					<li><a href="#">Consultar</a></li>
-			</ul>
+				<ul class="menu-ativo navigator">
 
+				<h3>Usuários</h3> 
+
+						<li><a href="#">Cadastrar</a> 
+						</li>
+						
+						<li><a href="#">Alterar</a> 
+				
+						</li>
+						
+						<li><a href="#">Excluir</a> 
+							
+						</li>
+						
+						<li><a href="UI039-ConsultarUsuario-AdmReceita.jsp">Consultar</a> 
+							
+						</li>
+				</ul>
+				
+				<ul class="menu-ativo navigator">
+
+
+				<h3>Frete</h3> 
+
+				<li><a href="#">Cadastrar Frete</a> 
+							
+						</li>
+						  
+						<li><a href="UI037-ConsultarFreteInternacional-AdmReceita.jsp">Consultar Frete</a> 
+						
+						</li>
+				</ul>		
+				
+				
+				<ul class="menu-ativo navigator">
+				<h3>TETI</h3>
+				
+				<li><a href="#">Cadastrar TETI</a>
+						
+						</li>
+						
+						<li><a href="UI038-ConsultarTETI-AdmReceita.jsp">Consultar TETI</a>
+						
+						</li>
+				</ul>
+	
+				<ul class="menu-ativo navigator">
+				<h3>TNTI</h3>
+						
+					<li><a href="#">Consultar TNTI</a>
+						
+					</li>
+				</ul>
 		</div>
 		
 		<div id="centro" class="esquerda full">
