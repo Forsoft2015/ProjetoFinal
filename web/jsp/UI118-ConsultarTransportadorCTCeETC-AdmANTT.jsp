@@ -27,24 +27,23 @@
 	
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
-		
-			<ul class="menu-ativo navigator">
+				<ul class="menu-ativo navigator">
 
 				<h3>Postos de Pedágio</h3>
 
-				<li><a href="UI129-CadastrarPostoDePedagio-AgenteANTT.jsp">Cadastrar</a> 
+				<li><a href="UI109-CadastrarPedagio-AdmANTT.jsp">Cadastrar</a> 
 						
 						</li>
 						
-						<li><a href="UI131-AlterarPedagio-AgenteANTT.jsp">Alterar</a> 
+						<li><a href="UI111-AlterarPedagio-AdmANTT.jsp">Alterar</a> 
 							 
 						</li>
 						
-						<li><a href="UI132-ExcluirPedagio-AgenteANTT.jsp">Excluir</a> 
+						<li><a href="UI112-ExcluirPedagio-AdmANTT.jsp">Excluir</a> 
 						
 						</li>
 						
-						<li><a href="UI130-ConsultarPostoDePedagio-AgenteANTT.jsp">Consultar</a> 
+						<li><a href="UI110-ConsultarPedagio-AdmANTT.jsp">Consultar</a> 
 							
 						</li>
 				</ul>
@@ -57,10 +56,10 @@
 						
 						</li>
 						
-						<li><a href="UI139-AlterarTransportadorCTCeETC-AgenteANTT.jsp">Alterar</a> 
+						<li><a href="UI119-AlterarTransportadorCTCeETC-AdmANTT.jsp">Alterar</a> 
 						</li>
 						
-						<li><a href="UI140-ExcluirTransportadorCTCeETC-AgenteANTT.jsp">Excluir</a>
+						<li><a href="UI120-ExcluirTransportadorCTCeETC-AdmANTT.jsp">Excluir</a>
 						</li>
 						
 						<li><a href="UI118-ConsultarTransportadorCTCeETC-AdmANTT.jsp">Consultar</a> 
@@ -71,16 +70,16 @@
 
 					<h3>Autônomos</h3> 
 
-						<li><a href="UI141-CadastrarTransportadorAutonomoTAC-AgenteANTT.jsp">Cadastrar</a> 
+						<li><a href="UI121-CadastrarTransportadorAutonomoTAC-AdmANTT.jsp">Cadastrar</a> 
 						</li>
 						
-						<li><a href="UI143-AlterarTransportadorAutonomoTAC-AgenteANTT.jsp">Alterar</a> 
+						<li><a href="UI119-AlterarTransportadorAutonomoTAC-AdmANTT.jsp">Alterar</a> 
 						</li>
 						
-						<li><a href="UI144-ExcluirTransportadorAutonomoTAC-AgenteANTT.jsp">Excluir</a>
+						<li><a href="UI120-ExcluirTransportadorAutonomoTAC-AdmANTT.jsp">Excluir</a>
 						</li>
 						
-						<li><a href="UI142-ConsultarTransportadorAutonomoTAC-AgenteANTT.jsp">Consultar</a> 
+						<li><a href="UI122-ConsultarTransportadorAutonomoTAC-AdmANTT.jsp">Consultar</a> 
 						</li>
 				</ul>
 		</div>

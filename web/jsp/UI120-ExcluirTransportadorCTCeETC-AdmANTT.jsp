@@ -28,150 +28,57 @@
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
 
-				<h3>Usuários</h3>
+				<h3>Postos de Pedágio</h3>
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI109-CadastrarPedagio-AdmANTT.jsp">Cadastrar</a> 
 						
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI111-AlterarPedagio-AdmANTT.jsp">Alterar</a> 
 							 
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI112-ExcluirPedagio-AdmANTT.jsp">Excluir</a> 
 						
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI110-ConsultarPedagio-AdmANTT.jsp">Consultar</a> 
 							
 						</li>
 				</ul>
 				
 				<ul class="menu-ativo navigator">
 
-				<h3>Rodovias</h3>
+				<h3>Transportadores</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI117-CadastrarTransportadorCTCeETC-AdmANTT.jsp">Cadastrar</a> 
 						
 						</li>
 						
-						<li><a href="#">Alterar</a> 
-							 
+						<li><a href="UI119-AlterarTransportadorCTCeETC-AdmANTT.jsp">Alterar</a> 
 						</li>
 						
-						<li><a href="#">Excluir</a> 
-						
+						<li><a href="UI120-ExcluirTransportadorCTCeETC-AdmANTT.jsp">Excluir</a>
 						</li>
 						
-						<li><a href="#">Consultar</a> 
-							
+						<li><a href="UI118-ConsultarTransportadorCTCeETC-AdmANTT.jsp">Consultar</a> 
 						</li>
 				</ul>
 				
 				<ul class="menu-ativo navigator">
 
-				<h3>Balanças</h3>
+					<h3>Autônomos</h3> 
 
-				<li><a href="#">Cadastrar</a> 
-						
+						<li><a href="UI121-CadastrarTransportadorAutonomoTAC-AdmANTT.jsp">Cadastrar</a> 
 						</li>
 						
-						<li><a href="#">Alterar</a> 
-							 
+						<li><a href="UI119-AlterarTransportadorAutonomoTAC-AdmANTT.jsp">Alterar</a> 
 						</li>
 						
-						<li><a href="#">Excluir</a> 
-						
+						<li><a href="UI120-ExcluirTransportadorAutonomoTAC-AdmANTT.jsp">Excluir</a>
 						</li>
 						
-						<li><a href="#">Consultar</a> 
-							
-						</li>
-				</ul>
-				
-				<ul class="menu-ativo navigator">
-
-				<h3>Câmeras</h3>
-
-				<li><a href="#">Cadastrar</a> 
-						
-						</li>
-						
-						<li><a href="#">Alterar</a> 
-							 
-						</li>
-						
-						<li><a href="#">Excluir</a> 
-						
-						</li>
-						
-						<li><a href="#">Consultar</a> 
-							
-						</li>
-				</ul>
-				
-				<ul class="menu-ativo navigator">
-
-				<h3>Posto de Pesagem</h3>
-
-				<li><a href="#">Cadastrar</a> 
-						
-						</li>
-						
-						<li><a href="#">Alterar</a> 
-							 
-						</li>
-						
-						<li><a href="#">Excluir</a> 
-						
-						</li>
-						
-						<li><a href="#">Consultar</a> 
-							
-						</li>
-				</ul>
-				
-				<ul class="menu-ativo navigator">
-
-				<h3>Relatórios</h3>
-
-				<li><a href="#">Consultar</a> 
-						
-				</li>
-						
-						
-				</ul>
-				
-				<ul class="menu-ativo navigator menuMaior">
-
-				<h3>Consultar</h3>
-
-				<li><a href="#">Usuários</a> 
-						
-						</li>
-						
-						<li><a href="#">Fretes</a> 
-							 
-						</li>
-						
-						<li><a href="#">Motoristas</a> 
-						
-						</li>
-						
-						<li><a href="#">Veículos de Carga</a> 
-							
-						</li>
-						
-						<li><a href="#">Ocorrências</a> 
-							
-						</li>
-						
-						<li><a href="#">Postos</a> 
-							
-						</li>
-						
-						<li><a href="#">Rodovias</a> 
-							
+						<li><a href="UI122-ConsultarTransportadorAutonomoTAC-AdmANTT.jsp">Consultar</a> 
 						</li>
 				</ul>
 		</div>

@@ -1,6 +1,6 @@
 <%-- 
-    Document   : UI112-ExcluirPostoPedagio-AgenteANTT
-    Created on : 18/09/2015, 06:05:32
+    Document   : UI111-AlterarPostoPedagio-AgenteANTT
+    Created on : 18/09/2015, 06:04:41
     Author     : Javapos
 --%>
 
@@ -12,7 +12,8 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-	</head>
+	<script src="../js/UI111.js" type="text/javascript" DEFER></script>
+</head>
 <body>
 
 	<div id="topbar" class="conteudo-meio">
@@ -26,90 +27,61 @@
 	
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
-		
 				<ul class="menu-ativo navigator">
 
-				<h3>Pedágio</h3>
+				<h3>Postos de Pedágio</h3>
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI109-CadastrarPedagio-AdmANTT.jsp">Cadastrar</a> 
 						
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI111-AlterarPedagio-AdmANTT.jsp">Alterar</a> 
 							 
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI112-ExcluirPedagio-AdmANTT.jsp">Excluir</a> 
 						
 						</li>
 						
-						<li><a href="#">Consultar</a> 
-							
-						</li>
-				</ul>
-				<ul class="menu-ativo navigator">
-
-				<h3>TNTI</h3> 
-
-				<li><a href="#">Cadastrar</a> 
-						
-						</li>
-						
-						<li><a href="#">Alterar</a> 
-							 
-						</li>
-						
-						<li><a href="#">Excluir</a> 
-						
-						</li>
-						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI110-ConsultarPedagio-AdmANTT.jsp">Consultar</a> 
 							
 						</li>
 				</ul>
 				
 				<ul class="menu-ativo navigator">
-				
-				<h3>CTC/ETC</h3> 
-				
-					<li><a href="#">Cadastrar</a> 
+
+				<h3>Transportadores</h3> 
+
+				<li><a href="UI117-CadastrarTransportadorCTCeETC-AdmANTT.jsp">Cadastrar</a> 
 						
 						</li>
 						
-						<li><a href="#">Alterar</a> 
-							 
+						<li><a href="UI119-AlterarTransportadorCTCeETC-AdmANTT.jsp">Alterar</a> 
 						</li>
 						
-						<li><a href="#">Excluir</a> 
-						
+						<li><a href="UI120-ExcluirTransportadorCTCeETC-AdmANTT.jsp">Excluir</a>
 						</li>
 						
-						<li><a href="#">Consultar</a> 
-							
+						<li><a href="UI118-ConsultarTransportadorCTCeETC-AdmANTT.jsp">Consultar</a> 
 						</li>
 				</ul>
-								
+				
 				<ul class="menu-ativo navigator">
-				
-				<h3>TAC</h3> 		
-				
-				<li><a href="#">Cadastrar</a> 
-						
+
+					<h3>Autônomos</h3> 
+
+						<li><a href="UI121-CadastrarTransportadorAutonomoTAC-AdmANTT.jsp">Cadastrar</a> 
 						</li>
 						
-						<li><a href="#">Alterar</a> 
-							 
+						<li><a href="UI119-AlterarTransportadorAutonomoTAC-AdmANTT.jsp">Alterar</a> 
 						</li>
 						
-						<li><a href="#">Excluir</a> 
-						
+						<li><a href="UI120-ExcluirTransportadorAutonomoTAC-AdmANTT.jsp">Excluir</a>
 						</li>
 						
-						<li><a href="#">Consultar</a> 
-							
+						<li><a href="UI122-ConsultarTransportadorAutonomoTAC-AdmANTT.jsp">Consultar</a> 
 						</li>
 				</ul>
-				
 		</div>
 		
 		
@@ -117,7 +89,8 @@
 		<div id="centro" class="esquerda">
 		
 		
-			<h1>Exclusão de Cadastro de Posto de Pesagem</h1>
+			<h1>Alteração de Cadastro de Posto de Pesagem</h1>
+			<h4>Preencha corretamente os campos!</h4>
 			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 				<div class="tabela">
 					<div class="coluna-esquerda">
@@ -125,27 +98,27 @@
 							<legend>Endereço do Posto</legend>					
 								<div class="campo">
 									<label for="logradouroJ">Logradouro</label><br> 
-									<input type="text" name="logradouro" id="logradouroJ" disabled ><span id="x_logradouroJ" class=""></span>
+									<input type="text" name="logradouro" id="logradouroJ" ><span id="x_logradouroJ" class=""></span>
 								</div>
 								<div class="campo"> 
 									<label for="numJ">Número:</label><br> 
-									<input type="text" name="num" id="numJ" maxlength="7" disabled><span id="x_numJ"></span>
+									<input type="text" name="num" id="numJ" maxlength="7"><span id="x_numJ"></span>
 								</div>
 								<div class="campo"> 
 									<label for="complementoJ">Complemento:</label><br> 
-									<input type="text" name="complemento" id="complementoJ" disabled><span id="x_complementoJ"></span>
+									<input type="text" name="complemento" id="complementoJ"><span id="x_complementoJ"></span>
 								</div>
 								<div class="campo"> 
 									<label for="cepJ">CEP:</label><br> 
-									<input type="text" name="cep" id="cepJ" maxlength="10" disabled><span id="x_cepJ"></span>
+									<input type="text" name="cep" id="cepJ" maxlength="10"><span id="x_cepJ"></span>
 								</div>
 								<div class="campo"> 
 									<label for="cepJ">Bairro:</label><br> 
-									<input type="text" name="bairro" id="bairroJ" disabled><span id="x_bairroJ"></span>
+									<input type="text" name="bairro" id="bairroJ" ><span id="x_bairroJ"></span>
 								</div>
 								<div class="campo"> 
 									<label for="cidadeJ">Cidade:</label><br> 
-									<input type="text" name="cidade" id="cidadeJ" disabled ><span id="x_cidadeJ"></span>
+									<input type="text" name="cidade" id="cidadeJ" ><span id="x_cidadeJ"></span>
 								</div>
 													</fieldset>
 					</div>
@@ -155,21 +128,21 @@
 							<legend>Dados da Rodovia</legend>
 								<div class="campo"> 
 									<label for="idRodoviaJ">ID da Rodovia:</label><br> 
-									<input type="text" name="idRodovia" id="idRodoviaJ" disabled><span id="x_idRodoviaJ"></span>
+									<input type="text" name="idRodovia" id="idRodoviaJ" ><span id="x_idRodoviaJ"></span>
 								</div>
 								<div class="campo"> 
 									<label for="kmJ">Kilomento:</label><br> 
-									<input type="text" name="km" id="kmJ" disabled><span id="x_kmJ"></span>
+									<input type="text" name="km" id="kmJ"><span id="x_kmJ"></span>
 								</div>
 								
 								<div class="campo"> 
 									<label for="telJ">Telefone:</label><br> 
-									<input type="text" name="tel" id="telJ" disabled><span id="x_telJ"></span>
+									<input type="text" name="tel" id="telJ"><span id="x_telJ"></span>
 								</div>
 							
 								<div class="campo"> 
 									<label for="tipoPostoJ">Tipo de Posto:</label><br> 
-									<input type="text" name="tipoPosto" id="tipoPostoJ"disabled><span id="x_tipoPostoJ"></span>
+									<input type="text" name="tipoPosto" id="tipoPostoJ"><span id="x_tipoPostoJ"></span>
 								</div>
 							
 							</fieldset>
@@ -177,7 +150,7 @@
 					
 				</div>
 				<br><Br>		
-	           <input type="submit" value="Excluir" name="enviar" id="enviarJ" class="botaoJ">
+	           <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
 	           <input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
 		</form> 
 		<br>
