@@ -1,6 +1,6 @@
 <%-- 
-    Document   : UI034-Home-AdmReceita
-    Created on : 17/09/2015, 20:51:14
+    Document   : UI069-Home-AdmDNIT
+    Created on : 18/09/2015, 01:33:13
     Author     : Javapos
 --%>
 
@@ -18,7 +18,7 @@
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI034-Home-AdmReceita.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="#" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -43,45 +43,92 @@
 							
 						</li>
 						
-						<li><a href="UI039-ConsultarUsuario-AdmReceita.jsp">Consultar</a> 
+						<li><a href="#">Consultar</a> 
 							
 						</li>
 				</ul>
-				
 				<ul class="menu-ativo navigator">
 
+				<h3>Postos de Pesagem</h3> 
 
-				<h3>Frete</h3> 
-
-				<li><a href="#">Cadastrar Frete</a> 
+				<li><a href="#">Cadastrar</a> 
 							
 						</li>
-						  
-						<li><a href="UI037-ConsultarFreteInternacional-AdmReceita.jsp">Consultar Frete</a> 
 						
-						</li>
-				</ul>		
-				
-				
-				<ul class="menu-ativo navigator">
-				<h3>TETI</h3>
-				
-				<li><a href="#">Cadastrar TETI</a>
-						
+						<li><a href="#">Alterar</a> 
+							
 						</li>
 						
-						<li><a href="UI038-ConsultarTETI-AdmReceita.jsp">Consultar TETI</a>
+						<li><a href="#">Excluir</a> 
+							
+						</li>
 						
+						<li><a href="#">Consultar</a> 
+					
 						</li>
 				</ul>
-	
-				<ul class="menu-ativo navigator">
-				<h3>TNTI</h3>
+				
+					<ul class="menu-ativo navigator">
+
+				<h3>Rodovia</h3> 
+
+				<li><a href="#">Cadastrar</a> 
+							
+						</li>
 						
-					<li><a href="#">Consultar TNTI</a>
+						<li><a href="#">Alterar</a> 
+							
+						</li>
 						
-					</li>
+						<li><a href="#">Excluir</a> 
+							
+						</li>
+						
+						<li><a href="#">Consultar</a> 
+					
+						</li>
 				</ul>
+				<ul class="menu-ativo navigator">
+
+				<h3>Balança</h3> 
+
+				<li><a href="#">Cadastrar</a> 
+							
+						</li>
+						
+						<li><a href="#">Alterar</a> 
+							
+						</li>
+						
+						<li><a href="#">Excluir</a> 
+							
+						</li>
+						
+						<li><a href="#">Consultar</a> 
+					
+						</li>
+				</ul>	
+			<ul class="menu-ativo navigator">
+
+				<h3>Câmera</h3> 
+
+				<li><a href="#">Cadastrar</a> 
+							
+						</li>
+						
+						<li><a href="#">Alterar</a> 
+							
+						</li>
+						
+						<li><a href="#">Excluir</a> 
+							
+						</li>
+						
+						<li><a href="#">Consultar</a> 
+					
+						</li>
+				</ul>	
+				
 		</div>
 		
 		<!-- NÃO EDITAR!-->

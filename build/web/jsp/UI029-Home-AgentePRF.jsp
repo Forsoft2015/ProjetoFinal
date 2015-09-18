@@ -1,6 +1,6 @@
 <%-- 
-    Document   : UI034-Home-AdmReceita
-    Created on : 17/09/2015, 20:51:14
+    Document   : UI029-HomeAgente-PRF
+    Created on : 17/09/2015, 20:50:03
     Author     : Javapos
 --%>
 
@@ -18,7 +18,7 @@
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI034-Home-AdmReceita.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI002-Home-AgentePRF.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -30,58 +30,38 @@
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
 
-				<h3>Usuários</h3> 
+				<h3>Consultas</h3> 
 
-						<li><a href="#">Cadastrar</a> 
+						<li><a href="#">Motoristas</a> 
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="#">Veículos</a> 
 				
 						</li>
 						
-						<li><a href="#">Excluir</a> 
-							
-						</li>
-						
-						<li><a href="UI039-ConsultarUsuario-AdmReceita.jsp">Consultar</a> 
+						<li><a href="#">Fretes</a> 
 							
 						</li>
 				</ul>
-				
 				<ul class="menu-ativo navigator">
 
-
-				<h3>Frete</h3> 
-
-				<li><a href="#">Cadastrar Frete</a> 
-							
-						</li>
-						  
-						<li><a href="UI037-ConsultarFreteInternacional-AdmReceita.jsp">Consultar Frete</a> 
+				<h3>Posto PIF</h3> 
 						
-						</li>
-				</ul>		
-				
-				
-				<ul class="menu-ativo navigator">
-				<h3>TETI</h3>
-				
-				<li><a href="#">Cadastrar TETI</a>
-						
-						</li>
-						
-						<li><a href="UI038-ConsultarTETI-AdmReceita.jsp">Consultar TETI</a>
-						
+						<li><a href="#">Consultar</a> 
+					
 						</li>
 				</ul>
-	
 				<ul class="menu-ativo navigator">
-				<h3>TNTI</h3>
-						
-					<li><a href="#">Consultar TNTI</a>
-						
-					</li>
-				</ul>
+
+				<h3>Relatórios</h3> 
+				
+						<li><a href="#">Consultar</a> 
+					
+						</li>
+						<li><a href="UI030-EmitirRelatorioRodovia-AgentePRF.jsp">Emitir</a> 
+					
+						</li>
+				</ul>	
 		</div>
 		
 		<!-- NÃO EDITAR!-->
