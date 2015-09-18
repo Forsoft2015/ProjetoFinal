@@ -1,6 +1,6 @@
 <%-- 
-    Document   : UI151-ExcluirFrete-TAC
-    Created on : 18/09/2015, 01:40:04
+    Document   : UI150-AlterarFrete-TAC
+    Created on : 18/09/2015, 01:39:31
     Author     : Javapos
 --%>
 
@@ -12,7 +12,8 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-	
+	<script src="../js/UI150.js" type="text/javascript" DEFER></script>
+
 </head>
 <body>
 <!-- NÃO EDITAR!-->
@@ -31,19 +32,19 @@
 
 				<h3>Frete</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI003-CadastrarFrete-TAC.jsp">Cadastrar</a> 
 						
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI005-AlterarFrete-TAC.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI006-ExcluirFrete-TAC.jsp">Excluir</a> 
 							 
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI004-ConsultarFrete-TAC.jsp">Consultar</a> 
 							
 						</li>
 				</ul>
@@ -51,30 +52,29 @@
 
 				<h3>Veículo</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI007-CadastrarVeiculo-TAC.jsp">Cadastrar</a> 
 							
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI008-AlterarVeiculo-TAC.jsp">Alterar</a> 
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI010-ExcluirVeiculo-TAC.jsp">Excluir</a> 
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI009-ConsultarVeiculo-TAC.jsp">Consultar</a> 
 						</li>
-			    </ul>		
-		
-		
-				<ul class="menu-ativo navigator">
+                                </ul>	
+
+
+                                <ul class="menu-ativo navigator">
 
 					<h3>Configurações da Conta</h3>
 					
-					<li><a href="#">Alterar</a> 
+					<li><a href="UI011-AlterarConfiguracoesConta-TAC.jsp">Alterar</a> 
 					</li>
 						
 				</ul>
-
 		</div>
 		<!-- NÃO EDITAR!-->
 		
@@ -91,11 +91,11 @@
 							<legend>Dados da Carga</legend>					
 								<div class="campo">
 									<label for="remetenteJ">Remetente:</label><br> 
-									<input type="text" name="remetente" id="remetenteJ" disabled><span id="x_remetenteJ" class=""></span>
+									<input type="text" name="remetente" id="remetenteJ"><span id="x_remetenteJ" class=""></span>
 								</div>
 								<div class="campo"> 
 									<label for="destinatarioJ">Destinatário:</label><br> 
-									<input type="text" name="destinatario" id="destinatarioJ" disabled><span id="x_detinatarioJ" class=""></span>
+									<input type="text" name="destinatario" id="destinatarioJ"><span id="x_detinatarioJ" class=""></span>
 								</div>
 								
 						</fieldset>
@@ -107,23 +107,23 @@
 								<legend>Endereço de Origem :</legend>
 									<div class="campo"> 
 										<label for="logradouroJ">Logradouro:</label><br> 
-										<input type="text" name="logradouro" id="logradouroJ"disabled><span id="x_logradouroJ" class=""></span>
+										<input type="text" name="logradouro" id="logradouroJ"><span id="x_logradouroJ" class=""></span>
 									</div>
 									<div class="campo"> 
 										<label for="numJ">Número :</label><br> 
-										<input type="text" name="num" id="numJ"disabled><span id="x_numJ" class=""></span>
+										<input type="text" name="num" id="numJ"><span id="x_numJ" class=""></span>
 									</div>
 									<div class="campo"> 
 										<label for="cepJ">CEP:</label><br> 
-										<input type="text" name="cep" id="cepJ"disabled><span id="x_cepJ" class=""></span>
+										<input type="text" name="cep" id="cepJ"><span id="x_cepJ" class=""></span>
 									</div>
 									<div class="campo"> 
 										<label for="bairroJ">Bairro:</label><br> 
-										<input type="text" name="bairro" id="bairroJ"disabled><span id="x_bairroJ" class=""></span>
+										<input type="text" name="bairro" id="bairroJ"><span id="x_bairroJ" class=""></span>
 									</div>
 									<div class="campo"> 
 										<label for="cidadeJ">Cidade:</label><br> 
-										<input type="text" name="cidade" id="cidadeJ"disabled><span id="x_cidadeJ" class=""></span>
+										<input type="text" name="cidade" id="cidadeJ"><span id="x_cidadeJ" class=""></span>
 									</div>
 									<div class="campo"> 
 										<label for="estadoJ">Estado:</label><br> 
@@ -134,23 +134,23 @@
 								<legend>Endereço de Destino :</legend>
 									<div class="campo"> 
 										<label for="logradourodJ">Logradouro:</label><br> 
-										<input type="text" name="logradourod" id="logradourodJ"disabled ><span id="x_logradourodJ" class=""></span>
+										<input type="text" name="logradourod" id="logradourodJ" ><span id="x_logradourodJ" class=""></span>
 									</div>
 									<div class="campo"> 
 										<label for="numdJ">Número :</label><br> 
-										<input type="text" name="numd" id="numdJ"disabled><span id="x_numdJ" class=""></span>
+										<input type="text" name="numd" id="numdJ"><span id="x_numdJ" class=""></span>
 									</div>
 									<div class="campo"> 
 										<label for="cepdJ">CEP:</label><br> 
-										<input type="text" name="cepd" id="cepdJ"disabled><span id="x_cepJ" class=""></span>
+										<input type="text" name="cepd" id="cepdJ"><span id="x_cepJ" class=""></span>
 									</div>
 									<div class="campo"> 
 										<label for="bairrodJ">Bairro:</label><br> 
-										<input type="text" name="bairrod" id="bairrodJ" disabled><span id="x_bairrodJ" class=""></span>
+										<input type="text" name="bairrod" id="bairrodJ" ><span id="x_bairrodJ" class=""></span>
 									</div>
 									<div class="campo"> 
 										<label for="cidadedJ">Cidade:</label><br> 
-										<input type="text" name="cidaded" id="cidadedJ"disabled><span id="x_cidadedJ" class=""></span>
+										<input type="text" name="cidaded" id="cidadedJ"><span id="x_cidadedJ" class=""></span>
 									</div>
 									<div class="campo"> 
 										<label for="estadodJ">Estado:</label><br> 
@@ -162,7 +162,7 @@
 					
 				</div>
 				<br><Br>		
-	           <input type="submit" value="Excluir" name="enviar" id="consultarJ" class="botaoJ">
+	           <input type="submit" value="Alterar" name="enviar" id="consultarJ" class="botaoJ">
 	           <input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
 		</form> 
 		<br>
