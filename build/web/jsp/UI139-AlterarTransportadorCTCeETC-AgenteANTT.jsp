@@ -29,111 +29,59 @@
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
 
-				<h3>Usuários</h3> 
+				<h3>Postos de Pedágio</h3>
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI129-CadastrarPostoDePedagio-AgenteANTT.jsp">Cadastrar</a> 
+						
 						</li>
 						
-						<li><a href="#">Alterar</a> 
-							
-						</li>
-						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI131-AlterarPedagio-AgenteANTT.jsp">Alterar</a> 
 							 
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI132-ExcluirPedagio-AgenteANTT.jsp">Excluir</a> 
+						
+						</li>
+						
+						<li><a href="UI130-ConsultarPostoDePedagio-AgenteANTT.jsp">Consultar</a> 
 							
 						</li>
 				</ul>
 				
 				<ul class="menu-ativo navigator">
 
-				<h3>Rodovias</h3> 
+				<h3>Transportadores</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI117-CadastrarTransportadorCTCeETC-AdmANTT.jsp">Cadastrar</a> 
+						
 						</li>
 						
-						<li><a href="#">Alterar</a> 
-							
+						<li><a href="UI139-AlterarTransportadorCTCeETC-AgenteANTT.jsp">Alterar</a> 
 						</li>
 						
-						<li><a href="#">Excluir</a> 
-							 
+						<li><a href="UI140-ExcluirTransportadorCTCeETC-AgenteANTT.jsp">Excluir</a>
 						</li>
 						
-						<li><a href="#">Pesquisar</a> 
-							
+						<li><a href="UI118-ConsultarTransportadorCTCeETC-AdmANTT.jsp">Consultar</a> 
 						</li>
 				</ul>
 				
 				<ul class="menu-ativo navigator">
 
-				<h3>Usuários</h3> 
+					<h3>Autônomos</h3> 
 
-				<li><a href="#">Postos</a> 
+						<li><a href="UI141-CadastrarTransportadorAutonomoTAC-AgenteANTT.jsp">Cadastrar</a> 
 						</li>
 						
-						<li><a href="#">Alterar</a> 
-							
+						<li><a href="UI143-AlterarTransportadorAutonomoTAC-AgenteANTT.jsp">Alterar</a> 
 						</li>
 						
-						<li><a href="#">Excluir</a> 
-							 
+						<li><a href="UI144-ExcluirTransportadorAutonomoTAC-AgenteANTT.jsp">Excluir</a>
 						</li>
 						
-						<li><a href="#">Consultar</a> 
-							
+						<li><a href="UI142-ConsultarTransportadorAutonomoTAC-AgenteANTT.jsp">Consultar</a> 
 						</li>
-				</ul>
-				
-				<ul class="menu-ativo navigator">
-
-				<h3>Usuários</h3> 
-
-				<li><a href="#">Relatórios</a> 
-						</li>
-						
-						<li><a href="#">Consultar</a> 
-							
-						</li>
-				</ul>
-				
-				<ul class="menu-ativo navigator menuMaior">
-
-				<h3>Usuários</h3> 
-
-				<li><a href="#">Consultar</a> 
-						</li>
-						
-						<li><a href="#">Usuários</a> 
-							
-						</li>
-						
-						<li><a href="#">Fretes</a> 
-							 
-						</li>
-						
-						<li><a href="#">Motoristas</a> 
-							
-						</li>
-						
-						<li><a href="#">Veículos de Carga</a>
-						
-						</li>
-						
-						<li><a href="#">Ocorrências</a>
-						
-						</li>
-						
-						<li><a href="#">Postos</a>
-						
-						</li>
-						
-						<li><a href="#">Rodovias</a>
-						
-						</li>
-				</ul>		
+				</ul>	
 		</div>
 		
 		<!-- NÃO EDITAR!-->

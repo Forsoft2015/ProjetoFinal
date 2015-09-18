@@ -82,7 +82,7 @@
 						</li>
 				</ul>	
 		</div>
-		disabled
+		
 		<!-- NÃO EDITAR!-->
 		
 		<div id="centro" class="esquerda">
