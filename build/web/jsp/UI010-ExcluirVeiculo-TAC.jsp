@@ -128,7 +128,7 @@
 				</div>
 					
 	           <input type="submit" value="Excluir" name="enviar" id="excluirJ" class="botaoJ">
-	           <input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
+	           <a href="UI002-Home-TAC.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 			   <br><br>
 		    </form> 
 			</div>
