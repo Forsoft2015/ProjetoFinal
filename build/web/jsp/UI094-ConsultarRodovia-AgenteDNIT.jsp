@@ -1,6 +1,6 @@
 <%-- 
-    Document   : UI102-ConsultarCamera-AgenteDNIT
-    Created on : 18/09/2015, 00:22:40
+    Document   : UI094-Consultar-Rodovia-AgenteDNIT
+    Created on : 18/09/2015, 00:22:06
     Author     : Javapos
 --%>
 
@@ -46,7 +46,6 @@
 						
 						</li>
 				</ul>
-				
 				<ul class="menu-ativo navigator">
 
 				<h3>Posto de Pesagem</h3> 
@@ -67,7 +66,7 @@
 						
 						</li>
 				</ul>	
-				
+
 				<ul class="menu-ativo navigator">
 
 				<h3>Balança</h3> 
@@ -109,28 +108,39 @@
 						
 						</li>
 				</ul>	
-
-	
 		</div>
 		
+		<!-- NÃO EDITAR!-->
 		
 		<div id="centro" class="esquerda">
 		
 		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
-			<h1>Consulta de Câmera</h1>
+			<h1>Consulta de Rodovia</h1>
 			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 				<div class="tabela">
 					<div class="coluna-esquerda">
 						<fieldset>
-							<legend>Dados da Câmera</legend>					
+							<legend>Dados da Rodovia</legend>					
 								<div class="campo">
-									<label for="numSerieJ">Número de Série:</label><br> 
-									<input type="text" name="numSerie" id="numSerieJ" disabled>
+									<label for="nomeJ">Nome:</label><br> 
+									<input type="text" name="nome" id="nomeJ" disabled>
 								</div>
 								<div class="campo"> 
-									<label for="postoJ">Posto:</label><br> 
-									<input type="text" name="posto" id="postoJ" disabled>
+									<label for="tipoJ">Tipo:</label><br> 
+									<input type="text" name="tipo" id="tipoJ" disabled>
+								</div>
+								<div class="campo"> 
+									<label for="extensaoKmJ">Extensão:</label><br> 
+									<input type="text" name="extensao" id="extensaoKmJ" disabled>
+								</div>
+								<div class="campo"> 
+									<label for="cidadeInicialJ">Cidade Inicial:</label><br> 
+									<input type="text" name="cidadeInicial" id="cidadeInicialJ" disabled>
+								</div>
+								<div class="campo"> 
+									<label for="cidadeFinalJ">Cidade Final:</label><br> 
+									<input type="text" name="cidadeFinal" id="cidadeFinalJ" disabled>
 								</div>
 						</fieldset>
 					</div>

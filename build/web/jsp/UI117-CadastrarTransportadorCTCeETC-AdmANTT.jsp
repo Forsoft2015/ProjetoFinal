@@ -17,7 +17,7 @@
 <body>
 
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI002-Home-TAC.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI152-Home-AdmANTT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -138,6 +138,7 @@
 					</div>
 				</div>
 				<input type="submit" id="enviarJ" name="enviar" class="botaoJ" value="Cadastrar">
+				<a href="UI152-Home-AdmANTT.jsp"><input type="button" id="cancel" name="cancel" class="botaoJ" value="Cancelar"></a>
 			</form>
 		</div>
 		
