@@ -35,7 +35,7 @@
 						<li><a href="#">Emitir</a> 
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI016-ConsultarRelatorio-AdmMinisterio.jsp">Consultar</a> 
 				
 						</li>
 						
