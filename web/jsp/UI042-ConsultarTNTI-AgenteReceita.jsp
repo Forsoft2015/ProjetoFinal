@@ -27,7 +27,7 @@
 	
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
-				
+			
 				<ul class="menu-ativo navigator">
 
 
@@ -37,7 +37,7 @@
 							
 						</li>
 						  
-						<li><a href="#">Consultar Frete</a> 
+						<li><a href="UI043-ConsultarFrete-AgenteReceita.jsp">Consultar Frete</a> 
 						
 						</li>
 				</ul>		
@@ -50,7 +50,7 @@
 						
 						</li>
 						
-						<li><a href="#">Consultar TETI</a>
+						<li><a href="UI044-ConsultarTETI-AgenteReceita.jsp">Consultar TETI</a>
 						
 						</li>
 				</ul>
@@ -58,11 +58,10 @@
 				<ul class="menu-ativo navigator">
 				<h3>TNTI</h3>
 						
-					<li><a href="#">Consultar TNTI</a>
+					<li><a href="UI042-ConsultarTNTI-AgenteReceita.jsp">Consultar TNTI</a>
 						
 					</li>
 				</ul>
-	
 		</div>
 		
 		         

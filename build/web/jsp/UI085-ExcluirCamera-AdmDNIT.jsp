@@ -31,18 +31,18 @@
 
 				<h3>Usuários</h3> 
 
-						<li><a href="#">Cadastrar</a> 
+						<li><a href="UI074-CadastrarUsuarioPostoPesagem-AdmDNIT.jsp">Cadastrar</a> 
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI075-AlterarUsuarioPostoPesagem-AdmDNIT.jsp">Alterar</a> 
 				
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI077-ExcluirUsuarioPostoPesagem-AdmDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI076-ConsultarUsuarioPostoPesagem-AdmDNIT.jsp">Consultar</a> 
 							
 						</li>
 				</ul>
@@ -50,19 +50,19 @@
 
 				<h3>Postos de Pesagem</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI078-CadastrarPostoDePesagem-AdmDNIT.jsp">Cadastrar</a> 
 							
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI080-AlterarPostoDePesagem-AdmDNIT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI081-ExcluirPostoDePesagem-AdmDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI078-CadastrarPostoDePesagem-AdmDNIT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>
@@ -71,19 +71,19 @@
 
 				<h3>Rodovia</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI070-CadastrarRodovia-AdmDNIT.jsp">Cadastrar</a> 
 							
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI072-AlterarRodovia-AdmDNIT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI073-ExcluirRodovia-AdmDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI071-ConsultarRodovia-AdmDNIT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>
@@ -91,19 +91,19 @@
 
 				<h3>Balança</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI086-CadastrarBalanca-AdmDNIT.jsp">Cadastrar</a> 
 							
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI088-AlterarBalanca-AdmDNIT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI089-ExcluirBalanca-AdmDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI087-ConsultarBalanca-AdmDNITT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>	
@@ -111,22 +111,22 @@
 
 				<h3>Câmera</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI082-CadastrarCamera-AdmDNIT.jsp">Cadastrar</a> 
 							
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI084-AlterarCamera-AdmDNIT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI085-ExcluirCamera-AdmDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI083-ConsultarCamera-AdmDNIT.jsp">Consultar</a> 
 					
 						</li>
-				</ul>	
+				</ul>
 				
 		</div>
 		
