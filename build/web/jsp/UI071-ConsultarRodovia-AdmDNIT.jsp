@@ -1,6 +1,6 @@
 <%-- 
-    Document   : UI073- ExcluirRodovia-AdmDNIT
-    Created on : 18/09/2015, 01:35:41
+    Document   : UI071- ConsultarRodovia-AdmDNIT
+    Created on : 18/09/2015, 01:34:50
     Author     : Javapos
 --%>
 
@@ -29,84 +29,62 @@
 		
 				<ul class="menu-ativo navigator">
 
-				<h3>Usuário DNIT</h3>
+				<h3>Usuários</h3> 
 
-				<li><a href="#">Cadastrar</a> 
-						
+						<li><a href="UI074-CadastrarUsuarioPostoPesagem-AdmDNIT.jsp">Cadastrar</a> 
 						</li>
 						
-						<li><a href="#">Alterar</a> 
-							 
+						<li><a href="UI075-AlterarUsuarioPostoPesagem-AdmDNIT.jsp">Alterar</a> 
+				
 						</li>
 						
 						<li><a href="#">Excluir</a> 
-						
-						</li>
-						
-						<li><a href="#">Consultar</a> 
 							
 						</li>
-				</ul>
-
-				<ul class="menu-ativo navigator">
-
-				<h3>Rodovia</h3>
-
-				<li><a href="#">Cadastrar</a> 
 						
-						</li>
-						
-						<li><a href="#">Alterar</a> 
-							 
-						</li>
-						
-						<li><a href="#">Excluir</a> 
-						
-						</li>
-						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI076-ConsultarUsuarioPostoPesagem-AdmDNIT.jsp">Consultar</a> 
 							
 						</li>
 				</ul>
 				<ul class="menu-ativo navigator">
 
-				<h3>Posto das Rodovias</h3> 
+				<h3>Postos de Pesagem</h3> 
 
-				<li><a href="#">Cadastrar</a> 
-						
-						</li>
-						
-						<li><a href="#">Alterar</a> 
-							 
-						</li>
-						
-						<li><a href="#">Excluir</a> 
-						
-						</li>
-						
-						<li><a href="#">Consultar</a> 
+				<li><a href="UI078-CadastrarPostoDePesagem-AdmDNIT.jsp">Cadastrar</a> 
 							
+						</li>
+						
+						<li><a href="UI080-AlterarPostoDePesagem-AdmDNIT.jsp">Alterar</a> 
+							
+						</li>
+						
+						<li><a href="UI081-ExcluirPostoDePesagem-AdmDNIT.jsp">Excluir</a> 
+							
+						</li>
+						
+						<li><a href="UI078-CadastrarPostoDePesagem-AdmDNIT.jsp">Consultar</a> 
+					
 						</li>
 				</ul>
 				
-				<ul class="menu-ativo navigator">
-				
-				<h3>Câmeras</h3> 
-				
-					<li><a href="#">Cadastrar</a> 
-						
-						</li>
-						
-						<li><a href="#">Alterar</a> 
-							 
-						</li>
-						
-						<li><a href="#">Excluir</a> 
-						
-						</li>
-						
-						<li><a href="#">Consultar</a> 
+					<ul class="menu-ativo navigator">
+
+				<h3>Rodovia</h3> 
+
+				<li><a href="UI070-CadastrarRodovia-AdmDNIT.jsp">Cadastrar</a> 
 							
+						</li>
+						
+						<li><a href="UI072-AlterarRodovia-AdmDNIT.jsp">Alterar</a> 
+							
+						</li>
+						
+						<li><a href="UI073-ExcluirRodovia-AdmDNIT.jsp">Excluir</a> 
+							
+						</li>
+						
+						<li><a href="UI071-ConsultarRodovia-AdmDNIT.jsp">Consultar</a> 
+					
 						</li>
 				</ul>
 								
@@ -156,7 +134,7 @@
 		<div id="centro" class="esquerda">
 		
 		
-			<h1>Excluir Cadastro de Rodovia</h1>
+			<h1>Consulta de Rodovia</h1>
 			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 				<div class="tabela">
 					<div class="coluna-esquerda">
@@ -164,7 +142,7 @@
 							<legend>Dados da Rodovia</legend>					
 								<div class="campo">
 									<label for="nomeJ">Nome:</label><br> 
-									<input type="text" name="nome" id="nomeJ" maxlength="50" disabled><span id="x_nomeJ" class=""></span>
+									<input type="text" name="nome" id="nomeJ" maxlength="50"><span id="x_nomeJ" class=""></span>
 								</div>
 								<div class="campo"> 
 									<label for="tipoJ">Tipo:</label><br> 
