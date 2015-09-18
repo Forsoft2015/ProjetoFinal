@@ -34,11 +34,11 @@
 				<li><a href="UI003-CadastrarFrete-TAC.jsp">Cadastrar</a> 
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI005-AlterarFrete-TAC.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI006-ExcluirFrete-TAC.jsp">Excluir</a> 
 							 
 						</li>
 						
