@@ -49,14 +49,14 @@
 
 				<h3>Consultas</h3> 
 
-						<li><a href="#">Motoristas</a> 
+						<li><a href="UI020-ConsultarMotorista-AdmPRF.jsp">Motoristas</a> 
 						</li>
 						
-						<li><a href="#">Veículos</a> 
+						<li><a href="UI021-ConsultarVeiculo-AdmPRF.jsp">Veículos</a> 
 				
 						</li>
 						
-						<li><a href="#">Fretes</a> 
+						<li><a href="UI022-ConsultarFrete-AdmPRF.jsp">Fretes</a> 
 							
 						</li>
 				</ul>
@@ -68,15 +68,15 @@
 							
 						</li>
 						
-						<li><a href="#">Alterar PIF</a> 
+						<li><a href="UI024-AlterarPIF-AdmPRF.jsp">Alterar PIF</a> 
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI026-ExcluirPIF-AdmPRF.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI025-ConsultarPIF-AdmPRF.jsp">Consultar</a> 
 					
 						</li>
                                 </ul>
@@ -90,7 +90,8 @@
 						<li><a href="UI019-EmitirRelatorioRodovia-AdmPRF.jsp">Emitir</a> 
 					
 						</li>
-				</ul>		
+				</ul>	
+				
 		</div>
 		
 		<!-- NÃO EDITAR!-->
