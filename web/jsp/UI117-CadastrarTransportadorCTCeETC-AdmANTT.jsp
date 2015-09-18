@@ -17,7 +17,7 @@
 <body>
 
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI152-Home-AdmANTT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI146-HomeAdmANTT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -27,38 +27,61 @@
 	
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
-		
-			<ul class="menu-ativo navigator">
-				<h3>Usuários</h3> 
-					<li><a href="#">Cadastrar</a></li>	
-					<li><a href="#">Alterar</a></li>	
-					<li><a href="#">Excluir</a></li>
-					<li><a href="#">Consultar</a></li>
-			</ul>
-				
-			<ul class="menu-ativo navigator">
+		<ul class="menu-ativo navigator">
+
 				<h3>Postos de Pedágio</h3>
-					<li><a href="#">Cadastrar</a></li>
-					<li><a href="#">Alterar</a></li>
-					<li><a href="#">Excluir</a></li>
-					<li><a href="#">Consultar</a></li>
-			</ul>
-			
-			<ul class="menu-ativo navigator">
-				<h3>Transportadores</h3>
-					<li><a href="#">Cadastrar</a></li>
-					<li><a href="#">Alterar</a></li>
-					<li><a href="#">Excluir</a></li>
-					<li><a href="#">Consultar</a></li>
-			</ul>
-			
-			<ul class="menu-ativo navigator">
-				<h3>Autônomos</h3>
-					<li><a href="#">Cadastrar</a></li>
-					<li><a href="#">Alterar</a></li>
-					<li><a href="#">Excluir</a></li>
-					<li><a href="#">Consultar</a></li>
-			</ul>
+
+				<li><a href="UI129-CadastrarPostoDePedagio-AgenteANTT.jsp">Cadastrar</a> 
+						
+						</li>
+						
+						<li><a href="UI131-AlterarPedagio-AgenteANTT.jsp">Alterar</a> 
+							 
+						</li>
+						
+						<li><a href="UI132-ExcluirPedagio-AgenteANTT.jsp">Excluir</a> 
+						
+						</li>
+						
+						<li><a href="UI130-ConsultarPostoDePedagio-AgenteANTT.jsp">Consultar</a> 
+							
+						</li>
+				</ul>
+				
+				<ul class="menu-ativo navigator">
+
+				<h3>Transportadores</h3> 
+
+				<li><a href="UI117-CadastrarTransportadorCTCeETC-AdmANTT.jsp">Cadastrar</a> 
+						
+						</li>
+						
+						<li><a href="UI139-AlterarTransportadorCTCeETC-AgenteANTT.jsp">Alterar</a> 
+						</li>
+						
+						<li><a href="UI140-ExcluirTransportadorCTCeETC-AgenteANTT.jsp">Excluir</a>
+						</li>
+						
+						<li><a href="UI118-ConsultarTransportadorCTCeETC-AdmANTT.jsp">Consultar</a> 
+						</li>
+				</ul>
+				
+				<ul class="menu-ativo navigator">
+
+					<h3>Autônomos</h3> 
+
+						<li><a href="UI141-CadastrarTransportadorAutonomoTAC-AgenteANTT.jsp">Cadastrar</a> 
+						</li>
+						
+						<li><a href="UI143-AlterarTransportadorAutonomoTAC-AgenteANTT.jsp">Alterar</a> 
+						</li>
+						
+						<li><a href="UI144-ExcluirTransportadorAutonomoTAC-AgenteANTT.jsp">Excluir</a>
+						</li>
+						
+						<li><a href="UI142-ConsultarTransportadorAutonomoTAC-AgenteANTT.jsp">Consultar</a> 
+						</li>
+				</ul>
 
 		</div>
 		
@@ -138,7 +161,7 @@
 					</div>
 				</div>
 				<input type="submit" id="enviarJ" name="enviar" class="botaoJ" value="Cadastrar">
-				<a href="UI152-Home-AdmANTT.jsp"><input type="button" id="cancel" name="cancel" class="botaoJ" value="Cancelar"></a>
+				<a href="UI146-HomeAdmANTT.jsp"><input type="button" id="cancel" name="cancel" class="botaoJ" value="Cancelar"></a>
 			</form>
 		</div>
 		

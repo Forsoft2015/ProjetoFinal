@@ -16,7 +16,7 @@
 <body>
 <!-- NÃO EDITAR!-->
 	<div id="topbar" class="conteudo-meio">
-		<a href="#" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI146-Home-AdmANTT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -231,7 +231,7 @@
 					</div>
 				<br><Br>		
 	           <input type="submit" value="Excluir" name="excluir" id="excluirJ" class="botaoJ">
-	           <input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
+	           <a href="UI146-HomeAdmANTT.jsp"><input type="button" id="cancel" name="cancel" class="botaoJ" value="Cancelar"></a>
 		</form> 
 		<br>
 		<br>

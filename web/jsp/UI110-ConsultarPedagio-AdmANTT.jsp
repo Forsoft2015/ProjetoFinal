@@ -1,6 +1,6 @@
 <%-- 
-    Document   : UI116-ExcluirTNTI-AdmANTT
-    Created on : 18/09/2015, 03:55:58
+    Document   : UI110-ConsultarPedagio-AdmANTT
+    Created on : 18/09/2015, 04:47:39
     Author     : Javapos
 --%>
 
@@ -10,14 +10,13 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
-	<link rel="../stylesheet" type="text/css" href="../css/style.css">
-	<script src="../js/framework.js" type='text/javascript' DEFER></script>
-    
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src='../js/framework.js' type='text/javascript' DEFER></script>
 </head>
 <body>
 <!-- NÃO EDITAR!-->
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI146-Home-AdmANTT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI146-HomeAdmANTT.jsp" id="logo" class="esquerda"><img src="img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -84,73 +83,60 @@
 				</ul>
 		</div>
 		
-		         
-		
-		
 		<!-- NÃO EDITAR!-->
 		
 		<div id="centro" class="esquerda">
 		
 		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
-			<h1>Dados do TNTI</h1>
+			<h1>Consulta de Postos de Pedágio</h1>
 			<h4>Preencha corretamente os campos!</h4>
 			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 				<div class="tabela">
 					<div class="coluna-esquerda">
 						<fieldset>
-							<legend>Excluir dados do TNTI</legend>					
+							<legend>Dados dos Postos de Pedágio</legend>	
 								<div class="campo">
-									<label for="rntrcJ">RNTRC:</label><br> 
-									<input type="text" name="rntrcJ" id="rntrcJ" disabled><span id="x_rntrcJ" class=""></span>
+									<label for="idpostJ">ID do Posto:</label><br> 
+									<input type="text" name="idpost" id="idpostJ" disabled>
 								</div>
-								<div class="campo"> 
-									<label for="telefoneJ">Telefone:</label><br> 
-									<input type="text" name="telefoneJ" id="telefoneJ" disabled><span id="x_telefoneJ"></span>
+								<div class="campo">
+									<label for="idendJ">ID do Endereço:</label><br> 
+									<input type="text" name="idend" id="idendJ" disabled>
 								</div>
+								<div class="campo">
+									<label for="idrodJ">ID da Rodovia:</label><br> 
+									<input type="text" name="idrod" id="idrodJ" disabled>
+								</div>								
 								<div class="campo"> 
-									<label for="emailJ">E-Mail:</label><br> 
-									<input type="text" name="emailJ" id="emailJ" disabled><span id="x_emailJ"></span>
-								</div>
-								<div class="campo"> 
-									<label for="logradouroJ">Logradouro:</label><br> 
-									<input type="text" name="logradouroJ" id="logradouroJ" disabled><span id="x_logradouroJ"></span>
-								</div>
-								<div class="campo"> 
-									<label for="numeroJ">Número:</label><br> 
-									<input type="text" name="numeroJ" id="numeroJ" disabled><span id="x_numeroJ"></span>
-								</div>
-								<div class="campo"> 
-									<label for="cepJ">CEP:</label><br> 
-									<input type="text" name="cepJ" id="cepJ" disabled><span id="x_cepJ"></span>
-								</div>
-								<div class="campo"> 
-									<label for="bairroJ">Bairro:</label><br> 
-									<input type="text" name="bairroJ" id="bairroJ" disabled><span id="x_bairroJ"></span>
-								</div>
-								<div class="campo"> 
-									<label for="cidadeJ">Cidade:</label><br> 
-									<input type="text" name="cidadeJ" id="cidadeJ" disabled><span id="x_cidadeJ"></span>
+									<label for="kmJ">KM:</label><br> 
+									<input type="text" name="kilometro" id="kmJ" disabled>
 								</div>
 								<div class="campo"> 
 									<label for="estadoJ">Estado:</label><br> 
-									<input type="text" name="estadoJ" id="estadoJ" disabled><span id="x_estadoJ"></span>
+									<input type="text" name="estado" id="estadoJ" disabled>
 								</div>
 								<div class="campo"> 
-									<label for="complementoJ">Complemento:</label><br> 
-									<input type="text" name="complementoJ" id="complementoJ" disabled><span id="x_complementoJ"></span>
+									<label for="telJ">Telefone:</label><br> 
+									<input type="text" name="Telefone" id="telJ" disabled>
+								</div>
+								<div class="campo">
+									<label for="idtpostJ">ID do Tipo do Posto:</label><br> 
+									<input type="text" name="idtpost" id="idtpostJ" disabled>
 								</div>
 								
 						</fieldset>
 					</div>
 					
-					
+					<div class="coluna-direita">
+						
+					</div>
 					
 				</div>
 				<br><Br>		
-	           <input type="submit" value="Excluir" name="enviar" id="excluirJ" class="botaoJ">
+	           <input type="submit" value="Consultar" name="Consultar" id="consultarJ" class="botaoJ">
 	           <a href="UI146-HomeAdmANTT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
-		    </form> 
+		</form> 
 		<br>
 		<br>
 		</div>
