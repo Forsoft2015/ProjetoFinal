@@ -1,6 +1,6 @@
 <%-- 
-    Document   : UI059-ExcluirVeículo-AdmTransportador
-    Created on : 17/09/2015, 20:59:53
+    Document   : UI033-ConsultarVeiculo-AgentePRF
+    Created on : 18/09/2015, 07:03:05
     Author     : Javapos
 --%>
 
@@ -12,12 +12,12 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-    <script src="../js/UI059.js" type="text/javascript" DEFER></script>
+	<script src='../js/UI033.js' type='text/javascript' DEFER></script>
 </head>
 <body>
 <!-- NÃO EDITAR!-->
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI047-Home-AdmTransportador.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI029-Home-AgentePRF.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -26,94 +26,26 @@
 	</div>
 	
 	<div id="container" class="conteudo-meio">
+				
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
 
-				<h3>Usuários</h3> 
+					<h3>Consultas</h3> 
 
-						<li><a href="#">Cadastrar</a> 
-						</li>
+						<li><a href="UI031-ConsultarMotorista-AgentePRF.jsp">Motoristas</a></li>
 						
-						<li><a href="#">Alterar</a> 
-				
-						</li>
+						<li><a href="UI033-ConsultarVeiculo-AgentePRF.jsp">Veículos</a></li>
 						
-						<li><a href="#">Excluir</a> 
-							
-						</li>
-						
-						<li><a href="#">Consultar</a> 
-							
-						</li>
+						<li><a href="UI032-ConsultarFrete-AgentePRF.jsp">Fretes</a></li>
 				</ul>
-				<ul class="menu-ativo navigator">
-
-				<h3>Motorista</h3> 
-
-				<li><a href="UI052-CadastrarMotorista-AdmTransportador.jsp">Cadastrar</a> 
-							
-						</li>
-						
-						<li><a href="UI054-AlterarMotorista-AdmTransportador.jsp">Alterar</a> 
-							
-						</li>
-						
-						<li><a href="UI055-ExcluirMotorista-AdmTransportador.jsp">Excluir</a> 
-							
-						</li>
-						
-						<li><a href="UI053-ConsultarMotorista-AdmTransportador.jsp">Consultar</a> 
 					
-						</li>
-				</ul>
-					<ul class="menu-ativo navigator">
-
-				<h3>Veículo de Carga</h3> 
-
-				<li><a href="UI056-CadastrarVeiculo-AdmTransportador.jsp">Cadastrar</a> 
-							
-						</li>
-						
-						<li><a href="UI057-AlterarVeiculo-AdmTransportador.jsp">Alterar</a> 
-							
-						</li>
-						
-						<li><a href="UI059-ExcluirVeiculo-AdmTransportador.jsp">Excluir</a> 
-							
-						</li>
-						
-						<li><a href="UI058-ConsultarVeiculo-AdmTransportador.jsp">Consultar</a> 
-					
-						</li>
-				</ul>
-				<ul class="menu-ativo navigator">
-
-				<h3>Frete</h3> 
-
-				<li><a href="UI048-CadastrarFrete-AdmTransportador.jsp">Cadastrar</a> 
-							
-						</li>
-						
-						<li><a href="UI050-AlterarFrete-AdmTransportador.jsp">Alterar</a> 
-							
-						</li>
-						
-						<li><a href="UI051-ExcluirFrete-AdmTransportador.jsp">Excluir</a> 
-							
-						</li>
-						
-						<li><a href="UI049-ConsultarFrete-AdmTransportador.jsp">Consultar</a> 
-					
-						</li>
-				</ul>
 		</div>
-		
-		         
-		
+
+	</div>
 		
 		<!-- NÃO EDITAR!-->
 		
-		<div id="centro" class="esquerda full">
+		<div id="centro" class="esquerda">
 		
 		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
@@ -157,8 +89,8 @@
 					
 				</div>
 				<br><Br>		
-	           <input type="submit" value="Excluir" name="Enviar" id="excluirJ" class="botaoJ">
-	           <a href="UI047-Home-AdmTransportador.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+	           <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
+	           <a href="UI029-Home-AgentePRF.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
 		</form> 
 		<br>
 		<br>
