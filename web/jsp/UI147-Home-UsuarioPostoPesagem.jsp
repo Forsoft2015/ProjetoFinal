@@ -32,10 +32,10 @@
 
 				<h3>Registro de Ocorrências</h3> 
 
-						<li><a href="#">Transbordo</a> 
+						<li><a href="UI148-RegistrarOcorrenciaTransbordoUsuarioPostoPesagem-AgenteANTT.jsp">Transbordo</a> 
 						</li>
 						
-						<li><a href="#">Remanejamento</a> 
+						<li><a href="UI149-RegistrarOcorrenciaRemanejamentoUsuarioPostoPesagem-AgenteANTT.jsp">Remanejamento</a> 
 				
 						</li>
 						
