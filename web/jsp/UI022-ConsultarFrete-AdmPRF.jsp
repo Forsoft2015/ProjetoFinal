@@ -102,23 +102,19 @@
 		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
 			<h1>Consultar Frete</h1>
-			<h3><h3>*Preencha pelo menos um dos campos para realizar a consulta</h3></h3>
 			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 				<div class="tabela">
 					<div class="coluna-esquerda">
 						<fieldset>
+							<fieldset>
 							<legend>Dados do Motorista</legend>					
 								<div class="campo"> 
-									<label for="nomemotoristaJ">Nome do Motorista</label>
-									<select name="nomemotorista" id="nomemotoristaJ">
-										<option>Exemplo 1</option>
-										<option>Exemplo 2</option>
-										<option>Exemplo 3</option>
-									</select>
+									<label for="nomeJ">Nome Completo</label><br> 
+									<input type="text" name="nomeJ" id="nomeJ" disabled>
 								</div>
 																	
-						</fieldset>
-					</div>
+						</fieldset>					
+						</div>
 					
 					<div class="coluna-direita">
 						<fieldset>
@@ -189,7 +185,7 @@
 					
 				</div>
 				<br><Br>		
-	           <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
+	           <input type="submit" value="Nova Consulta" name="enviar" id="enviarJ" class="botaoJ">
 	           <input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
 		</form> 
 		<br>
