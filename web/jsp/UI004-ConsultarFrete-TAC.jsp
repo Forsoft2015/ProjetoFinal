@@ -86,10 +86,10 @@
 				<div class="tabela">
 					<div class="coluna-esquerda">
                                                 <fieldset>
-                                                    <legend>Número do frete</legend>
+                                                    <legend>Dados do frete</legend>
                                                         <div class="campo">
 									<label for="numeroFreteJ">Número frete:</label><br> 
-									<input type="text" name="numeroFrete" id="numeroFreteJ">
+									<input type="text" name="numeroFrete" id="numeroFreteJ"disabled>
                                                         </div>
                                                 </fieldset>
 						<fieldset>
@@ -165,7 +165,7 @@
 					
 				</div>
 				<br><Br>		
-	           <input type="submit" value="Consultar" name="enviar" id="consultarJ" class="botaoJ">
+	           <input type="submit" value="Nova Consulta" name="enviar" id="consultarJ" class="botaoJ">
 	           <a href="UI002-Home-TAC.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>

@@ -12,7 +12,7 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-	<script src="../js/UI150.js" type="text/javascript" DEFER></script>
+	<script src="../js/UI005.js" type="text/javascript" DEFER></script>
 
 </head>
 <body>
@@ -95,7 +95,7 @@
 								</div>
 								<div class="campo"> 
 									<label for="destinatarioJ">Destinatário:</label><br> 
-									<input type="text" name="destinatario" id="destinatarioJ"><span id="x_detinatarioJ" class=""></span>
+									<input type="text" name="destinatario" id="destinatarioJ"><span id="x_destinatarioJ" class=""></span>
 								</div>
 								
 						</fieldset>
@@ -115,7 +115,7 @@
 									</div>
 									<div class="campo"> 
 										<label for="cepJ">CEP:</label><br> 
-										<input type="text" name="cep" id="cepJ"><span id="x_cepJ" class=""></span>
+										<input type="text" name="cep" id="cepJ" maxlength="10"><span id="x_cepJ" class=""></span>
 									</div>
 									<div class="campo"> 
 										<label for="bairroJ">Bairro:</label><br> 
@@ -142,7 +142,7 @@
 									</div>
 									<div class="campo"> 
 										<label for="cepdJ">CEP:</label><br> 
-										<input type="text" name="cepd" id="cepdJ"><span id="x_cepJ" class=""></span>
+										<input type="text" name="cepd" id="cepdJ" maxlength="10"><span id="x_cepdJ" class=""></span>
 									</div>
 									<div class="campo"> 
 										<label for="bairrodJ">Bairro:</label><br> 

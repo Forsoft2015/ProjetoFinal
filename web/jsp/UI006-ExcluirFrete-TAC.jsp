@@ -81,8 +81,7 @@
 		
 		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
-			<h1>Alterar Cadastro de Frete</h1>
-			<h4>Preencha corretamente os campos!</h4>
+			<h1>Excluir Cadastro de Frete</h1>
 			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 				<div class="tabela">
 					<div class="coluna-esquerda">
@@ -126,7 +125,7 @@
 									</div>
 									<div class="campo"> 
 										<label for="estadoJ">Estado:</label><br> 
-										<input type="text" name="estado" id="estadoJ"><span id="x_estadoJ" class=""></span>
+										<input type="text" name="estado" id="estadoJ"disabled><span id="x_estadoJ" class=""></span>
 									</div>
 							</fieldset>
 							<fieldset>
@@ -153,7 +152,7 @@
 									</div>
 									<div class="campo"> 
 										<label for="estadodJ">Estado:</label><br> 
-										<input type="text" name="estadod" id="estadodJ"><span id="x_estadodJ" class=""></span>
+										<input type="text" name="estadod" id="estadodJ" disabled><span id="x_estadodJ" class=""></span>
 									</div>
 							</fieldset>
 				

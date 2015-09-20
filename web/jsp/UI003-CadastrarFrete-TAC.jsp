@@ -96,14 +96,13 @@
                                 </div>
                                 <div class="campo"> 
                                     <label for="destinatarioJ">Destinatário:</label><br> 
-                                    <input type="text" name="destinatario" id="destinatarioJ"><span id="x_detinatarioJ" class=""></span>
+                                    <input type="text" name="destinatario" id="destinatarioJ"><span id="x_destinatarioJ" class=""></span>
                                 </div>
 
                             </fieldset>
                         </div>
 
-                        <div class="coluna-direita">
-                            <fieldset>	
+                        <div class="coluna-direita">	
                                 <fieldset>
                                     <legend>Endereço de Origem :</legend>
                                     <div class="campo"> 
@@ -116,7 +115,7 @@
                                     </div>
                                     <div class="campo"> 
                                         <label for="cepJ">CEP:</label><br> 
-                                        <input type="text" name="cep" id="cepJ"><span id="x_cepJ" class=""></span>
+                                        <input type="text" name="cep" id="cepJ" maxlength="10"><span id="x_cepJ" class=""></span>
                                     </div>
                                     <div class="campo"> 
                                         <label for="bairroJ">Bairro:</label><br> 
@@ -143,7 +142,7 @@
                                     </div>
                                     <div class="campo"> 
                                         <label for="cepdJ">CEP:</label><br> 
-                                        <input type="text" name="cepd" id="cepdJ"><span id="x_cepJ" class=""></span>
+                                        <input type="text" name="cepd" id="cepdJ" maxlength><span id="x_cepdJ" class=""></span>
                                     </div>
                                     <div class="campo"> 
                                         <label for="bairrodJ">Bairro:</label><br> 
@@ -158,12 +157,11 @@
                                         <input type="text" name="estadod" id="estadodJ"><span id="x_estadodJ" class=""></span>
                                     </div>
                                 </fieldset>
-                            </fieldset>
                         </div>
 
                     </div>
                     <br><Br>		
-                    <input type="submit" value="Consultar" name="enviar" id="consultarJ" class="botaoJ">
+                    <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
                     <a href="UI002-Home-TAC.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
                 </form> 
                 <br>
