@@ -48,51 +48,30 @@
 					</li>						
 				</ul>
 		</div>
-		
-		<!-- NÃO EDITAR!-->
-		
 		<div id="centro" class="esquerda">
-		
-		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
-		
 			<h1>Pesquisa de Frete</h1>
-
 			<div class="tabela">
-					<div class="coluna-esquerda">
-				<form name="form" method="post" action="#" id="formularioJ" class="formulario">
-								<fieldset>
-									<legend>Dados do Frete</legend>
-									
-										<div class="campo">
-												<label for="idfreteJ">Número do Frete:</label><br>
-												<input type="text" name="idfreteJ" id="idfreteJ">
-												
-												<input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ">
-																					
-										</div>
-						
-										<div class="campo">
-												<label for="nomdestJ">Nome do destinatário:</label><br>
-												<input type="text" name="nomdestJ" id="nomdestJ">
-												
-												
-												<input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ">
-												</div>
-									</fieldset>
-	
+				<div class="coluna-esquerda">
+					<form name="form" method="post" action="#" id="formularioJ" class="formulario">
+						<fieldset>
+							<legend>Dados do Frete</legend>
+							<div class="campo">
+								<label for="idfreteJ">Número do Frete:</label><br>
+								<a href="UI004-ConsultarFrete-TAC.jsp"><input type="text" name="idfreteJ" id="idfreteJ"></a>
+								<a href="UI004-ConsultarFrete-TAC.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
+							</div>
+							<div class="campo">
+								<label for="nomdestJ">Nome do destinatário:</label><br>
+								<a href="UI004-ConsultarFrete-TAC.jsp"><input type="text" name="nomdestJ" id="nomdestJ"></a>
+								<a href="UI004-ConsultarFrete-TAC.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
+							</div>
+						</fieldset>
+				</div> <!-- fim da div coluna-esquerda-->
+			</div> <!-- Fim da div tabela -->
 					
-						</div> <!-- fim da div coluna-esquerda-->
-					</div> <!-- Fim da div tabela -->
-					
-				<input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
-					<br><br>
-			</form>		
-	
-			
-		<!-- SÓ EDITE DAQUI PARA CIMA!-->
-		
+						<a href="UI002-Home-TAC.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a><br><br>
+					</form>
 		</div>
 	</div>
-
 </body>
 </html>

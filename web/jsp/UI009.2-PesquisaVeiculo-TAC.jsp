@@ -51,49 +51,28 @@
 				</ul>
 		</div>
 		
-		<!-- NÃO EDITAR!-->
-		
 		<div id="centro" class="esquerda">
-		
-		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
-		
 			<h1>Pesquisa de Veículo</h1>
-			
-	<div class="tabela">
+		<div class="tabela">
 			<div class="coluna-esquerda">
 				<form name="form" method="post" action="#" id="formularioJ" class="formulario">
-						<fieldset>
-							<legend>Dados do Veículo</legend>
-							
-								<div class="campo">
-										<label for="idveiculoJ">Id do veículo:</label><br>
-										<input type="text" name="idveiculoJ" id="idveiculoJ">
-										
-										<input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ">
-										</div>
-										
-								<div class="campo">
-										<label for="placaJ">Placa</label><br>
-										<input type="text" name="placaJ" id="placaJ">
-										
-										<input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ">
-								</div>
-								</fieldset>
-								
-								
-			
-			
-						</div> <!-- fim da div coluna-esquerda-->
-					</div> <!-- Fim da div tabela -->
-			
-		<!-- SÓ EDITE DAQUI PARA CIMA!-->
-		
-		
-	
-	
-		<input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
+					<fieldset>
+						<legend>Dados do Veículo</legend>
+							<div class="campo">
+								<label for="idveiculoJ">Id do veículo:</label><br>
+								<input type="text" name="idveiculoJ" id="idveiculoJ">
+								<a href="UI009-ConsultarVeiculo-TAC.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
+							</div>
+							<div class="campo">
+								<label for="placaJ">Placa</label><br>
+								<input type="text" name="placaJ" id="placaJ">
+								<a href="UI009-ConsultarVeiculo-TAC.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
+							</div>
+					</fieldset>
+			</div>
+		</div> 
+					<a href="UI002-Home-TAC.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 					<br><br>
-								
 				</form>
 </body>
 </html>
