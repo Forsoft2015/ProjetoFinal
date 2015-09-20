@@ -12,7 +12,7 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-	<script src="../js/UI08.js" type="text/javascript" DEFER></script>
+	<script src="../js/UI008.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 
@@ -127,7 +127,7 @@
 					
 				</div>
 				<br><Br>		
-	           <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
+	           <input type="submit" value="Alterar" name="enviar" id="enviarJ" class="botaoJ">
 	           <a href="UI002-Home-TAC.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>

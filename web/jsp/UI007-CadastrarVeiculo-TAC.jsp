@@ -12,7 +12,7 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="tet/css" href="../css/style.css">
 	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-	<script src="../js/UI07.js" type="text/javascript" DEFER></script>
+	<script src="../js/UI007.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 

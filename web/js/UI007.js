@@ -1,4 +1,4 @@
-var numeroCampos = 8; //<!-- INSIRA O NÚMERO DE CAMPOS -->
+var numeroCampos = 7; 
 
 var formOk = new Array(numeroCampos);
 for (var i = 0; i < numeroCampos; i++) { formOk[i] = false;}
@@ -6,7 +6,6 @@ for (var i = 0; i < numeroCampos; i++) { formOk[i] = false;}
 window.onload = function () {
 
 	
-var topo = _$("caixa");
 var regexLETRAS = /^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$/;
 var regexCEP = /^\d+\.\d+\-\d+$/;
 var regexTEL = /^\d+\ \d+\-\d+$/;
@@ -18,26 +17,17 @@ var regexHORA = /^([01]\d|2[0-3]):([0-5]\d):([0-5]\d)$/;
 var regexPLACA = /^([A-Za-z]{3})\-(\d{4})$/;
 var regexDATA=/^(0[1-9]|1\d|2[0-8]|29(?=-\d\d-(?!1[01345789]00|2[1235679]00)\d\d(?:[02468][048]|[13579][26]))|30(?!-02)|31(?=-0[13578]|-1[02]))\/(0[1-9]|1[0-2])\/([12]\d{3})$/;
 
-
-	setMask("cepJ","##.###-###");
-	setMask("cepdJ","##.###-###");
+	setMask("placaJ", "###-####");
 
 
-
-	validaChar("remetenteJ",regexLETRAS,0);
-	validaChar("destinatarioJ",regexLETRAS,1);
-	validaChar("logradouroJ",regexLETRAS,2);
-	validaChar("numJ",regexNUMEROS,3);
-	validaChar("cepJ",regexCEP,4);
-	validaChar("bairroJ",regexLETRAS,5);
-	validaChar("cidadeJ", regexLETRAS,6);
-	validaChar("estadoJ",regexLETRAS,7);
-	validaChar("logradourodJ",regexLETRAS,8);
-	validaChar("numdJ",regexNUMEROS,9);
-	validaChar("cepdJ",regexCEP,10);
-	validaChar("bairrodJ",regexLETRAS,11);
-	validaChar("cidadedJ", regexLETRAS,12);
-	validaChar("estadodJ",regexLETRAS,13);
+	validaChar("placaJ", regexPLACA, 0);
+	validaChar("modeloJ", regexLETRAS, 1);
+	validaChar("fabricanteJ", regexLETRAS, 2);
+	validaChar("corJ", regexLETRAS, 3);
+	validaChar("anofabricacaoJ",regexNUMEROS,4);
+	validaChar("numeixosJ",regexNUMEROS,5);
+	validaChar("pbtJ",regexNUMEROS,6);
+	
 	
 }
 
