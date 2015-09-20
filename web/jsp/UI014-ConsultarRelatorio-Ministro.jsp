@@ -12,7 +12,7 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src="../js/framework.js" type="text/javascript" DEFER></script>
-	<script src="../js/UI016.js" type="text/javascript" DEFER></script>
+	<script src="../js/UI014.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
@@ -77,6 +77,22 @@
 							</form action>
 					</fieldset>
 			</div>
+			<div class="coluna-direita">
+					<fieldset>
+						<legend>Insira a data que deve ser pesquisa:</legend>
+						<div class="campo"> 
+									<label for="datainicialJ">De:</label><br> 
+									<input type="text" name="datainicial" id="datainicialJ" maxlength="10"><span id="x_datainicialJ"></span>
+								</div>
+						
+						
+						<div class="campo"> 
+									<label for="datafinallJ">Até:</label><br> 
+									<input type="text" name="datafinal" id="datafinalJ" maxlength="10"><span id="x_datafinalJ"></span>
+								</div>
+
+			</div>
+
 			</div>
 				<br><br>		
 	           

@@ -30,7 +30,7 @@
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
 
-				<h3>Relatórios Gerais Para o Ministro</h3> 
+				<h3>Relatórios</h3> 
 
 						<li><a href="#">Emitir</a> 
 						</li>
@@ -40,23 +40,20 @@
 						</li>
 						
 				</ul>
+				
 				<ul class="menu-ativo navigator">
 
-				<h3>Consulta de Relatórios</h3> 
+					<h3>Usuários</h3> 
 
-				<li><a href="#">Rodovias</a> 
-							
-						</li>
+						<li><a href="#">Cadastrar</a></li>
 						
-						<li><a href="#">Tráfego</a> 
-							
-						</li>
+						<li><a href="#">Alterar</a></li>
 						
-						<li><a href="#">Carga</a> 
-							
-						</li>
+						<li><a href="#">Excluir</a></li>
 						
-				</ul>		
+						<li><a href="#">Consultar</a></li>
+				</ul>
+		
 		</div>
 		
 		<!-- NÃO EDITAR!-->

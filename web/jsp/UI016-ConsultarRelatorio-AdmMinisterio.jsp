@@ -12,7 +12,7 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src="../js/framework.js" type="text/javascript" DEFER></script>
-	<script src="../js/UI016.js" type="text/javascript" DEFER></script>
+	<script src="../js/UI014.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
@@ -30,6 +30,19 @@
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
 
+				<h3>Relatórios</h3> 
+
+						<li><a href="#">Emitir</a> 
+						</li>
+						
+						<li><a href="UI016-ConsultarRelatorio-AdmMinisterio.jsp">Consultar</a> 
+				
+						</li>
+						
+				</ul>
+				
+				<ul class="menu-ativo navigator">
+
 					<h3>Usuários</h3> 
 
 						<li><a href="#">Cadastrar</a></li>
@@ -38,21 +51,8 @@
 						
 						<li><a href="#">Excluir</a></li>
 						
-						<li><a href="UI016-ConsultarRelatorio-AdmMinisterio.jsp">Consultar</a></li>
+						<li><a href="#">Consultar</a></li>
 				</ul>
-				
-				<ul class="menu-ativo navigator">
-
-					<h3>Relatórios</h3> 
-
-						<li><a href="#">Rodovias</a></li>
-						
-						<li><a href="#">Tráfego</a></li>
-						
-						<li><a href="#">Carga</a></li>
-						
-						<li><a href="#">Consultas</a></li>
-				</ul>		
 		</div>
 		<!-- NÃO EDITAR!-->
 		
@@ -89,6 +89,23 @@
 							</form action>
 					</fieldset>
 			</div>
+			
+			<div class="coluna-direita">
+					<fieldset>
+						<legend>Insira a data que deve ser pesquisa:</legend>
+						<div class="campo"> 
+									<label for="datainicialJ">De:</label><br> 
+									<input type="text" name="datainicial" id="datainicialJ" maxlength="10"><span id="x_datainicialJ"></span>
+								</div>
+						
+						
+						<div class="campo"> 
+									<label for="datafinallJ">Até:</label><br> 
+									<input type="text" name="datafinal" id="datafinalJ" maxlength="10"><span id="x_datafinalJ"></span>
+								</div>
+
+			</div>
+
 			</div>
 				<br><br>		
 	           
