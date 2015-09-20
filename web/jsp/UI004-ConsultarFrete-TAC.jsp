@@ -31,7 +31,7 @@
 					</li>
 					<li><a href="UI005-AlterarFrete-TAC.jsp">Alterar</a> 
 					</li>
-					<li><a href="UI006-ExcluirFrete-TAC.jsp">Excluir</a> 
+					<li><a href="UI004.2-PesquisaFrete-TAC.jsp">Excluir</a> 
 					</li>
 					<li><a href="UI004.1-PesquisaFrete-TAC.jsp">Consultar</a> 
 					</li>
@@ -42,7 +42,7 @@
 					</li>						
 					<li><a href="UI008-AlterarVeiculo-TAC.jsp">Alterar</a> 
 					</li>					
-					<li><a href="UI010-ExcluirVeiculo-TAC.jsp">Excluir</a> 
+					<li><a href="UI009.2-PesquisaVeiculo-TAC.jsp">Excluir</a> 
 					</li>						
 					<li><a href="UI009.1-PesquisaVeiculo-TAC.jsp">Consultar</a> 
 					</li>

@@ -24,7 +24,6 @@
 			<li class="maisDireita"><a href="#" id="logout"></a></li>
 		</ul>
 	</div>
-	
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
@@ -44,20 +43,15 @@
 					</li>						
 					<li><a href="UI008-AlterarVeiculo-TAC.jsp">Alterar</a> 
 					</li>					
-					<li><a href="UI004.2-PesquisaFrete-TAC.jsp">Excluir</a> 
+					<li><a href="UI009.2-PesquisaVeiculo-TAC.jsp">Excluir</a> 
 					</li>						
 					<li><a href="UI009.1-PesquisaVeiculo-TAC.jsp">Consultar</a> 
 					</li>
 				</ul>	
-
-
-                                <ul class="menu-ativo navigator">
-
+				<ul class="menu-ativo navigator">
 					<h3>Configurações da Conta</h3>
-					
 					<li><a href="UI011-AlterarConfiguracoesConta-TAC.jsp">Alterar</a> 
-					</li>
-						
+					</li>						
 				</ul>
 		</div>
 		<!-- NÃO EDITAR!-->
