@@ -26,8 +26,7 @@
 	
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
-				
-				<ul class="menu-ativo navigator">
+			<ul class="menu-ativo navigator">
 
 				<h3>Usuários</h3> 
 
@@ -62,7 +61,7 @@
 							
 						</li>
 						
-						<li><a href="UI078-CadastrarPostoDePesagem-AdmDNIT.jsp">Consultar</a> 
+						<li><a href="UI079-ConsultarPostoDePesagem-AdmDNIT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>
@@ -126,6 +125,7 @@
 						<li><a href="UI083-ConsultarCamera-AdmDNIT.jsp">Consultar</a> 
 					
 						</li>
+				</ul></li>
 				</ul>
 				
 		</div>
