@@ -42,7 +42,7 @@
 							 
 						</li>
 						
-						<li><a href="UI004-ConsultarFrete-TAC.jsp">Consultar</a> 
+						<li><a href="UI004.1-PesquisaFrete-TAC.jsp">Consultar</a> 
 							
 						</li>
 				</ul>

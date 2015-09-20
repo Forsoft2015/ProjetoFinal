@@ -44,7 +44,7 @@
 							 
 						</li>
 						
-						<li><a href="UI004-ConsultarFrete-TAC.jsp">Consultar</a> 
+						<li><a href="UI004.1-PesquisaFrete-TAC.jsp">Consultar</a> 
 							
 						</li>
 				</ul>
@@ -62,7 +62,7 @@
 						<li><a href="UI010-ExcluirVeiculo-TAC.jsp">Excluir</a> 
 						</li>
 						
-						<li><a href="UI009-ConsultarVeiculo-TAC.jsp">Consultar</a> 
+						<li><a href="UI009.1-PesquisaVeiculo-TAC.jsp">Consultar</a> 
 						</li>
                                 </ul>	
 
