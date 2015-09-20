@@ -6,14 +6,14 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src='js/framework.js' type='text/javascript' DEFER></script>
-	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src='../js/framework.js' type='text/javascript' DEFER></script>
+	<script src="../js/js_exemplo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI002-Home-TAC.jsp" id="logo" class="esquerda"><img src="img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI002-Home-TAC.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -60,40 +60,29 @@
 			<h1>Pesquisa de Veículo</h1>
 			
 	<div class="tabela">
-			<div class="coluna-esquerda">
+		<div class="coluna-esquerda">
 				<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 						<fieldset>
 							<legend>Dados do Veículo</legend>
-							
 								<div class="campo">
 										<label for="idveiculoJ">Id do veículo:</label><br>
 										<input type="text" name="idveiculoJ" id="idveiculoJ">
 										
 										<input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ">
-										</div>
-										
+								</div>
 								<div class="campo">
 										<label for="placaJ">Placa</label><br>
 										<input type="text" name="placaJ" id="placaJ">
 										
 										<input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ">
 								</div>
-								</fieldset>
-								
-								
-			
-			
-						</div> <!-- fim da div coluna-esquerda-->
-					</div> <!-- Fim da div tabela -->
-			
-		<!-- SÓ EDITE DAQUI PARA CIMA!-->
-		
-		
-	
-	
-		<input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
-					<br><br>
-								
+						</fieldset>
+		</div>
+	</div>
+					<input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
+					<br>
+					<br>
+
 				</form>
 </body>
 </html>
