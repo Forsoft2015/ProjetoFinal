@@ -1,0 +1,5 @@
+telas usuário.
+cadastrar TETI.
+consultar TNTI.
+as com '#LAYOUT#' pfvr dêem uma olhada nelas, poís eu estava abrindo com o navegador, e não tenho o net beans aqui.
+agente PRF consulta.

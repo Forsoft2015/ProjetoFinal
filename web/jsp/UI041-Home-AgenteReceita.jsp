@@ -34,7 +34,7 @@
 
 				<h3>Frete</h3> 
 
-				<li><a href="#">Cadastrar Frete</a> 
+				<li><a href="UI045-CadastrarFreteInternacional-AgenteReceita.jsp">Cadastrar Frete</a> 
 							
 						</li>
 						  

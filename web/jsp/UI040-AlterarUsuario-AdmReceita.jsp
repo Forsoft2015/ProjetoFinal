@@ -41,11 +41,11 @@
 
 				<h3>Frete</h3> 
 
-				<li><a href="#">Cadastrar Frete</a> 
+				<li><a href="UI045-CadastrarFreteInternacional-AgenteReceita.jsp">Cadastrar Frete</a> 
 							
 						</li>
 						  
-						<li><a href="#">Consultar Frete</a> 
+						<li><a href="UI043-ConsultarFrete-AgenteReceita.jsp">Consultar Frete</a> 
 						
 						</li>
 				</ul>		
@@ -58,7 +58,7 @@
 						
 						</li>
 						
-						<li><a href="#">Consultar TETI</a>
+						<li><a href="UI044-ConsultarTETI-AgenteReceita.jsp">Consultar TETI</a>
 						
 						</li>
 				</ul>

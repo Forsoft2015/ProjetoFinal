@@ -32,19 +32,19 @@
 
 				<h3>Postos de Pedágio</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI129-CadastrarPostoPedagio-AgenteANTT.jsp">Cadastrar</a> 
 							
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI131-AlterarPedagio-AgenteANTT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI132-ExcluirPedagio-AgenteANTT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI130-ConsultarPostoPedagio-AgenteANTT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>	
@@ -52,19 +52,19 @@
 
 				<h3>Transportadores</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI137-CadastrarTransportadorCTCeETC-AgenteANTT.jsp">Cadastrar</a> 
 							
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI139-AlterarTransportadorCTCeETC-AgenteANTT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI140-ExcluirTransportadorCTCeETC-AgenteANTT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI138-ConsultarTransportadorCTCeETC-AgenteANTT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>	
@@ -72,19 +72,19 @@
 				<ul class="menu-ativo navigator">
 				<h3>TNTI</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI133-CadastrarTNTI-AgenteANTT.jsp">Cadastrar</a> 
 							
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI135-AlterarTNTI-AgenteANTT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI136-ExcluirTNTI-AgenteANTT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI134-ConsultarTNTI-AgenteANTT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>	
@@ -93,19 +93,19 @@
 
 				<h3>Autônomos</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI141-CadastrarTransportadorAutonomoTAC-AgenteANTT.jsp">Cadastrar</a> 
 							
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI143-AlterarTransportadorAutonomoTAC-AgenteANTT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="#">Excluir</a> 
+						<li><a href="UI144-ExcluirTransportadorAutonomoTAC-AgenteANTT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI142-ConsultarTransportadorAutonomoTAC-AgenteANTT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>	

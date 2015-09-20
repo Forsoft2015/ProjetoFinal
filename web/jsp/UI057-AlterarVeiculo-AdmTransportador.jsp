@@ -50,7 +50,7 @@
 
 				<h3>Motorista</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI052-CadastrarMotorista-AdmTransportador.jsp">Cadastrar</a> 
 							
 						</li>
 						
@@ -62,7 +62,7 @@
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI053-ConsultarMotorista-AdmTransportador.jsp">Consultar</a> 
 					
 						</li>
 				</ul>
@@ -90,11 +90,11 @@
 
 				<h3>Frete</h3> 
 
-				<li><a href="#">Cadastrar</a> 
+				<li><a href="UI048-CadastrarFrete-AdmTransportador.jsp">Cadastrar</a> 
 							
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI050-AlterarFrete-AdmTransportador.jsp">Alterar</a> 
 							
 						</li>
 						
@@ -102,7 +102,7 @@
 							
 						</li>
 						
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI049-ConsultarFrete-AdmTransportador.jsp">Consultar</a> 
 					
 						</li>
 				</ul>

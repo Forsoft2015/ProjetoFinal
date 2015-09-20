@@ -22,4 +22,3 @@ var regexDATA=/^(0[1-9]|1\d|2[0-8]|29(?=-\d\d-(?!1[01345789]00|2[1235679]00)\d\d
 	validaChar("idPostoJ",regexNUMEROS,1);
 	
 }
-
