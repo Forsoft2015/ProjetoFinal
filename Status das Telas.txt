@@ -1,6 +1,6 @@
 * Pegar arquivo da Rejane e fazer a validação numérica 
 
-
+Tela UI004.1 e UI009.1 estão sem jsp
 
 TAC - Manter Frete
 Verificação 1 - html e js ok - menu na mesma ordem em todas as telas- ok
@@ -11,5 +11,11 @@ OBS: Criar tela de pesquisa de frete
 TAC - Manter Veículo
 Verificação 1 - html e js ok - menu na mesma ordem em todas as telas- ok 
 
-TAC - Alterara Configurações
+
+TAC - Alterar Configurações
 Verificação 1 - html e js ok - menu na mesma ordem em todas as telas- ok 
+Atenção: a tela precisa ser centralizada
+
+Ministro - ok 
+
+Adm Ministério -  faltam as telas de manter usuário 
