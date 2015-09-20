@@ -32,15 +32,14 @@
 
 				<h3>Relatórios</h3> 
 
-						<li><a href="#">Emitir</a> 
+						<li><a href="UI017-EmitirRelatorio-AdmMinisterio.jsp">Emitir</a> 
 						</li>
 						
 						<li><a href="UI016-ConsultarRelatorio-AdmMinisterio.jsp">Consultar</a> 
 				
 						</li>
-						
 				</ul>
-				
+
 				<ul class="menu-ativo navigator">
 
 					<h3>Usuários</h3> 
@@ -85,9 +84,13 @@
 								<br>
 								<input type="checkbox" name="Transportadores" value="Transportadores">Transportadores<br>
 								<br>
-								<input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
-							</form action>
+								
+								</form action>
 					</fieldset>
+					
+			<br><br>
+			<input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
+
 			</div>
 			
 			<div class="coluna-direita">
@@ -105,8 +108,10 @@
 								</div>
 
 			</div>
+			
 
 			</div>
+
 				<br><br>		
 	           
 		</form>

@@ -32,7 +32,7 @@
 
 				<h3>Relatórios</h3> 
 
-						<li><a href="#">Emitir</a> 
+						<li><a href="UI017-EmitirRelatorio-AdmMinisterio.jsp">Emitir</a> 
 						</li>
 						
 						<li><a href="UI016-ConsultarRelatorio-AdmMinisterio.jsp">Consultar</a> 

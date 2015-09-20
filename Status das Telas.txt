@@ -1,6 +1,15 @@
+Ministro  ok 
+Agente PRF ok com as telas que tem ( falta fazer consultar PIF e consultar Relatórios)
+Adm do Ministério ok 
+TAC(002-011) ok
+
+
+
+
+
+
+
 * Pegar arquivo da Rejane e fazer a validação numérica 
-
-
 
 TAC - Manter Frete
 Verificação 1 - html e js ok - menu na mesma ordem em todas as telas- ok
