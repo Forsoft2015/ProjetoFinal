@@ -140,7 +140,7 @@
 		
 		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
-			<h1>Cadastro Câmera</h1>
+			<h1>Alterar Câmera</h1>
 			<h4>Preencha corretamente os campos!</h4>
 			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 				<div class="tabela">
@@ -164,7 +164,7 @@
 					
 		</div>
 <br><Br>		
-	           <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
+	           <input type="submit" value="Alterar" name="enviar" id="enviarJ" class="botaoJ">
 	           <a href="UI069-Home-AdmDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>
