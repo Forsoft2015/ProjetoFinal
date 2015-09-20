@@ -33,7 +33,7 @@
 					</li>
 					<li><a href="UI005-AlterarFrete-TAC.jsp">Alterar</a> 
 					</li>
-					<li><a href="UI006-ExcluirFrete-TAC.jsp">Excluir</a> 
+					<li><a href="UI004.2-PesquisaFrete-TAC.jsp">Excluir</a> 
 					</li>
 					<li><a href="UI004.1-PesquisaFrete-TAC.jsp">Consultar</a> 
 					</li>
@@ -44,7 +44,7 @@
 					</li>						
 					<li><a href="UI008-AlterarVeiculo-TAC.jsp">Alterar</a> 
 					</li>					
-					<li><a href="UI010-ExcluirVeiculo-TAC.jsp">Excluir</a> 
+					<li><a href="UI004.2-PesquisaFrete-TAC.jsp">Excluir</a> 
 					</li>						
 					<li><a href="UI009.1-PesquisaVeiculo-TAC.jsp">Consultar</a> 
 					</li>
@@ -139,15 +139,14 @@
 										<label for="estadodJ">Estado:</label><br> 
 										<input type="text" name="estadod" id="estadodJ" disabled><span id="x_estadodJ" class=""></span>
 									</div>
-							</fieldset>
-				
-					</div>
-					
+							</fieldset>				
+					</div>					
 				</div>
-				<br><Br>		
-	           <input type="submit" value="Excluir" name="enviar" id="consultarJ" class="botaoJ">
-	           <a href="UI002-Home-TAC.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
-		</form> 
+				<br>
+				<br>		
+				<input type="submit" value="Excluir" name="enviar" id="consultarJ" class="botaoJ">
+				<a href="UI002-Home-TAC.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+			</form> 
 		<br>
 		<br>
 		</div>
