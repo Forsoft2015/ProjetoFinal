@@ -28,42 +28,27 @@
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
-
-				<h3>Frete</h3> 
-
-				<li><a href="UI003-CadastrarFrete-TAC.jsp">Cadastrar</a> 
-						
-						</li>
-						
-						<li><a href="UI005-AlterarFrete-TAC.jsp">Alterar</a> 
-							
-						</li>
-						
-						<li><a href="UI006-ExcluirFrete-TAC.jsp">Excluir</a> 
-							 
-						</li>
-						
-						<li><a href="UI004.1-PesquisaFrete-TAC.jsp">Consultar</a> 
-							
-						</li>
+					<h3>Frete</h3> 
+					<li><a href="UI003-CadastrarFrete-TAC.jsp">Cadastrar</a> 
+					</li>
+					<li><a href="UI005-AlterarFrete-TAC.jsp">Alterar</a> 
+					</li>
+					<li><a href="UI006-ExcluirFrete-TAC.jsp">Excluir</a> 
+					</li>
+					<li><a href="UI004.1-PesquisaFrete-TAC.jsp">Consultar</a> 
+					</li>
 				</ul>
 				<ul class="menu-ativo navigator">
-
-				<h3>Veículo</h3> 
-
-				<li><a href="UI007-CadastrarVeiculo-TAC.jsp">Cadastrar</a> 
-							
-						</li>
-						
-						<li><a href="UI008-AlterarVeiculo-TAC.jsp">Alterar</a> 
-						</li>
-						
-						<li><a href="UI010-ExcluirVeiculo-TAC.jsp">Excluir</a> 
-						</li>
-						
-						<li><a href="UI009.1-PesquisaVeiculo-TAC.jsp">Consultar</a> 
-						</li>
-                                </ul>	
+					<h3>Veículo</h3> 
+					<li><a href="UI007-CadastrarVeiculo-TAC.jsp">Cadastrar</a> 
+					</li>						
+					<li><a href="UI008-AlterarVeiculo-TAC.jsp">Alterar</a> 
+					</li>					
+					<li><a href="UI010-ExcluirVeiculo-TAC.jsp">Excluir</a> 
+					</li>						
+					<li><a href="UI009.1-PesquisaVeiculo-TAC.jsp">Consultar</a> 
+					</li>
+				</ul>	
 
 
                                 <ul class="menu-ativo navigator">
