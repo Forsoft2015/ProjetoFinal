@@ -38,10 +38,34 @@
 						
 						<li><a href="UI032-ConsultarFrete-AgentePRF.jsp">Fretes</a></li>
 				</ul>
+				
+				
+				<ul class="menu-ativo navigator">
+
+				<h3>Posto PIF</h3> 
+					
+						<li><a href="#">Consultar</a> 
+					
+						</li>
+				</ul>
+				
+				<ul class="menu-ativo navigator">
+
+				<h3>Relatórios</h3> 
+				
+						<li><a href="">Consultar</a> 
+					
+						</li>
+						<li><a href="UI030-EmitirRelatorioRodovia-AgentePRF.jsp">Emitir</a> 
+					
+						</li>
+				</ul>	
+					
+
 					
 		</div>
 
-	</div>
+
 		
 		<!-- NÃO EDITAR!-->
 		
@@ -49,7 +73,7 @@
 		
 		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
-			<h1>Excluir Veículo</h1>
+			<h1>Consulta de Dados do Veículo</h1>
 			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 				<div class="tabela">
 					<div class="coluna-esquerda">
@@ -89,7 +113,7 @@
 					
 				</div>
 				<br><Br>		
-	           <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
+	           <input type="submit" value="Nova Consulta" name="enviar" id="enviarJ" class="botaoJ">
 	           <a href="UI029-Home-AgentePRF.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
 		</form> 
 		<br>
