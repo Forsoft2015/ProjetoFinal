@@ -33,13 +33,8 @@
 
 					<h3>Relatórios</h3> 
 
-						<li><a href="#">Rodovias</a></li>
-						
-						<li><a href="#">Tráfego</a></li>
-						
-						<li><a href="#">Carga</a></li>
-						
-						<li><a href="#">Consultas</a></li>
+						<li><a href="#">Consultar</a> 
+						</li>
 				</ul>		
 		</div>
 		<!-- NÃO EDITAR!-->
@@ -73,7 +68,7 @@
 								<br>
 								<input type="checkbox" name="Transportadores" value="Transportadores">Transportadores<br>
 								<br>
-								<input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
+								
 							</form action>
 					</fieldset>
 			</div>
@@ -89,8 +84,8 @@
 						<div class="campo"> 
 									<label for="datafinallJ">Até:</label><br> 
 									<input type="text" name="datafinal" id="datafinalJ" maxlength="10"><span id="x_datafinalJ"></span>
-								</div>
-
+						</div>
+						<input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
 			</div>
 
 			</div>
