@@ -39,11 +39,11 @@
 							
 						</li>
 						
-						<li><a href="UI006-ExcluirFrete-TAC.jsp">Excluir</a> 
+						<li><a href="UI004.1-PesquisaFreteConsultar-TAC.jsp">Excluir</a> 
 							 
 						</li>
 						
-						<li><a href="UI004.1-PesquisaFrete-TAC.jsp">Consultar</a> 
+						<li><a href="UI004.2-PesquisaFreteConsultar-TAC">Consultar</a> 
 							
 						</li>
 				</ul>
