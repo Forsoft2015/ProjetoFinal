@@ -1,21 +1,25 @@
 * Pegar arquivo da Rejane e fazer a validação numérica 
 
-Tela UI004.1 e UI009.1 estão sem jsp
+
 
 TAC - Manter Frete
 Verificação 1 - html e js ok - menu na mesma ordem em todas as telas- ok
-
-OBS: Criar tela de pesquisa de frete
+Tela de pesquisa de frete criada, falta passar pra jsp e linkar antes da tela de cadastrar.
 
 
 TAC - Manter Veículo
 Verificação 1 - html e js ok - menu na mesma ordem em todas as telas- ok 
-
+Tela de pesquisa de veiculo criada, falta passar pra jsp e linkar antes da tela de cadastrar.
 
 TAC - Alterar Configurações
 Verificação 1 - html e js ok - menu na mesma ordem em todas as telas- ok 
+
+TAC - Cadastrar TAC - 
+Verificação 1- html e js ok
 Atenção: a tela precisa ser centralizada
 
-Ministro - ok 
 
-Adm Ministério -  faltam as telas de manter usuário 
+
+Pesquisar Motorista - Adm PRF: Nome Completo ou CPF 
+Pesquisar Veículo - Adm PRF: Id do Veiculo ou Placa
+Pesquisa Frete - Adm PRF: Numero do Frete ou Nome do Destinatário 

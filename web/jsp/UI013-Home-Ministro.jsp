@@ -32,21 +32,9 @@
 
 				<h3>Relatórios</h3> 
 
-						<li><a href="#">Rodovias</a> 
+						<li><a href="UI014-ConsultarRelatorio-Ministro.jsp">Consultar</a> 
 						</li>
-						
-						<li><a href="#">Fretes</a> 
-				
-						</li>
-						
-						<li><a href="#">Tráfego</a> 
-							
-						</li>
-						
-						<li><a href="#">Gerais</a> 
-							
-						</li>
-						
+												
 				</ul>
 		</div>
 		
