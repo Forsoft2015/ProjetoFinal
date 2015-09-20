@@ -27,8 +27,6 @@
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
-<<<<<<< HEAD
-
 				<h3>Frete</h3> 
 
 				<li><a href="UI003-CadastrarFrete-TAC.jsp">Cadastrar</a> 
@@ -46,7 +44,6 @@
 						<li><a href="UI004.2-PesquisaFreteConsultar-TAC">Consultar</a> 
 							
 						</li>
-=======
 					<h3>Frete</h3> 
 					<li><a href="UI003-CadastrarFrete-TAC.jsp">Cadastrar</a> 
 					</li>
@@ -56,7 +53,6 @@
 					</li>
 					<li><a href="UI004.1-PesquisaFrete-TAC.jsp">Consultar</a> 
 					</li>
->>>>>>> cb0f00ef5dcf7d97dbedeb3f5247a734c3ca6367
 				</ul>
 				<ul class="menu-ativo navigator">
 					<h3>Veículo</h3> 
