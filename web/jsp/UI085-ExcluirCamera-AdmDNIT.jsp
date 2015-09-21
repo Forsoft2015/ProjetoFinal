@@ -162,7 +162,7 @@
 		</div>
 <br><Br>		
 	           <input type="submit" value="Excluir" name="enviar" id="enviarJ" class="botaoJ">
-	           <a href="UI069-Home-AdmDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+                   <a href="UI069-Home-AdmDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>
 		<br>

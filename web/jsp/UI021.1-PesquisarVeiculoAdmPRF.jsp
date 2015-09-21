@@ -1,21 +1,18 @@
-<%-- 
-    Document   : UI021-ConsultarVeiculo-AdmPRF
-    Created on : 18/09/2015, 07:10:00
-    Author     : Javapos
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-	<script src='../js/UI064.js' type='text/javascript' DEFER></script>
+	<script src='js/framework.js' type='text/javascript' DEFER></script>
+	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
-<!-- NÃO EDITAR!-->
+	
 	<div id="topbar" class="conteudo-meio">
 		<a href="UI018-Home-AdmPRF.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
@@ -44,7 +41,6 @@
 				</ul>
 				<ul class="menu-ativo navigator">
 
-				
 				<h3>Consultar</h3> 
 
 						<li><a href="UI020.1-PesquisarMotorista-AdmPRF.jsp">Motoristas</a> 
@@ -98,54 +94,39 @@
 		
 		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
-			<h1>Consultar Veículo</h1>
-			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
-				<div class="tabela">
-					<div class="coluna-esquerda">
+						<h1>Pesquisa de Veículo</h1>
+			
+	<div class="tabela">
+			<div class="coluna-esquerda">
+				<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 						<fieldset>
-							<legend>Dados do Veículo</legend>					
+							<legend>Dados do Veículo</legend>
+							
 								<div class="campo">
-									<label for="placaJ">Placa:</label><br> 
-									<input type="text" name="placa" id="placaJ" disabled><span id="x_placaJ" class=""></span>
+										<label for="idveiculoJ">Id do veículo:</label><br>
+										<input type="text" name="idveiculoJ" id="idveiculoJ">
+										<br><br>
+										<a href="UI021-ConsultarVeiculo-AdmPRF.jsp"><input type="button" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
+										</div>
+										
+								<div class="campo">
+										<label for="placaJ">Placa:</label><br>
+										<input type="text" name="placaJ" id="placaJ">
+										<br><br>
+										<input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ">
 								</div>
-								<div class="campo"> 
-									<label for="modeloJ">Modelo:</label><br> 
-									<input type="text" name="modelo" id="modeloJ" disabled><span id="x_modeloJ"></span>
-								</div>
-								<div class="campo"> 
-									<label for="corJ">Cor:</label><br> 
-									<input type="text" name="cor" id="corJ" disabled><span id="x_corJ"></span>
-								</div>
-								<div class="campo"> 
-									<label for="dataJ">Ano de Fabricação:</label><br> 
-									<input type="text" name="data" id="dataJ" disabled><span id="x_dataJ"></span>
-								</div>
-								<div class="campo"> 
-									<label for="numeixosJ">Número de Eixos:</label><br> 
-									<input type="text" name="numeixos" id="numeixosJ" disabled><span id="x_numeixosJ"></span>
-								</div>
-								<div class="campo"> 
-									<label for="pbtJ">Peso Bruto Total:</label><br> 
-									<input type="text" name="pbt" id="pbtJ" disabled><span id="x_pbtJ"></span>
-								</div>
-								<div class="campo"> 
-									<label for="transportadorJ">Transportador:</label><br> 
-									<input type="text" name="transportador" id="transportadorJ" disabled><span id="x_transportadorJ"></span>
-								</div>
+								</fieldset>
 								
-						</fieldset>
-					</div>
-					
-				</div>
-				<br><Br>		
-	           <input type="submit" value="Nova Consulta" name="enviar" id="enviarJ" class="botaoJ">
-	         <a href="UI018-Home-AdmPRF.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+								
+			
+			
+						</div> <!-- fim da div coluna-esquerda-->
+					</div> <!-- Fim da div tabela -->
+			
+		<!-- SÓ EDITE DAQUI PARA CIMA!-->
 		
-		</form> 
-		<br>
-		<br>
 		</div>
 	</div>
-<!-- SÓ EDITE DAQUI PARA CIMA!-->
+
 </body>
 </html>
