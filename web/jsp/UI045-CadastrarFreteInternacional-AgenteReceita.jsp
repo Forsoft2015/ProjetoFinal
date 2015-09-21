@@ -17,22 +17,51 @@
 <body>
 <!-- NÃO EDITAR!-->
 	<div id="topbar" class="conteudo-meio">
+		<a href="UI034-Home-AdmReceita.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<ul id="menu-user" class="direita">
+			<li><a href="#" id="profile"></a></li>
+			<li><a href="#" id="config"></a></li>
+			<li class="maisDireita"><a href="#" id="logout"></a></li>
+		</ul>
+	</div>
 		
-		<div id="container" class="conteudo-meio">
-		
+	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
+			
+			<ul class="menu-ativo navigator">
+				<h3>Frete</h3> 
+
+				<li>
+					<a href="UI045-CadastrarFreteInternacional-AgenteReceita.jsp">Cadastrar Frete</a> 
+				</li>
+				  
+				<li>
+					<a href="UI043-ConsultarFrete-AgenteReceita.jsp">Consultar Frete</a> 
+				</li>
+			</ul>		
+			
+			
+			<ul class="menu-ativo navigator">
+				<h3>TETI</h3>
 				
-				<div id="sidemenu" class="esquerda">
-	
-				<ul class="menu-ativo navigator">
-					<h3>Frete Internacional TETI</h3>
-						
-						<li><a href="UI045-CadastrarFreteInternacional-AgenteReceita.jsp">Consultar TNTI</a></li>
-						
-						<li><a href="UI043-ConsultarFrete-AgenteReceita.jsp">Consultar TNTI</a></li>
-				</ul>
+					<li>
+						<a href="UI46-CadastrarTETI-AgenteReceita.jsp">Cadastrar TETI</a>
+					</li>
+							
+					<li>
+						<a href="UI044-ConsultarTETI-AgenteReceita.jsp">Consultar TETI</a>
+					</li>
+			</ul>
+
+			<ul class="menu-ativo navigator">
+			<h3>TNTI</h3>
+					
+				<li><a href="UI042-ConsultarTNTI-AgenteReceita.jsp">Consultar TNTI</a>
+					
+				</li>
+			</ul>
 		</div>
-		
+	
 		<!-- NÃO EDITAR!-->
 		
 		<div id="centro" class="esquerda">
@@ -43,13 +72,18 @@
 			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 				<div class="tabela">
 					<div class="coluna-esquerda">
-						
 						<fieldset>
-							<legend>Dados do Frete</legend>					
-								
-					</div>
+							<legend>Dados do Motorista</legend>					
+								<div class="campo"> 
+									<label for="nomemotoristaJ">Nome do Motorista</label>
+									<select name="nomemotorista" id="nomemotoristaJ">
+										<option>Exemplo 1</option>
+										<option>Exemplo 2</option>
+										<option>Exemplo 3</option>
+									</select>
+								</div>
 																	
-						
+						</fieldset>
 					</div>
 					
 					<div class="coluna-direita">
@@ -115,19 +149,16 @@
 								<div class="campo">
 									<label for="estadodestinoJ">Estado (UF)</label><br> 
 									<input type="text" name="estadodestino" id="estadodestinoJ" maxlength="2"><span id="x_estadodestinoJ"></span>
-								</div>	
+								</div>						
 						</fieldset>
-				</fieldset>
-						
-					</div>
-					
+					</div>							
 				</div>
 				<br><Br>		
-	           <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
-	           <a href="UI047-Home-AdmTransportador.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
-		</form> 
-		<br>
-		<br>
+				<input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
+				<a href="UI047-Home-AdmTransportador.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
+			</form> 
+			<br>
+			<br>
 		</div>
 	</div>
 <!-- SÓ EDITE DAQUI PARA CIMA!-->
