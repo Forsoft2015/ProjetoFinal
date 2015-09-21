@@ -63,7 +63,7 @@
 							
 						</li>
 						
-						<li><a href="UI078-CadastrarPostoDePesagem-AdmDNIT.jsp">Consultar</a> 
+						<li><a href="UI079-ConsultarPostoDePesagem-AdmDNIT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>
@@ -127,7 +127,7 @@
 						<li><a href="UI083-ConsultarCamera-AdmDNIT.jsp">Consultar</a> 
 					
 						</li>
-				</ul>	
+				</ul>
 				
 		</div>
 		

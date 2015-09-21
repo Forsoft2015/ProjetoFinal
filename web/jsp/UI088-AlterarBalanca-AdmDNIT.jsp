@@ -28,7 +28,7 @@
 	
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
-				<ul class="menu-ativo navigator">
+			<ul class="menu-ativo navigator">
 
 				<h3>Usuários</h3> 
 
@@ -63,7 +63,7 @@
 							
 						</li>
 						
-						<li><a href="UI078-CadastrarPostoDePesagem-AdmDNIT.jsp">Consultar</a> 
+						<li><a href="UI079-ConsultarPostoDePesagem-AdmDNIT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>
@@ -169,7 +169,7 @@
 			</div>
 <br><Br>		
 	           <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
-	           <input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
+	           <a href="UI069-Home-AdmDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>
 		<br>
