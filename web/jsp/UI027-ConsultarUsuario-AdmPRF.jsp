@@ -32,12 +32,12 @@
 
 						
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI028-AlterarUsuario-AdmPRF.jsp">Alterar</a> 
 				
 						</li>
 						
 						
-						<li><a href="UI027-ConsultarUsuario-AdmPRF.jsp">Consultar</a> 
+						<li><a href="UI027.1-ConsultarUsuario-AdmPRF.jsp">Consultar</a> 
 							
 						</li>
 				</ul>
@@ -148,7 +148,7 @@
 					
 				</div>
 				<br><Br>		
-	           <input type="submit" value="Consultar" name="Consultar" id="consultarJ" class="botaoJ">
+	           <a href="UI027.1-ConsultarUsuario-AdmPRF.jsp"><input type="submit" value="Nova Consulta" name="Consultar" id="consultarJ" class="botaoJ"></a>
 	           <a href="UI018-Home-AdmPRF.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>
