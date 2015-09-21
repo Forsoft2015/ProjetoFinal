@@ -1,11 +1,11 @@
-var numeroCampos = 14; //INSIRA O NÚMERO DE CAMPOS
+var numeroCampos = 12; // INSIRA O NÚMERO DE CAMPOS 
 
 var formOk = new Array(numeroCampos);
 for (var i = 0; i < numeroCampos; i++) { formOk[i] = false;}
 
 window.onload = function () {
 
-	//EDITE DAQUI PARA BAIXO
+	//<!-- EDITE DAQUI PARA BAIXO -->
 	
 var topo = _$("caixa");
 var regexLETRAS = /^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$/;
@@ -19,29 +19,28 @@ var regexHORA = /^([01]\d|2[0-3]):([0-5]\d):([0-5]\d)$/;
 var regexPLACA = /^([A-Za-z]{3})\-(\d{4})$/;
 var regexDATA=/^(0[1-9]|1\d|2[0-8]|29(?=-\d\d-(?!1[01345789]00|2[1235679]00)\d\d(?:[02468][048]|[13579][26]))|30(?!-02)|31(?=-0[13578]|-1[02]))\/(0[1-9]|1[0-2])\/([12]\d{3})$/;
 
-//MÁSCARAS setMask(idDoCampo, formatacaoDaMascara
-	setMask("cepJ","##.###-###");
-	setMask("telefoneJ", "## ####-####");
+var regexTexto = /^[A-Za-z0-9 ]+$/;
 
-//ValidaTipo(idDoCampo, regexTIPO, numeroDoCampo)
+//MÁSCARAS
 
-	validaChar("nomeJ", regexLETRAS, 0);
-	validaChar("sobrenomeJ", regexLETRAS, 1);
-	validaChar("cpfJ", regexCPF, 2);
-	validaChar("mascJ", regexLETRAS, 3);
-	validaChar("femJ", regexLETRAS, 4);	
-	validaChar("telefoneJ", regexTEL, 5);
-	validaChar("cepJ", regexCEP, 6);
-	validaChar("logradouroJ", regexLETRAS, 7);
-	validaChar("estadoJ", regexLETRAS, 8);
-	validaChar("cidadeJ", regexLETRAS, 9);
-	validaChar("emailJ", regexEMAIL, 10);
-	validaChar("idpostoJ", regexLETRAS, 11);
-	validaChar("statusativadoJ", regexLETRAS, 12);
-	validaChar("statusdesativadoJ", regexLETRAS, 13);
-	
+	setMask("cnpjJ","##.###.###/####-##");
+	setMask("telJ","## ####-#####")
 
-	
+//VALIDAÇÃO
+
+	validaChar("rntrcJ", regexNUMEROS, 0);
+	validaChar("razaoJ",regexTexto,1);
+	validarCNPJ("cnpjJ",regexCNPJ,2);
+	validaChar("telJ",regexTEL,3)
+	validaEmail("emailJ",regexEMAIL,4);
+	validaChar("logradouroJ", regexLETRAS, 5);
+	validaChar("numeroJ", regexNUMEROS, 6);
+	validaChar("complementoJ", regexLETRAS, 7);
+	validaChar("cepJ", regexCEP, 8);
+	validaChar("bairroJ", regexLETRAS, 9);
+	validaChar("cidadeJ", regexLETRAS, 10);
+	validaChar("estadoJ", regexLETRAS, 11);
+
+	//<!-- EDITE DAQUI PARA CIMA-->
 	
 }
-
