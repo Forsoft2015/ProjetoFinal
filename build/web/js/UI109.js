@@ -1,4 +1,4 @@
-var numeroCampos = 10;
+var numeroCampos = 3;
 var formOk = new Array(numeroCampos);
 for (var i = 0; i < numeroCampos; i++) { formOk[i] = false;}
 
@@ -17,23 +17,17 @@ var regexHORA = /^([01]\d|2[0-3]):([0-5]\d):([0-5]\d)$/;
 var regexPLACA = /^([A-Za-z]{3})\-(\d{4})$/;
 var regexDATA=/^(0[1-9]|1\d|2[0-8]|29(?=-\d\d-(?!1[01345789]00|2[1235679]00)\d\d(?:[02468][048]|[13579][26]))|30(?!-02)|31(?=-0[13578]|-1[02]))\/(0[1-9]|1[0-2])\/([12]\d{3})$/;
 
+// Exemplo de setMask("idJ", "####");
 
 	setMask("cepJ", "##.###-###");
 	setMask("telJ","## ####-#####");
 	
-	
+// Exemplo de ValidaChar ("idJ", regex, número do vetor);
 
-	validaChar("logradouroJ", regexLETRAS, 0);
-	validaChar("numJ", regexNUMEROS, 1);
-	validaChar("complementoJ", regexLETRAS, 2);
-	validaChar("cepJ",regexCEP,3);
-	validaChar("bairroJ",regexLETRAS,4);
-	validaChar("cidadeJ",regexLETRAS,5);
-	validaChar("estadoJ",regexLETRAS,6);
-	validaChar("idRodoviaJ",regexNUMEROS,7);
-	validaChar("kmJ",regexNUMEROS,8);
-	validaChar("telJ",regexTEL,9);
-	validaChar("tipoPostoJ",regexLETRAS,10);
+	validaChar("idpostopedagioJ",regexLETRAS,0);
+	validaChar("kmJ", regexNUMEROS, 1);
+	validaChar("estadoJ", regexLETRAS, 2);
+	
 
 
 

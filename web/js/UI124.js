@@ -37,7 +37,7 @@ var regexTexto = /^[A-Za-z0-9 ]+$/;
 	validaChar("rgJ", regexNUMEROS, 4);
 	validaChar("dataJ", regexDATA, 5);
 	validaChar("telJ",regexTEL, 6);
-	validaChar("celJ" regexTEL, 7);
+	validaChar("celJ", regexTEL, 7);
 	validaEmail("emailJ",regexEMAIL, 8);
 	validaChar("logradouro", regexLETRAS, 10);
 	validaChar("numJ", regexNUMEROS, 11);
