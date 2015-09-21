@@ -139,7 +139,7 @@
 				</div>
 				<br><Br>		
 	           <input type="submit" value="Nova Consulta" name="enviar" id="enviarJ" class="botaoJ">
-	         <input type="submit" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
+	         <a href="UI018-Home-AdmPRF.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		
 		</form> 
 		<br>
