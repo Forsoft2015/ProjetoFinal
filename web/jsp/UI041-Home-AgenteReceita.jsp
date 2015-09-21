@@ -30,30 +30,25 @@
 		<div id="sidemenu" class="esquerda">
 			
 				<ul class="menu-ativo navigator">
-
-
-				<h3>Frete</h3> 
-
-				<li><a href="UI045-CadastrarFreteInternacional-AgenteReceita.jsp">Cadastrar Frete</a> 
-							
-						</li>
-						  
-						<li><a href="UI043-ConsultarFrete-AgenteReceita.jsp">Consultar Frete</a> 
-						
-						</li>
+					<h3>Frete</h3> 
+					<li>
+						<a href="UI045-CadastrarFreteInternacional-AgenteReceita.jsp">Cadastrar Frete</a> 
+					</li>
+					<li>
+						<a href="UI043-ConsultarFrete-AgenteReceita.jsp">Consultar Frete</a> 
+					</li>
 				</ul>		
 				
-				
 				<ul class="menu-ativo navigator">
-				<h3>TETI</h3>
-				
-				<li><a href="#">Cadastrar TETI</a>
-						
-						</li>
-						
-						<li><a href="UI044-ConsultarTETI-AgenteReceita.jsp">Consultar TETI</a>
-						
-						</li>
+					<h3>TETI</h3>
+					
+					<li>
+						<a href="UI46-CadastrarTETI-AgenteReceita.jsp">Cadastrar TETI</a>						
+					</li>
+							
+					<li>
+						<a href="UI044-ConsultarTETI-AgenteReceita.jsp">Consultar TETI</a>
+					</li>
 				</ul>
 	
 				<ul class="menu-ativo navigator">

@@ -1,25 +1,24 @@
 <%-- 
-    Document   : UI125-CadastrarUsuario-AgenteANTT
-    Created on : 18/09/2015, 08:38:27
+    Document   : UI014-ConsultarRelatorio-Ministro
+    Created on : 18/09/2015, 07:07:49
     Author     : Javapos
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-	
+	<script src="../js/framework.js" type="text/javascript" DEFER></script>
+	<script src="../js/UI014.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="#" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI015-Home-AdmMinisterio.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -31,90 +30,31 @@
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
 
-				<h3>Postos de Pedágio</h3> 
+				<h3>Relatórios</h3> 
 
-				<li><a href="UI129-CadastrarPostoPedagio-AgenteANTT.jsp">Cadastrar</a> 
-							
+						<li><a href="UI017-EmitirRelatorio-AdmMinisterio.jsp">Emitir</a> 
 						</li>
 						
-						<li><a href="UI131-AlterarPedagio-AgenteANTT.jsp">Alterar</a> 
-							
-						</li>
-						
-						<li><a href="UI132-ExcluirPedagio-AgenteANTT.jsp">Excluir</a> 
-							
-						</li>
-						
-						<li><a href="UI130-ConsultarPostoPedagio-AgenteANTT.jsp">Consultar</a> 
-					
-						</li>
-				</ul>	
-				<ul class="menu-ativo navigator">
-
-				<h3>Transportadores</h3> 
-
-				<li><a href="UI137-CadastrarTransportadorCTCeETC-AgenteANTT.jsp">Cadastrar</a> 
-							
-						</li>
-						
-						<li><a href="UI139-AlterarTransportadorCTCeETC-AgenteANTT.jsp">Alterar</a> 
-							
-						</li>
-						
-						<li><a href="UI140-ExcluirTransportadorCTCeETC-AgenteANTT.jsp">Excluir</a> 
-							
-						</li>
-						
-						<li><a href="UI138-ConsultarTransportadorCTCeETC-AgenteANTT.jsp">Consultar</a> 
-					
-						</li>
-				</ul>	
+						<li><a href="UI016-ConsultarRelatorio-AdmMinisterio.jsp">Consultar</a> 
 				
-				<ul class="menu-ativo navigator">
-				<h3>TNTI</h3> 
-
-				<li><a href="UI133-CadastrarTNTI-AgenteANTT.jsp">Cadastrar</a> 
-							
 						</li>
 						
-						<li><a href="UI135-AlterarTNTI-AgenteANTT.jsp">Alterar</a> 
-							
-						</li>
-						
-						<li><a href="UI136-ExcluirTNTI-AgenteANTT.jsp">Excluir</a> 
-							
-						</li>
-						
-						<li><a href="UI134-ConsultarTNTI-AgenteANTT.jsp">Consultar</a> 
-					
-						</li>
-				</ul>	
+				</ul>
 				
 				<ul class="menu-ativo navigator">
 
-				<h3>Autônomos</h3> 
+					<h3>Usuários</h3> 
 
-				<li><a href="UI141-CadastrarTransportadorAutonomoTAC-AgenteANTT.jsp">Cadastrar</a> 
-							
-						</li>
+						<li><a href="UI015.1-CadastrarUsuario-AdmMinisterio.jsp">Cadastrar</a></li>
 						
-						<li><a href="UI143-AlterarTransportadorAutonomoTAC-AgenteANTT.jsp">Alterar</a> 
-							
-						</li>
+						<li><a href="UI015.2.1-PesquisarUsuario-AdmMinisterio.jsp">Alterar</a></li>
 						
-						<li><a href="UI144-ExcluirTransportadorAutonomoTAC-AgenteANTT.jsp">Excluir</a> 
-							
-						</li>
+						<li><a href="UI015.3.1-Pesquisarusuario-AdmMinisterio.jsp">Excluir</a></li>
 						
-						<li><a href="UI142-ConsultarTransportadorAutonomoTAC-AgenteANTT.jsp">Consultar</a> 
-					
-						</li>
-				</ul>	
-				
-				
-		</div>
+						<li><a href="UI015.4.1-PesquisarUsuario-AdmMinisterio.jsp">Consultar</a></li>
+				</ul>
 		
-		<!-- NÃO EDITAR!-->
+		</div>
 		
 		<div id="centro" class="esquerda">
 		<h1>Cadastro de Usuário</h1>
@@ -177,10 +117,38 @@
 								</div>
 								
 						</fieldset>
-						</div>
-					
-						<div class="coluna-direita">
-						<fieldset>
+	</div>
+			<div class="coluna-direita">
+						
+			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
+			<div class="tabela">
+			
+					<fieldset>
+						<legend>Permissão:</legend>
+							<form action>
+								<input type="checkbox" name="Tipo1" value="Tipo1">Tipo1<br>
+								<br>
+								<input type="checkbox" name="Tipo2" value="Tipo2" checked="checked">Tipo2<br>
+								<br>
+								<input type="checkbox" name="Tipo 3" value="Ocorrência de Remanejamento">Tipo 3<br>
+								<br>
+								<input type="checkbox" name="Tipo 4" value="Ocorrência de Transbordo">Tipo 4<br>
+								<br>
+								<input type="checkbox" name="Tipo 5" value="" checked="checked">Tipo 5<br>
+								<br>
+								<input type="checkbox" name="Tipo 6" value="Postos de Pedágio" checked="checked">Tipo 6<br>
+								<br>
+								<input type="checkbox" name="Tipo 7" value="Postos de Pesagem">Tipo 7<br>
+								<br>
+								<input type="checkbox" name="Tipo 8" value="Rodovias">Tipo 8<br>
+								<br>
+								<input type="checkbox" name="Tipo 9" value="Transportadores">Tipo 9<br>
+								<br>
+								
+							</form action>
+					</fieldset>
+			</div>
+			<fieldset>
 						<legend>Dados do Posto</legend>					
 						
 						<div class="campo"> 
@@ -192,13 +160,10 @@
 						</fieldset>
 						
 					</div>
-							
+					
+					</div>
+				<input type="submit" value="Cadastrar" name="enviar" id="enviarJ" class="botaoJ">
+				<a href="UI015-Home-AdmMinisterio.jsp"><input type="submit" value="Cancelar" name="enviar" id="enviarJ" class="botaoJ"></a>
+			</div>
+			</div>
 		</div>
-		
-		<input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
-	           <a href="UI145-Home-AgenteANTT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
-		
-	</div>
-
-</body>
-</html>

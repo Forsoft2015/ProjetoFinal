@@ -32,13 +32,13 @@
 				<h3>Usuários</h3> 
 
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI028-AlterarUsuario-AdmPRF.jsp">Alterar</a> 
 				
 						</li>
 						
 						
 						
-						<li><a href="UI027-ConsultarUsuario-AdmPRF.jsp">Consultar</a> 
+						<li><a href="UI027.1-ConsultarUsuario-AdmPRF.jsp">Consultar</a> 
 							
 						</li>
 				</ul>

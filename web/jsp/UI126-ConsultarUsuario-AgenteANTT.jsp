@@ -5,19 +5,13 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%-- 
-    Document   : UI145-HomeAgenteANTT
-    Created on : 18/09/2015, 07:31:42
-    Author     : Javapos
---%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src='js/framework.js' type='text/javascript' DEFER></script>
 	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
 </head>
@@ -25,7 +19,7 @@
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="#" id="logo" class="esquerda"><img src="img/logoS2.png" alt="DigiMon"></a>
+		<a href="#" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -123,7 +117,7 @@
 		<!-- NÃO EDITAR!-->
 		
 		<div id="centro" class="esquerda">
-		<h1>Consultar de Usuário</h1>
+		<h1>Consultar Usuário</h1>
 			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 				<div class="tabela">
 					<div class="coluna-esquerda">
@@ -197,8 +191,12 @@
 						</fieldset>
 						
 					</div>
+					
+					
 							
 		</div>
+		<input type="submit" value="Consultar" name="Consultar" id="consultarJ" class="botaoJ">
+	           <a href="UI145-Home-AgenteANTT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 	</div>
 
 </body>

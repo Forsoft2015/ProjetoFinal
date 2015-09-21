@@ -44,13 +44,13 @@
 
 					<h3>Usuários</h3> 
 
-						<li><a href="#">Cadastrar</a></li>
+						<li><a href="UI015.1-CadastrarUsuario-AdmMinisterio.jsp">Cadastrar</a></li>
 						
-						<li><a href="#">Alterar</a></li>
+						<li><a href="UI015.2.1-PesquisarUsuario-AdmMinisterio.jsp">Alterar</a></li>
 						
-						<li><a href="#">Excluir</a></li>
+						<li><a href="UI015.3.1-Pesquisarusuario-AdmMinisterio">Excluir</a></li>
 						
-						<li><a href="#">Consultar</a></li>
+						<li><a href="UI015.4.1-PesquisarUsuario-AdmMinisterio.jsp">Consultar</a></li>
 				</ul>
 		</div>
 		<!-- NÃO EDITAR!-->

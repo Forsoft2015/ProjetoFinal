@@ -45,7 +45,7 @@
 				<ul class="menu-ativo navigator">
 				<h3>TETI</h3>
 				
-				<li><a href="#">Cadastrar TETI</a>
+				<li><a href="UI46-CadastrarTETI-AgenteReceita.jsp">Cadastrar TETI</a>
 						
 						</li>
 						

@@ -1,6 +1,6 @@
 <%-- 
-    Document   : UI027-ConsultarUsuario-AdmPRF
-    Created on : 18/09/2015, 04:40:15
+    Document   : UI018-Home-AdmPRF
+    Created on : 17/09/2015, 20:29:51
     Author     : Javapos
 --%>
 
@@ -12,9 +12,10 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src='../js/framework.js' type='text/javascript' DEFER></script>
+	<script src="../js/js_exemplo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
-<!-- NÃO EDITAR!-->
+	
 	<div id="topbar" class="conteudo-meio">
 		<a href="UI018-Home-AdmPRF.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
@@ -36,14 +37,12 @@
 				
 						</li>
 						
-						
 						<li><a href="UI027.1-ConsultarUsuario-AdmPRF.jsp">Consultar</a> 
 							
 						</li>
 				</ul>
 				<ul class="menu-ativo navigator">
 
-				
 				<h3>Consultar</h3> 
 
 						<li><a href="UI020.1-PesquisarMotorista-AdmPRF.jsp">Motoristas</a> 
@@ -90,71 +89,33 @@
 				</ul>	
 				
 		</div>
-		
-		<!-- NÃO EDITAR!-->
-		
+
+			
 		<div id="centro" class="esquerda">
-		
-		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
-		
-			<h1>Consulta de Usuário</h1>
-			<h4>Preencha corretamente os campos!</h4>
-			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
-				<div class="tabela">
-					<div class="coluna-esquerda">
+			<h1>Pesquisa de Usuário</h1>
+			<div class="tabela">
+				<div class="coluna-esquerda">
+					<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 						<fieldset>
-							<legend>Dados do Usuário</legend>	
-								<div class="campo">
-									<label for="idJ">ID:</label><br> 
-									<input type="text" name="idusuario" id="idusuarioJ" disabled>
-								</div>
-								<div class="campo">
-									<label for="nomeJ">Nome:</label><br> 
-									<input type="text" name="nome" id="nomeJ" disabled>
-								</div>
-								<div class="campo"> 
-									<label for="cpfJ">CPF:</label><br> 
-									<input type="text" name="CPF" id="cpfJ" disabled>
-								</div>
-								<div class="campo">
-									<label for="rgJ">RG:</label><br> 
-									<input type="text" name="RG" id="rgJ" disabled>
-								</div>
-								<div class="campo"> 
-									<label for="cepJ">CEP:</label><br> 
-									<input type="text" name="CEP" id="cepJ" disabled>
-								</div>
-								<div class="campo"> 
-									<label for="emailJ">Email:</label><br> 
-									<input type="text" name="email" id="emailJ" disabled>
-								</div>
-								<fieldset class="subfds">
-								<legend>Status</legend>
-								
-									<input type="radio" name="status" id="ativJ" checked><!--<span id="x_dataJ"></span>-->
-									<label for="ativJ">Ativo</label><br> 
-								
-								
-									<input type="radio" name="status" id="inatJ" disabled><!--<span id="x_dataJ"></span>-->
-									<label for="inatJ">Inativo</label>
-								
-								</fieldset>
+							<legend>Dados do Usuário</legend>
+							<div class="campo">
+								<label for="idfreteJ">Número do ID:</label><br>
+								<a href="UI027-ConsultarUsuario-AdmPRF.jsp"><input type="text" name="idfreteJ" id="idfreteJ"></a><br><br>
+								<a href="UI027-ConsultarUsuario-AdmPRF.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
+							</div>
+							<div class="campo">
+								<label for="nomdestJ">Nome Completo:</label><br>
+								<a href="UI027-ConsultarUsuario-AdmPRF.jsp"><input type="text" name="nomdestJ" id="nomdestJ"></a><br><br>
+								<a href="UI027-ConsultarUsuario-AdmPRF.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
+							</div>
 						</fieldset>
-					</div>
+				</div> <!-- fim da div coluna-esquerda-->
+			</div> <!-- Fim da div tabela -->
 					
-					<div class="coluna-direita">
-						
-					</div>
-					
-				</div>
-				<br><Br>		
-	           <a href="UI027.1-ConsultarUsuario-AdmPRF.jsp"><input type="submit" value="Nova Consulta" name="Consultar" id="consultarJ" class="botaoJ"></a>
-	           <a href="UI018-Home-AdmPRF.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
-		</form> 
-		<br>
-		<br>
+						<a href="UI018-Home-AdmPRF.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a><br><br>
+					</form>
 		</div>
 	</div>
-<!-- SÓ EDITE DAQUI PARA CIMA!-->
+
 </body>
 </html>
