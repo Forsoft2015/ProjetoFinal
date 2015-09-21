@@ -15,7 +15,6 @@
     <script src="../js/UI149.js" type='text/javascript' DEFER></script>
 </head>
 <body>
-<!-- NÃO EDITAR!-->
 	<div id="topbar" class="conteudo-meio">
 		<a href="UI145-Home-AgenteANTT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
@@ -27,14 +26,17 @@
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
 			<ul class="menu-ativo navigator">
-				<h3>Ocorrência</h3> 
-				<li><a href="#">Registrar</a> 							
-				</li>						
-				<li><a href="#">Alterar</a> 
-				</li>						
-				<li><a href="#">Excluir</a> 
-				</li>						
-				<li><a href="#">Consultar</a> 
+				<h3>Ocorrência Remanejamento</h3> 
+				<li><a href="UI149-RegistrarOcorrenciaRemanejamentoUsuarioPostoPesagem-AgenteANTT.jsp">Registrar</a> 							
+				</li>	
+				<li><a href="UI149-1-PesquisarOcorrencia-AgenteANTT.jsp">Consultar</a> 
+				</li>
+			</ul>
+			<ul class="menu-ativo navigator">
+				<h3>Ocorrência Transbordo</h3> 
+				<li><a href="UI148-RegistrarOcorrenciaTransbordoUsuarioPostoPesagem-AgenteANTT.jsp">Registrar</a> 							
+				</li>	
+				<li><a href="UI148-1-PesquisarOcorrencia-AgenteANTT.jsp">Consultar</a> 
 				</li>
 			</ul>
 		</div>
