@@ -57,13 +57,13 @@
 							<legend>Dados do Frete</legend>
 							<div class="campo">
 								<label for="idfreteJ">Número do Frete:</label><br>
-								<a href="UI004-ConsultarFrete-TAC.jsp"><input type="text" name="idfreteJ" id="idfreteJ"></a>
-								<a href="UI004-ConsultarFrete-TAC.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
+								<a href="UI006-ExcluirFrete-TAC.jsp"><input type="text" name="idfreteJ" id="idfreteJ"></a>
+								<a href="UI006-ExcluirFrete-TAC.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
 							</div>
 							<div class="campo">
 								<label for="nomdestJ">Nome do destinatário:</label><br>
-								<a href="UI004-ConsultarFrete-TAC.jsp"><input type="text" name="nomdestJ" id="nomdestJ"></a>
-								<a href="UI004-ConsultarFrete-TAC.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
+								<a href="UI006-ExcluirFrete-TAC.jsp"><input type="text" name="nomdestJ" id="nomdestJ"></a>
+								<a href="UI006-ExcluirFrete-TAC.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
 							</div>
 						</fieldset>
 				</div> <!-- fim da div coluna-esquerda-->

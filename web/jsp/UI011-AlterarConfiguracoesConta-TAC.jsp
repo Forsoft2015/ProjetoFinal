@@ -75,15 +75,15 @@
 								</div>
 								<div class="campo"> 
 									<label for="cpfJ">CPF:</label><br> 
-									<input type="text" name="cpf" id="cpfJ" maxlength="8"><span id="x_cpfJ"></span>
+									<input type="text" name="cpf" id="cpfJ" maxlength="14"><span id="x_cpfJ"></span>
 								</div>
 								<div class="campo"> 
 									<label for="rgJ">RG:</label><br> 
-									<input type="text" name="rg" id="rgJ" maxlength="8"><span id="x_rgJ"></span>
+									<input type="text" name="rg" id="rgJ" maxlength="10"><span id="x_rgJ"></span>
 								</div>
 								<div class="campo"> 
 									<label for="rntrcJ">RNTRC:</label><br> 
-									<input type="text" name="rntrc" id="rntrcJ"><span id="x_rntrcJ"></span>
+									<input type="text" name="rntrc" id="rntrcJ" maxlength="14"><span id="x_rntrcJ"></span>
 								</div>
 								<div class="campo"> 
 									<label for="telefoneJ">Telefone:</label><br> 
@@ -98,7 +98,7 @@
 
 								<div class="campo"> 
 									<label for="cepJ">CEP:</label><br> 
-									<input type="text" name="cep" id="cepJ" ><span id="x_cepJ"></span>
+									<input type="text" name="cep" id="cepJ" maxlength="10" ><span id="x_cepJ"></span>
 								</div>
 								
 								<div class="campo"> 

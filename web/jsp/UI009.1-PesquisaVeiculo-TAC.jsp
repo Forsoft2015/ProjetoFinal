@@ -60,12 +60,12 @@
 						<legend>Dados do Veículo</legend>
 							<div class="campo">
 								<label for="idveiculoJ">Id do veículo:</label><br>
-								<input type="text" name="idveiculoJ" id="idveiculoJ">
+								<a href="UI009-ConsultarVeiculo-TAC.jsp"><input type="text" name="idveiculoJ" id="idveiculoJ"></a>
 								<a href="UI009-ConsultarVeiculo-TAC.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
 							</div>
 							<div class="campo">
 								<label for="placaJ">Placa</label><br>
-								<input type="text" name="placaJ" id="placaJ">
+								<a href="UI009-ConsultarVeiculo-TAC.jsp"><input type="text" name="placaJ" id="placaJ"></a>
 								<a href="UI009-ConsultarVeiculo-TAC.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
 							</div>
 					</fieldset>

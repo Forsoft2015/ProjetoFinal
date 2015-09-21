@@ -61,7 +61,7 @@
 								<br>
 								<div class="centro">
 									<button type="submit">Esqueci Minha Senha</button>							
-									<button type="submit">Cadastrar-se</button>							
+									<a href="UI012-CadastraAutonomo-TAC.jsp"><button type="submit">Cadastrar-se</button></a>							
 								</div>
 							</form>
 						

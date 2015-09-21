@@ -16,7 +16,7 @@
 <body>
 <!-- NÃO EDITAR!-->
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI18-Home-AdmPRF.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI018-Home-AdmPRF.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -30,16 +30,12 @@
 
 				<h3>Usuários</h3> 
 
-						<li><a href="#">Cadastrar</a> 
-						</li>
+						
 						
 						<li><a href="#">Alterar</a> 
 				
 						</li>
 						
-						<li><a href="#">Excluir</a> 
-							
-						</li>
 						
 						<li><a href="UI027-ConsultarUsuario-AdmPRF.jsp">Consultar</a> 
 							
@@ -47,16 +43,17 @@
 				</ul>
 				<ul class="menu-ativo navigator">
 
-				<h3>Consultas</h3> 
+				
+				<h3>Consultar</h3> 
 
-						<li><a href="UI020-ConsultarMotorista-AdmPRF.jsp">Motoristas</a> 
+						<li><a href="UI020.1-PesquisarMotorista-AdmPRF.jsp">Motoristas</a> 
 						</li>
 						
-						<li><a href="UI021-ConsultarVeiculo-AdmPRF.jsp">Veículos</a> 
+						<li><a href="UI021.1-PesquisarVeiculoAdmPRF.jsp">Veículos</a> 
 				
 						</li>
 						
-						<li><a href="UI022-ConsultarFrete-AdmPRF.jsp">Fretes</a> 
+						<li><a href="UI022.1-PesquisaFreteAdmPRF.jsp">Fretes</a> 
 							
 						</li>
 				</ul>
@@ -152,7 +149,7 @@
 				</div>
 				<br><Br>		
 	           <input type="submit" value="Consultar" name="Consultar" id="consultarJ" class="botaoJ">
-	           <input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
+	           <a href="UI018-Home-AdmPRF.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>
 		<br>
