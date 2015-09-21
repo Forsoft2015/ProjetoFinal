@@ -38,8 +38,28 @@
 						
 						<li><a href="UI032-ConsultarFrete-AgentePRF.jsp">Fretes</a></li>
 				</ul>
+		
+				<ul class="menu-ativo navigator">
+
+				<h3>Posto PIF</h3> 
 					
-		</div>
+						<li><a href="#">Consultar</a> 
+					
+						</li>
+				</ul>
+				
+				<ul class="menu-ativo navigator">
+
+				<h3>Relatórios</h3> 
+				
+						<li><a href="">Consultar</a> 
+					
+						</li>
+						<li><a href="UI030-EmitirRelatorioRodovia-AgentePRF.jsp">Emitir</a> 
+					
+						</li>
+				</ul>	
+					
 
 	</div>
 		
@@ -49,19 +69,16 @@
 		
 		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
-			<h1>Consultar Frete</h1>
+			<h1>Consulta de Frete</h1>
 			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 				<div class="tabela">
 					<div class="coluna-esquerda">
 						<fieldset>
 							<legend>Dados do Motorista</legend>					
 								<div class="campo"> 
-									<label for="nomemotoristaJ">Nome do Motorista</label>
-									<select name="nomemotorista" id="nomemotoristaJ">
-										<option>Exemplo 1</option>
-										<option>Exemplo 2</option>
-										<option>Exemplo 3</option>
-									</select>
+									<label for="nomemotoristaJ">Nome do Motorista</label><br>
+									<input type="text" name="logradouro" id="logradouroJ" maxlength="20" disabled>
+
 								</div>
 																	
 						</fieldset>
@@ -136,7 +153,7 @@
 					
 				</div>
 				<br><Br>		
-	           <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
+	           <input type="submit" value="Nova Consulta" name="enviar" id="enviarJ" class="botaoJ">
 	           <a href="UI029-Home-AgentePRF.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
 		</form> 
 		<br>

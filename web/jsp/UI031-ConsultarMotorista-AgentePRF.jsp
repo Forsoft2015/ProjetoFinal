@@ -39,7 +39,28 @@
 						
 						<li><a href="UI032-ConsultarFrete-AgentePRF.jsp">Fretes</a></li>
 				</ul>
+				
+				<ul class="menu-ativo navigator">
+
+				<h3>Posto PIF</h3> 
 					
+						<li><a href="#">Consultar</a> 
+					
+						</li>
+				</ul>
+				
+				<ul class="menu-ativo navigator">
+
+				<h3>Relatórios</h3> 
+				
+						<li><a href="">Consultar</a> 
+					
+						</li>
+						<li><a href="UI030-EmitirRelatorioRodovia-AgentePRF.jsp">Emitir</a> 
+					
+						</li>
+				</ul>	
+
 		</div>
 		
 		<!-- NÃO EDITAR!-->
@@ -155,7 +176,7 @@
 					
 				</div>
 				<br><Br>		
-	           <input type="submit" value="Alterar" name="enviar" id="enviarJ" class="botaoJ">
+	           <input type="submit" value="Nova Consulta" name="enviar" id="enviarJ" class="botaoJ">
 	           <a href="UI029-Home-AgentePRF.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
 		</form> 
 		<br>

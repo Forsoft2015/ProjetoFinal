@@ -1,6 +1,6 @@
 <%-- 
-    Document   : UI070-CadastrarRodovia-AdmDNIT
-    Created on : 18/09/2015, 01:34:26
+    Document   : UI082-CadastrarCamera-AdmDNIT
+    Created on : 18/09/2015, 03:17:37
     Author     : Javapos
 --%>
 
@@ -12,10 +12,11 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-	<script src='../js/UI070.js' type="text/javascript" DEFER></script>
+	<script src="../js/UI082.js" type="text/javascript" DEFER></script>
 </head>
 <body>
-		<!-- NÃO EDITAR!-->
+	<!-- NÃO EDITAR!-->
+	
 	<div id="topbar" class="conteudo-meio">
 		<a href="UI069-Home-AdmDNIT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
@@ -27,8 +28,7 @@
 	
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
-		
-			<ul class="menu-ativo navigator">
+				<ul class="menu-ativo navigator">
 
 				<h3>Usuários</h3> 
 
@@ -134,57 +134,40 @@
 		
 		<!-- NÃO EDITAR!-->
 		
+			<!-- NÃO EDITAR!-->
+		
 		<div id="centro" class="esquerda">
 		
 		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
-			<h1>Cadastro Rodovia</h1>
+			<h1>Alterar Câmera</h1>
 			<h4>Preencha corretamente os campos!</h4>
 			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 				<div class="tabela">
 					<div class="coluna-esquerda">
 						<fieldset>
-							<legend>Dados da Rodovia</legend>					
+							<legend>Dados da câmera</legend>					
 								<div class="campo">
-									<label for="nomeJ">Nome:</label><br> 
-									<input type="text" name="nome" id="nomeJ"><span id="x_nomeJ" class=""></span>
+									<label for="numserieJ">Numero de Série:</label><br> 
+									<input type="text" name="numserie" id="numserieJ"><span id="x_numserieJ" class=""></span>
 								</div>
 								<div class="campo"> 
-									<label for="tipoJ">Tipo:</label><br> 
-									<input type="text" name="tipo" id="tipoJ"><span id="x_tipoJ"></span>
+									<label for="idpostoJ">ID do Posto:</label><br> 
+									<input type="text" name="idposto" id="idpostoJ"><span id="x_idpostoJ"></span>
 								</div>
-								<div class="campo"> 
-									<label for="extensaoJ">Extensão em KM:</label><br> 
-									<input type="text" name="extensao" id="extensaoJ"><span id="x_extensaoJ"></span>
-								</div>
-								
-								
 						</fieldset>
 					</div>
 					
 					<div class="coluna-direita">
-						<fieldset>
-							<legend>Dados da Rodovia</legend>
-								<div class="campo"> 
-									<label for="cinicialJ">Cidade Inicial:</label><br> 
-									<input type="text" name="cinicial" id="cinicialJ"><span id="x_cinicialJ"></span>
-								</div>
-								<div class="campo"> 
-									<label for="cfinal">Cidade Final:</label><br> 
-									<input type="text" name="cfinalJ" id="cfinalJ"><span id="x_cfinalJ"></span>
-								</div>
-						</fieldset>
+
 					</div>
 					
-				</div>
-				<br><Br>		
-	           <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
+		</div>
+<br><Br>		
+	           <input type="submit" value="Alterar" name="enviar" id="enviarJ" class="botaoJ">
 	           <a href="UI069-Home-AdmDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>
 		<br>
-		</div>
-	</div>
-<!-- SÓ EDITE DAQUI PARA CIMA!-->
 </body>
 </html>

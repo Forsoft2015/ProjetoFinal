@@ -55,9 +55,9 @@
 						
 						<li><a href="#">Alterar</a></li>
 						
-						<li><a href="#">Excluir</a></li>
+						<li><a href="">Excluir</a></li>
 						
-						<li><a href="#">Consultar</a></li>
+						<li><a href="UI017-EmitirRelatorio-AdmMinisterio.jsp">Consultar</a></li>
 				</ul>
 		</div>
 		
@@ -78,6 +78,7 @@
 			
 		
 			</div>
+			<input type="submit" value="Nova Consulta" name="enviar" id="enviarJ" class="botaoJ">
 			
 		<!-- SÓ EDITE DAQUI PARA CIMA!-->
 		
