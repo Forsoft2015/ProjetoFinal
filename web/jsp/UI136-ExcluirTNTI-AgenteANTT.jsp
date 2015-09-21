@@ -5,7 +5,13 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%-- 
+    Document   : UI134-ConsultarTNTI-AgenteANTT
+    Created on : 18/09/2015, 03:59:26
+    Author     : Javapos
+--%>
 
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
@@ -32,7 +38,7 @@
 
 				<h3>Postos de Pedágio</h3>
 
-				<li><a href="UI129-CadastrarPostoPedagio-AgenteANTT.jsp">Cadastrar</a> 
+				<li><a href="UI129-CadastrarPostoDePedagio-AgenteANTT.jsp">Cadastrar</a> 
 						
 						</li>
 						
@@ -44,7 +50,7 @@
 						
 						</li>
 						
-						<li><a href="UI130-ConsultarPostoPedagio-AgenteANTT.jsp">Consultar</a> 
+						<li><a href="UI130-ConsultarPostoDePedagio-AgenteANTT.jsp">Consultar</a> 
 							
 						</li>
 				</ul>
@@ -172,7 +178,7 @@
 				</div>
 				<br><Br>		
 	           <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
-	           <a href="UI145-Home-AgenteANTT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+	           <a href="UI002-Home-TAC.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>
 		<br>

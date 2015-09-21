@@ -43,7 +43,7 @@
 						
 						</li>
 						
-						<li><a href="UI130-ConsultarPostoPedagio-AgenteANTT.jsp">Consultar</a> 
+						<li><a href="UI130-ConsultarPostoDePedagio-AgenteANTT.jsp">Consultar</a> 
 							
 						</li>
 				</ul>
@@ -134,7 +134,7 @@
 				</div>
 				<br><Br>		
 	           <input type="submit" value="Excluir" name="enviar" id="excluirJ" class="botaoJ">
-	           <a href="UI145-Home-AgenteANTT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+	           <a href="UI002-Home-TAC.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>
 		<br>

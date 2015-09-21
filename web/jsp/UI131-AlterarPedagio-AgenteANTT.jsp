@@ -35,7 +35,7 @@
 						
 						</li>
 						
-						<li><a href="#">Alterar</a> 
+						<li><a href="UI131-AlterarPedagio-AgenteANTT.jsp">Alterar</a> 
 							 
 						</li>
 						
@@ -130,7 +130,7 @@
 					<div>
 						<br><Br>		
 					   <input type="submit" value="Alterar" name="enviar" id="enviarJ" class="botaoJ">
-					   <a href="UI145-Home-AgenteANTT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+					   <a href="UI002-Home-TAC.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 					</div>
 
 		</form> 
