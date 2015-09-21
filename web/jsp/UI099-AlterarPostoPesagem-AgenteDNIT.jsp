@@ -12,7 +12,7 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src="../js/framework.js" type='text/javascript' DEFER></script>
-	<script src="..js/UI097.js" type="text/javascript" DEFER></script>
+	<script src="../js/UI099.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 		<!-- NÃO EDITAR!-->
@@ -72,7 +72,7 @@
 
 				<h3>Balança</h3> 
 
-				<li><a href="UI105-CadastrarBalanaca-AgenteDNIT.jsp">Cadastrar</a> 
+				<li><a href="UI105-CadastrarBalanca-AgenteDNIT.jsp">Cadastrar</a> 
 							
 						</li>
 						
@@ -190,7 +190,7 @@
 				</div>
 				<br><Br>		
 	           <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
-	           <input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
+	           <a href="UI092-Home-AgenteDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>
 		<br>

@@ -1,4 +1,4 @@
-var numeroCampos = 15; //INSIRA O NÚMERO DE CAMPOS
+var numeroCampos = 8; //INSIRA O NÚMERO DE CAMPOS
 
 var formOk = new Array(numeroCampos);
 for (var i = 0; i < numeroCampos; i++) { formOk[i] = false;}
@@ -26,27 +26,16 @@ setMask("telJ", "## #####-####");
 setMask("cepJ", "##.###-###");
 
 //ValidaTipo(idDoCampo, regexTIPO, numeroDoCampo)
-
-validaChar("logradouroJ", regexLETRAS, 0);
-validaChar("numeroJ", regexNUMEROS, 1);
-validaChar("complementoJ", regexLETRAS, 2);
-validaChar("cepJ", regexCEP,3);
-validaChar("bairroJ", regexLETRAS,4);
-validaChar("cidadeJ", regexLETRAS, 5);
-validaChar("estadoJ", regexLETRAS,6);
-
-validaChar("nomerodJ", regexLETRAS, 7);
-validaChar("tipoJ", regexLETRAS, 8);
-validaChar("extensaokmJ", regexNUMEROS, 9);
-validaChar("cinicialJ", regexLETRAS, 10);
-validaChar("cfinalJ", regexLETRAS, 11);
-validaChar("telJ", regexTEL,12);
-validaChar("numserieJ", regexNUMEROS, 13);
-validaChar("kmJ", regexNUMEROS, 14);
-
+validaChar("telJ", regexTEL,0);
+validaChar("cepJ", regexCEP,1);
+validaChar("kmJ", regexNUMEROS, 2);
+validaChar("cidadeJ", regexLETRAS, 3);
+validaChar("estadoJ", regexLETRAS,4);
+validaChar("numeroserieJ", regexNUMEROS, 5);
+validaChar("paisJ", regexLETRAS, 6);
+validaChar("cnpjJ", regexCNPJ, 7);
 
 	//EDITE DAQUI PARA CIMA
 	
 }
-
 
