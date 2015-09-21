@@ -121,7 +121,7 @@
                                     </div>
                                     <div class="campo"> 
                                         <label for="cepdJ">CEP:</label><br> 
-                                        <input type="text" name="cepd" id="cepdJ" maxlength><span id="x_cepdJ" class=""></span>
+                                        <input type="text" name="cepd" id="cepdJ" maxlength="10"><span id="x_cepdJ" class=""></span>
                                     </div>
                                     <div class="campo"> 
                                         <label for="bairrodJ">Bairro:</label><br> 

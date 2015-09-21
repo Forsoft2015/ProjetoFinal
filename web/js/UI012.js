@@ -6,7 +6,6 @@ for (var i = 0; i < numeroCampos; i++) { formOk[i] = false;}
 window.onload = function () {
 
 	
-var topo = _$("caixa");
 var regexLETRAS = /^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$/;
 var regexCEP = /^\d+\.\d+\-\d+$/;
 var regexTEL = /^\d+\ \d+\-\d+$/;
@@ -22,6 +21,7 @@ var regexDATA=/^(0[1-9]|1\d|2[0-8]|29(?=-\d\d-(?!1[01345789]00|2[1235679]00)\d\d
 	setMask("cepJ", "##.###-###");
 	setMask("datadenascimentoJ", "##/##/####");
 	setMask("telJ","## ####-#####");
+	setMask("cnpjJ","##.###.#####/##");
 
 
 	validaChar("nomeJ", regexLETRAS, 0);
@@ -42,7 +42,7 @@ var regexDATA=/^(0[1-9]|1\d|2[0-8]|29(?=-\d\d-(?!1[01345789]00|2[1235679]00)\d\d
 	validaChar("bairroJ",regexLETRAS,15);
 	validaChar("cidadeJ",regexLETRAS,16);
 	validaChar("paisJ",regexLETRAS,17);
-	
+	validaChar("senhaJ",regexNUMEROS,18);
 
 }
 
