@@ -12,6 +12,7 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="../stylesheet" type="text/css" href="../css/style.css">
 	<script src="../js/framework.js" type='text/javascript' DEFER></script>
+	<script src="../js/UI116.js" type="text/javascript" DEFER></script>
     
 </head>
 <body>
@@ -24,137 +25,159 @@
 			<li class="maisDireita"><a href="#" id="logout"></a></li>
 		</ul>
 	</div>
-	
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
-				<ul class="menu-ativo navigator">
-
-				<h3>Postos de Pedágio</h3>
-
-				<li><a href="UI109-CadastrarPedagio-AdmANTT.jsp">Cadastrar</a> 
-						
-						</li>
-						
-						<li><a href="UI111-AlterarPedagio-AdmANTT.jsp">Alterar</a> 
-							 
-						</li>
-						
-						<li><a href="UI112-ExcluirPedagio-AdmANTT.jsp">Excluir</a> 
-						
-						</li>
-						
-						<li><a href="UI110-ConsultarPedagio-AdmANTT.jsp">Consultar</a> 
-							
-						</li>
-				</ul>
-				
-				<ul class="menu-ativo navigator">
-
+			<ul class="menu-ativo navigator">
+				<h3>Usuários</h3> 
+				<li><a href="UI150-AtivarDesativarUsuario-AdmANTT.jsp">Alterar</a> 
+				</li>
+			</ul>
+			<ul class="menu-ativo navigator">
+				<h3>Postos de Pedágio</h3> 
+				<li><a href="UI109-CadastrarPostoPedagio-AdmANTT.jsp">Cadastrar</a> 
+				</li>
+				<li><a href="UI111-AlterarPedagio-AdmANTT.jsp">Alterar</a> 	
+				</li>
+				<li><a href="UI152.2-PesquisaExcluirPedagio-AdmANTT.jsp">Excluir</a> 
+				</li>
+				<li><a href="UI152.1-PesquisaConsultarPedagio-AdmANTT.jsp">Consultar</a> 
+				</li>
+			</ul>	
+			<ul class="menu-ativo navigator">
 				<h3>Transportadores</h3> 
-
-				<li><a href="UI117-CadastrarTransportadorCTCeETC-AdmANTT.jsp">Cadastrar</a> 
-						
-						</li>
-						
-						<li><a href="UI119-AlterarTransportadorCTCeETC-AdmANTT.jsp">Alterar</a> 
-						</li>
-						
-						<li><a href="UI120-ExcluirTransportadorCTCeETC-AdmANTT.jsp">Excluir</a>
-						</li>
-						
-						<li><a href="UI118-ConsultarTransportadorCTCeETC-AdmANTT.jsp">Consultar</a> 
-						</li>
-				</ul>
-				
-				<ul class="menu-ativo navigator">
-
-					<h3>Autônomos</h3> 
-
-						<li><a href="UI121-CadastrarTransportadorAutonomoTAC-AdmANTT.jsp">Cadastrar</a> 
-						</li>
-						
-						<li><a href="UI119-AlterarTransportadorAutonomoTAC-AdmANTT.jsp">Alterar</a> 
-						</li>
-						
-						<li><a href="UI120-ExcluirTransportadorAutonomoTAC-AdmANTT.jsp">Excluir</a>
-						</li>
-						
-						<li><a href="UI122-ConsultarTransportadorAutonomoTAC-AdmANTT.jsp">Consultar</a> 
-						</li>
-				</ul>
+				<li><a href="UI117-CadastrarTransportadorCTCeETC-AdmANTT.jsp">Cadastrar</a> 	
+				</li>						
+				<li><a href="UI119-AlterarTransportadorCTCeETC-AdmANTT.jsp">Alterar</a> 	
+				</li>						
+				<li><a href="UI153.2-PesquisaExcluirTransportadorCTCeETC-AdmANTT.jsp">Excluir</a> 
+				</li>						
+				<li><a href="UI153.1-PesquisaConsultarTransportadorCTCeETC-AdmANTT.jsp">Consultar</a>  
+				</li>
+			</ul>
+			<ul class="menu-ativo navigator">
+				<h3>TNTI</h3> 
+				<li><a href="UI113-CadastrarTNTI-AdmANTT.jsp">Cadastrar</a> 	
+				</li>
+				<li><a href="UI115-AlterarTNTI-AdmANTT.jsp">Alterar</a> 
+				</li>
+				<li><a href="UI151.2-PesquisaExcluirTNTI-AdmANTT.jsp">Excluir</a> 
+				</li>
+				<li><a href="UI151.1-PesquisaConsultarTNTI-AdmANTT.jsp">Consultar</a>  
+				</li>
+			</ul>	
+			<ul class="menu-ativo navigator">
+				<h3>Autônomos</h3> 
+				<li><a href="UI121-CadastrarTransportadorAutonomoTAC-AdmANTT.jsp">Cadastrar</a> 	
+				</li>						
+				<li><a href="UI123-AlterarTransportadorAutonomoTAC-AdmANTT.jsp">Alterar</a> 
+				</li>						
+				<li><a href="UI154.2-PesquisaExcluirTransportadorAutonomoTAC-AdmANTT.jsp">Excluir</a> 
+				</li>						
+				<li><a href="UI154.1-PesquisaConsultarTransportadorAutonomoTAC-AdmANTT.jsp">Consultar</a> 
+				</li>
+			</ul>
 		</div>
+	</div>
 		
-		         
-		
-		
-		<!-- NÃO EDITAR!-->
 		
 		<div id="centro" class="esquerda">
 		
 		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
-			<h1>Dados do TNTI</h1>
-			<h4>Preencha corretamente os campos!</h4>
+			
+			<h1>Excluir TNTI</h1>
+			
 			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 				<div class="tabela">
 					<div class="coluna-esquerda">
 						<fieldset>
-							<legend>Excluir dados do TNTI</legend>					
+							<legend>Dados do Motorista</legend>					
 								<div class="campo">
-									<label for="rntrcJ">RNTRC:</label><br> 
-									<input type="text" name="rntrcJ" id="rntrcJ" disabled><span id="x_rntrcJ" class=""></span>
+									<label for="nomeJ">Nome:</label><br> 
+									<input type="text" name="nome" id="nomeJ"><span id="x_nomeJ" class=""></span>
 								</div>
 								<div class="campo"> 
-									<label for="telefoneJ">Telefone:</label><br> 
-									<input type="text" name="telefoneJ" id="telefoneJ" disabled><span id="x_telefoneJ"></span>
+									<label for="sobrenomeJ">Sobrenome:</label><br> 
+									<input type="text" name="sobrenome" id="sobrenomeJ"><span id="x_sobrenomeJ"></span>
 								</div>
 								<div class="campo"> 
-									<label for="emailJ">E-Mail:</label><br> 
-									<input type="text" name="emailJ" id="emailJ" disabled><span id="x_emailJ"></span>
+									<label for="cpfJ">CPF:</label><br> 
+									<input type="text" name="CPF" id="cpfJ" maxlength="14"><span id="x_cpfJ"></span>
 								</div>
 								<div class="campo"> 
-									<label for="logradouroJ">Logradouro:</label><br> 
-									<input type="text" name="logradouroJ" id="logradouroJ" disabled><span id="x_logradouroJ"></span>
+									<label for="rgJ">RG:</label><br> 
+									<input type="text" name="RG" id="rgJ" maxlength="14"><span id="x_rgJ"></span>
 								</div>
 								<div class="campo"> 
-									<label for="numeroJ">Número:</label><br> 
-									<input type="text" name="numeroJ" id="numeroJ" disabled><span id="x_numeroJ"></span>
+									<label for="telJ">Telefone:</label><br> 
+									<input type="text" name="Telefone" id="telJ" maxlength="13"><span id="x_telJ"></span>
 								</div>
 								<div class="campo"> 
-									<label for="cepJ">CEP:</label><br> 
-									<input type="text" name="cepJ" id="cepJ" disabled><span id="x_cepJ"></span>
+									<label for="cnhJ">CNH:</label><br> 
+									<input type="text" name="CNH" id="cnhJ" maxlength="11"><span id="x_cnhJ"></span>
 								</div>
+								
+								
+								<select>
+								<legend>Estado Civil:</legend>	
+								  <option value="casado">Casado(a)</option>
+								  <option value="solteiro">Solteiro(a)</option>
+								  <option value="viudo">Viuvo(a)</option>
+								  <option value="divorciado">Divorciado(a)</option>
+								</select>
+								
+								
 								<div class="campo"> 
-									<label for="bairroJ">Bairro:</label><br> 
-									<input type="text" name="bairroJ" id="bairroJ" disabled><span id="x_bairroJ"></span>
+									<label for="estadoJ">Estado (UF):</label><br> 
+									<input type="text" name="estado" id="estadoJ" maxlength="2"><span id="x_estadoJ"></span>
 								</div>
 								<div class="campo"> 
 									<label for="cidadeJ">Cidade:</label><br> 
-									<input type="text" name="cidadeJ" id="cidadeJ" disabled><span id="x_cidadeJ"></span>
+									<input type="text" name="cidade" id="cidadeJ" maxlength="10"><span id="x_cidadeJ"></span>
 								</div>
 								<div class="campo"> 
-									<label for="estadoJ">Estado:</label><br> 
-									<input type="text" name="estadoJ" id="estadoJ" disabled><span id="x_estadoJ"></span>
+									<label for="emailJ">Email:</label><br> 
+									<input type="text" name="email" id="emailJ" maxlength="50"><span id="x_emailJ"></span>
 								</div>
-								<div class="campo"> 
-									<label for="complementoJ">Complemento:</label><br> 
-									<input type="text" name="complementoJ" id="complementoJ" disabled><span id="x_complementoJ"></span>
-								</div>
+								<fieldset class="subfds">
+								<legend>Sexo:</legend>
 								
+									<input type="radio" name="sexo" id="mascJ" checked><!--<span id="x_dataJ"></span>-->
+									<label for="mascJ">Masculino</label><br>
+								
+								
+									<input type="radio" name="sexo" id="femJ"><!--<span id="x_dataJ"></span>-->
+									<label for="femJ">Feminino</label>
+								
+							</fieldset>
 						</fieldset>
 					</div>
 					
-					
+					<div class="coluna-direita">
+						<fieldset>
+							<legend>Dados do Transportador</legend>
+								<div class="campo"> 
+									<label for="rntrcJ">RNTRC:</label><br> 
+									<input type="text" name="rntrc" id="rntrcJ" maxlength="8"><span id="x_rntrcJ"></span>
+								</div>
+								<div class="campo"> 
+									<label for="paisJ">País:</label><br> 
+									<input type="text" name="pais" id="paisJ" maxlength="7"><span id="x_paisJ"></span>
+								</div>
+						</fieldset>
+					</div>
 					
 				</div>
 				<br><Br>		
-	           <input type="submit" value="Excluir" name="enviar" id="excluirJ" class="botaoJ">
-	           <a href="UI146-HomeAdmANTT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
-		    </form> 
+	           <a href="UI146-Home-AdmANTT.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+			   <a href=""><input type="reset" value="Excluir" name="Limpar" id="limparJ" class="botaoJ"></a>
+		</form> 
 		<br>
 		<br>
 		</div>
 	</div>
+			
+			
 <!-- SÓ EDITE DAQUI PARA CIMA!-->
 </body>
 </html>
