@@ -1,6 +1,6 @@
 <%-- 
-    Document   : UI017-ConsultarRelatorio-AdmMinisterio
-    Created on : 18/09/2015, 07:08:38
+    Document   : UI014-ConsultarRelatorio-Ministro
+    Created on : 18/09/2015, 07:07:49
     Author     : Javapos
 --%>
 
@@ -11,8 +11,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-	<script src="../js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src="../js/framework.js" type="text/javascript" DEFER></script>
+	<script src="../js/UI014.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
@@ -53,33 +53,34 @@
 						
 						<li><a href="UI015.4.1-PesquisarUsuario-AdmMinisterio.jsp">Consultar</a></li>
 				</ul>
+		
 		</div>
-		
-		<!-- NÃO EDITAR!-->
-		
+	
 		<div id="centro" class="esquerda">
-			<h1>Emissão de Relatório</h1>
-			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
-				<div class="tabela">
-				
-				<fieldset>				
-						<div class="campo">
-								<label for="idJ">ID:</label><br> 
-									<input type="text" name="id" id="idJ" maxlength="20"><span id="x_idJ" class=""></span>
-								</div>
-								<textarea name="tinfo" rows= "15"  cols="100" placeholder="Insira aqui as informações que constarão no relatório"></textarea>
-								<br><br>
-			
-		
-			<input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
-
-			</div>
-			
-		<!-- SÓ EDITE DAQUI PARA CIMA!-->
-		
+			<h1>Pesquisa de Usuário</h1>
+			<div class="tabela">
+				<div class="coluna-esquerda">
+					<form name="form" method="post" action="#" id="formularioJ" class="formulario">
+						<fieldset>
+							<legend>Dados do Usuário</legend>
+							<div class="campo">
+								<label for="idfreteJ">Número do ID:</label><br>
+								<a href="UI015.3-ConsultarUsuario-AdmMinistro.jsp"><input type="text" name="idfreteJ" id="idfreteJ"></a><br><br>
+								<a href="UI015.3-ConsultarUsuario-AdmMinistro.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
+							</div>
+							<div class="campo">
+								<label for="nomdestJ">Nome Completo:</label><br>
+								<a href="UI015.3-ConsultarUsuario-AdmMinistro.jsp"><input type="text" name="nomdestJ" id="nomdestJ"></a><br><br>
+								<a href="UI015.3-ConsultarUsuario-AdmMinistro.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
+							</div>
+						</fieldset>
+				</div> <!-- fim da div coluna-esquerda-->
+			</div> <!-- Fim da div tabela -->
+					
+						<a href="UI015-Home-AdmMinisterio.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a><br><br>
+					</form>
 		</div>
 	</div>
 
 </body>
 </html>
-

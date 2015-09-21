@@ -33,7 +33,7 @@
 
 					<h3>Relatórios</h3> 
 
-						<li><a href="#">Consultar</a> 
+						<li><a href="UI014-ConsultarRelatorio-Ministro.jsp">Consultar</a> 
 						</li>
 				</ul>		
 		</div>
