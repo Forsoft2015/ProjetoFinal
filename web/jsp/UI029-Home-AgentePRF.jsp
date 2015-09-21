@@ -43,21 +43,11 @@
 							
 						</li>
 				</ul>
-				<ul class="menu-ativo navigator">
-
-				<h3>Posto PIF</h3> 
-						
-						<li><a href="#">Consultar</a> 
-					
-						</li>
-				</ul>
+				
 				<ul class="menu-ativo navigator">
 
 				<h3>Relatórios</h3> 
 				
-						<li><a href="#">Consultar</a> 
-					
-						</li>
 						<li><a href="UI030-EmitirRelatorioRodovia-AgentePRF.jsp">Emitir</a> 
 					
 						</li>
