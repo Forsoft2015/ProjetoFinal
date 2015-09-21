@@ -71,7 +71,7 @@
 
 				<h3>Balança</h3> 
 
-				<li><a href="UI105-CadastrarBalanaca-AgenteDNIT.jsp">Cadastrar</a> 
+				<li><a href="UI105-CadastrarBalanca-AgenteDNIT.jsp">Cadastrar</a>  
 							
 						</li>
 						
@@ -146,7 +146,7 @@
 				</div>
 				<br><Br>		
 	           <input type="submit" value="Consultar" name="enviar" id="consultarJ" class="botaoJ">
-	           <a href="UI151-Home-AgenteDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+	          <a href="UI092-Home-AgenteDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>
 		<br>

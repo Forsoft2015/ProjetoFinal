@@ -1,4 +1,4 @@
-var numeroCampos = 15; //INSIRA O NÚMERO DE CAMPOS
+var numeroCampos = 5; //INSIRA O NÚMERO DE CAMPOS
 
 var formOk = new Array(numeroCampos);
 for (var i = 0; i < numeroCampos; i++) { formOk[i] = false;}
@@ -22,31 +22,16 @@ var regexDATA=/^(0[1-9]|1\d|2[0-8]|29(?=-\d\d-(?!1[01345789]00|2[1235679]00)\d\d
 //MÁSCARAS setMask(idDoCampo, formatacaoDaMascara
 
 //setMask("cnpjJ","##.###.###/####-##");
-setMask("telJ", "## #####-####");
-setMask("cepJ", "##.###-###");
 
 //ValidaTipo(idDoCampo, regexTIPO, numeroDoCampo)
 
-validaChar("logradouroJ", regexLETRAS, 0);
-validaChar("numeroJ", regexNUMEROS, 1);
-validaChar("complementoJ", regexLETRAS, 2);
-validaChar("cepJ", regexCEP,3);
-validaChar("bairroJ", regexLETRAS,4);
-validaChar("cidadeJ", regexLETRAS, 5);
-validaChar("estadoJ", regexLETRAS,6);
-
-validaChar("nomerodJ", regexLETRAS, 7);
-validaChar("tipoJ", regexLETRAS, 8);
-validaChar("extensaokmJ", regexNUMEROS, 9);
-validaChar("cinicialJ", regexLETRAS, 10);
-validaChar("cfinalJ", regexLETRAS, 11);
-validaChar("telJ", regexTEL,12);
-validaChar("numserieJ", regexNUMEROS, 13);
-validaChar("kmJ", regexNUMEROS, 14);
+validaChar("idbalancaJ", regexNUMEROS, 0);
+validaChar("numeroserieJ", regexNUMEROS, 1);
+validaChar("idpostoJ", regexNUMEROS, 2);
+validaChar("tipoJ", regexLETRAS, 3);
 
 
 	//EDITE DAQUI PARA CIMA
 	
 }
-
 

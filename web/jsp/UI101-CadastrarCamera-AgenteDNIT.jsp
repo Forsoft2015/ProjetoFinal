@@ -12,7 +12,7 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src="../js/framework.js" type='text/javascript' DEFER></script>
-	<script src="../js/UI101.js.js" type='text/javascript' DEFER></script>
+	<script src="../js/UI101.js" type='text/javascript' DEFER></script>
 	
 </head>
 <body>
@@ -73,7 +73,7 @@
 
 				<h3>Balança</h3> 
 
-				<li><a href="UI105-CadastrarBalanaca-AgenteDNIT.jsp">Cadastrar</a> 
+				<li><a href="UI105-CadastrarBalanca-AgenteDNIT.jsp">Cadastrar</a> 
 							
 						</li>
 						
@@ -129,15 +129,15 @@
 								</div>
 								<div class="campo"> 
 									<label for="numeroJ">Numero:</label><br> 
-									<input type="text" name="numero" id="kmJ" ><span id="x_numeroJ"></span>
+									<input type="text" name="numero" id="numeroJ" ><span id="x_numeroJ"></span>
 								</div>
 								<div class="campo"> 
 									<label for="complementoJ">Complemento:</label><br> 
-									<input type="text" name="complemento" id="complemento" ><span id="x_complementoJ"></span>
+									<input type="text" name="complemento" id="complementoJ" ><span id="x_complementoJ"></span>
 								</div>
 								<div class="campo"> 
 									<label for="cepJ">CEP:</label><br> 
-									<input type="text" name="cep" id="cepJ" ><span id="x_cepJ"></span>
+									<input type="text" name="cep" id="cepJ" maxlength="10"><span id="x_cepJ"></span>
 								</div>
 								<div class="campo"> 
 									<label for="bairroJ">Bairro:</label><br> 
@@ -168,7 +168,7 @@
 								</div>
 								<div class="campo"> 
 									<label for="cinicialJ">Cidade Inicial:</label><br> 
-									<input type="text" name="cinicial" id="cfinalJ"  ><span id="x_cinicialJ"></span>
+									<input type="text" name="cinicial" id="cinicialJ"  ><span id="x_cinicialJ"></span>
 								</div>
 								<div class="campo"> 
 									<label for="cfinalJ">Cidade Final:</label><br> 
@@ -187,7 +187,7 @@
 						<fieldset>
 							<legend>Dados da Câmera</legend>
 								<div class="campo">
-									<label for="numserieJ">Némero de Série:</label><br> 
+									<label for="numserieJ">Número de Série:</label><br> 
 									<input type="text" name="numserie" id="numserieJ"  ><span id="x_numserieJ" class=""></span>
 								</div>
 								<div class="campo">
@@ -200,7 +200,7 @@
 				</div>
 				<br><Br>		
 	           <input type="submit" value="Cadastrar" name="enviar" id="enviarJ" class="botaoJ">
-	           <a href="UI151-Home-AgenteDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+	           <a href="UI092-Home-AgenteDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form>
 		<br>
 		<br>

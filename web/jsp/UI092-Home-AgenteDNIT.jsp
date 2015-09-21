@@ -73,7 +73,7 @@
 
 				<h3>Balança</h3> 
 
-				<li><a href="UI105-CadastrarBalanaca-AgenteDNIT.jsp">Cadastrar</a> 
+				<li><a href="UI105-CadastrarBalanca-AgenteDNIT.jsp">Cadastrar</a> 
 							
 						</li>
 						
