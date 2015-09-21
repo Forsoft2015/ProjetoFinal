@@ -146,7 +146,7 @@
 				</div>
 				<br><Br>		
 	           <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
-	           <a href="UI002-Home-TAC.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+	           <a href="UI001-Login.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>
 		<br>
