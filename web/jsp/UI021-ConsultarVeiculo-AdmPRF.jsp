@@ -31,16 +31,12 @@
 
 				<h3>Usuários</h3> 
 
-						<li><a href="#">Cadastrar</a> 
-						</li>
+						
 						
 						<li><a href="#">Alterar</a> 
 				
 						</li>
 						
-						<li><a href="#">Excluir</a> 
-							
-						</li>
 						
 						<li><a href="UI027-ConsultarUsuario-AdmPRF.jsp">Consultar</a> 
 							
@@ -48,16 +44,17 @@
 				</ul>
 				<ul class="menu-ativo navigator">
 
-				<h3>Consultas</h3> 
+				
+				<h3>Consultar</h3> 
 
-						<li><a href="UI020-ConsultarMotorista-AdmPRF.jsp">Motoristas</a> 
+						<li><a href="UI020.1-PesquisarMotorista-AdmPRF.jsp">Motoristas</a> 
 						</li>
 						
-						<li><a href="UI021-ConsultarVeiculo-AdmPRF.jsp">Veículos</a> 
+						<li><a href="UI021.1-PesquisarVeiculoAdmPRF.jsp">Veículos</a> 
 				
 						</li>
 						
-						<li><a href="UI022-ConsultarFrete-AdmPRF.jsp">Fretes</a> 
+						<li><a href="UI022.1-PesquisaFreteAdmPRF.jsp">Fretes</a> 
 							
 						</li>
 				</ul>
@@ -142,7 +139,8 @@
 				</div>
 				<br><Br>		
 	           <input type="submit" value="Nova Consulta" name="enviar" id="enviarJ" class="botaoJ">
-	           <input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
+	         <input type="submit" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
+		
 		</form> 
 		<br>
 		<br>
