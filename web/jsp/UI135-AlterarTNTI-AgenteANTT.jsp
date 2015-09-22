@@ -4,12 +4,6 @@
     Author     : Javapos
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%-- 
-    Document   : UI133-CadastrarTNTI-AgenteANTT
-    Created on : 18/09/2015, 03:58:38
-    Author     : Javapos
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -19,7 +13,7 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src="../js/framework.js" type='text/javascript' DEFER></script>
-	<script src="../js/UI133.js" type="text/javascript" DEFER></script>
+	<script src="../js/UI135.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 		<!-- NÃO EDITAR!-->
@@ -35,58 +29,62 @@
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
-
 				<h3>Postos de Pedágio</h3>
 
-				<li><a href="UI129-CadastrarPostoDePedagio-AgenteANTT.jsp">Cadastrar</a> 
-						
-						</li>
 						
 						<li><a href="UI131-AlterarPedagio-AgenteANTT.jsp">Alterar</a> 
 							 
 						</li>
 						
-						<li><a href="UI132-ExcluirPedagio-AgenteANTT.jsp">Excluir</a> 
 						
-						</li>
-						
-						<li><a href="UI130-ConsultarPostoDePedagio-AgenteANTT.jsp">Consultar</a> 
+						<li><a href="UI130-ConsultarPostoPedagio-AgenteANTT.jsp">Consultar</a> 
 							
 						</li>
-				</ul>
-				
+				</ul>	
 				<ul class="menu-ativo navigator">
 
 				<h3>Transportadores</h3> 
 
-				<li><a href="UI117-CadastrarTransportadorCTCeETC-AdmANTT.jsp">Cadastrar</a> 
-						
-						</li>
+				
 						
 						<li><a href="UI139-AlterarTransportadorCTCeETC-AgenteANTT.jsp">Alterar</a> 
+							
 						</li>
 						
-						<li><a href="UI140-ExcluirTransportadorCTCeETC-AgenteANTT.jsp">Excluir</a>
+						
+						
+						<li><a href="UI138-ConsultarTransportadorCTCeETC-AgenteANTT.jsp">Consultar</a> 
+					
+						</li>
+				</ul>	
+				
+				<ul class="menu-ativo navigator">
+				<h3>TNTI</h3> 
+
+				
+						
+						<li><a href="UI135-AlterarTNTI-AgenteANTT.jsp">Alterar</a> 
+							
 						</li>
 						
-						<li><a href="UI118-ConsultarTransportadorCTCeETC-AdmANTT.jsp">Consultar</a> 
+						
+						<li><a href="UI134-ConsultarTNTI-AgenteANTT.jsp">Consultar</a> 
+					
 						</li>
-				</ul>
+				</ul>	
 				
 				<ul class="menu-ativo navigator">
 
-					<h3>Autônomos</h3> 
+				<h3>Autônomos</h3> 
 
-						<li><a href="UI141-CadastrarTransportadorAutonomoTAC-AgenteANTT.jsp">Cadastrar</a> 
-						</li>
 						
 						<li><a href="UI143-AlterarTransportadorAutonomoTAC-AgenteANTT.jsp">Alterar</a> 
+							
 						</li>
 						
-						<li><a href="UI144-ExcluirTransportadorAutonomoTAC-AgenteANTT.jsp">Excluir</a>
-						</li>
 						
 						<li><a href="UI142-ConsultarTransportadorAutonomoTAC-AgenteANTT.jsp">Consultar</a> 
+					
 						</li>
 				</ul>	
 		</div>
@@ -129,9 +127,12 @@
 									<input type="text" name="CNH" id="cnhJ" maxlength="15"><span id="x_cnhJ"></span>
 								</div>
 								<div class="campo"> 
-									<label for="estadocivilJ">Estado Civil:</label><br> 
-									<input type="text" name="estadocivil" id="estadocivilJ" maxlength="5"><span id="x_estadocivilJ"></span>
-								</div>
+									<label for="estadocivilJ">Estado Civil:</label><br>
+									<select name="estadocivil" id="estadocivilJ" maxlength="30"><!--<span id="x_dataJ"></span>-->
+										<option>Casado
+										<option selected>Solteiro
+										<option>Viúvo
+									</select>	
 								<div class="campo"> 
 									<label for="estadoJ">Estado:</label><br> 
 									<input type="text" name="estado" id="estadoJ" maxlength="10"><span id="x_estadoJ"></span>
@@ -179,7 +180,7 @@
 				</div>
 				<br><Br>		
 	           <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
-	           <a href="UI002-Home-TAC.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+	          <a href="UI145-Home-AgenteANTT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>	
 		</form> 
 		<br>
 		<br>

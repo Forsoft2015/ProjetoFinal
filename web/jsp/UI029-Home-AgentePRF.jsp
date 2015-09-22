@@ -30,16 +30,16 @@
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
 
-				<h3>Consultas</h3> 
+				<h3>Consultar</h3> 
 
-						<li><a href="UI031-ConsultarMotorista-AgentePRF.jsp">Motoristas</a> 
+						<li><a href="UI020.2-PesquisarMotoristaAgentePRF.jsp">Motoristas</a> 
 						</li>
 						
-						<li><a href="UI033-ConsultarVeiculo-AgentePRF.jsp">Veículos</a> 
+						<li><a href="UI021.2-PesquisarVeiculoAgentePRF.jsp">Veículos</a> 
 				
 						</li>
 						
-						<li><a href="UI032-ConsultarFrete-AgentePRF.jsp">Fretes</a> 
+						<li><a href="UI022.2-PesquisaFreteAgentePRF.jsp">Fretes</a> 
 							
 						</li>
 				</ul>
