@@ -1,6 +1,6 @@
 <%-- 
-    Document   : UI018-Home-AdmPRF
-    Created on : 17/09/2015, 20:29:51
+    Document   : UI019-EmitirRelatoriodeRodovia-AdmPRF
+    Created on : 17/09/2015, 20:47:51
     Author     : Javapos
 --%>
 
@@ -12,9 +12,10 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-	<script src="../js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src="../js/UI019.js" type="text/javascript" DEFER></script>
 </head>
 <body>
+	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
 		<a href="UI018-Home-AdmPRF.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
@@ -36,6 +37,8 @@
 						<li><a href="UI028-AlterarUsuario-AdmPRF.jsp">Alterar</a> 
 				
 						</li>
+						
+						
 						
 						<li><a href="UI027.1-ConsultarUsuario-AdmPRF.jsp">Consultar</a> 
 							
@@ -94,38 +97,27 @@
 		
 		<div id="centro" class="esquerda">
 		
-		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
-		
-			<h1>Seja Bem Vindo!</h1>
-			<h4>Este é sistema de controle de tráfego e carga das rodovias brasileiras</h4>
-			<div class="esquerda article">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-			<div class="esquerda article">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-			<div class="esquerda article">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
+			<h1>Emissão de Relatório de Rodovia</h1>
+			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
+				<div class="tabela">
+				
+				<fieldset>				
+						<div class="campo">
+								<label for="idRodoviaJ">ID da Rodovia:</label><br> 
+									<input type="text" name="idRodovia" id="idRodoviaJ" maxlength="20"><span id="x_idRodoviaJ" class=""></span>
+								</div>
+								<textarea name="tinfo" rows= "15"  cols="100" placeholder="Insira aqui as informações que constarão no relatório"></textarea>
+								<br><br>
 			
-		<!-- SÓ EDITE DAQUI PARA CIMA!-->
+			
+			<br><Br>		
+	           <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
+	           <a href="UI018-Home-AdmPRF.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+			</fieldset>
+		</div>
 		
 		</div>
+		
 	</div>
 
 </body>

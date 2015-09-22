@@ -1,18 +1,13 @@
-<%-- 
-    Document   : UI018-Home-AdmPRF
-    Created on : 17/09/2015, 20:29:51
-    Author     : Javapos
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-	<script src="../js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src='js/framework.js' type='text/javascript' DEFER></script>
+	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	
@@ -36,6 +31,8 @@
 						<li><a href="UI028-AlterarUsuario-AdmPRF.jsp">Alterar</a> 
 				
 						</li>
+						
+						
 						
 						<li><a href="UI027.1-ConsultarUsuario-AdmPRF.jsp">Consultar</a> 
 							
@@ -96,32 +93,33 @@
 		
 		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
-			<h1>Seja Bem Vindo!</h1>
-			<h4>Este é sistema de controle de tráfego e carga das rodovias brasileiras</h4>
-			<div class="esquerda article">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<h1>Data a ser pesquisada</h1>
+				
+				<div class="tabela">
+				<div class="coluna-esquerda">
+					<fieldset>
+						<div class="campo"> 
+									<label for="datainicialJ">De:</label><br> 
+									<input type="text" name="datainicial" id="datainicialJ" maxlength="10"><span id="x_datainicialJ"></span>
+						<br><br>			
+						<div class="campo"> 
+									<label for="datafinallJ">Até:</label><br> 
+									<input type="text" name="datafinal" id="datafinalJ" maxlength="10"><span id="x_datafinalJ"></span>
+					</div>
+
+						</div>
+
+					</fieldset>
+					
+				<br><br>
+				<input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
+			
+				</div> <!-- fim da div coluna-esquerda-->
+				</div> <!-- Fim da div tabela -->
+				
 			</div>
-			<div class="esquerda article">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-			<div class="esquerda article">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
+
+			</form
 			
 		<!-- SÓ EDITE DAQUI PARA CIMA!-->
 		

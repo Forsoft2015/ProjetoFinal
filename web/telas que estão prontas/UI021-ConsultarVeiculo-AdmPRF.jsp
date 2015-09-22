@@ -1,6 +1,6 @@
 <%-- 
-    Document   : UI018-Home-AdmPRF
-    Created on : 17/09/2015, 20:29:51
+    Document   : UI021-ConsultarVeiculo-AdmPRF
+    Created on : 18/09/2015, 07:10:00
     Author     : Javapos
 --%>
 
@@ -12,10 +12,10 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-	<script src="../js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src='../js/UI064.js' type='text/javascript' DEFER></script>
 </head>
 <body>
-	
+<!-- NÃO EDITAR!-->
 	<div id="topbar" class="conteudo-meio">
 		<a href="UI018-Home-AdmPRF.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
@@ -37,12 +37,14 @@
 				
 						</li>
 						
+						
 						<li><a href="UI027.1-ConsultarUsuario-AdmPRF.jsp">Consultar</a> 
 							
 						</li>
 				</ul>
 				<ul class="menu-ativo navigator">
 
+				
 				<h3>Consultar</h3> 
 
 						<li><a href="UI020.1-PesquisarMotorista-AdmPRF.jsp">Motoristas</a> 
@@ -96,37 +98,54 @@
 		
 		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
-			<h1>Seja Bem Vindo!</h1>
-			<h4>Este é sistema de controle de tráfego e carga das rodovias brasileiras</h4>
-			<div class="esquerda article">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-			<div class="esquerda article">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-			<div class="esquerda article">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-			
-		<!-- SÓ EDITE DAQUI PARA CIMA!-->
+			<h1>Consultar Veículo</h1>
+			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
+				<div class="tabela">
+					<div class="coluna-esquerda">
+						<fieldset>
+							<legend>Dados do Veículo</legend>					
+								<div class="campo">
+									<label for="placaJ">Placa:</label><br> 
+									<input type="text" name="placa" id="placaJ" disabled><span id="x_placaJ" class=""></span>
+								</div>
+								<div class="campo"> 
+									<label for="modeloJ">Modelo:</label><br> 
+									<input type="text" name="modelo" id="modeloJ" disabled><span id="x_modeloJ"></span>
+								</div>
+								<div class="campo"> 
+									<label for="corJ">Cor:</label><br> 
+									<input type="text" name="cor" id="corJ" disabled><span id="x_corJ"></span>
+								</div>
+								<div class="campo"> 
+									<label for="dataJ">Ano de Fabricação:</label><br> 
+									<input type="text" name="data" id="dataJ" disabled><span id="x_dataJ"></span>
+								</div>
+								<div class="campo"> 
+									<label for="numeixosJ">Número de Eixos:</label><br> 
+									<input type="text" name="numeixos" id="numeixosJ" disabled><span id="x_numeixosJ"></span>
+								</div>
+								<div class="campo"> 
+									<label for="pbtJ">Peso Bruto Total:</label><br> 
+									<input type="text" name="pbt" id="pbtJ" disabled><span id="x_pbtJ"></span>
+								</div>
+								<div class="campo"> 
+									<label for="transportadorJ">Transportador:</label><br> 
+									<input type="text" name="transportador" id="transportadorJ" disabled><span id="x_transportadorJ"></span>
+								</div>
+								
+						</fieldset>
+					</div>
+					
+				</div>
+				<br><Br>		
+	          <a href="UI021.1-PesquisarVeiculoAdmPRF.jsp"> <input type="button" value="Nova Consulta" name="enviar" id="enviarJ" class="botaoJ"></a>
+	         <a href="UI018-Home-AdmPRF.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		
+		</form> 
+		<br>
+		<br>
 		</div>
 	</div>
-
+<!-- SÓ EDITE DAQUI PARA CIMA!-->
 </body>
 </html>

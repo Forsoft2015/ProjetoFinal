@@ -24,8 +24,8 @@
 			<li class="maisDireita"><a href="#" id="logout"></a></li>
 		</ul>
 	</div>
-	
-	<div id="container" class="conteudo-meio">
+
+		<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
 
@@ -89,39 +89,35 @@
 				</ul>	
 				
 		</div>
-		
-		<!-- NÃO EDITAR!-->
-		
+
+			
 		<div id="centro" class="esquerda">
+			<div class="tabela">
+				<div class="coluna-esquerda">
+					<form name="form" method="post" action="#" id="formularioJ" class="formulario">
+						<fieldset>
+							<legend>Dados do Usuário</legend>
+							<div class="campo">
+								<label for="idfreteJ">Número do ID:</label><br>
+								<input type="text" name="idfreteJ" id="idfreteJ"><br><br>
 		
-		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
-		
-			<h1>Seja Bem Vindo!</h1>
-			<h4>Este é sistema de controle de tráfego e carga das rodovias brasileiras</h4>
-			<div class="esquerda article">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<form action>
+								<label for="statusJ">Status do Usuário:</label><br><br>
+								
+								<input type="checkbox" name="Ativo" value="Ativo">Ativo<br>
+								<br>
+								<input type="checkbox" name="Inativo" value="Ativo" checked="checked">Inativo<br>
+								<br>
+					
+							</form action>
+							
+					<input type="submit" value="Alterar" name="enviar" id="enviarJ" class="botaoJ">
 			</div>
-			<div class="esquerda article">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
 			</div>
-			<div class="esquerda article">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
+				<br><br>		
+	           
+		</form>
 			
 		<!-- SÓ EDITE DAQUI PARA CIMA!-->
 		
@@ -130,3 +126,6 @@
 
 </body>
 </html>
+
+
+							

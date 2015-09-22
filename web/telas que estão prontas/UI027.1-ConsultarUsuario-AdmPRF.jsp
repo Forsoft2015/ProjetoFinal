@@ -89,42 +89,31 @@
 				</ul>	
 				
 		</div>
-		
-		<!-- NÃO EDITAR!-->
-		
-		<div id="centro" class="esquerda">
-		
-		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
-		
-			<h1>Seja Bem Vindo!</h1>
-			<h4>Este é sistema de controle de tráfego e carga das rodovias brasileiras</h4>
-			<div class="esquerda article">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-			<div class="esquerda article">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-			<div class="esquerda article">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
+
 			
-		<!-- SÓ EDITE DAQUI PARA CIMA!-->
-		
+		<div id="centro" class="esquerda">
+			<h1>Pesquisa de Usuário</h1>
+			<div class="tabela">
+				<div class="coluna-esquerda">
+					<form name="form" method="post" action="#" id="formularioJ" class="formulario">
+						<fieldset>
+							<legend>Dados do Usuário</legend>
+							<div class="campo">
+								<label for="idfreteJ">Número do ID:</label><br>
+								<a href="UI027-ConsultarUsuario-AdmPRF.jsp"><input type="text" name="idfreteJ" id="idfreteJ"></a><br><br>
+								<a href="UI027-ConsultarUsuario-AdmPRF.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
+							</div>
+							<div class="campo">
+								<label for="nomdestJ">Nome Completo:</label><br>
+								<a href="UI027-ConsultarUsuario-AdmPRF.jsp"><input type="text" name="nomdestJ" id="nomdestJ"></a><br><br>
+								<a href="UI027-ConsultarUsuario-AdmPRF.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
+							</div>
+						</fieldset>
+				</div> <!-- fim da div coluna-esquerda-->
+			</div> <!-- Fim da div tabela -->
+					
+						<a href="UI018-Home-AdmPRF.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a><br><br>
+					</form>
 		</div>
 	</div>
 
