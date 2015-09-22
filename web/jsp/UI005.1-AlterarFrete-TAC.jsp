@@ -1,7 +1,5 @@
 
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -37,7 +35,7 @@
 					<h3>Veículo</h3> 
 					<li><a href="UI007-CadastrarVeiculo-TAC.jsp">Cadastrar</a> 
 					</li>						
-					<li><a href="UI008.1-AlterarVeiculo-TAC.jsp">Alterar</a> 
+					<li><a href="UI008-AlterarVeiculo-TAC.jsp">Alterar</a> 
 					</li>					
 					<li><a href="UI009.2-PesquisaVeiculo-TAC.jsp">Excluir</a> 
 					</li>						
@@ -51,28 +49,33 @@
 				</ul>
 		</div>
 		
+		<!-- NÃO EDITAR!-->
+		
 		<div id="centro" class="esquerda">
-			<h1>Pesquisa de Veículo</h1>
-		<div class="tabela">
-			<div class="coluna-esquerda">
-				<form name="form" method="post" action="#" id="formularioJ" class="formulario">
-					<fieldset>
-						<legend>Dados do Veículo</legend>
+			<h1>Pesquisa de Frete</h1>
+			<div class="tabela">
+				<div class="coluna-esquerda">
+					<form name="form" method="post" action="#" id="formularioJ" class="formulario">
+						<fieldset>
+							<legend>Dados do Frete</legend>
 							<div class="campo">
-								<label for="idveiculoJ">Id do veículo:</label><br>
-								<a href="UI010-ExcluirVeiculo-TAC.jsp"><input type="text" name="idveiculoJ" id="idveiculoJ"></a>
-								<a href="UI010-ExcluirVeiculo-TAC.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
+								<label for="idfreteJ">Número do Frete:</label><br>
+								<a href="UI005-AlterarFrete-TAC.jsp"><input type="text" name="idfreteJ" id="idfreteJ"></a>
+								<a href="UI005-AlterarFrete-TAC.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
 							</div>
 							<div class="campo">
-								<label for="placaJ">Placa</label><br>
-								<a href="UI010-ExcluirVeiculo-TAC.jsp"><input type="text" name="placaJ" id="placaJ"></a>
-								<a href="UI010-ExcluirVeiculo-TAC.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
+								<label for="nomdestJ">Nome do destinatário:</label><br>
+								<a href="UI005-AlterarFrete-TAC.jsp"><input type="text" name="nomdestJ" id="nomdestJ"></a>
+								<a href="UI005-AlterarFrete-TAC.jsp"><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
 							</div>
-					</fieldset>
-			</div>
-		</div> 
-					<a href="UI002-Home-TAC.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
-					<br><br>
-				</form>
+						</fieldset>
+				</div> <!-- fim da div coluna-esquerda-->
+			</div> <!-- Fim da div tabela -->
+					
+						<a href="UI002-Home-TAC.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a><br><br>
+					</form>
+		</div>
+	</div>
+
 </body>
 </html>
