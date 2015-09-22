@@ -26,7 +26,7 @@
 					<h3>Frete</h3> 
 					<li><a href="UI003-CadastrarFrete-TAC.jsp">Cadastrar</a> 
 					</li>
-					<li><a href="UI005-AlterarFrete-TAC.jsp">Alterar</a> 
+					<li><a href="UI005.1-AlterarFrete-TAC.jsp">Alterar</a> 
 					</li>
 					<li><a href="UI004.2-PesquisaFrete-TAC.jsp">Excluir</a> 
 					</li>
