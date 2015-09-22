@@ -10,14 +10,14 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src='js/framework.js' type='text/javascript' DEFER></script>
-	<script src="js/UI137.js" type="text/javascript" DEFER></script>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src='../js/framework.js' type='text/javascript' DEFER></script>
+	<script src="../js/UI137.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 <!-- NÃO EDITAR!-->
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI145-Home-AgenteANTT.jsp" id="logo" class="esquerda"><img src="img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI145-Home-AgenteANTT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -31,7 +31,7 @@
 
 				<h3>Postos de Pedágio</h3>
 
-				<li><a href="UI129-CadastrarPostoDePedagio-AgenteANTT.jsp">Cadastrar</a> 
+				<li><a href="UI129-CadastrarPostoPedagio-AgenteANTT.jsp">Cadastrar</a> 
 						
 						</li>
 						
@@ -43,7 +43,7 @@
 						
 						</li>
 						
-						<li><a href="UI130-ConsultarPostoDePedagio-AgenteANTT.jsp">Consultar</a> 
+						<li><a href="UI130-ConsultarPostoPedagio-AgenteANTT.jsp">Consultar</a> 
 							
 						</li>
 				</ul>

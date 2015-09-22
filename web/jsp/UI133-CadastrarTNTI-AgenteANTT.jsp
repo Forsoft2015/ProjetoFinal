@@ -31,7 +31,7 @@
 
 				<h3>Postos de Pedágio</h3>
 
-				<li><a href="UI129-CadastrarPostoDePedagio-AgenteANTT.jsp">Cadastrar</a> 
+				<li><a href="UI129-CadastrarPostoPedagio-AgenteANTT.jsp">Cadastrar</a> 
 						
 						</li>
 						
@@ -43,7 +43,7 @@
 						
 						</li>
 						
-						<li><a href="UI130-ConsultarPostoDePedagio-AgenteANTT.jsp">Consultar</a> 
+						<li><a href="UI130-ConsultarPostoPedagio-AgenteANTT.jsp">Consultar</a> 
 							
 						</li>
 				</ul>
