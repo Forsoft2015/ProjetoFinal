@@ -1,6 +1,6 @@
 <%-- 
-    Document   : UI089-ExcluirBalanca-AdmDNIT
-    Created on : 18/09/2015, 03:19:41
+    Document   : UI069-Home-AdmDNIT
+    Created on : 18/09/2015, 01:33:13
     Author     : Javapos
 --%>
 
@@ -12,7 +12,8 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-	</head>
+	<script src="../js/js_exemplo.js" type="text/javascript" DEFER></script>
+</head>
 <body>
 	<!-- NÃO EDITAR!-->
 	
@@ -132,43 +133,31 @@
 		
 		<!-- NÃO EDITAR!-->
 		
-			<!-- NÃO EDITAR!-->
-		
 		<div id="centro" class="esquerda">
-		
-		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
-		<h1>Excluir Balança</h1>
-			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
-				<div class="tabela">
-					<div class="coluna-esquerda">
+		<h1>Pesquisa de Usuário</h1>
+			<div class="tabela">
+				<div class="coluna-esquerda">
+					<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 						<fieldset>
-							<legend>Dados da Balança</legend>					
-								<div class="campo">
-									<label for="idbalancaJ">ID da Balança:</label><br> 
-									<input type="text" name="idbalanca" id="idbalancaJ"disabled >
-								</div>
-								<div class="campo"> 
-									<label for="numeroserieJ">Número de Série:</label><br> 
-									<input type="text" name="numeroserie" id="numeroserieJ"disabled>
-									</div>
-								<div class="campo"> 
-									<label for="idpostoJ">ID do Posto:</label><br> 
-									<input type="text" name="idposto" id="idpostoJ" maxlength="14" disabled>
-								</div>
-								<div class="campo"> 
-									<label for="tipoJ">Tipo:</label><br> 
-									<input type="text" name="tipo" id="tipoJ" maxlength="13" disabled>
-								</div>
-								
+							<legend>Dados do Usuário</legend>
+							<div class="campo">
+								<label for="idusuarioJ">ID do Usuário:</label><br>
+								<a href="UI076-ConsultarUsuarioPostoPesagem-AdmDNIT.jsp"><input type="text" name="idusuarioJ" id="idusuarioJ"></a><br><br>
+								<a href="UI076-ConsultarUsuarioPostoPesagem-AdmDNIT.jsp""><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
+							</div>
+							<div class="campo">
+								<label for="idpostoJ">ID do Posto:</label><br>
+								<a href="UI076-ConsultarUsuarioPostoPesagem-AdmDNIT.jsp""><input type="text" name="idpostoJ" id="idpostoJ"></a><br><br>
+								<a href="UI076-ConsultarUsuarioPostoPesagem-AdmDNIT.jsp""><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
+							</div>
 						</fieldset>
-					</div>
-						
-			</div>
-<br><Br>		
-	           <input type="submit" value="Excluir" name="enviar" id="enviarJ" class="botaoJ">
-	           <a href="UI069-Home-AdmDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
-		</form> 
-		<br>
-		<br>
+				</div> <!-- fim da div coluna-esquerda-->
+			</div> <!-- Fim da div tabela -->
+					
+						<a href="UI069-Home-AdmDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a><br><br>
+					</form>
+		</div>
+	</div>
+
 </body>
 </html>
