@@ -40,7 +40,7 @@
 					<h3>Veículo</h3> 
 					<li><a href="UI007-CadastrarVeiculo-TAC.jsp">Cadastrar</a> 
 					</li>						
-					<li><a href="UI008-AlterarVeiculo-TAC.jsp">Alterar</a> 
+					<li><a href="UI008.1-AlterarVeiculo-TAC.jsp">Alterar</a> 
 					</li>					
 					<li><a href="UI009.2-PesquisaVeiculo-TAC.jsp">Excluir</a> 
 					</li>						
