@@ -63,7 +63,7 @@
 							
 						</li>
 						
-						<li><a href="UI079-ConsultarPostoDePesagem-AdmDNIT.jsp">Consultar</a> 
+						<li><a href="UI079.1-ConsultarPostoDePesagem-AdmDNIT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>
@@ -76,15 +76,15 @@
 							
 						</li>
 						
-						<li><a href="UI072-AlterarRodovia-AdmDNIT.jsp">Alterar</a> 
+						<li><a href="UI072.1-AlterarRodovia-AdmDNIT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="UI073-ExcluirRodovia-AdmDNIT.jsp">Excluir</a> 
+						<li><a href="UI073.1-ExcluirRodovia-AdmDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="UI071-ConsultarRodovia-AdmDNIT.jsp">Consultar</a> 
+						<li><a href="UI071.1-ConsultarRodovia-AdmDNIT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>
@@ -96,15 +96,15 @@
 							
 						</li>
 						
-						<li><a href="UI088-AlterarBalanca-AdmDNIT.jsp">Alterar</a> 
+						<li><a href="UI088.1-AlterarBalanca-AdmDNIT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="UI089-ExcluirBalanca-AdmDNIT.jsp">Excluir</a> 
+						<li><a href="UI089.1-ExcluirBalanca-AdmDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="UI087-ConsultarBalanca-AdmDNITT.jsp">Consultar</a> 
+						<li><a href="UI087.1-ConsultarBalanca-AdmDNITT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>	
@@ -116,15 +116,15 @@
 							
 						</li>
 						
-						<li><a href="UI084-AlterarCamera-AdmDNIT.jsp">Alterar</a> 
+						<li><a href="UI084.1-AlterarCamera-AdmDNIT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="UI085-ExcluirCamera-AdmDNIT.jsp">Excluir</a> 
+						<li><a href="UI085.1-ExcluirCamera-AdmDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="UI083-ConsultarCamera-AdmDNIT.jsp">Consultar</a> 
+						<li><a href="UI083.1-ConsultarCamera-AdmDNIT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>

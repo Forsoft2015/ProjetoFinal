@@ -58,11 +58,11 @@
 							
 						</li>
 						
-						<li><a href="UI081-ExcluirPostoDePesagem-AdmDNIT.jsp">Excluir</a> 
+						<li><a href="UI081.1-ExcluirPostoDePesagem-AdmDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="UI079-ConsultarPostoDePesagem-AdmDNIT.jsp">Consultar</a> 
+						<li><a href="UI079.1-ConsultarPostoDePesagem-AdmDNIT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>
