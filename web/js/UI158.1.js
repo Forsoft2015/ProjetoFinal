@@ -1,4 +1,4 @@
-var numeroCampos = 8; //INSIRA O NÚMERO DE CAMPOS 
+var numeroCampos = 3; //<!-- INSIRA O NÚMERO DE CAMPOS -->
 
 var formOk = new Array(numeroCampos);
 for (var i = 0; i < numeroCampos; i++) { formOk[i] = false;}
@@ -20,22 +20,16 @@ var regexPLACA = /^([A-Za-z]{3})\-(\d{4})$/;
 var regexDATA=/^(0[1-9]|1\d|2[0-8]|29(?=-\d\d-(?!1[01345789]00|2[1235679]00)\d\d(?:[02468][048]|[13579][26]))|30(?!-02)|31(?=-0[13578]|-1[02]))\/(0[1-9]|1[0-2])\/([12]\d{3})$/;
 
 //MÁSCARAS setMask(idDoCampo, formatacaoDaMascara
-setMask("cpfJ","###.###.###-##");
-setMask("rgJ", "##.###.##-##");
+
+setMask("rgJ", "##.###.###-#");
 
 //ValidaTipo(idDoCampo, regexTIPO, numeroDoCampo)
 
-	validaChar("tacJ", regexNUMEROS, 0);
-	validaChar("nomecompletoJ", regexLETRAS, 1);
-	validaCPF("cpfJ", regexCPF, 2);
-	validaChar("rgJ", regexNUMEROS, 3);
-	validaChar("rntrcJ", regexNUMEROS, 4);
-	validaChar("telJ", regexTEL, 5);
-	validaEmail("emailJ", regexEMAIL, 6);
-	validaChar("idenderecoJ", regexNUMEROS, 7);
+validaChar("nomeJ", regexLETRAS, 0);
+validaChar("rgJ", regexNUMEROS, 1);
+validaChar("cnhJ", regexNUMEROS, 2);
 
-
-	//EDITE DAQUI PARA CIMA
+	//<!-- EDITE DAQUI PARA CIMA-->
 	
 }
 
