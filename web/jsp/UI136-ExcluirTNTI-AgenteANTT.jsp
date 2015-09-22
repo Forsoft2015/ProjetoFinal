@@ -1,24 +1,19 @@
 <%-- 
-    Document   : UI136-ExcluirTNTI-AgenteANTT
-    Created on : 18/09/2015, 08:40:59
-    Author     : Javapos
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%-- 
-    Document   : UI134-ConsultarTNTI-AgenteANTT
-    Created on : 18/09/2015, 03:59:26
+    Document   : UI136-Excluir-AgenteANTT
+    Created on : 18/09/2015, 07:31:42
     Author     : Javapos
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src="../js/framework.js" type='text/javascript' DEFER></script>
+	<script src="../js/UI136.js" type="text/javascript"></script>
 	
 </head>
 <body>
@@ -33,44 +28,59 @@
 	</div>
 	
 	<div id="container" class="conteudo-meio">
+		
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
 
-				<h3>Postos de Pedágio</h3>
+					<h3>Postos de Pedágio</h3>
 
-				<li><a href="UI129-CadastrarPostoPedagio-AgenteANTT.jsp">Cadastrar</a> 
-						
+						<li><a href="UI129-CadastrarPostoPedagio-AgenteANTT.jsp">Cadastrar</a> 
 						</li>
 						
-						<li><a href="UI131-AlterarPedagio-AgenteANTT.jsp">Alterar</a> 
-							 
+						<li><a href="UI131-AlterarPedagio-AgenteANTT.jsp">Alterar</a>  
 						</li>
 						
-						<li><a href="UI132-ExcluirPedagio-AgenteANTT.jsp">Excluir</a> 
-						
+						<li><a href="UI157.2-PesquisaExcluirPedagio-AgenteANTT.jsp">Excluir</a> 
 						</li>
 						
-						<li><a href="UI130-ConsultarPostoPedagio-AgenteANTT.jsp">Consultar</a> 
-							
+						<li><a href="UI157.1-PesquisaConsultarPostoPedagio-AgenteANTT.jsp">Consultar</a> 
 						</li>
 				</ul>
 				
 				<ul class="menu-ativo navigator">
 
-				<h3>Transportadores</h3> 
+					<h3>Transportadores</h3> 
 
-				<li><a href="UI117-CadastrarTransportadorCTCeETC-AdmANTT.jsp">Cadastrar</a> 
-						
+						<li><a href="UI137-CadastrarTransportadorCTCeETC-AgenteANTT.jsp">Cadastrar</a> 
 						</li>
 						
 						<li><a href="UI139-AlterarTransportadorCTCeETC-AgenteANTT.jsp">Alterar</a> 
 						</li>
 						
-						<li><a href="UI140-ExcluirTransportadorCTCeETC-AgenteANTT.jsp">Excluir</a>
+						<li><a href="UI155.2-PesquisaExcluirTransportadorCTCeETC-AgenteANTT.jsp">Excluir</a>
 						</li>
 						
-						<li><a href="UI118-ConsultarTransportadorCTCeETC-AdmANTT.jsp">Consultar</a> 
+						<li><a href="UI155.1-PesquisaConsultarTransportadorCTCeETC-AgenteANTT.jsp">Consultar</a> 
 						</li>
+				</ul>
+				
+				
+				<ul class="menu-ativo navigator">
+				
+					<h3>TNTI</h3>
+					
+						<li><a href="UI133-CadastrarTNTI-AgenteANTT.jsp">Cadastrar</a> 
+						</li>
+						
+						<li><a href="UI135-AlterarTNTI-AgenteANTT.jsp">Alterar</a> 
+						</li>
+						
+						<li><a href="UI158.2-PesquisaExcluirTNTI-AgenteANTT.jsp">Excluir</a>
+						</li>
+						
+						<li><a href="UI158.1-PesquisaConsultarTNTI-AgenteANTT.jsp">Consultar</a> 
+						</li>
+				
 				</ul>
 				
 				<ul class="menu-ativo navigator">
@@ -83,10 +93,10 @@
 						<li><a href="UI143-AlterarTransportadorAutonomoTAC-AgenteANTT.jsp">Alterar</a> 
 						</li>
 						
-						<li><a href="UI144-ExcluirTransportadorAutonomoTAC-AgenteANTT.jsp">Excluir</a>
+						<li><a href="UI156.2-PesquisaExcluirTransportadorAutonomoTAC-AgenteANTT.jsp">Excluir</a>
 						</li>
 						
-						<li><a href="UI142-ConsultarTransportadorAutonomoTAC-AgenteANTT.jsp">Consultar</a> 
+						<li><a href="UI156.1-PesquisaConsultarTransportadorAutonomoTAC-AgenteANTT.jsp">Consultar</a> 
 						</li>
 				</ul>	
 		</div>
@@ -177,8 +187,10 @@
 					
 				</div>
 				<br><Br>		
-	           <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
-	           <a href="UI002-Home-TAC.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+	           <a href="UI58.2-PesquisaExcluirTNTI-AgenteANTT.jsp"><input type="submit" value="Excluir" name="excluir" id="excluirJ" class="botaoJ"></a>
+			   <br>
+			   <br>
+	           <a href="UI145-Home-AgenteANTT.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>
 		<br>

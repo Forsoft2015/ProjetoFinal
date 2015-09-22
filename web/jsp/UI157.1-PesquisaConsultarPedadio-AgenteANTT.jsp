@@ -1,6 +1,6 @@
 <%-- 
-    Document   : UI139-AlterarTransportadorCTCeETC-AgenteANTT
-    Created on : 18/09/2015, 06:52:33
+    Document   : UI157.1-PesquisaConsultarPedadio-AgenteANTT
+    Created on : 18/09/2015, 07:31:42
     Author     : Javapos
 --%>
 
@@ -13,10 +13,10 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src="../js/framework.js" type='text/javascript' DEFER></script>
-	<script src="../js/UI139.js" type="text/javascript" DEFER></script>
+	<script src="../js/UI157.1.js" type="text/javascript" DEFER></script>
 </head>
 <body>
-<!-- NÃO EDITAR!-->
+	
 	<div id="topbar" class="conteudo-meio">
 		<a href="UI145-Home-AgenteANTT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
@@ -25,6 +25,7 @@
 			<li class="maisDireita"><a href="#" id="logout"></a></li>
 		</ul>
 	</div>
+	
 	<div id="container" class="conteudo-meio">
 		
 		<div id="sidemenu" class="esquerda">
@@ -103,63 +104,54 @@
 		
 		<div id="centro" class="esquerda">
 		
-			<!-- SÓ EDITE DAQUI PARA BAIXO!-->
+		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
-			<h1>Alterar Dados do Transportador</h1>
-			<h4>Preencha corretamente os campos!</h4>
-			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
-				<div class="tabela">
-					<div class="coluna-esquerda">
+			<h1>Pesquisa de Posto de Pedágio</h1>
+
+			<div class="esquerda article">
+				<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 						<fieldset>
-							<legend>Dados do Transportador</legend>					
-								<div class="campo">
-									<label for="idtransportadorJ">Id Transportador:</label><br> 
-									<input type="text" name="idtransportador" id="idtransportadorJ"><span id="x_idtransportadorJ" class=""></span>
-									<input type="submit" name="botao" value="OK">
+							<legend>Dados do Pedágio</legend>
+							
+									<div class="campo"> 
+									<label for="idopostopedagioJ">Id Posto Pedágio:</label><br> 
+									<input type="text" name="idpostopedagio" id="idpostopedagioJ" maxlength="20"><span id="x_idpostopedagioJ"></span>
+									<br>
+									<br>
+									<input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ">
 								</div>
+								<br>
+								<br>
 								<div class="campo"> 
-									<label for="rntrcJ">RNTRC:</label><br> 
-									<input type="text" name="rntrc" id="rntrcJ"><span id="x_rntrcJ"></span>
+									<label for="kmJ">KM:</label><br> 
+									<input type="text" name="kilometro" id="kmJ" maxlength="5"><span id="x_kmJ"></span>
+									<br>
+									<br>
+									<input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ">
 								</div>
-								<div class="campo"> 
-									<label for="telefoneJ">Telefone:</label><br> 
-									<input type="text" name="telefone" id="telefoneJ" maxlength="14"><span id="x_telefoneJ"></span>
-								</div>
-								<div class="campo"> 
-									<label for="emailJ">E-mail:</label><br> 
-									<input type="text" name="email" id="emailJ" maxlength="13"><span id="x_emailJ"></span>
-								</div>
-								<div class="campo"> 
-									<label for="cnpjJ">CNPJ:</label><br> 
-									<input type="text" name="cnpj" id="cnpjJ" maxlength="10"><span id="x_cnpjJ"></span>
-								</div>
-								<div class="campo"> 
-									<label for="razaosocialJ">Razão Social:</label><br> 
-									<input type="text" name="razaosocial" id="razaosocialJ" maxlength="5"><span id="x_razaosocialJ"></span>
-								</div>
+								<br>
 								<div class="campo"> 
 									<label for="estadoJ">Estado:</label><br> 
 									<input type="text" name="estado" id="estadoJ" maxlength="10"><span id="x_estadoJ"></span>
+									<br>
+									<br>
+									<input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ">
 								</div>
-								<div class="campo"> 
-									<label for="idenderecoJ">Id do Endereço:</label><br> 
-									<input type="text" name="idendereco" id="idenderecoJ" maxlength="10"><span id="x_idenderecoJ"></span>
-								</div>
-								</div>
-						</fieldset>
-					</div>
-					<br><Br>
-					 <input type="submit" value="Alterar" name="alterar" id="alterarJ" class="botaoJ"></a>
-					 <br>
-					 <br>
-					 <a href="UI145-Home-AgenteANTT.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+								<br>
+								<br>
+						</fieldset>	
+				</form>	
+			</div>
+			
+			<div class="esquerda article">
+			</div>
+			
+			<div class="esquerda article">
+			</div>
+			
 		</div>
-
-		</form> 
-		<br>
-		<br>
+		
 	</div>
-<!-- SÓ EDITE DAQUI PARA CIMA!-->
+
 </body>
 </html>
-

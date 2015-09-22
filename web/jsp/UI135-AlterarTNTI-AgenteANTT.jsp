@@ -4,6 +4,12 @@
     Author     : Javapos
 --%>
 
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%-- 
+    Document   : UI133-CadastrarTNTI-AgenteANTT
+    Created on : 18/09/2015, 03:58:38
+    Author     : Javapos
+--%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -27,64 +33,75 @@
 	</div>
 	
 	<div id="container" class="conteudo-meio">
+		
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
-				<h3>Postos de Pedágio</h3>
 
-						
-						<li><a href="UI131-AlterarPedagio-AgenteANTT.jsp">Alterar</a> 
-							 
+					<h3>Postos de Pedágio</h3>
+
+						<li><a href="UI129-CadastrarPostoPedagio-AgenteANTT.jsp">Cadastrar</a> 
 						</li>
 						
-						
-						<li><a href="UI130-ConsultarPostoPedagio-AgenteANTT.jsp">Consultar</a> 
-							
+						<li><a href="UI131-AlterarPedagio-AgenteANTT.jsp">Alterar</a>  
 						</li>
-				</ul>	
+						
+						<li><a href="UI157.2-PesquisaExcluirPedagio-AgenteANTT.jsp">Excluir</a> 
+						</li>
+						
+						<li><a href="UI157.1-PesquisaConsultarPostoPedagio-AgenteANTT.jsp">Consultar</a> 
+						</li>
+				</ul>
+				
 				<ul class="menu-ativo navigator">
 
-				<h3>Transportadores</h3> 
+					<h3>Transportadores</h3> 
 
-				
+						<li><a href="UI137-CadastrarTransportadorCTCeETC-AgenteANTT.jsp">Cadastrar</a> 
+						</li>
 						
 						<li><a href="UI139-AlterarTransportadorCTCeETC-AgenteANTT.jsp">Alterar</a> 
-							
 						</li>
 						
-						
-						
-						<li><a href="UI138-ConsultarTransportadorCTCeETC-AgenteANTT.jsp">Consultar</a> 
-					
+						<li><a href="UI155.2-PesquisaExcluirTransportadorCTCeETC-AgenteANTT.jsp">Excluir</a>
 						</li>
-				</ul>	
+						
+						<li><a href="UI155.1-PesquisaConsultarTransportadorCTCeETC-AgenteANTT.jsp">Consultar</a> 
+						</li>
+				</ul>
+				
 				
 				<ul class="menu-ativo navigator">
-				<h3>TNTI</h3> 
-
 				
+					<h3>TNTI</h3>
+					
+						<li><a href="UI133-CadastrarTNTI-AgenteANTT.jsp">Cadastrar</a> 
+						</li>
 						
 						<li><a href="UI135-AlterarTNTI-AgenteANTT.jsp">Alterar</a> 
-							
 						</li>
 						
-						
-						<li><a href="UI134-ConsultarTNTI-AgenteANTT.jsp">Consultar</a> 
-					
+						<li><a href="UI158.2-PesquisaExcluirTNTI-AgenteANTT.jsp">Excluir</a>
 						</li>
-				</ul>	
+						
+						<li><a href="UI158.1-PesquisaConsultarTNTI-AgenteANTT.jsp">Consultar</a> 
+						</li>
+				
+				</ul>
 				
 				<ul class="menu-ativo navigator">
 
-				<h3>Autônomos</h3> 
+					<h3>Autônomos</h3> 
 
-						
-						<li><a href="UI143-AlterarTransportadorAutonomoTAC-AgenteANTT.jsp">Alterar</a> 
-							
+						<li><a href="UI141-CadastrarTransportadorAutonomoTAC-AgenteANTT.jsp">Cadastrar</a> 
 						</li>
 						
+						<li><a href="UI143-AlterarTransportadorAutonomoTAC-AgenteANTT.jsp">Alterar</a> 
+						</li>
 						
-						<li><a href="UI142-ConsultarTransportadorAutonomoTAC-AgenteANTT.jsp">Consultar</a> 
-					
+						<li><a href="UI156.2-PesquisaExcluirTransportadorAutonomoTAC-AgenteANTT.jsp">Excluir</a>
+						</li>
+						
+						<li><a href="UI156.1-PesquisaConsultarTransportadorAutonomoTAC-AgenteANTT.jsp">Consultar</a> 
 						</li>
 				</ul>	
 		</div>
@@ -127,12 +144,9 @@
 									<input type="text" name="CNH" id="cnhJ" maxlength="15"><span id="x_cnhJ"></span>
 								</div>
 								<div class="campo"> 
-									<label for="estadocivilJ">Estado Civil:</label><br>
-									<select name="estadocivil" id="estadocivilJ" maxlength="30"><!--<span id="x_dataJ"></span>-->
-										<option>Casado
-										<option selected>Solteiro
-										<option>Viúvo
-									</select>	
+									<label for="estadocivilJ">Estado Civil:</label><br> 
+									<input type="text" name="estadocivil" id="estadocivilJ" maxlength="5"><span id="x_estadocivilJ"></span>
+								</div>
 								<div class="campo"> 
 									<label for="estadoJ">Estado:</label><br> 
 									<input type="text" name="estado" id="estadoJ" maxlength="10"><span id="x_estadoJ"></span>
@@ -179,8 +193,10 @@
 					
 				</div>
 				<br><Br>		
-	           <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
-	          <a href="UI145-Home-AgenteANTT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>	
+	           <input type="submit" value="Alterar" name="alterar" id="alterarJ" class="botaoJ"></a>
+			   <br>
+			   <br>
+	           <a href="UI145-Home-AgenteANTT.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>
 		<br>
