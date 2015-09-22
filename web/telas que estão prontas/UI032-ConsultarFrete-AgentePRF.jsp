@@ -32,11 +32,11 @@
 
 					<h3>Consultas</h3> 
 
-						<li><a href="UI031-ConsultarMotorista-AgentePRF.jsp">Motoristas</a></li>
+						<li><a href="UI031.1-ConsultarMotorista-AgentePRF.jsp">Motoristas</a></li>
 						
-						<li><a href="UI033-ConsultarVeiculo-AgentePRF.jsp">Veículos</a></li>
+						<li><a href="UI033.1-ConsultarVeiculo-AgentePRF.jsp">Veículos</a></li>
 						
-						<li><a href="UI032-ConsultarFrete-AgentePRF.jsp">Fretes</a></li>
+						<li><a href="UI032.1-ConsultarFrete-AgentePRF.jsp">Fretes</a></li>
 				</ul>
 		
 				
@@ -142,8 +142,8 @@
 					
 				</div>
 				<br><Br>		
-	           <input type="submit" value="Nova Consulta" name="enviar" id="enviarJ" class="botaoJ">
-	           <a href="UI029-Home-AgentePRF.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ">
+	           <a href="UI032.1-ConsultarVeiculo-AgentePRF.jsp"><input type="button" value="Nova Consulta" name="enviar" id="enviarJ" class="botaoJ"></a>
+	           <a href="UI029-Home-AgentePRF.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form> 
 		<br>
 		<br>

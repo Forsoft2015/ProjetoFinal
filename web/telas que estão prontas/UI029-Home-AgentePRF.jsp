@@ -32,14 +32,14 @@
 
 				<h3>Consultar</h3> 
 
-						<li><a href="UI020.2-PesquisarMotoristaAgentePRF.jsp">Motoristas</a> 
+						<li><a href="UI031.1-ConsultarMotorista-AgentePRF.jsp">Motoristas</a> 
 						</li>
 						
-						<li><a href="UI021.2-PesquisarVeiculoAgentePRF.jsp">Veículos</a> 
+						<li><a href="UI033.1-ConsultarVeiculo-AgentePRF.jsp">Veículos</a> 
 				
 						</li>
 						
-						<li><a href="UI022.2-PesquisaFreteAgentePRF.jsp">Fretes</a> 
+						<li><a href="UI032.1-ConsultarFrete-AgentePRF.jsp">Fretes</a> 
 							
 						</li>
 				</ul>
