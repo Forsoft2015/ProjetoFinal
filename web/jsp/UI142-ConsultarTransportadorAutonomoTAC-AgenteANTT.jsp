@@ -11,7 +11,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<script src='../js/framework.js' type='text/javascript' DEFER></script>
+	<script src="../js/framework.js" type='text/javascript' DEFER></script>
 	
 </head>
 <body>
@@ -31,53 +31,57 @@
 
 				<h3>Postos de Pedágio</h3>
 
-				<li><a href="UI129-CadastrarPostoDePedagio-AgenteANTT.jsp">Cadastrar</a> 
-						
-						</li>
 						
 						<li><a href="UI131-AlterarPedagio-AgenteANTT.jsp">Alterar</a> 
 							 
 						</li>
 						
-						<li><a href="UI132-ExcluirPedagio-AgenteANTT.jsp">Excluir</a> 
 						
-						</li>
-						
-						<li><a href="UI130-ConsultarPostoDePedagio-AgenteANTT.jsp">Consultar</a> 
+						<li><a href="UI130-ConsultarPostoPedagio-AgenteANTT.jsp">Consultar</a> 
 							
 						</li>
-				</ul>
-				
+				</ul>	
 				<ul class="menu-ativo navigator">
 
 				<h3>Transportadores</h3> 
 
-				<li><a href="UI117-CadastrarTransportadorCTCeETC-AdmANTT.jsp">Cadastrar</a> 
-						
-						</li>
+				
 						
 						<li><a href="UI139-AlterarTransportadorCTCeETC-AgenteANTT.jsp">Alterar</a> 
+							
 						</li>
 						
-						<li><a href="UI140-ExcluirTransportadorCTCeETC-AgenteANTT.jsp">Excluir</a>
+						
+						
+						<li><a href="UI138-ConsultarTransportadorCTCeETC-AgenteANTT.jsp">Consultar</a> 
+					
+						</li>
+				</ul>	
+				
+				<ul class="menu-ativo navigator">
+				<h3>TNTI</h3> 
+
+				
+						
+						<li><a href="UI135-AlterarTNTI-AgenteANTT.jsp">Alterar</a> 
+							
 						</li>
 						
-						<li><a href="UI118-ConsultarTransportadorCTCeETC-AdmANTT.jsp">Consultar</a> 
+						
+						<li><a href="UI134-ConsultarTNTI-AgenteANTT.jsp">Consultar</a> 
+					
 						</li>
-				</ul>
+				</ul>	
 				
 				<ul class="menu-ativo navigator">
 
-					<h3>Autônomos</h3> 
-
-						<li><a href="UI141-CadastrarTransportadorAutonomoTAC-AgenteANTT.jsp">Cadastrar</a> 
-						</li>
+				<h3>Autônomos</h3> 
+				<ul>
 						
+				
 						<li><a href="UI143-AlterarTransportadorAutonomoTAC-AgenteANTT.jsp">Alterar</a> 
 						</li>
 						
-						<li><a href="UI144-ExcluirTransportadorAutonomoTAC-AgenteANTT.jsp">Excluir</a>
-						</li>
 						
 						<li><a href="UI142-ConsultarTransportadorAutonomoTAC-AgenteANTT.jsp">Consultar</a> 
 						</li>
@@ -98,31 +102,31 @@
 						<fieldset>
 							<legend>Dados do Motorista</legend>					
 								<div class="campo">
-									<label for="nomecompletoJ">Nome Completo</label><br> 
+									<label for="nomecompletoJ">Nome Completo:</label><br> 
 									<input type="text" name="nomecompleto" id="nomecompletoJ" disabled>
 								</div>								
 								<div class="campo"> 
-									<label for="cpfJ">CPF</label><br> 
+									<label for="cpfJ">CPF:</label><br> 
 									<input type="text" name="CPF" id="cpfJ" maxlength="14" disabled>
 								</div>
 								<div class="campo">
-									<label for="rgJ">RG</label><br> 
+									<label for="rgJ">RG:</label><br> 
 									<input type="text" name="rg" id="rgJ" disabled>
 								</div>	
 								<div class="campo">
-									<label for="orgaoemissorJ">Órgão Emissor</label><br> 
+									<label for="orgaoemissorJ">Órgão Emissor:</label><br> 
 									<input type="text" name="orgaoemissor" id="orgaoemissorJ" maxlength="10" disabled>
 								</div>	
 								<div class="campo"> 
-									<label for="dataJ">Data de Nascimento</label><br> 
+									<label for="dataJ">Data de Nascimento:</label><br> 
 									<input type="text" name="data" id="dataJ" maxlength="10" disabled>
 								</div>
 								<div class="campo"> 
-									<label for="telJ">Telefone</label><br> 
+									<label for="telJ">Telefone:</label><br> 
 									<input type="text" name="Telefone" id="telJ" maxlength="13" disabled>
 								</div>
 								<div class="campo"> 
-									<label for="celularJ">Celular</label><br> 
+									<label for="celularJ">Celular:</label><br> 
 									<input type="text" name="Celular" id="celularJ" maxlength="13" disabled>
 								</div>	
 								<br>
@@ -139,15 +143,15 @@
 							</fieldset>
 							<br>							
 								<div class="campo">
-									<label for="cnhJ">CNH</label><br> 
+									<label for="cnhJ">CNH:</label><br> 
 									<input type="text" name="CNH" id="cnhJ" maxlength="11" disabled>
 								</div>
 								<div class="campo"> 
-									<label for="estadocivilJ">Estado Civil</label>
-									<select name="estadocivil" id="estadocivilJ"><!--<span id="x_dataJ"></span>-->
-										<option>Casado</option>
-										<option>Solteiro</option>
-										<option>Viúvo</option>
+									<label for="estadocivilJ">Estado Civil:</label><br>
+									<select name="estadocivil" id="estadocivilJ" maxlength="30"><!--<span id="x_dataJ"></span>-->
+										<option>Casado
+										<option selected>Solteiro
+										<option>Viúvo
 									</select>							
 							<br>
 						</fieldset>
@@ -157,55 +161,58 @@
 						<fieldset>
 							<legend>Dados do Transportador</legend>
 							<div class="campo"> 
-									<label for="rntrcJ">RNTRC</label><br> 
+									<label for="rntrcJ">RNTRC:</label><br> 
 									<input type="text" name="rntrc" id="rntrcJ" disabled>
 							</div>						
 							<div class="campo"> 
-									<label for="tel2J">Telefone</label><br> 
+									<label for="tel2J">Telefone:</label><br> 
 									<input type="text" name="Telefone2" id="tel2J" maxlength="13" disabled>
 							</div>
 							<div class="campo"> 
-									<label for="emailJ">Email</label><br> 
+									<label for="emailJ">Email:</label><br> 
 									<input type="text" name="email" id="emailJ" maxlength="50" disabled>
 							</div>	
 								<div class="campo"> 
-									<label for="logradouroJ">Logradouro</label><br> 
+									<label for="logradouroJ">Logradouro:</label><br> 
 									<input type="text" name="logradouro" id="logradouroJ" maxlength="20" disabled>
 								</div>
 								<div class="campo">
-									<label for="numeroJ">Número</label><br> 
+									<label for="numeroJ">Número:</label><br> 
 									<input type="text" name="numero" id="numeroJ" maxlength="3" disabled>
 								</div>
 								<div class="campo">
-									<label for="complementoJ">Complemento</label><br> 
+									<label for="complementoJ">Complemento:</label><br> 
 									<input type="text" name="complemento" id="complementoJ" maxlength="20" disabled>
 								</div>
 								<div class="campo"> 
-									<label for="cepJ">CEP</label><br> 
-									<input type="text" name="CEP" id="cepJ" maxlength="10" disabled>
+									<label for="cepJ">CEP:</label><br> 
+									<input type="text" name="cep" id="cepJ" maxlength="10" disabled>
 								</div>
 								<div class="campo">
-									<label for="bairroJ">Bairro</label><br> 
+									<label for="bairroJ">Bairro:</label><br> 
 									<input type="text" name="bairro" id="bairroJ" maxlength="20" disabled>
 								</div>
 								<div class="campo">
-									<label for="cidadeJ">Cidade</label><br> 
+									<label for="cidadeJ">Cidade:</label><br> 
 									<input type="text" name="cidade" id="cidadeJ" maxlength="20" disabled>
 								</div>
 								<div class="campo">
-									<label for="estadoJ">Estado (UF)</label><br> 
-									<input type="text" name="estado" id="estadoJ" maxlength="2" disabled>
+									<label for="estadoJ">Estado(UF):</label><br> 
+										<input type="text" name="estado" id="estadoJ" maxlength="2"><span id="x_estadoJ"></span>
 							</div>
 						</fieldset>
 					</div>
+						
 					</div>
-				</div>					
+					<br><br>
+					<input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
+					<a href="UI145-Home-AgenteANTT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>	
+				</div>			
+			</form> 
 		</div>				
-
-	           <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ"></a>
-	           <a href="UI002-Home-TAC.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+	           
 			   
-		</form> 
+		
 		<br>
 		<br>
 		</div>
