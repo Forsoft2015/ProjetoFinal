@@ -1,4 +1,4 @@
-var numeroCampos = 14; //INSIRA O NÚMERO DE CAMPOS
+var numeroCampos = 10; //INSIRA O NÚMERO DE CAMPOS
 
 var formOk = new Array(numeroCampos);
 for (var i = 0; i < numeroCampos; i++) { formOk[i] = false;}
@@ -28,17 +28,15 @@ var regexDATA=/^(0[1-9]|1\d|2[0-8]|29(?=-\d\d-(?!1[01345789]00|2[1235679]00)\d\d
 	validaChar("nomeJ", regexLETRAS, 0);
 	validaChar("sobrenomeJ", regexLETRAS, 1);
 	validaChar("cpfJ", regexCPF, 2);
-	validaChar("mascJ", regexLETRAS, 3);
-	validaChar("femJ", regexLETRAS, 4);	
-	validaChar("telefoneJ", regexTEL, 5);
-	validaChar("cepJ", regexCEP, 6);
-	validaChar("logradouroJ", regexLETRAS, 7);
+	validaChar("telefoneJ", regexTEL, 3);
+	validaChar("cepJ", regexCEP, 4);
+	validaChar("logradouroJ", regexLETRAS, 5);
+	validaChar("bairroJ", regexLETRAS, 6);
+	validaChar("cidadeJ", regexLETRAS, 7);
 	validaChar("estadoJ", regexLETRAS, 8);
-	validaChar("cidadeJ", regexLETRAS, 9);
-	validaChar("emailJ", regexEMAIL, 10);
-	validaChar("idpostoJ", regexLETRAS, 11);
-	validaChar("statusativadoJ", regexLETRAS, 12);
-	validaChar("statusdesativadoJ", regexLETRAS, 13);
+	validaChar("emailJ", regexEMAIL, 9);
+	
+	
 	
 
 	
