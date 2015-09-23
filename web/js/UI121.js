@@ -1,4 +1,4 @@
-var numeroCampos = 17; // INSIRA O NÚMERO DE CAMPOS 
+var numeroCampos = 20; // INSIRA O NÚMERO DE CAMPOS 
 
 var formOk = new Array(numeroCampos);
 for (var i = 0; i < numeroCampos; i++) { formOk[i] = false;}
@@ -25,12 +25,14 @@ var regexTexto = /^[A-Za-z0-9 ]+$/;
 
 	setMask("cnpjJ","##.###.###/####-##");
 	setMask("telJ","## ####-#####")
+	setMask("tel2J", "## ####-####");
 	setMask("celJ", "## #####-####");
 	setMask("cepJ", "##.###-###");
+	setMask("dataJ", "##/##/####");
 
 //VALIDAÇÃO
 
-	validachar("nomecompletoJ", regexLETRAS, 0);
+	validachar("nomeJ", regexLETRAS, 0);
 	validaChar("cpfJ", regexCPF, 1);	
 	validaChar("cnhJ", regexNUMEROS, 2);
 	validaChar("orgaoemissorJ", regexLETRAS, 3);
@@ -40,12 +42,15 @@ var regexTexto = /^[A-Za-z0-9 ]+$/;
 	validaChar("celJ", regexTEL, 7);
 	validaEmail("emailJ",regexEMAIL, 8);
 	validaChar("logradouro", regexLETRAS, 10);
-	validaChar("numJ", regexNUMEROS, 11);
+	validaChar("numeroJ", regexNUMEROS, 11);
 	validaChar("complementoJ", regexLETRAS, 12);
 	validaChar("cepJ", regexCEP, 13);
 	validaChar("bairroJ", regexLETRAS, 14);
 	validaChar("estadoJ", regexLETRAS, 15);
 	validaChar("cidadeJ", regexLETRAS, 16);
+	validaChar("rntrcJ", regexNUMEROS, 17);
+	validaChar("tel2J", regexTEL, 18);
+	validaChar("email2J", regexEMAIL, 19);
 	
 
 	//<!-- EDITE DAQUI PARA CIMA-->

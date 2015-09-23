@@ -1,4 +1,4 @@
-var numeroCampos = 11 ;
+var numeroCampos = 12 ;
 var formOk = new Array(numeroCampos);
 for (var i = 0; i < numeroCampos; i++) { formOk[i] = false;}
 
@@ -31,11 +31,12 @@ var regexDATA=/^(0[1-9]|1\d|2[0-8]|29(?=-\d\d-(?!1[01345789]00|2[1235679]00)\d\d
 	validaChar("rgJ", regexNUMEROS, 3);
 	validaChar("telJ",regexTEL, 4);
 	validaChar("cnhJ", regexNUMEROS, 5);
-	validaChar("estado", regexLETRAS, 6);
-	validaChar("cidadeJ",regexLETRAS, 7);
-	validaChar("emailJ", regexEMAIL, 8);
-	validaChar("rntrcJ", regexNUMEROS, 9);
-	validaChar("paisJ", regexLETRAS, 10);
+	validaChar("bairroJ", regexLETRAS, 6);
+	validaChar("cidadeJ", regexLETRAS, 7);
+	validaChar("estadoJ",regexLETRAS, 8);
+	validaChar("emailJ", regexEMAIL, 9);
+	validaChar("rntrcJ", regexNUMEROS, 10);
+	validaChar("paisJ", regexLETRAS, 11);
 	
 
 
