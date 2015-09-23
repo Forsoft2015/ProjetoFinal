@@ -1,6 +1,6 @@
 <%-- 
-    Document   : UI069-Home-AdmDNIT
-    Created on : 18/09/2015, 01:33:13
+    Document   : UI071- ConsultarRodovia-AdmDNIT
+    Created on : 18/09/2015, 01:34:50
     Author     : Javapos
 --%>
 
@@ -12,11 +12,9 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-	<script src="../js/js_exemplo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
-	<!-- NÃO EDITAR!-->
-	
+
 	<div id="topbar" class="conteudo-meio">
 		<a href="UI069-Home-AdmDNIT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
@@ -28,22 +26,22 @@
 	
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
-				<ul class="menu-ativo navigator">
+		<ul class="menu-ativo navigator">
 
 				<h3>Usuários</h3> 
 
 						<li><a href="UI074-CadastrarUsuarioPostoPesagem-AdmDNIT.jsp">Cadastrar</a> 
 						</li>
 						
-						<li><a href="UI075.1-AlterarUsuarioPostoPesagem-AdmDNIT.jsp">Alterar</a> 
+						<li><a href="UI075-AlterarUsuarioPostoPesagem-AdmDNIT.jsp">Alterar</a> 
 				
 						</li>
 						
-						<li><a href="UI077.1-ExcluirUsuarioPostoPesagem-AdmDNIT.jsp">Excluir</a> 
+						<li><a href="UI077-ExcluirUsuarioPostoPesagem-AdmDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="UI076.1-ConsultarUsuarioPostoPesagem-AdmDNIT.jsp">Consultar</a> 
+						<li><a href="UI076-ConsultarUsuarioPostoPesagem-AdmDNIT.jsp">Consultar</a> 
 							
 						</li>
 				</ul>
@@ -55,7 +53,7 @@
 							
 						</li>
 						
-						<li><a href="UI080.1-AlterarPostoDePesagem-AdmDNIT.jsp">Alterar</a> 
+						<li><a href="UI080-AlterarPostoDePesagem-AdmDNIT.jsp">Alterar</a> 
 							
 						</li>
 						
@@ -63,7 +61,7 @@
 							
 						</li>
 						
-						<li><a href="UI079.1-ConsultarPostoDePesagem-AdmDNIT.jsp">Consultar</a> 
+						<li><a href="UI079-ConsultarPostoDePesagem-AdmDNIT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>
@@ -76,15 +74,15 @@
 							
 						</li>
 						
-						<li><a href="UI072.1-AlterarRodovia-AdmDNIT.jsp">Alterar</a> 
+						<li><a href="UI072-AlterarRodovia-AdmDNIT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="UI073.1-ExcluirRodovia-AdmDNIT.jsp">Excluir</a> 
+						<li><a href="UI073-ExcluirRodovia-AdmDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="UI071.1-ConsultarRodovia-AdmDNIT.jsp">Consultar</a> 
+						<li><a href="UI071-ConsultarRodovia-AdmDNIT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>
@@ -96,15 +94,15 @@
 							
 						</li>
 						
-						<li><a href="UI088.1-AlterarBalanca-AdmDNIT.jsp">Alterar</a> 
+						<li><a href="UI088-AlterarBalanca-AdmDNIT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="UI089.1-ExcluirBalanca-AdmDNIT.jsp">Excluir</a> 
+						<li><a href="UI089-ExcluirBalanca-AdmDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="UI087.1-ConsultarBalanca-AdmDNITT.jsp">Consultar</a> 
+						<li><a href="UI087-ConsultarBalanca-AdmDNITT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>	
@@ -116,43 +114,89 @@
 							
 						</li>
 						
-						<li><a href="UI084.1-AlterarCamera-AdmDNIT.jsp">Alterar</a> 
+						<li><a href="UI084-AlterarCamera-AdmDNIT.jsp">Alterar</a> 
 							
 						</li>
 						
-						<li><a href="UI085.1-ExcluirCamera-AdmDNIT.jsp">Excluir</a> 
+						<li><a href="UI085-ExcluirCamera-AdmDNIT.jsp">Excluir</a> 
 							
 						</li>
 						
-						<li><a href="UI083.1-ConsultarCamera-AdmDNIT.jsp">Consultar</a> 
+						<li><a href="UI083-ConsultarCamera-AdmDNIT.jsp">Consultar</a> 
 					
 						</li>
 				</ul>
-				
 		</div>
-		
-		<!-- NÃO EDITAR!-->
 		
 		<div id="centro" class="esquerda">
-		<h1>Pesquisa de Rodovia</h1>
-			<div class="tabela">
-				<div class="coluna-esquerda">
-					<form name="form" method="post" action="#" id="formularioJ" class="formulario">
-						<fieldset>
-							<legend>Dados da Rodovia</legend>
-								<div class="campo">
-								<label for="idrodoviaJ">ID da Rodovia:</label><br>
-								<a href="UI071-ConsultarRodovia-AdmDNIT.jsp""><input type="text" name="idrodoviaJ" id="idrodoviaJ"></a><br><br>
-								<a href="UI071-ConsutarRodovia-AdmDNIT.jsp""><input type="submit" value="Pesquisar" name="Pesquisar" id="pesquisarJ" class="botaoJ"></a>
-							</div>
-						</fieldset>
-				</div> <!-- fim da div coluna-esquerda-->
-			</div> <!-- Fim da div tabela -->
-					
-						<a href="UI069-Home-AdmDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a><br><br>
-					</form>
+		
+		
+			<h1>Consulta de Rodovia</h1>
+			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
+				<div class="tabela">
+				<div class="pesq">
+					<div class="campo">
+						<label for="nomeJ">Nome:</label> 
+						<input type="text" name="nome" id="nomeJ" maxlength="50"><span id="x_nomeJ" class=""></span>
+					</div>
+					 <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
+					 <a href="UI069-Home-AdmDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+				</div>
+					<table id="tblConsulta">
+						<tr>
+							<td class="cabecalh" id="tdnome">Nome</td>
+							<td class="cabecalh">Tipo</td>
+							<td class="cabecalh">Extensão</td>
+							<td class="cabecalh">Cidade Inicial</td>
+							<td class="cabecalh">Cidade Final</td>
+							<td class="cabecalh">Abrir</td>
+						</tr>
+						<tr>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>
+							<td><a href="servlet?id=5">☼</a></td>
+						</tr>
+						<tr>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>
+							<td><a href="servlet?id=5">☼</a></td>
+						</tr>
+						<tr>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>
+							<td><a href="servlet?id=5">☼</a></td>
+						</tr>
+						<tr>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>
+							<td><a href="servlet?id=5">☼</a></td>
+						</tr>
+						<tr>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>
+							<td><a href="servlet?id=5">☼</a></td>
+						</tr>
+					</table>
+				</div>
+		</form> 
+		<br>
+		<br>
 		</div>
 	</div>
-
 </body>
 </html>
