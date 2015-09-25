@@ -7,7 +7,7 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src="../js/framework.js" type='text/javascript' DEFER></script>
-	<script src="../js/UI009js" type="text/javascript" DEFER></script>
+	<script src="../js/UI010.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	
@@ -52,9 +52,12 @@
 				<div class="tabela">
 				<div class="pesq">
 					<div class="campo">
-					<label for="placaJ">Número da placa:</label> 
-						<input type="text" name="placa" id="placaJ" maxlength="8"><span id="x_placaJ" class=""></span>
-							<br/>
+						<label for="placaJ">Número da placa:</label> 
+							<input type="text" name="placa" id="placaJ" maxlength="8"><span id="x_placaJ" class=""></span>
+					</div>
+							<br>
+							<br>
+					<div>
 						<label for="idtranspJ">ID transportador:</label> 
 						<input type="text" name="idtransp" id="idtranspJ" maxlength="50"><span id="x_idtranspJ" class=""></span>
 					</div>

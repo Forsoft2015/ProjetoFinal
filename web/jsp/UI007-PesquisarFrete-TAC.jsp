@@ -1,4 +1,3 @@
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -7,8 +6,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-	<script src="../js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src="../js/framework.js" type='text/javascript' DEFER></script>
+	<script src="../js/UI007.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	
@@ -53,15 +52,20 @@
 				<div class="tabela">
 				<div class="pesq">
 					<div class="campo">
-						<label for="nomeJ">Número do frete:</label> 
-						<input type="text" name="nome" id="nomeJ" maxlength="50"><span id="x_nomeJ" class=""></span>
-							<br/>
-						<label for="nomeJ">Nome destinatário:</label> 
-						<input type="text" name="nome" id="nomeJ" maxlength="50"><span id="x_nomeJ" class=""></span>
+						<label for="numfreteJ">Número do frete:</label> 
+						<input type="text" name="numfrete" id="numfreteJ" maxlength="50"><span id="x_numfreteJ" class=""></span>
+						<br>
+						<br>
+						<label for="nomedestinoJ">Nome destinatário:</label> 
+						<input type="text" name="nome" id="nomedestinoJ" maxlength="50"><span id="x_nomedestinoJ" class=""></span>
 					</div>
-					 <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
-					 <a href="UI069-Home-AdmDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
-				</div>
+					<br>
+					<br>
+					<div>
+						 <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
+						 <br>
+						 <a href="UI069-Home-AdmDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+					</div>
 					<table id="tblConsulta">
 						<tr>
 						<td class="cabecalh" id="tdnome">Remetente</td>

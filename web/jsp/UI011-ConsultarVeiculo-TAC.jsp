@@ -6,7 +6,7 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src="../js/framework.js" type='text/javascript' DEFER></script>
-	<script src="../js/UI011js" type="text/javascript" DEFER></script>
+	<script src="../js/UI011.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 
@@ -49,7 +49,7 @@
 				
 					<h3>Configurações da Conta</h3>
 					
-						<li><a href="UI012-AlterarConfiguracoesConta-TAC.jsp">Alterar</a> 
+						<li><a href="UI012-AlterarConfig-TAC.jsp">Alterar</a> 
 						</li>
 						
 				</ul>

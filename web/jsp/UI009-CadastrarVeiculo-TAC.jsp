@@ -1,9 +1,3 @@
-<%-- 
-    Document   : UI007-CadastrarVeiculoTac
-    Created on : 17/09/2015, 18:44:18
-    Author     : Javapos
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
@@ -12,7 +6,7 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src="../js/framework.js" type='text/javascript' DEFER></script>
-	<script src="../js/UI009js" type="text/javascript" DEFER></script>
+	<script src="../js/UI009.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 
@@ -58,7 +52,7 @@
 				
 					<h3>Configurações da Conta</h3>
 					
-						<li><a href="UI012-AlterarConfiguracoesConta-TAC.jsp">Alterar</a> 
+						<li><a href="UI012-AlterarConfig-TAC.jsp">Alterar</a> 
 						</li>
 						
 				</ul>
