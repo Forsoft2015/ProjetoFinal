@@ -17,7 +17,7 @@
 <body>
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI002-Home-TAC.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI005-Home-TAC.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -29,29 +29,21 @@
 				<ul class="menu-ativo navigator">
 
 					<h3>Frete</h3> 
-					<li><a href="UI003-CadastrarFrete-TAC.jsp">Cadastrar</a> 
+					<li><a href="UI006-CadastrarFrete-TAC.jsp">Cadastrar</a> 
 					</li>
-					<li><a href="UI005.1-AlterarFrete-TAC.jsp">Alterar</a> 
-					</li>
-					<li><a href="UI004.2-PesquisaFrete-TAC.jsp">Excluir</a> 
-					</li>
-					<li><a href="UI004.1-PesquisaFrete-TAC.jsp">Consultar</a> 
+					<li><a href="UI007-PesquisarFrete-TAC.jsp">Consultar</a> 
 					</li>
 				</ul>
 				<ul class="menu-ativo navigator">
 					<h3>Veículo</h3> 
-					<li><a href="UI007-CadastrarVeiculo-TAC.jsp">Cadastrar</a> 
-					</li>						
-					<li><a href="UI008.1-AlterarVeiculo-TAC.jsp">Alterar</a> 
-					</li>					
-					<li><a href="UI009.2-PesquisaVeiculo-TAC.jsp">Excluir</a> 
-					</li>						
-					<li><a href="UI009.1-PesquisaVeiculo-TAC.jsp">Consultar</a> 
+					<li><a href="UI009-CadastrarVeiculo-TAC.jsp">Cadastrar</a> 
+					</li>												
+					<li><a href="UI010-PesquisarVeiculo-TAC.jsp">Consultar</a> 
 					</li>
 				</ul>	
 				<ul class="menu-ativo navigator">
 					<h3>Configurações da Conta</h3>
-					<li><a href="UI011-AlterarConfiguracoesConta-TAC.jsp">Alterar</a> 
+					<li><a href="UI012-AlterarConfig-TAC.jsp">Alterar</a> 
 					</li>						
 				</ul>
 		</div>
