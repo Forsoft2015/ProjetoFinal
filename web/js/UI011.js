@@ -1,11 +1,11 @@
-var numeroCampos = 12; //<!-- INSIRA O NÚMERO DE CAMPOS -->
+var numeroCampos = 10 ; //INSIRA O NÚMERO DE CAMPOS
 
 var formOk = new Array(numeroCampos);
 for (var i = 0; i < numeroCampos; i++) { formOk[i] = false;}
 
 window.onload = function () {
 
-	//<!-- EDITE DAQUI PARA BAIXO -->
+	//EDITE DAQUI PARA BAIXO
 	
 var topo = _$("caixa");
 var regexLETRAS = /^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$/;
@@ -21,42 +21,24 @@ var regexDATA=/^(0[1-9]|1\d|2[0-8]|29(?=-\d\d-(?!1[01345789]00|2[1235679]00)\d\d
 
 //MÁSCARAS setMask(idDoCampo, formatacaoDaMascara
 
-setMask("cpfJ",  "###.###.###-##");
-setMask("telefoneJ", "## ####-####");
-setMask("rntrcJ","###-########");
-setMask("cepJ","##.###-###");
-//ValidaTipo(idDoCampo, regexTIPO, numeroDoCampo)
-/* Exemplos:
-	validaChar("nomeJ", regexLETRAS, 0);
-	validaChar("sobrenomeJ", regexLETRAS, 1);
-	validaCPF("cpfJ", regexCPF, 2);
-	validaChar("telJ", regexTEL, 3);
-	validaChar("cepJ", regexCEP, 4);
-	validaChar("kmJ", regexNUMEROS, 5);
-	validaChar("estadoJ", regexLETRAS, 6);
-	validaChar("cidadeJ", regexLETRAS, 7);
-	validaEmail("emailJ", regexEMAIL, 8);
-	validarCNPJ("cnpjJ", regexCNPJ, 9);
-	validaHora("horaJ", regexHORA, 10);
-	validaChar("placaJ", regexPLACA, 11);
-	validaChar("dataJ", regexDATA, 12);
-	validaChar("paisJ", regexNUMEROS, 13);*/
+setMask("placaJ", "###-####");
+setMask("dataJ", "##/##/####");
 
-	validaChar("nomeJ", regexLETRAS, 0);
-	validaCPF("cpfJ", regexCPF, 1);
-	validaChar("rgJ", regexNUMEROS, 2);	
-	validaChar("rntrcJ", regexNUMEROS, 3);
-	validaChar("telefoneJ", regexNUMEROS, 4);
-	validaEmail("emailJ", regexEMAIL, 5);
-	validaChar("cepJ", regexCEP, 6);
-	validaChar("logradouroJ", regexLETRAS, 7);
-	validaChar("numeroJ", regexNUMEROS, 8);
-	validaChar("bairroJ", regexLETRAS, 9);
-	validaChar("cidadeJ", regexLETRAS, 10);
-	validaChar("ufJ", regexLETRAS, 11);
-	validaChar("complementoJ", regexLETRAS, 12);
-	
-	//<!-- EDITE DAQUI PARA CIMA-->
+//ValidaTipo(idDoCampo, regexTIPO, numeroDoCampo)
+
+validaChar("placaJ", regexPLACA, 0);
+validaChar("renavamJ", regexLETRAS, 1);
+validaChar("marcaJ", regexLETRAS, 2);
+validaHora("modeloJ", regexLETRAS, 3);
+validaChar("anodefabricJ", regexDATA, 4);
+validaChar("numeixosJ", regexNUMEROS, 5);
+validaChar("limitepesoeixosJ", regexNUMEROS, 6);
+validaChar("taraJ", regexNUMEROS, 7);
+validaChar("cmtJ", regexNUMEROS, 8);
+validaChar("pbtJ", regexNUMEROS, 9);
+
+
+	//EDITE DAQUI PARA CIMA
 	
 }
 
