@@ -31,14 +31,14 @@
 					<h3>Frete</h3> 
 					<li><a href="UI006-CadastrarFrete-TAC.jsp">Cadastrar</a> 
 					</li>
-					<li><a href="UI007-PesquisarFrete-TAC.jsp">Consultar</a> 
+					<li><a href="UI007-PesquisarFrete-TAC.jsp">Pesquisar</a> 
 					</li>
 				</ul>
 				<ul class="menu-ativo navigator">
 					<h3>Veículo</h3> 
 					<li><a href="UI009-CadastrarVeiculo-TAC.jsp">Cadastrar</a> 
 					</li>												
-					<li><a href="UI010-PesquisarVeiculo-TAC.jsp">Consultar</a> 
+					<li><a href="UI010-PesquisarVeiculo-TAC.jsp">Pesquisar</a> 
 					</li>
 				</ul>	
 				<ul class="menu-ativo navigator">
