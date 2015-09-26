@@ -12,7 +12,7 @@
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI070-Home-AdmReceita.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI083-Home-AgenteReceita.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -23,42 +23,37 @@
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
-                                    <h3>Usuários</h3> 
-                                    <li><a href="UI071-CadastrarUsuario-AdmReceita.jsp">Cadastrar</a></li>
-                                    <li><a href="UI072-PesquisarUsuario-AdmReceita.jsp">Pesquisar</a></li>
-				</ul>
-				
-				<ul class="menu-ativo navigator">
                                     <h3>TETI</h3>
-                                    <li><a href="UI074-CadastrarTETI-AdmReceita.jsp">Cadastrar</a> </li>
-                                    <li><a href="UI075-PesquisarTETI-AdmReceita.jsp">Pesquisar</a> </li>
+                                    <li><a href="UI087-CadastrarTETI-AgenteReceita.jsp">Cadastrar</a> </li>
+                                    <li><a href="UI088-PesquisarTETI-AgenteReceita.jsp">Pesquisar</a> </li>
 				</ul>
 
 				<ul class="menu-ativo navigator">
                                     <h3>Veículos</h3> 
-                                    <li><a href="UI077-CadastrarVeiculo-AdmReceita.jsp">Cadastrar</a></li>
-                                    <li><a href="UI078-PesquisarVeiculo-AdmReceita.jsp">Pesquisar</a></li>
+                                    <li><a href="UI090-CadastrarVeiculo-AgenteReceita.jsp">Cadastrar</a></li>
+                                    <li><a href="UI091-PesquisarVeiculo-AgenteReceita.jsp">Pesquisar</a></li>
 				</ul>					
 
 				<ul class="menu-ativo navigator">
                                     <h3>Fretes</h3> 
-                                    <li><a href="UI080-CadastrarFrete-AdmReceita.jsp">Cadastrar</a></li>
-                                    <li><a href="UI081-PesquisarFrete-AdmReceita.jsp">Pesquisar</a></li>
+                                    <li><a href="UI093-CadastrarFrete-AgenteReceita.jsp">Cadastrar</a></li>
+                                    <li><a href="UI094-PesquisarFrete-AgenteReceita.jsp">Pesquisar</a></li>
 				</ul>					
 
 				</div>
-		<div id="centro" class="esquerda">
+				
+				<div id="centro" class="esquerda">
 		
 		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
-                    <h1>Cadastro de TETI</h1>
+                    <h1>Consulta de TETI</h1>
                     
                     <form name="form" method="post" action="#" id="formularioJ" class="formulario">
-			<div class="tabela">
+					<div class="tabela">
                             <div class="coluna-esquerda">
-				<fieldset>
+							<fieldset>
                                     <legend>Dados de Transportador</legend>	
-                                    
+                               
                                     <div class="campo">
                                         <label for="rntrcJ">RNTRC: </label><br>
                                         <input type="text" name="rntrc" id="rntrcJ" maxlength="12">
@@ -100,7 +95,7 @@
                                     
                                 </fieldset>
 					
-			</div>
+						</div>
                         <div class="coluna-direita">
                             <fieldset>
                                 <legend>Dados de Endereço</legend>
@@ -176,8 +171,8 @@
                             </fieldset>
                         </div>
                         </div>
-                        <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
-                        <a href="UI070-Home-AdmReceita.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+                        <input type="submit" value="Alterar" name="enviar" id="enviarJ" class="botaoJ">
+                        <a href="UI083-Home-AgenteReceita.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
                     </form>
 			
 		<!-- SÓ EDITE DAQUI PARA CIMA!-->

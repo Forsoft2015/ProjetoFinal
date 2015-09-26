@@ -12,7 +12,7 @@
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI070-Home-AdmReceita.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI083-Home-AgenteReceita.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -23,57 +23,52 @@
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
-                                    <h3>Usuários</h3> 
-                                    <li><a href="UI071-CadastrarUsuario-AdmReceita.jsp">Cadastrar</a></li>
-                                    <li><a href="UI072-PesquisarUsuario-AdmReceita.jsp">Pesquisar</a></li>
-				</ul>
-				
-				<ul class="menu-ativo navigator">
                                     <h3>TETI</h3>
-                                    <li><a href="UI074-CadastrarTETI-AdmReceita.jsp">Cadastrar</a> </li>
-                                    <li><a href="UI075-PesquisarTETI-AdmReceita.jsp">Pesquisar</a> </li>
+                                    <li><a href="UI087-CadastrarTETI-AgenteReceita.jsp">Cadastrar</a> </li>
+                                    <li><a href="UI088-PesquisarTETI-AgenteReceita.jsp">Pesquisar</a> </li>
 				</ul>
 
 				<ul class="menu-ativo navigator">
                                     <h3>Veículos</h3> 
-                                    <li><a href="UI077-CadastrarVeiculo-AdmReceita.jsp">Cadastrar</a></li>
-                                    <li><a href="UI078-PesquisarVeiculo-AdmReceita.jsp">Pesquisar</a></li>
+                                    <li><a href="UI090-CadastrarVeiculo-AgenteReceita.jsp">Cadastrar</a></li>
+                                    <li><a href="UI091-PesquisarVeiculo-AgenteReceita.jsp">Pesquisar</a></li>
 				</ul>					
 
 				<ul class="menu-ativo navigator">
                                     <h3>Fretes</h3> 
-                                    <li><a href="UI080-CadastrarFrete-AdmReceita.jsp">Cadastrar</a></li>
-                                    <li><a href="UI081-PesquisarFrete-AdmReceita.jsp">Pesquisar</a></li>
+                                    <li><a href="UI093-CadastrarFrete-AgenteReceita.jsp">Cadastrar</a></li>
+                                    <li><a href="UI094-PesquisarFrete-AgenteReceita.jsp">Pesquisar</a></li>
 				</ul>					
 
 				</div>
 		<div id="centro" class="esquerda">
 		
-			<h1>Pesquisar TETI</h1>
+			<h1>Pesquisar Frete</h1>
 			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 				<div class="tabela">
 				<div class="pesq">
-					<div class="campo">
-						<label for="rntrcJ">RNTRC:</label><br>
-						<input type="text" name="rntrc" id="rntrcJ" maxlength="50"><span id="x_rntrcJ" class=""></span>
-					</div>
-					
-					<div class="campo">
-						<label for="razaosocialJ">Razão Social:</label><br>
-						<input type="text" name="razaosocial" id="razaosocialJ" maxlength="50"><span id="x_razaosocialJ" class=""></span>
-					</div>
-					<br>
-					 <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
-					 <a href="UI070-Home-AdmReceita.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+				<div class="campo">
+						<label for="numfreteJ">Número do Frete:</label>
+						<input type="text" name="nome" id="numfreteJ" maxlength="50"><span id="x_numfreteJ" class=""></span>
 				</div>
-					<table id="tblConsulta">
+				
+				<div class="campo">
+						<label for="destinatarioJ">Nome do Destinatário:</label>
+						<input type="text" name="destinatario" id="destinatarioJ" maxlength="50"><span id="x_destinatarioJ" class=""></span>
+				</div>
+
+				<br>
+					 <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
+					 <a href="UI083-Home-AgenteReceita.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+				</div>					
+				<table id="tblConsulta">
 						<tr>
-						<td class="cabecalh" id="">Razão Social</td>
-							<td class="cabecalh">RNTRC</td>
-							<td class="cabecalh">CNPJ</td>
-							<td class="cabecalh">Celular</td>
-							<td class="cabecalh">Telefone</td>
-							<td class="cabecalh">Email</td>
+						<td class="cabecalh" id="tdnome">Remetente</td>
+							<td class="cabecalh">Destinatário</td>
+							<td class="cabecalh">Logradouro de Origem</td>
+							<td class="cabecalh">Logradouro de Destino</td>
+							<td class="cabecalh">CEP</td>
+							<td class="cabecalh">Abrir</td>
 						</tr>
 						<tr>
 							<td>  </td>
