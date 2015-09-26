@@ -5,8 +5,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<script src="../js/framework.js" type="text/javascript" DEFER></script>
-	<script src="../js/UI014.js" type="text/javascript" DEFER></script>
+	<script src='../js/framework.js' type='text/javascript' DEFER></script>
+	<script src="../js/js_exemplo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
@@ -22,7 +22,7 @@
 	
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
-                    <ul class="menu-ativo navigator">
+				<ul class="menu-ativo navigator">
                                     <h3>Usuários</h3> 
                                     <li><a href="UI025-CadastrarUsuarios-AdmANTT.jsp">Cadastrar</a></li>
                                     <li><a href="UI026-PesquisarUsuarios-AdmANTT.jsp">Pesquisar</a></li>
@@ -37,23 +37,22 @@
 				<ul class="menu-ativo navigator">
                                     <h3>Autônomos</h3> 
                                     <li><a href="UI030A-PesquisarTAC-AdmANTT.jsp">Pesquisar</a></li>
-				</ul>	
+				</ul>					
 		</div>
-
 		<div id="centro" class="esquerda">
 		
-			<h1>Pesquisar Autônomo</h1>
+			<h1>Pesquisar Transportador</h1>
 			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 				<div class="tabela">
 				<div class="pesq">
 					<div class="campo">
-						<label for="nomeJ">Número do Usuário:</label>
-						<input type="text" name="nome" id="nomeJ" maxlength="50"><span id="x_nomeJ" class=""></span>
+						<label for="rntrcJ">RNTRC:</label><br>
+						<input type="text" name="rntrc" id="rntrcJ" maxlength="50"><span id="x_rntrcJ" class=""></span>
 					</div>
 					
 					<div class="campo">
-						<label for="cpfJ">CPF:</label><br>
-						<input type="text" name="cpf" id="cpfJ" maxlength="50"><span id="x_cpfJ" class=""></span>
+						<label for="razaosocialJ">Razão Social:</label><br>
+						<input type="text" name="razaosocial" id="razaosocialJ" maxlength="50"><span id="x_razaosocialJ" class=""></span>
 					</div>
 					<br>
 					 <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
@@ -61,11 +60,11 @@
 				</div>
 					<table id="tblConsulta">
 						<tr>
-						<td class="cabecalh" id="">Nome de Usuário</td>
-							<td class="cabecalh">Nome</td>
+						<td class="cabecalh" id="">Razão Social</td>
+							<td class="cabecalh">RNTRC</td>
 							<td class="cabecalh">Tipo</td>
-							<td class="cabecalh">CPF</td>
-							<td class="cabecalh">Celular</td>
+							<td class="cabecalh">CNPJ</td>
+							<td class="cabecalh">Telefone</td>
 							<td class="cabecalh">Email</td>
 						</tr>
 						<tr>
