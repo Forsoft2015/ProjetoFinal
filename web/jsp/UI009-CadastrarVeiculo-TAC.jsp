@@ -138,7 +138,7 @@
 								<br>
 								<div class="campo"> 
 									<label for="limitepesoeixoJ">Limite de Peso por Eixo:</label><br> 
-									<input type="text" name="limitepesoeixo" id="limitepesoeixoJ"><span id="x_limitepesoeixoJ"></span>
+									<input type="text" name="limiteeixo" id="limitepesoeixoJ"><span id="x_limitepesoeixoJ"></span>
 								</div>
 								<br>
 								<div class="campo"> 

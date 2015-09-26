@@ -73,7 +73,7 @@
 								<form>
 									  <fieldset>
 											<legend>UF:</legend>
-												<select>
+												<select disabled>
 													<option value="Selecione">Selecione</option>
 												  <option value="Acre">Acre - AC</option>
 												  <option value="Alagoas">Alagoas - AL</option>
