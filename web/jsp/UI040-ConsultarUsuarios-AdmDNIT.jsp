@@ -1,9 +1,3 @@
-<%-- 
-    Document   : UI146-Home-AdmANTT
-    Created on : 18/09/2015, 07:34:05
-    Author     : Javapos
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
@@ -18,7 +12,7 @@
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI024-Home-AdmANTT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI037-Home-AdmDNIT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -30,25 +24,41 @@
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
                                     <h3>Usuários</h3> 
-                                    <li><a href="UI025-CadastrarUsuarios-AdmANTT.jsp">Cadastrar</a></li>
-                                    <li><a href="UI026-PesquisarUsuarios-AdmANTT.jsp">Pesquisar</a></li>
+                                    <li><a href="UI038-CadastrarUsuarios-AdmDNIT.jsp">Cadastrar</a></li>
+                                    <li><a href="UI039-PesquisarUsuarios-AdmDNIT.jsp">Consultar</a></li>
 				</ul>
 				
 				<ul class="menu-ativo navigator">
-                                    <h3>Transportadores</h3>
-                                    <li><a href="UI028-CadastrarTransportador-AdmANTT.jsp">Cadastrar</a> </li>
-                                    <li><a href="UI029-PesquisarTransportador-AdmANTT.jsp">Pesquisar</a> </li>
+									<h3>Postos de Pesagem</h3> 
+									<li><a href="UI047-CadastrarPostoPesagem-AdmDNIT.jsp">Cadastrar</a></li>
+									<li><a href="UI048-PesquisarPostoPesagem-AdmDNIT.jsp">Consultar</a></li>
 				</ul>
-
+				
 				<ul class="menu-ativo navigator">
-                                    <h3>Autônomos</h3> 
-                                    <li><a href="UI030A-PesquisarTAC-AdmANTT.jsp">Pesquisar</a></li>
+									<h3>Rodovia</h3> 
+									<li><a href="UI041-CadastrarRodovia-AdmDNIT.jsp">Cadastrar</a></li>
+									<li><a href="UI042-PesquisarRodovia-AdmDNIT.jsp">Consultar</a></li>
+				</ul>
+				
+				<ul class="menu-ativo navigator">
+									<h3>Balança</h3> 
+									<li><a href="UI044-CadastrarBalanca-AdmDNIT.jsp">Cadastrar</a></li>
+									<li><a href="UI045-PesquisarBalanca-AdmDNIT.jsp">Consultar</a></li>
+				</ul>	
+				
+				<ul class="menu-ativo navigator">
+									<h3>Câmera</h3> 
+									<li><a href="UI107-CadastrarCamera-AdmDNIT.jsp">Cadastrar</a></li>
+									<li><a href="UI108-PesquisarCamera-AdmDNIT.jsp">Consultar</a></li>
+				</ul>	
+				
+				<ul class="menu-ativo navigator">
+									<h3>Passagem</h3> 
+									<li><a href="UI110-ConsultarPassagem-AdmDNIT.jsp">Consultar</a></li>
 				</ul>					
 		</div>
 		
-		<!-- NÃO EDITAR!-->
-		
-		<div id="centro" class="esquerda">
+				<div id="centro" class="esquerda">
 		
 		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
@@ -78,7 +88,6 @@
                                     <div class="campo">
 					<label for="cpfJ">CPF:</label><br> 
 					<input type="text" name="cpf" id="cpfJ" maxlength="8"><span id="x_cpfJ" class=""></span>
-                                    </div>
                                     <fieldset>
                                         <legend>Contato</legend>
                                         <div class="campo">
@@ -116,7 +125,7 @@
 						
 			<input type="submit" value="Alterar" name="alterar" id="alterarJ" class="botaoJ">
                         <input type="reset" value="Limpar" name="limpar" id="limparJ" class="botaoJ">
-                        <a href="UI015-Home-AdmMinisterio.jsp"><input type="button" value="Cancelar" name="Cancelar" id="cancelarJ" class="botaoJ"></a>
+                        <a href="UI037-Home-AdmDNIT.jsp"><input type="button" value="Cancelar" name="Cancelar" id="cancelarJ" class="botaoJ"></a>
                     </form>
 			
 		<!-- SÓ EDITE DAQUI PARA CIMA!-->

@@ -86,20 +86,6 @@
                                             <option value="inativo">Inativo</option>
                                         </select>
                                     </div>
-                                    <div class="campo">
-					<label for="tipoJ">Tipo:</label><br> 
-					<select name="tipo" id="tipoJ">
-                                            <option>Administrador ANTT</option>
-                                            <option>Agente ANTT</option>
-                                            <option>Administrador DNIT</option>
-                                            <option>Agente DNIT</option>
-                                            <option>Transportador</option>
-                                            <option>Administrador Receita Federal</option>
-                                            <option>Agente Receita Federal</option>
-                                            <option>Administrador Posto de Pesagem</option>
-                                            <option>Agente Posto de Pesagem</option>
-                                        </select>
-                                    </div>
                                     <fieldset>
                                         <legend>Contato</legend>
                                         <div class="campo">
