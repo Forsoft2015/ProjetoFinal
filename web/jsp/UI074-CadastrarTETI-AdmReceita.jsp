@@ -134,47 +134,30 @@
                                     <label for="cidadeJ">Cidade: </label><br>
                                     <input type="text" name="cidade" id="cidadeJ" maxlength="20">
                                 </div>
-                                
+                                 
                                 <div class="campo">
-                                    <label for="ufj">UF: </label>
-                                    <select name="uf" id="ufj">
-                                        <option>AC</option>
-                                        <option>AL</option>
-                                        <option>AP</option>
-                                        <option>AM</option>
-                                        <option>BA</option>
-                                        <option>CE</option>
-                                        <option>DF</option>
-                                        <option>ES</option>
-                                        <option>GO</option>
-                                        <option>MA</option>
-                                        <option>MT</option>
-                                        <option>MS</option>
-                                        <option>MG</option>
-                                        <option>PA</option>
-                                        <option>PB</option>
-                                        <option>PR</option>
-                                        <option>PI</option>
-                                        <option>RJ</option>
-                                        <option>RN</option>
-                                        <option>RS</option>
-                                        <option>RO</option>
-                                        <option>RR</option>
-                                        <option>SC</option>
-                                        <option>SP</option>
-                                        <option>SE</option>
-                                        <option>TO</option>
-                                    </select>
-                                    
+                                    <label for="ufj">UF: </label><br>
+									 <input type="text" name="cidade" id="cidadeJ" maxlength="20">
+								</div>
+                               
+                      
                                     <div class="campo">
-                                        <label for="paisJ">Pais: </label><br>
-                                        <input type="text" name="pais" id="paisJ" maxlength="20">
-                                    </div>
-                                    
+                                    <label for="paisJ">País</label>
+                                    <select name="país" id="paisJ">
+                                        <option value="Pais">País</option>
+                                        <option value="ARG">Argentina</option>
+                                        <option value="BOL">Bolívia</option>
+                                        <option value="BRA">Brasil</option>
+                                        <option value="CHI">Chile</option>
+                                        <option value="PER">Peru</option>
+                                        <option value="URU">Uruguai </option>
+                                        <option value="VEN">Venezuela</option>
+                                      
+                                    </select>
                                 </div>
-                                
+                                    </div>
+                              
                             </fieldset>
-                        </div>
                         </div>
                         <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
                         <a href="UI070-Home-AdmReceita.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
