@@ -188,7 +188,7 @@
                     <br><br>
                     <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
                     <input type="reset" value="Limpar" name="limpar" id="limparJ" class="botaoJ">
-                    <a href="Index.jsp"><input type="button" value="Voltar" name="voltar" id="voltarJ" class="botaoJ"></a>
+                    <a href="UI001-Login.jsp"><input type="button" value="Voltar" name="voltar" id="voltarJ" class="botaoJ"></a>
                 </form>
 
 					

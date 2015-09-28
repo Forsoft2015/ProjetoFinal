@@ -6,42 +6,48 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-	<script src="../js/UI005.js" type="text/javascript" DEFER></script>
+	<script src="../js/js_exemplo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
+	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI005-Home-TAC.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI070-Home-AdmReceita.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
 			<li class="maisDireita"><a href="#" id="logout"></a></li>
 		</ul>
 	</div>
+	
 	<div id="container" class="conteudo-meio">
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
+                                    <h3>Usuários</h3> 
+                                    <li><a href="UI071-CadastrarUsuario-AdmReceita.jsp">Cadastrar</a></li>
+                                    <li><a href="UI072-PesquisarUsuario-AdmReceita.jsp">Pesquisar</a></li>
+				</ul>
+				
+				<ul class="menu-ativo navigator">
+                                    <h3>TETI</h3>
+                                    <li><a href="UI074-CadastrarTETI-AdmReceita.jsp">Cadastrar</a> </li>
+                                    <li><a href="UI075-PesquisarTETI-AdmReceita.jsp">Pesquisar</a> </li>
+				</ul>
 
-					<h3>Frete</h3> 
-					<li><a href="UI006-CadastrarFrete-TAC.jsp">Cadastrar</a> 
-					</li>
-					<li><a href="UI007-PesquisarFrete-TAC.jsp">Pesquisar</a> 
-					</li>
-				</ul>
 				<ul class="menu-ativo navigator">
-					<h3>Veículo</h3> 
-					<li><a href="UI009-CadastrarVeiculo-TAC.jsp">Cadastrar</a> 
-					</li>												
-					<li><a href="UI010-PesquisarVeiculo-TAC.jsp">Pesquisar</a> 
-					</li>
-				</ul>	
+                                    <h3>Veículos</h3> 
+                                    <li><a href="UI077-CadastrarVeiculo-AdmReceita.jsp">Cadastrar</a></li>
+                                    <li><a href="UI078-PesquisarVeiculo-AdmReceita.jsp">Pesquisar</a></li>
+				</ul>					
+
 				<ul class="menu-ativo navigator">
-					<h3>Configurações da Conta</h3>
-					<li><a href="UI012-AlterarConfig-TAC.jsp">Alterar</a> 
-					</li>						
-				</ul>
-		</div>
-		
+                                    <h3>Fretes</h3> 
+                                    <li><a href="UI080-CadastrarFrete-AdmReceita.jsp">Cadastrar</a></li>
+                                    <li><a href="UI081-PesquisarFrete-AdmReceita.jsp">Pesquisar</a></li>
+				</ul>					
+
+				</div>
+
 	<div id="centro" class="esquerda">
 		
 		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
@@ -180,8 +186,8 @@
 							</fieldset>
 						</div>
 				<br><Br>		
-	           <input type="submit" value="Alterar" name="alterar" id="alterarJ" class="botaoJ">
-	           <a href="UI005-Home-TAC.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+	           <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
+	           <a href="UI070-Home-AdmReceita.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form>
 		
 		<br>
