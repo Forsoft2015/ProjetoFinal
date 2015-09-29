@@ -4,7 +4,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, font, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+/*table,*/ caption, tbody, tfoot, thead, tr, th, td {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -14,12 +14,52 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	list-style:none;
 }
 
+
+/*****************************/
+div.pesq{
+	width:311px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+table#tblConsulta{
+	margin: 0 auto;
+}
+
+table#tblConsulta a{
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+table#tblConsulta a:hover{
+    text-decoration: underline;
+}
+
+table#tblConsulta td.cabecalh{
+	width: 120px;
+	display: inline-block;
+	text-align: center;
+	background-color:#2C4381;
+	padding: 15px;
+	color: white;
+	font-weight: 700;
+}
+
+table#tblConsulta td{
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+	background-color: rgb( 77, 104, 161);
+	padding: 15px;
+}
+/***************************/
 html, body {
 	/*height: 100%;*/
 	}
 
 body {
-    background: url('../img/fundo.jpg') repeat-x;
+    background: url("../img/fundo.jpg") repeat-x;
 	margin: 0px;
 	padding: 0px;
 }
@@ -62,37 +102,37 @@ ul#menu-user li {
 }
 
 #profile {
-    background: url('../img/profile.png') no-repeat;
+    background: url("../img/profile.png") no-repeat;
     background-position: center center;
     background-size:50px 50px;
 }
 
 #profile:hover {
-    background: url('../img/profileY.png') no-repeat;
+    background: url("../img/profileY.png") no-repeat;
     background-position: center center;
     background-size:50px 50px;
 }
 
 #config {
-    background: url('../img/config.png') no-repeat;
+    background: url("../img/config.png") no-repeat;
     background-position: center center;
     background-size:50px 50px;
 }
 
 #config:hover {
-    background: url('../img/configY.png') no-repeat;
+    background: url("../img/configY.png") no-repeat;
     background-position: center center;
     background-size:50px 50px;
 }
 
 #logout {
-    background: url('../img/logout.png') no-repeat;
+    background: url("../img/logout.png") no-repeat;
     background-position: center center;
     background-size:50px 50px;
 }
 
 #logout:hover {
-    background: url('../img/logoutY.png') no-repeat;
+    background: url("../img/logoutY.png") no-repeat;
     background-position: center center;
     background-size:50px 50px;
 }
@@ -171,8 +211,7 @@ ul#menu-user li {
 }
 
 .navigator {
-    /*background: url('../img/fundomenu.jpg') repeat-x;*/
-    height: 180px;
+    /*background: url("img/fundomenu.jpg') repeat-x;*/
     margin-bottom: 10px;
     border-radius:3px;
     border-left: 1px solid grey;
