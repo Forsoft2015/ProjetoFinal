@@ -12,7 +12,7 @@
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI037-Home-AdmDNIT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="ui050-home-agentednit.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -27,10 +27,10 @@
                
                      <h3>Postos de Pesagem</h3> 
 
-                        <li><a href="UI057-CadastrarPostoPesagem-AgenteDNIT.jsp">Cadastrar</a> 
+                        <li><a href="ui057-cadastrarpostopesagem-agentednit.jsp">Cadastrar</a> 
                         </li>
 
-                        <li><a href="UI058-PesquisarPostoPesagem-AgenteDNIT.jsp">Consultar</a> 
+                        <li><a href="ui058-pesquisarpostopesagem-agentednit.jsp">Consultar</a> 
                         </li>
                 </ul>
 
@@ -38,10 +38,10 @@
 
                     <h3>Rodovia</h3> 
 
-                    <li><a href="UI051-CadastrarRodovia-AgenteDNIT.jsp">Cadastrar</a> 
+                    <li><a href="ui051-cadastrarrodovia-agentednit.jsp">Cadastrar</a> 
                     </li>
                     
-                    <li><a href="UI052-PesquisarRodovia-AgenteDNIT.jsp">Consultar</a> 
+                    <li><a href="ui052-pesquisarrodovia-agentednit.jsp">Consultar</a> 
                     </li>
                 </ul>
 
@@ -49,10 +49,10 @@
 
                     <h3>Balança</h3> 
 
-                    <li><a href="UI054-CadastrarBalanca-AgenteDNIT.jsp">Cadastrar</a> 
+                    <li><a href="ui054-cadastrarbalanca-agentednit.jsp">Cadastrar</a> 
                     </li>
 
-                    <li><a href="UI055-PesquisarBalanca-AgenteDNIT.jsp">Consultar</a> 
+                    <li><a href="ui055-pesquisarbalanca-agentednit.jsp">Consultar</a> 
                     </li>
                 </ul>	
 
@@ -60,18 +60,18 @@
 
                     <h3>Câmera</h3> 
 
-                        <li><a href="UI111-CadastrarCamera-AgenteDNIT.jsp">Cadastrar</a> 
+                        <li><a href="ui111-cadastrarcamera-agentednit.jsp">Cadastrar</a> 
                         </li>
 
                     
-                        <li><a href="UI112-PesquisarCamera-AgenteDNIT.jsp">Consultar</a> 
+                        <li><a href="ui112-pesquisarcamera-agentednit.jsp">Consultar</a> 
                         </li>
 					
                 </ul>
 
 					<ul class="menu-ativo navigator">
 						<h3>Passagem</h3> 
-							<li><a href="UI114-ConsultarPassagem-AgenteDNIT.jsp">Consultar</a>
+							<li><a href="ui114-consultarpassagem-agentednit.jsp">Consultar</a>
                             </li>
 				</ul>	
             </div>
@@ -301,7 +301,7 @@
 						
                         <input type="submit" value="Alterar" name="enviar" id="enviarJ" class="botaoJ">
                         <input type="button" value="Limpar" name="Limpar" id="limparJ" class="botaoJ">
-                        <a href="UI037-Home-AdmDNIT.jsp"><input type="button" value="Cancelar" name="Cancelar" id="cancelarJ" class="botaoJ"></a>
+                        <a href="ui050-home-agentednit.jsp"><input type="button" value="Cancelar" name="Cancelar" id="cancelarJ" class="botaoJ"></a>
         </form>
 			
 		<!-- SÓ EDITE DAQUI PARA CIMA!-->

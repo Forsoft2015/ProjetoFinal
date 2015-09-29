@@ -6,13 +6,13 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src="../js/framework.js" type="text/javascript" DEFER></script>
-	<script src="../js/UI014.js" type="text/javascript" DEFER></script>
+	<script src="../js/ui014.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI013-Home-Ministro.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="ui015-home-admministerio.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -27,10 +27,10 @@
 
 						<h3>Relatórios</h3> 
 
-						<li><a href="UI023-EmitirRelatorios-AdmMinisterio.jsp">Emitir</a> 
+						<li><a href="ui023-emitirrelatorios-admministerio.jsp">Emitir</a> 
 						</li>
 						
-						<li><a href="UI022-ConsultarRelatorios-AdmMinisterio.jsp">Consultar</a> 
+						<li><a href="ui022-consultarrelatorios-admministerio.jsp">Consultar</a> 
 				
 						</li>
 						
@@ -40,9 +40,9 @@
 
 					<h3>Usuários</h3> 
 
-						<li><a href="UI016-CadastrarAdms-AdmMinisterio.jsp">Cadastrar</a></li>
+						<li><a href="ui016-cadastraradms-admministerio.jsp">Cadastrar</a></li>
 						
-						<li><a href="UI017-PesquisarAdms-AdmMinisterio.jsp">Consultar</a></li>
+						<li><a href="ui017-pesquisaradms-admministerio.jsp">Consultar</a></li>
 				</ul>
 				</div>
 
@@ -63,7 +63,7 @@
 					</div>
 					<br>
 					 <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
-					 <a href="UI015-Home-AdmMinisterio.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+					 <a href="ui015-home-admministerio.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 				</div>
 					<table id="tblConsulta">
 						<tr>

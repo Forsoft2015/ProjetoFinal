@@ -12,7 +12,7 @@
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI060-Home-Transportador.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="ui060-home-transportador.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -25,23 +25,23 @@
 				<ul class="menu-ativo navigator">
 
 				<h3>Motorista</h3> 
-						<li><a href="UI061-CadastrarMotorista-Transportador.jsp">Cadastrar</a></li>
-						<li><a href="UI062-PesquisarMotorista-Transportador.jsp">Consultar</a></li>
+						<li><a href="ui061-cadastrarmotorista-transportador.jsp">Cadastrar</a></li>
+						<li><a href="ui062-pesquisarmotorista-transportador.jsp">Consultar</a></li>
 				</ul>
 				
 				<ul class="menu-ativo navigator">
 
 				<h3>Frete</h3> 
-						<li><a href="UI064-CadastrarFrete-Transportador.jsp">Cadastrar</a></li>
-						<li><a href="UI065-PesquisarFrete-Transportador.jsp">Consultar</a></li>
+						<li><a href="ui064-cadastrarfrete-transportador.jsp">Cadastrar</a></li>
+						<li><a href="ui065-pesquisarfrete-transportador.jsp">Consultar</a></li>
 				</ul>
 				
 				
 				<ul class="menu-ativo navigator">
 
 				<h3>Veículo</h3> 
-						<li><a href="UI067-CadastrarVeiculo-Transportador.jsp">Cadastrar</a></li>
-						<li><a href="UI068-PesquisarVeiculo-Transportador.jsp">Consultar</a></li>
+						<li><a href="ui067-cadastrarveiculo-transportador.jsp">Cadastrar</a></li>
+						<li><a href="ui068-pesquisarveiculo-transportador.jsp">Consultar</a></li>
 				</ul>
 
 		</div>
@@ -184,7 +184,7 @@
 						</div>
 				<br><Br>		
 	           <input type="submit" value="Alterar" name="alterar" id="alterarJ" class="botaoJ">
-	           <a href="UI060-Home-Transportador.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+	           <a href="ui060-home-transportador.jsp"><input type="reset" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 		</form>
 		
 		<br>

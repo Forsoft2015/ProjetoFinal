@@ -7,7 +7,7 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src='../js/framework.js' type='text/javascript' DEFER></script>
-	<script src="../js/UI01.js" type="text/javascript" DEFER></script>
+	<script src="../js/ui01.js" type="text/javascript" DEFER></script>
 </head>
 		<body>
 			<div class="centralizar">
@@ -55,8 +55,8 @@
 								<button type="submit" class="centralizar">Entrar</button>
 								<br>
 								<div class="centro">
-									<a href="UI004-RecuperarSenha-TAC.jsp"><button type="button">Esqueci Minha Senha</button></a>							
-									<a href="UI003-Cadastro-TAC.jsp"><button type="button">Cadastrar-se</button></a>							
+									<a href="ui004-recuperarsenha-tac.jsp"><button type="button">Esqueci Minha Senha</button></a>							
+									<a href="ui003-cadastro-tac.jsp"><button type="button">Cadastrar-se</button></a>							
 								</div>
 							</form>
 						

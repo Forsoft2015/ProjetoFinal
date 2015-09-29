@@ -1,8 +1,4 @@
-<%-- 
-    Document   : UI014-ConsultarRelatorio-Ministro
-    Created on : 18/09/2015, 07:07:49
-    Author     : Javapos
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -12,13 +8,13 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src="../js/framework.js" type="text/javascript" DEFER></script>
-	<script src="../js/UI014.js" type="text/javascript" DEFER></script>
+	<script src="../js/ui014.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI015-Home-AdmMinisterio.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="ui015-home-admministerio.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -33,10 +29,10 @@
 
 						<h3>Relatórios</h3> 
 
-						<li><a href="UI023-EmitirRelatorios-AdmMinisterio.jsp">Emitir</a> 
+						<li><a href="ui023-emitirrelatorios-admministerio.jsp">Emitir</a> 
 						</li>
 						
-						<li><a href="UI022-ConsultarRelatorios-AdmMinisterio.jsp">Consultar</a> 
+						<li><a href="ui022-consultarrelatorios-admministerio.jsp">Consultar</a> 
 				
 						</li>
 						
@@ -46,9 +42,9 @@
 
 					<h3>Usuários</h3> 
 
-						<li><a href="UI016-CadastrarAdms-AdmMinisterio.jsp">Cadastrar</a></li>
+						<li><a href="ui016-cadastraradms-admministerio.jsp">Cadastrar</a></li>
 						
-						<li><a href="UI017-PesquisarAdms-AdmMinisterio.jsp">Consultar</a></li>
+						<li><a href="ui017-pesquisaradms-admministerio.jsp">Consultar</a></li>
 				</ul>
 				</div>
 		

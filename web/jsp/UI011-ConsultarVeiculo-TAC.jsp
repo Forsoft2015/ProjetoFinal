@@ -38,10 +38,10 @@
 
 				<h3>Veículo</h3> 
 
-						<li><a href="UI009-CadastrarFrete-TAC.jsp">Cadastrar</a> 
+						<li><a href="ui009-CadastrarFrete-TAC.jsp">Cadastrar</a> 
 						</li>
 						
-						<li><a href="UI010-PesquisarVeiculo-TAC.jsp">Pesquisar</a> 
+						<li><a href="ui010-PesquisarVeiculo-TAC.jsp">Pesquisar</a> 
 						</li>
 			    </ul>	
 

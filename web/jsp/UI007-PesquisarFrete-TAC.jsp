@@ -13,7 +13,7 @@
 <body>
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI005-Home-TAC.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="ui005-home-tac.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -25,21 +25,21 @@
 				<ul class="menu-ativo navigator">
 
 					<h3>Frete</h3> 
-					<li><a href="UI006-CadastrarFrete-TAC.jsp">Cadastrar</a> 
+					<li><a href="ui006-cadastrarfrete-tac.jsp">Cadastrar</a> 
 					</li>
-					<li><a href="UI007-PesquisarFrete-TAC.jsp">Pesquisar</a> 
+					<li><a href="ui007-pesquisarfrete-tac.jsp">Pesquisar</a> 
 					</li>
 				</ul>
 				<ul class="menu-ativo navigator">
 					<h3>Veículo</h3> 
-					<li><a href="UI009-CadastrarVeiculo-TAC.jsp">Cadastrar</a> 
+					<li><a href="ui009-cadastrarveiculo-tac.jsp">Cadastrar</a> 
 					</li>												
-					<li><a href="UI010-PesquisarVeiculo-TAC.jsp">Pesquisar</a> 
+					<li><a href="ui010-pesquisarveiculo-tac.jsp">Pesquisar</a> 
 					</li>
 				</ul>	
 				<ul class="menu-ativo navigator">
 					<h3>Configurações da Conta</h3>
-					<li><a href="UI012-AlterarConfig-TAC.jsp">Alterar</a> 
+					<li><a href="ui012-alterarconfig-tac.jsp">Alterar</a> 
 					</li>						
 				</ul>
 		</div>
@@ -64,7 +64,7 @@
 
 				<br>
 					 <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
-					 <a href="UI005-Home-TAC.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+					 <a href="ui005-home-tac.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 				</div>					
 				<table id="tblConsulta">
 						<tr>

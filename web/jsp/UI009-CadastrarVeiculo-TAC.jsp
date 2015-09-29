@@ -6,12 +6,12 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src="../js/framework.js" type='text/javascript' DEFER></script>
-	<script src="../js/UI009.js" type="text/javascript" DEFER></script>
+	<script src="../js/ui009.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI005-HomeTAC.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="ui005-home-tac.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -27,10 +27,10 @@
 				
 					<h3>Frete</h3> 
 					
-						<li><a href="UI006-CadastrarFrete-TAC.jsp">Cadastrar</a> 
+						<li><a href="ui006-cadastrarfrete-tac.jsp">Cadastrar</a> 
 						</li>
 						
-						<li><a href="UI007-PesquisarFrete-TAC.jsp">Pesquisar</a> 
+						<li><a href="ui007-pesquisarfrete-tac.jsp">Pesquisar</a> 
 						</li>
 						
 										
@@ -40,10 +40,10 @@
 
 				<h3>Veículo</h3> 
 
-						<li><a href="UI009-CadastrarFrete-TAC.jsp">Cadastrar</a> 
+						<li><a href="ui009-cadastrarveiculo-tac.jsp">Cadastrar</a> 
 						</li>
 						
-						<li><a href="UI010-PesquisarVeiculo-TAC.jsp">Pesquisar</a> 
+						<li><a href="ui010-pesquisarveiculo-tac.jsp">Pesquisar</a> 
 						</li>
 						
 			    </ul>	
@@ -52,7 +52,7 @@
 				
 					<h3>Configurações da Conta</h3>
 					
-						<li><a href="UI012-AlterarConfig-TAC.jsp">Alterar</a> 
+						<li><a href="ui012-alterarconfig-tac.jsp">Alterar</a> 
 						</li>
 						
 				</ul>
@@ -167,7 +167,7 @@
 				<br><br>		
 	           <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
 			   <input type="reset" value="Limpar" name="limpar" id="limparJ" class="botaoJ"></a>
-	           <a href="UI005-HomeTAC.jsp"><input type="button" value="Cancelar" name="cancelar" id="cancelarJ" class="botaoJ"></a>
+	           <a href="ui005-home-tac.jsp"><input type="button" value="Cancelar" name="cancelar" id="cancelarJ" class="botaoJ"></a>
 		</form> 
 		<br>
 		<br>

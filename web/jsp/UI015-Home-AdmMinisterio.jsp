@@ -1,5 +1,5 @@
 <%-- 
-    Document   : UI015-Home-AdmMinisterio
+    Document   : ui015-home-admministerio
     Created on : 17/09/2015, 20:27:12
     Author     : Javapos
 --%>
@@ -18,7 +18,7 @@
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI015-Home-AdmMinisterio.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="ui015-home-admministerio.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -32,10 +32,10 @@
 
 				<h3>Relatórios</h3> 
 
-						<li><a href="UI023-EmitirRelatorios-AdmMinisterio.jsp">Emitir</a> 
+						<li><a href="ui023-emitirrelatorios-admministerio.jsp">Emitir</a> 
 						</li>
 						
-						<li><a href="UI022-ConsultarRelatorios-AdmMinisterio.jsp">Consultar</a> 
+						<li><a href="ui022-consultarrelatorios-admministerio.jsp">Consultar</a> 
 				
 						</li>
 						
@@ -45,9 +45,9 @@
 
 					<h3>Usuários</h3> 
 
-						<li><a href="UI016-CadastrarAdms-AdmMinisterio.jsp">Cadastrar</a></li>
+						<li><a href="ui016-cadastraradms-admministerio.jsp">Cadastrar</a></li>
 						
-						<li><a href="UI017-PesquisarAdms-AdmMinisterio.jsp">Consultar</a></li>
+						<li><a href="ui017-pesquisaradms-admministerio.jsp">Consultar</a></li>
 				</ul>
 		
 		</div>

@@ -12,7 +12,7 @@
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI083-Home-AgenteReceita.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="ui083-home-agentereceita.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -24,20 +24,20 @@
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
                                     <h3>TETI</h3>
-                                    <li><a href="UI087-CadastrarTETI-AgenteReceita.jsp">Cadastrar</a> </li>
-                                    <li><a href="UI088-PesquisarTETI-AgenteReceita.jsp">Pesquisar</a> </li>
+                                    <li><a href="ui087-cadastrarteti-agentereceita.jsp">Cadastrar</a> </li>
+                                    <li><a href="ui088-pesquisarteti-agentereceita.jsp">Pesquisar</a> </li>
 				</ul>
 
 				<ul class="menu-ativo navigator">
                                     <h3>Veículos</h3> 
-                                    <li><a href="UI090-CadastrarVeiculo-AgenteReceita.jsp">Cadastrar</a></li>
-                                    <li><a href="UI091-PesquisarVeiculo-AgenteReceita.jsp">Pesquisar</a></li>
+                                    <li><a href="ui090-cadastrarveiculo-agentereceita.jsp">Cadastrar</a></li>
+                                    <li><a href="ui091-pesquisarveiculo-agentereceita.jsp">Pesquisar</a></li>
 				</ul>					
 
 				<ul class="menu-ativo navigator">
                                     <h3>Fretes</h3> 
-                                    <li><a href="UI093-CadastrarFrete-AgenteReceita.jsp">Cadastrar</a></li>
-                                    <li><a href="UI094-PesquisarFrete-AgenteReceita.jsp">Pesquisar</a></li>
+                                    <li><a href="ui093-cadastrarfrete-agentereceita.jsp">Cadastrar</a></li>
+                                    <li><a href="ui094-pesquisarfrete-agentereceita.jsp">Pesquisar</a></li>
 				</ul>					
 
 				</div>
@@ -149,7 +149,7 @@
 				<br><br>		
 	           <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
 			   <input type="reset" value="Limpar" name="limpar" id="limparJ" class="botaoJ"></a>
-	           <a href="UI083-Home-AgenteReceita.jsp"><input type="button" value="Cancelar" name="cancelar" id="cancelarJ" class="botaoJ"></a>
+	           <a href="ui083-home-agentereceita.jsp"><input type="button" value="Cancelar" name="cancelar" id="cancelarJ" class="botaoJ"></a>
 		</form> 
 		<br>
 		<br>

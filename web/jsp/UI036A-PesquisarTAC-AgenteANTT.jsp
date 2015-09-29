@@ -12,7 +12,7 @@
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI032-Home-AgenteANTT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="ui032-home-agenteantt.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -24,13 +24,13 @@
 		<div id="sidemenu" class="esquerda">				
 				<ul class="menu-ativo navigator">
                                     <h3>Transportadores</h3>
-                                    <li><a href="UI033-CadastrarTransportador-AgenteANTT.jsp">Cadastrar</a> </li>
-                                    <li><a href="UI034-PesquisarTransportador-AgenteANTT.jsp">Pesquisar</a> </li>
+                                    <li><a href="ui033-cadastrartransportador-agenteantt.jsp">Cadastrar</a> </li>
+                                    <li><a href="ui034-pesquisartransportador-agenteantt.jsp">Pesquisar</a> </li>
 				</ul>
 
 				<ul class="menu-ativo navigator">
                                     <h3>Autônomos</h3> 
-                                    <li><a href="UI036A-PesquisarTAC-AgenteANTT.jsp">Pesquisar</a></li>
+                                    <li><a href="ui036a-pesquisartac-agenteantt.jsp">Pesquisar</a></li>
 				</ul>					
 		</div>
 		
@@ -53,7 +53,7 @@
 					</div>
 					<br>
 					 <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
-					 <a href="UI032-Home-AgenteANTT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+					 <a href="ui032-home-agenteantt.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 				</div>
 					<table id="tblConsulta">
 						<tr>

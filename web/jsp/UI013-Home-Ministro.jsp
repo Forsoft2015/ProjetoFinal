@@ -1,8 +1,3 @@
-<%-- 
-    Document   : UI013-Home-Ministro
-    Created on : 17/09/2015, 19:39:50
-    Author     : Javapos
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -18,7 +13,7 @@
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI013-Home-Ministro.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="ui013-home-ministro.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -32,7 +27,7 @@
 
 				<h3>Relatórios</h3> 
 
-						<li><a href="UI014-ConsultarRelatorio-Ministro.jsp">Consultar</a> 
+						<li><a href="ui014-consultarrelatorio-ministro.jsp">Consultar</a> 
 						</li>
 												
 				</ul>

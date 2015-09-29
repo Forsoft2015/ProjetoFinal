@@ -11,7 +11,7 @@
     <body>
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="Index.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="index.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -188,7 +188,7 @@
                     <br><br>
                     <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
                     <input type="reset" value="Limpar" name="limpar" id="limparJ" class="botaoJ">
-                    <a href="UI001-Login.jsp"><input type="button" value="Voltar" name="voltar" id="voltarJ" class="botaoJ"></a>
+                    <a href="ui001-login.jsp"><input type="button" value="Voltar" name="voltar" id="voltarJ" class="botaoJ"></a>
                 </form>
 
 					

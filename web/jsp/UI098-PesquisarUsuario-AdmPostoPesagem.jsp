@@ -12,7 +12,7 @@
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI096-Home-AdmPostoPesagem.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="ui096-home-admpostopesagem.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -24,14 +24,14 @@
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
                                     <h3>Usuários</h3> 
-                                    <li><a href="UI097-CadastrarUsuario-AdmPostoPesagem.jsp">Cadastrar</a></li>
-                                    <li><a href="UI098-PesquisarUsuario-AdmPostoPesagem.jsp">Pesquisar</a></li>
+                                    <li><a href="ui097-cadastrarusuario-admpostopesagem.jsp">Cadastrar</a></li>
+                                    <li><a href="ui098-pesquisarusuario-admpostopesagem.jsp">Pesquisar</a></li>
 				</ul>
 				
 				<ul class="menu-ativo navigator">
                                     <h3>Pesagem</h3>
-                                    <li><a href="UI100-RegistrarPesagem-AdmPostoPesagem.jsp">Registrar</a> </li>
-                                    <li><a href="UI101-PesquisarPesagem-AdmPostoPesagem.jsp">Pesquisar</a> </li>
+                                    <li><a href="ui100-registrarpesagem-admpostopesagem.jsp">Registrar</a> </li>
+                                    <li><a href="ui101-pesquisarpesagem-admpostopesagem.jsp">Pesquisar</a> </li>
 				</ul>
 
 				</div>
@@ -55,7 +55,7 @@
 					</div>
 					<br>
 					 <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
-					 <a href="UI096-Home-AdmPostoPesagem.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+					 <a href="ui096-home-admpostopesagem.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 				</div>
 					<table id="tblConsulta">
 						<tr>

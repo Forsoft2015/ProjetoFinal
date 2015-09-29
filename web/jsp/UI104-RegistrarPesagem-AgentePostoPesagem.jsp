@@ -12,7 +12,7 @@
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI103-Home-AgentePostoPesagem.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="ui103-home-agentepostopesagem.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -24,8 +24,8 @@
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
                                     <h3>Pesagem</h3>
-                                    <li><a href="UI104-RegistrarPesagem-AgentePostoPesagem.jsp">Registrar</a> </li>
-                                    <li><a href="UI105-PesquisarPesagem-AgentePostoPesagem.jsp">Pesquisar</a> </li>
+                                    <li><a href="ui104-registrarpesagem-agentepostopesagem.jsp">Registrar</a> </li>
+                                    <li><a href="ui105-pesquisarpesagem-agentepostopesagem.jsp">Pesquisar</a> </li>
 				</ul>
 				</div>
             <!-- NÃO EDITAR!-->

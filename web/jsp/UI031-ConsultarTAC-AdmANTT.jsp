@@ -6,13 +6,13 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src="../js/framework.js" type="text/javascript" DEFER></script>
-	<script src="../js/UI014.js" type="text/javascript" DEFER></script>
+	<script src="../js/ui014.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI024-Home-AdmANTT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="ui024-home-admantt.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -24,19 +24,19 @@
 		<div id="sidemenu" class="esquerda">
                     <ul class="menu-ativo navigator">
                                     <h3>Usuários</h3> 
-                                    <li><a href="UI025-CadastrarUsuarios-AdmANTT.jsp">Cadastrar</a></li>
-                                    <li><a href="UI026-PesquisarUsuarios-AdmANTT.jsp">Pesquisar</a></li>
+                                    <li><a href="ui025-cadastrarusuarios-admantt.jsp">Cadastrar</a></li>
+                                    <li><a href="ui026-pesquisarusuarios-admantt.jsp">Pesquisar</a></li>
 				</ul>
 				
 				<ul class="menu-ativo navigator">
                                     <h3>Transportadores</h3>
-                                    <li><a href="UI028-CadastrarTransportador-AdmANTT.jsp">Cadastrar</a> </li>
-                                    <li><a href="UI029-PesquisarTransportador-AdmANTT.jsp">Pesquisar</a> </li>
+                                    <li><a href="ui028-cadastrartransportador-admantt.jsp">Cadastrar</a> </li>
+                                    <li><a href="ui029-pesquisartransportador-admantt.jsp">Pesquisar</a> </li>
 				</ul>
 
 				<ul class="menu-ativo navigator">
                                     <h3>Autônomos</h3> 
-                                    <li><a href="UI030A-PesquisarTAC-AdmANTT.jsp">Pesquisar</a></li>
+                                    <li><a href="ui030a-pesquisartac-admantt.jsp">Pesquisar</a></li>
 				</ul>	
 		</div>
 		<div id="centro" class="esquerda">
@@ -207,7 +207,7 @@
                     
                 </div>
                     <br><br>
-                    <a href="UI024-Home-AdmANTT.jsp"><input type="button" value="Voltar" name="voltar" id="voltarJ" class="botaoJ"></a>
+                    <a href="ui024-home-admantt.jsp"><input type="button" value="Voltar" name="voltar" id="voltarJ" class="botaoJ"></a>
                 </form>
 
 					

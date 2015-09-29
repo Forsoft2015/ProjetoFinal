@@ -12,7 +12,7 @@
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI070-Home-AdmReceita.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="ui070-home-admreceita.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -24,26 +24,26 @@
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
                                     <h3>Usuários</h3> 
-                                    <li><a href="UI071-CadastrarUsuario-AdmReceita.jsp">Cadastrar</a></li>
-                                    <li><a href="UI072-PesquisarUsuario-AdmReceita.jsp">Pesquisar</a></li>
+                                    <li><a href="ui071-cadastrarusuario-admreceita.jsp">Cadastrar</a></li>
+                                    <li><a href="ui072-pesquisarusuario-admreceita.jsp">Pesquisar</a></li>
 				</ul>
 				
 				<ul class="menu-ativo navigator">
                                     <h3>TETI</h3>
-                                    <li><a href="UI074-CadastrarTETI-AdmReceita.jsp">Cadastrar</a> </li>
-                                    <li><a href="UI075-PesquisarTETI-AdmReceita.jsp">Pesquisar</a> </li>
+                                    <li><a href="ui074-cadastrarteti-admreceita.jsp">Cadastrar</a> </li>
+                                    <li><a href="ui075-pesquisarteti-admreceita.jsp">Pesquisar</a> </li>
 				</ul>
 
 				<ul class="menu-ativo navigator">
                                     <h3>Veículos</h3> 
-                                    <li><a href="UI077-CadastrarVeiculo-AdmReceita.jsp">Cadastrar</a></li>
-                                    <li><a href="UI078-PesquisarVeiculo-AdmReceita.jsp">Pesquisar</a></li>
+                                    <li><a href="ui077-cadastrarveiculo-admreceita.jsp">Cadastrar</a></li>
+                                    <li><a href="ui078-pesquisarveiculo-admreceita.jsp">Pesquisar</a></li>
 				</ul>					
 
 				<ul class="menu-ativo navigator">
                                     <h3>Fretes</h3> 
-                                    <li><a href="UI080-CadastrarFrete-AdmReceita.jsp">Cadastrar</a></li>
-                                    <li><a href="UI081-PesquisarFrete-AdmReceita.jsp">Pesquisar</a></li>
+                                    <li><a href="ui080-cadastrarfrete-admreceita.jsp">Cadastrar</a></li>
+                                    <li><a href="ui081-pesquisarfrete-admreceita.jsp">Pesquisar</a></li>
 				</ul>					
 
 				</div>
@@ -156,7 +156,7 @@
 				<br><br>		
 	           <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
 			   <input type="reset" value="Limpar" name="limpar" id="limparJ" class="botaoJ"></a>
-	           <a href="UI070-Home-AdmReceita.jsp"><input type="button" value="Cancelar" name="cancelar" id="cancelarJ" class="botaoJ"></a>
+	           <a href="ui070-home-admreceita.jsp"><input type="button" value="Cancelar" name="cancelar" id="cancelarJ" class="botaoJ"></a>
 		</form> 
 		<br>
 		<br>

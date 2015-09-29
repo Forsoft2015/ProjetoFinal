@@ -6,13 +6,13 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<script src="../js/framework.js" type='text/javascript' DEFER></script>
-	<script src="../js/UI108.js" type="text/javascript" DEFER></script>
+	<script src="../js/ui108.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="UI037-Home-AdmDNIT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<a href="ui037-home-admdnit.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -24,37 +24,37 @@
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
                                     <h3>Usuários</h3> 
-                                    <li><a href="UI038-CadastrarUsuarios-AdmDNIT.jsp">Cadastrar</a></li>
-                                    <li><a href="UI039-PesquisarUsuarios-AdmDNIT.jsp">Consultar</a></li>
+                                    <li><a href="ui038-cadastrarusuarios-admdnit.jsp">Cadastrar</a></li>
+                                    <li><a href="ui039-pesquisarusuarios-admdnit.jsp">Consultar</a></li>
 				</ul>
 				
 				<ul class="menu-ativo navigator">
 									<h3>Postos de Pesagem</h3> 
-									<li><a href="UI047-CadastrarPostoPesagem-AdmDNIT.jsp">Cadastrar</a></li>
-									<li><a href="UI048-PesquisarPostoPesagem-AdmDNIT.jsp">Consultar</a></li>
+									<li><a href="ui047-cadastrarpostopesagem-admdnit.jsp">Cadastrar</a></li>
+									<li><a href="ui048-pesquisarpostopesagem-admdnit.jsp">Consultar</a></li>
 				</ul>
 				
 				<ul class="menu-ativo navigator">
 									<h3>Rodovia</h3> 
-									<li><a href="UI041-CadastrarRodovia-AdmDNIT.jsp">Cadastrar</a></li>
-									<li><a href="UI042-PesquisarRodovia-AdmDNIT.jsp">Consultar</a></li>
+									<li><a href="ui041-cadastrarrodovia-admdnit.jsp">Cadastrar</a></li>
+									<li><a href="ui042-pesquisarrodovia-admdnit.jsp">Consultar</a></li>
 				</ul>
 				
 				<ul class="menu-ativo navigator">
 									<h3>Balança</h3> 
-									<li><a href="UI044-CadastrarBalanca-AdmDNIT.jsp">Cadastrar</a></li>
-									<li><a href="UI045-PesquisarBalanca-AdmDNIT.jsp">Consultar</a></li>
+									<li><a href="ui044-cadastrarbalanca-admdnit.jsp">Cadastrar</a></li>
+									<li><a href="ui045-pesquisarbalanca-admdnit.jsp">Consultar</a></li>
 				</ul>	
 				
 				<ul class="menu-ativo navigator">
 									<h3>Câmera</h3> 
-									<li><a href="UI107-CadastrarCamera-AdmDNIT.jsp">Cadastrar</a></li>
-									<li><a href="UI108-PesquisarCamera-AdmDNIT.jsp">Consultar</a></li>
+									<li><a href="ui107-cadastrarcamera-admdnit.jsp">Cadastrar</a></li>
+									<li><a href="ui108-pesquisarcamera-admdnit.jsp">Consultar</a></li>
 				</ul>	
 				
 				<ul class="menu-ativo navigator">
 									<h3>Passagem</h3> 
-									<li><a href="UI110-ConsultarPassagem-AdmDNIT.jsp">Consultar</a></li>
+									<li><a href="ui110-consultarpassagem-admdnit.jsp">Consultar</a></li>
 				</ul>				
 		</div>
 		<div id="centro" class="esquerda">
@@ -94,7 +94,7 @@
 
 					<br>
 					 <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
-					 <a href="UI037-Home-AdmDNIT.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+					 <a href="ui037-home-admdnit.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
 				</div>
 					<table id="tblConsulta">
 						<tr>
