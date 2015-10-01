@@ -1,28 +1,112 @@
-var produto = 0;
-
+//Simplifica a chamada getElementById para _$
 var _$ = function (id) {
     return document.getElementById(id);
 }
 
+//Simplifica a chamada getElementByClassName para _gbc
 var _gbc = function (gbc) {
 	return document.getElementsByClassName (gbc);
 }
 
+//Função verfica se tem class
 function hasClass(element, className) {
     return element.className && new RegExp("(^|\\s)" + className + "(\\s|$)").test(element.className);
 }
 
+//Função de validação de CPF
 function CPF(){"user_strict";function r(r){for(var t=null,n=0;9>n;++n)t+=r.toString().charAt(n)*(10-n);var i=t%11;return i=2>i?0:11-i}function t(r){for(var t=null,n=0;10>n;++n)t+=r.toString().charAt(n)*(11-n);var i=t%11;return i=2>i?0:11-i}var n=false,i=true;this.gera=function(){for(var n="",i=0;9>i;++i)n+=Math.floor(9*Math.random())+"";var o=r(n),a=n+"-"+o+t(n+""+o);return a},this.valida=function(o){for(var a=o.replace(/\D/g,""),u=a.substring(0,9),f=a.substring(9,11),v=0;10>v;v++)if(""+u+f==""+v+v+v+v+v+v+v+v+v+v+v)return n;var c=r(u),e=t(u+""+c);return f.toString()===c.toString()+e.toString()?i:n}}
+
+//Função de validação de CNPJ
+function TestaCNPJ(CNPJ) {
+	
+    var strCNPJ = CNPJ.substring(0, 2)+CNPJ.substring(3, 6)+CNPJ.substring(7, 10)+CNPJ.substring(11, 15)+CNPJ.substring(16, 18);
+	
+	console.log(strCNPJ);
+     
+    if (strCNPJ.length != 14)
+        return false;
+ 
+    // Elimina strCNPJs invalidos conhecidos
+    if (strCNPJ == "00000000000000" ||
+        strCNPJ == "11111111111111" || 
+        strCNPJ == "22222222222222" || 
+        strCNPJ == "33333333333333" || 
+        strCNPJ == "44444444444444" || 
+        strCNPJ == "55555555555555" || 
+        strCNPJ == "66666666666666" || 
+        strCNPJ == "77777777777777" || 
+        strCNPJ == "88888888888888" || 
+        strCNPJ == "99999999999999")
+        return false;
+         
+    // Valida DVs
+    tamanho = strCNPJ.length - 2
+    numeros = strCNPJ.substring(0,tamanho);
+    digitos = strCNPJ.substring(tamanho);
+    soma = 0;
+    pos = tamanho - 7;
+    for (i = tamanho; i >= 1; i--) {
+      soma += numeros.charAt(tamanho - i) * pos--;
+      if (pos < 2)
+            pos = 9;
+    }
+    resultado = soma % 11 < 2 ? 0 : 11 - soma % 11;
+    if (resultado != digitos.charAt(0))
+        return false;
+         
+    tamanho = tamanho + 1;
+    numeros = strCNPJ.substring(0,tamanho);
+    soma = 0;
+    pos = tamanho - 7;
+    for (i = tamanho; i >= 1; i--) {
+      soma += numeros.charAt(tamanho - i) * pos--;
+      if (pos < 2)
+            pos = 9;
+    }
+    resultado = soma % 11 < 2 ? 0 : 11 - soma % 11;
+    if (resultado != digitos.charAt(1))
+          return false;
+           
+    return true;
+    
+}
+
+//Função de validação de Email
+function ValidaEmail(vEmail){
+	var arroba = vEmail.indexOf("@");
+	if (arroba == -1){
+		return false;
+	}	
+	var first = vEmail.charAt(0);
+	if(first=="@"){
+		return false;		
+	} 
+		
+	var tam = vEmail.length;
+	if (arroba+1==tam){
+		return false;	
+	}
+	
+	var ponto = vEmail.indexOf(".");
+	if ((arroba+1==ponto)||(ponto==-1)|| (ponto+1==tam)||(ponto==arroba-1)){
+		return false;	
+	}
+	
+	var pontoF = vEmail.lastIndexOf(".");
+	if (pontoF+1==tam){
+		return false;	
+	}
+
+	return true		
+}
 
 var regexLETRAS = /^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$/; // Expressão regular seletora de caracteres do tipo Letra.
 
-var _gbc = function (gbc) {
-	return document.getElementsByClassName (gbc);
-}
-
-var y = _gbc("cadastrocaixa");/*class de todos os inputs que devem ser iserido o texto "Campo Obriatório"*/
+var y = _gbc("campoObrig");/*class de todos os inputs que devem ser iserido o texto "Campo Obriatório"*/
 var x = _gbc("tSpan");/*class de todas as tags span*/
 	
+
+//Valida todos os campos obrigatórios	
 function obrigatorio(e) {
 	
 	var err = false;
@@ -35,21 +119,110 @@ function obrigatorio(e) {
 			var cpfValido = cpf.valida( e.currentTarget.value );
 			if ( !cpfValido ) {
 				e.currentTarget.nextSibling.innerHTML 		= "CPF Inválido!";
-				e.currentTarget.style.border 				= "thin solid red";	
+				e.currentTarget.style.border 			= "thin solid red";	
 				e.currentTarget.nextSibling.style.display 	= "block";
 				return false;
 			}
 		}
 		
-	}
+		if ( e.currentTarget.id == "telefoneJ" ) {
+			var regexTel = /^\d+\ \d+\-\d+$/;
+			if (!e.currentTarget.value.match(regexTel)) { 
+				e.currentTarget.nextSibling.innerHTML 		= "Telefone Inválido!";
+				e.currentTarget.style.border 			= "thin solid red";	
+				e.currentTarget.nextSibling.style.display 	= "block";
+				return true;
+			}
+		}
+                
+                if ( e.currentTarget.id == "celularJ" ) {
+			var regexTel = /^\d+\ \d+\-\d+$/;
+			if (!e.currentTarget.value.match(regexTel)) { 
+				e.currentTarget.nextSibling.innerHTML 		= "Celular Inválido!";
+				e.currentTarget.style.border 			= "thin solid red";	
+				e.currentTarget.nextSibling.style.display 	= "block";
+				return true;
+			}
+		}
+		
+		if ( e.currentTarget.id == "cepJ" ) {
+			var regexCep = /^\d+\.\d+\-\d+$/;
+			if (!e.currentTarget.value.match(regexCep)) { 
+				e.currentTarget.nextSibling.innerHTML 		= "CEP Inválido!";
+				e.currentTarget.style.border 			= "thin solid red";	
+				e.currentTarget.nextSibling.style.display 	= "block";
+				return true;
+			}
+		}
+				
+		if ( e.currentTarget.id == "cnpjJ" ) {
+			var cnpjValido = TestaCNPJ (e.currentTarget.value);
+			if  (cnpjValido == false ){
+				e.currentTarget.nextSibling.innerHTML 		= "CNPJ Inválido!";
+				e.currentTarget.style.border 			= "thin solid red";	
+				e.currentTarget.nextSibling.style.display 	= "block";
+				return true;
+			}
+		}
+		
+		if ( e.currentTarget.id == "emailJ" ) {
+			var emailValido = ValidaEmail (e.currentTarget.value);
+			if  (emailValido == false ){
+				e.currentTarget.nextSibling.innerHTML 		= "E-mail Inválido!";
+				e.currentTarget.style.border 			= "thin solid red";	
+				e.currentTarget.nextSibling.style.display 	= "block";
+				return true;
+			}
+		}
+		
+		if ( e.currentTarget.id == "horaJ" ) {
+			var regexHora = /^([01]\d|2[0-3]):([0-5]\d):([0-5]\d)$/;
+			if (!e.currentTarget.value.match(regexHora)) { 
+				e.currentTarget.nextSibling.innerHTML 		= "Hora Inválida!";
+				e.currentTarget.style.border 			= "thin solid red";	
+				e.currentTarget.nextSibling.style.display 	= "block";
+				return true;
+			}
+		}
+		
+		if ( e.currentTarget.id == "placaJ" ) {
+			var regexPlaca = /^([A-Za-z]{3})\-(\d{4})$/;
+			if (!e.currentTarget.value.match(regexPlaca)) { 
+				e.currentTarget.nextSibling.innerHTML 		= "Placa Inválida!";
+				e.currentTarget.style.border 			= "thin solid red";	
+				e.currentTarget.nextSibling.style.display 	= "block";
+				return true;
+			}
+		}
+		
+		if ( e.currentTarget.id == "dataJ" ) {
+			var regexData = /^(0[1-9]|1\d|2[0-8]|29(?=-\d\d-(?!1[01345789]00|2[1235679]00)\d\d(?:[02468][048]|[13579][26]))|30(?!-02)|31(?=-0[13578]|-1[02]))\/(0[1-9]|1[0-2])\/([12]\d{3})$/;
+			if (!e.currentTarget.value.match(regexData)) { 
+				e.currentTarget.nextSibling.innerHTML 		= "Data Inválida!";
+				e.currentTarget.style.border 			= "thin solid red";	
+				e.currentTarget.nextSibling.style.display 	= "block";
+				return true;
+			}
+		}
+                
+                if ( e.currentTarget.id == "dataNascimentoJ" ) {
+			var regexData = /^(0[1-9]|1\d|2[0-8]|29(?=-\d\d-(?!1[01345789]00|2[1235679]00)\d\d(?:[02468][048]|[13579][26]))|30(?!-02)|31(?=-0[13578]|-1[02]))\/(0[1-9]|1[0-2])\/([12]\d{3})$/;
+			if (!e.currentTarget.value.match(regexData)) { 
+				e.currentTarget.nextSibling.innerHTML 		= "Data Inválida!";
+				e.currentTarget.style.border 			= "thin solid red";	
+				e.currentTarget.nextSibling.style.display 	= "block";
+				return true;
+			}
+		}
+	}	
 	
 	if ( err ) {
 		e.currentTarget.nextSibling.innerHTML 		= "Campo Obrigatório";
-		e.currentTarget.style.border 				= "thin solid red";	
-		e.currentTarget.nextSibling.style.display 	= "inline";
+		e.currentTarget.style.border 			= "thin solid red";	
+		e.currentTarget.nextSibling.style.display 	= "block";
 	} else {
 		e.currentTarget.nextSibling.innerHTML 		= "";	
-		e.currentTarget.style.border 				= "thin solid #a9a9a9";
+		e.currentTarget.style.border 			= "thin solid #a9a9a9";
 		e.currentTarget.nextSibling.style.display 	= "none";
 	}
 }
@@ -92,12 +265,12 @@ function somenteLetras(e){
 }
 
 window.onload = function () {
-var y = _gbc("cadastrocaixa");/*class de todos os inputs que devem ser iserido o texto "Campo Obriatório"*/
+var y = _gbc("campoObrig");/*class de todos os inputs que devem ser iserido o texto "Campo Obriatório"*/
 var x = _gbc("tSpan");/*class de todas as tags span*/
 
 		for (var i = 0; i < y.length; i++) {
 			//console.log(y);
-			if ( hasClass(y[i], "cadastrocaixa") ) {
+			if ( hasClass(y[i], "campoObrig") ) {
 				y[i].onblur = function(e){
 					obrigatorio(e);
 				};
@@ -121,11 +294,18 @@ var x = _gbc("tSpan");/*class de todas as tags span*/
 				mascara(e, "###.###.###-##");
 			}
 		}
-		
-		
-		var telJ = _$("telJ");
+				
+		var telJ = _$("telefoneJ");
 		if (telJ) {
 			telJ.onkeypress = function (e) {
+				somenteNumeros(e);
+				mascara(e, "## ####-####");
+			}
+		}
+                
+                var celJ = _$("celularJ");
+		if (celJ) {
+			celJ.onkeypress = function (e) {
 				somenteNumeros(e);
 				mascara(e, "## #####-####");
 			}
@@ -158,7 +338,6 @@ var x = _gbc("tSpan");/*class de todas as tags span*/
 		var placaJ = _$("placaJ");
 		if ( placaJ ) {
 			placaJ.onkeypress = function (e) {
-				somenteNumeros(e);
 				mascara(e, "###-####");
 			}
 		}
@@ -166,6 +345,14 @@ var x = _gbc("tSpan");/*class de todas as tags span*/
 		var dataJ = _$("dataJ");
 		if ( dataJ ) {
 			dataJ.onkeypress = function (e) {
+			somenteNumeros(e);
+			mascara(e, "##/##/####");
+			}
+		}
+                
+                var datanascJ = _$("dataNascimentoJ");
+		if ( datanascJ ) {
+			datanascJ.onkeypress = function (e) {
 			somenteNumeros(e);
 			mascara(e, "##/##/####");
 			}
@@ -179,25 +366,10 @@ var x = _gbc("tSpan");/*class de todas as tags span*/
 			}
 		}
 		
+		
 }
 
-_$('novoProd').onclick = function () {
-	document.getElementsByClassName("item")[produto].style.display = 'block';
-	produto++;
-}
-
-_$('checar').onclick = function () {
-	selecionado = document.getElementById("domesticoJ").checked;
-
-	if (selecionado == true) {
-		document.getElementsByClassName("hidden")[0].style.display = 'none';
-	} else {
-		document.getElementsByClassName("hidden")[0].style.display = 'block';
-	} 
-
-}
-
-var topo = _$("caixa");
+/*var topo = _$("caixa");
 	topo.style.display = 'none';  // esta linha faz o menu superior direito "esconder" por padrão
 
 	_$('botao-topo').onclick = function () {        //ao clicar abre o dropwdown superior direito
@@ -206,7 +378,7 @@ var topo = _$("caixa");
 
 	_$('centro').onclick = function () { //ao clicar na div do centro esconde o menu
 		topo.style.display = topo.style.display === '' ? 'none' : 'none';
-}
+}*/
 	
 mascara = function (event, mask) {    // função das máscaras
 	var code = event.which || event.keyCode;
@@ -235,6 +407,7 @@ _$("formularioJ").onsubmit = function(e){
 			if (err){
 				alert("Verifique se digitou corretamente o campo " + y[i].name);
 				y[i].focus();
+				y[i].select();
 				err = true;
 				break
 			} 
@@ -243,17 +416,9 @@ _$("formularioJ").onsubmit = function(e){
 	}if (!err) {
 		alert("Dados cadastrados com sucesso!");
 	}
-	
-	
 }
 
-function clonar(){
-var div = document.getElementById('oi'),
-
-clone = div.cloneNode(true); // true means clone all childNodes and all event handlers
-clone.id = "some_id";
-document.body.appendChild(clone);
-
+_$("limparJ").onclick = function limpar(campo) {
+    window.location.reload();
 }
-
 
