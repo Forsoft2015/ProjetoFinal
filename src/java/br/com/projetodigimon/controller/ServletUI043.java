@@ -1,5 +1,12 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
 package br.com.projetodigimon.controller;
 
+import br.com.projetodigimon.model.Rodovia;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -7,23 +14,37 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import br.com.projetodigimon.model.UsuarioConsultaBean;
 
-@WebServlet(name = "ServletUI026", urlPatterns = {"/jsp/ServletUI026"})
-public class ServletUI026 extends HttpServlet {
+/**
+ *
+ * @author Igor
+ */
+@WebServlet(name = "UI043", urlPatterns = {"/UI043"})
+public class ServletUI043 extends HttpServlet {
 
+    /**
+     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
+     * methods.
+     *
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
-        UsuarioConsultaBean ucb = new UsuarioConsultaBean();
-        ucb.setCpf(request.getParameter("cpf"));
-        ucb.setNumeroUsuario(request.getParameter("nome"));
-
-        response.setContentType("text/html;charset=UTF-8");
-        PrintWriter out = response.getWriter();
-        out.println(ucb.getCpf());
-        out.println(ucb.getNumeroUsuario());
-
+        
+        Rodovia rodovia = new Rodovia();
+        String nome = request.getParameter("nome");
+        String extensaoKM = request.getParameter("extensaokm");
+        String cinicial = request.getParameter("cinicial");
+        String cfinal = request.getParameter("cfinal");
+        
+        rodovia.setNome(nome);
+        rodovia.setExtensaoKM(Integer.parseInt(extensaoKM));
+        rodovia.setCidadeInicial(cinicial);
+        rodovia.setCidadeFinal(cfinal);
+      
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

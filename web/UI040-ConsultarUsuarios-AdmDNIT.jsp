@@ -4,15 +4,15 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src='../js/framework.js' type='text/javascript' DEFER></script>
+	<script src="../js/js_exemplo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
 	
 	<div id="topbar" class="conteudo-meio">
-		<a href="ui037-home-admdnit.jsp" id="logo" class="esquerda"><img src="img/logoS2.png" alt="DigiMon"></a>
+		<a href="UI037-Home-AdmDNIT.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
@@ -24,37 +24,37 @@
 		<div id="sidemenu" class="esquerda">
 				<ul class="menu-ativo navigator">
                                     <h3>Usuários</h3> 
-                                    <li><a href="ui038-cadastrarusuarios-admdnit.jsp">Cadastrar</a></li>
-                                    <li><a href="ui039-pesquisarusuarios-admdnit.jsp">Consultar</a></li>
+                                    <li><a href="UI038-CadastrarUsuarios-AdmDNIT.jsp">Cadastrar</a></li>
+                                    <li><a href="UI039-PesquisarUsuarios-AdmDNIT.jsp">Consultar</a></li>
 				</ul>
 				
 				<ul class="menu-ativo navigator">
 									<h3>Postos de Pesagem</h3> 
-									<li><a href="ui047-cadastrarpostopesagem-admdnit.jsp">Cadastrar</a></li>
-									<li><a href="ui048-pesquisarpostopesagem-admdnit.jsp">Consultar</a></li>
+									<li><a href="UI047-CadastrarPostoPesagem-AdmDNIT.jsp">Cadastrar</a></li>
+									<li><a href="UI048-PesquisarPostoPesagem-AdmDNIT.jsp">Consultar</a></li>
 				</ul>
 				
 				<ul class="menu-ativo navigator">
 									<h3>Rodovia</h3> 
-									<li><a href="ui041-cadastrarrodovia-admdnit.jsp">Cadastrar</a></li>
-									<li><a href="ui042-pesquisarrodovia-admdnit.jsp">Consultar</a></li>
+									<li><a href="UI041-CadastrarRodovia-AdmDNIT.jsp">Cadastrar</a></li>
+									<li><a href="UI042-PesquisarRodovia-AdmDNIT.jsp">Consultar</a></li>
 				</ul>
 				
 				<ul class="menu-ativo navigator">
 									<h3>Balança</h3> 
-									<li><a href="ui044-cadastrarbalanca-admdnit.jsp">Cadastrar</a></li>
-									<li><a href="ui045-pesquisarbalanca-admdnit.jsp">Consultar</a></li>
+									<li><a href="UI044-CadastrarBalanca-AdmDNIT.jsp">Cadastrar</a></li>
+									<li><a href="UI045-PesquisarBalanca-AdmDNIT.jsp">Consultar</a></li>
 				</ul>	
 				
 				<ul class="menu-ativo navigator">
 									<h3>Câmera</h3> 
-									<li><a href="ui107-cadastrarcamera-admdnit.jsp">Cadastrar</a></li>
-									<li><a href="ui108-pesquisarcamera-admdnit.jsp">Consultar</a></li>
+									<li><a href="UI107-CadastrarCamera-AdmDNIT.jsp">Cadastrar</a></li>
+									<li><a href="UI108-PesquisarCamera-AdmDNIT.jsp">Consultar</a></li>
 				</ul>	
 				
 				<ul class="menu-ativo navigator">
 									<h3>Passagem</h3> 
-									<li><a href="ui110-consultarpassagem-admdnit.jsp">Consultar</a></li>
+									<li><a href="UI110-ConsultarPassagem-AdmDNIT.jsp">Consultar</a></li>
 				</ul>					
 		</div>
 		
@@ -109,15 +109,15 @@
                                 <fieldset>
                                     <legend>Permissisões</legend>
                                     <p></p>
-                                    <input type="checkbox" id="perm1J" name="perm1" value="1"><label for="perm1J">Grupo 1</label><br>
-                                    <input type="checkbox" id="perm2J" name="perm2" value="2"><label for="perm2J">Grupo 2</label><br>
-                                    <input type="checkbox" id="perm3J" name="perm3" value="3"><label for="perm3J">Grupo 3</label><br>
-                                    <input type="checkbox" id="perm4J" name="perm4" value="4"><label for="perm4J">Grupo 4</label><br>
-                                    <input type="checkbox" id="perm5J" name="perm5" value="5"><label for="perm5J">Grupo 5</label><br>
-                                    <input type="checkbox" id="perm6J" name="perm6" value="6"><label for="perm6J">Grupo 6</label><br>
-                                    <input type="checkbox" id="perm7J" name="perm7" value="7"><label for="perm7J">Grupo 7</label><br>
-                                    <input type="checkbox" id="perm8J" name="perm8" value="8"><label for="perm8J">Grupo 8</label><br>
-                                    <input type="checkbox" id="perm9J" name="perm9" value="9"><label for="perm9J">Grupo 9</label><br>
+                                    <input type="checkbox" id="perm1J" name="perm" value="1"><label for="perm1J">Grupo 1</label><br>
+                                    <input type="checkbox" id="perm2J" name="perm" value="2"><label for="perm2J">Grupo 2</label><br>
+                                    <input type="checkbox" id="perm3J" name="perm" value="3"><label for="perm3J">Grupo 3</label><br>
+                                    <input type="checkbox" id="perm4J" name="perm" value="4"><label for="perm4J">Grupo 4</label><br>
+                                    <input type="checkbox" id="perm5J" name="perm" value="5"><label for="perm5J">Grupo 5</label><br>
+                                    <input type="checkbox" id="perm6J" name="perm" value="6"><label for="perm6J">Grupo 6</label><br>
+                                    <input type="checkbox" id="perm7J" name="perm" value="7"><label for="perm7J">Grupo 7</label><br>
+                                    <input type="checkbox" id="perm8J" name="perm" value="8"><label for="perm8J">Grupo 8</label><br>
+                                    <input type="checkbox" id="perm9J" name="perm" value="9"><label for="perm9J">Grupo 9</label><br>
                                 </fieldset>		
                             </div>
 					
@@ -125,7 +125,7 @@
 						
 			<input type="submit" value="Alterar" name="alterar" id="alterarJ" class="botaoJ">
                         <input type="reset" value="Limpar" name="limpar" id="limparJ" class="botaoJ">
-                        <a href="ui037-home-admdnit.jsp"><input type="button" value="Cancelar" name="Cancelar" id="cancelarJ" class="botaoJ"></a>
+                        <a href="UI037-Home-AdmDNIT.jsp"><input type="button" value="Cancelar" name="Cancelar" id="cancelarJ" class="botaoJ"></a>
                     </form>
 			
 		<!-- SÓ EDITE DAQUI PARA CIMA!-->

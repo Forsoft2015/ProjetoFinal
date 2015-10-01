@@ -4,6 +4,10 @@
  * and open the template in the editor.
  */
 
+package br.com.projetodigimon.controller;
+
+import br.com.projetodigimon.model.Balanca;
+import br.com.projetodigimon.model.PostoPesagem;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -11,24 +15,40 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import br.com.projetodigimon.model.UsuarioConsultaBean;
 
+/**
+ *
+ * @author Igor
+ */
+@WebServlet(name = "UI044", urlPatterns = {"/UI044"})
+public class ServletUI044 extends HttpServlet {
 
-@WebServlet(name = "ServletUI098", urlPatterns = {"/jsp/ServletUI098"})
-public class ServletUI098 extends HttpServlet {
-
-   
+    /**
+     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
+     * methods.
+     *
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        UsuarioConsultaBean ucb = new UsuarioConsultaBean();
-        ucb.setCpf(request.getParameter("cpf"));
-        ucb.setNumeroUsuario(request.getParameter("nome"));
-
-        response.setContentType("text/html;charset=UTF-8");
-        PrintWriter out = response.getWriter();
-        out.println(ucb.getCpf());
-        out.println(ucb.getNumeroUsuario());
-
+       
+        PostoPesagem postoPesagem = new PostoPesagem();
+        String idPosto = request.getParameter("idposto");
+        postoPesagem.setIdPosto (Long.parseLong(idPosto) );
+        
+        Balanca balanca = new Balanca ();
+        balanca.setPostoPesagem (postoPesagem);
+        
+        String numSerie = request.getParameter("numeroserie");
+        String fabricante = request.getParameter("numerofabricante");
+        String modelo = request.getParameter("tipodebalanca");
+        
+        balanca.setNumSerie(numSerie);
+        balanca.setFabricante(fabricante);
+        balanca.setModelo(modelo);
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

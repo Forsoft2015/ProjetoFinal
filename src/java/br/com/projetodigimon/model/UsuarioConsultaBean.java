@@ -1,15 +1,15 @@
 package br.com.projetodigimon.model;
 
 public class UsuarioConsultaBean {
-    private String numeroUsuario;
+    private long idUsuario;
     private String cpf;
 
-    public String getNumeroUsuario() {
-        return numeroUsuario;
+    public long getIdUsuario() {
+        return idUsuario;
     }
 
-    public void setNumeroUsuario(String numeroUsuario) {
-        this.numeroUsuario = numeroUsuario;
+    public void setIdUsuario(long idUsuario) {
+        this.idUsuario = idUsuario;
     }
 
     public String getCpf() {
@@ -19,6 +19,6 @@ public class UsuarioConsultaBean {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-    
+
     
 }
