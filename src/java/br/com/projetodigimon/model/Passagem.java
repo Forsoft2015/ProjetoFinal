@@ -15,6 +15,7 @@ public class Passagem {
     private Camera camera;
     private Veiculo veiculo;
     private String dataHora;
+    private float pesoPorEixo;
 
     public long getIdPassagem() {
         return idPassagem;

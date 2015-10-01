@@ -23,7 +23,16 @@ public class Veiculo {
     private float tara;
     private float cmt;
     private float pbt;
+    private float pesoPorEixo;
     private Transportador transportador;
+
+    public float getPesoPorEixo() {
+        return pesoPorEixo;
+    }
+
+    public void setPesoPorEixo(float pesoPorEixo) {
+        this.pesoPorEixo = pesoPorEixo;
+    }
 
     public long getIdVeiculo() {
         return idVeiculo;

@@ -1,46 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package br.com.projetodigimon.model;
 
-/**
- *
- * @author Javapos
- */
 public class Transportador {
-    private long idTransportador;
+    
+    private String tipo;
     private String rntrc;
+    private String nomeFantasia;
+    private String razaoSocial;
+    private String cnpj;
     private PessoaFisica pessoaFisica;
     private PessoaJuridica pessoaJuridica;
     private Contato contato;
     private Endereco endereco;
-
-    public long getIdTransportador() {
-        return idTransportador;
-    }
-
-    public void setIdTransportador(long idTransportador) {
-        this.idTransportador = idTransportador;
-    }
-
-    public String getRntrc() {
-        return rntrc;
-    }
-
-    public void setRntrc(String rntrc) {
-        this.rntrc = rntrc;
-    }
-
-    public PessoaFisica getPessoaFisica() {
-        return pessoaFisica;
-    }
-
-    public void setPessoaFisica(PessoaFisica pessoaFisica) {
-        this.pessoaFisica = pessoaFisica;
-    }
 
     public PessoaJuridica getPessoaJuridica() {
         return pessoaJuridica;
@@ -50,21 +20,71 @@ public class Transportador {
         this.pessoaJuridica = pessoaJuridica;
     }
 
-    public Contato getContato() {
-        return contato;
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public void setRntrc(String rntrc) {
+        this.rntrc = rntrc;
+    }
+
+    public void setNomeFantasia(String nomeFantasia) {
+        this.nomeFantasia = nomeFantasia;
+    }
+
+    public void setRazaoSocial(String razaoSocial) {
+        this.razaoSocial = razaoSocial;
+    }
+
+    public void setCnpj(String cnpj) {
+        this.cnpj = cnpj;
+    }
+
+    public void setPessoaFisica(PessoaFisica pessoaFisica) {
+        this.pessoaFisica = pessoaFisica;
     }
 
     public void setContato(Contato contato) {
         this.contato = contato;
     }
 
-    public Endereco getEndereco() {
-        return endereco;
-    }
-
     public void setEndereco(Endereco endereco) {
         this.endereco = endereco;
     }
     
+    public String getTipo() {
+        return tipo;
+    }
+
+    public String getRntrc() {
+        return rntrc;
+    }
+
+    public String getNomeFantasia() {
+        return nomeFantasia;
+    }
+
+    public String getRazaoSocial() {
+        return razaoSocial;
+    }
+
+    public String getCnpj() {
+        return cnpj;
+    }
+
+    public PessoaFisica getPessoaFisica() {
+        return pessoaFisica;
+    }
+
+    public Contato getContato() {
+        return contato;
+    }
+
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+       
+        
     
 }
