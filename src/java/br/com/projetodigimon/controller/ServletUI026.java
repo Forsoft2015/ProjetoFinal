@@ -1,4 +1,4 @@
-package controller;
+package br.com.projetodigimon.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -7,7 +7,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import model.UsuarioConsultaBean;
+import br.com.projetodigimon.model.UsuarioConsultaBean;
 
 @WebServlet(name = "ServletUI026", urlPatterns = {"/jsp/ServletUI026"})
 public class ServletUI026 extends HttpServlet {
@@ -16,12 +16,12 @@ public class ServletUI026 extends HttpServlet {
             throws ServletException, IOException {
 
         UsuarioConsultaBean ucb = new UsuarioConsultaBean();
-        ucb.setCPF(request.getParameter("cpf"));
+        ucb.setCpf(request.getParameter("cpf"));
         ucb.setNumeroUsuario(request.getParameter("nome"));
 
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
-        out.println(ucb.getCPF());
+        out.println(ucb.getCpf());
         out.println(ucb.getNumeroUsuario());
 
     }

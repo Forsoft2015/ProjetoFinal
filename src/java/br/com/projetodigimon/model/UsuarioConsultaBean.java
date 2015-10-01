@@ -1,8 +1,8 @@
-package model;
+package br.com.projetodigimon.model;
 
 public class UsuarioConsultaBean {
     private String numeroUsuario;
-    private String CPF;
+    private String cpf;
 
     public String getNumeroUsuario() {
         return numeroUsuario;
@@ -12,12 +12,12 @@ public class UsuarioConsultaBean {
         this.numeroUsuario = numeroUsuario;
     }
 
-    public String getCPF() {
-        return CPF;
+    public String getCpf() {
+        return cpf;
     }
 
-    public void setCPF(String CPF) {
-        this.CPF = CPF;
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
     }
     
     

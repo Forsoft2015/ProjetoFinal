@@ -49,32 +49,32 @@
 		
 		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
-                    <h1>Cadastro de Usuário</h1>
+                    <h1>Consulta de Usuário</h1>
                     
-                    <form name="form" method="post" action="ServletUI016" id="formularioJ" class="formulario">
+                    <form name="form" method="post" action="ServletUI018" id="formularioJ" class="formulario">
 			<div class="tabela">
                             <div class="coluna-esquerda">
 				<fieldset>
                                     <legend>Dados de Usuário</legend>	
                                     <div class="campo">
 					<label for="nomeJ">Nome:</label><br> 
-					<input type="text" name="nome" id="nomeJ" maxlength="8"><span id="x_nomeJ" class=""></span>
+					<input type="text" name="nome" id="nomeJ" maxlength="8" disabled><span id="x_nomeJ" class=""></span>
                                     </div>
                                     <div class="campo">
 					<label for="nomeusuarioJ">Nome de Usuário:</label><br> 
-					<input type="text" name="nomeusuario" id="nomeusuarioJ" maxlength="8"><span id="x_nomeusuarioJ" class=""></span>
+					<input type="text" name="nomeusuario" id="nomeusuarioJ" maxlength="8" disabled><span id="x_nomeusuarioJ" class=""></span>
                                     </div>
                                     <div class="campo">
 					<label for="senhaJ">Senha:</label><br> 
-					<input type="password" name="senha" id="senhaJ" maxlength="8"><span id="x_senhaJ" class=""></span>
+					<input type="text" name="senha" id="senhaJ" maxlength="8" disable><span id="x_senhaJ" class=""></span>
                                     </div>
                                     <div class="campo">
 					<label for="consenhaJ">Confirme a Senha:</label><br> 
-					<input type="password" name="consenha" id="consenhaJ" maxlength="8"><span id="x_consenhaJ" class=""></span>
+					<input type="text" name="consenha" id="consenhaJ" maxlength="8" disable><span id="x_consenhaJ" class=""></span>
                                     </div>
                                     <div class="campo">
 					<label for="cpfJ">CPF:</label><br> 
-					<input type="text" name="cpf" id="cpfJ" maxlength="8"><span id="x_cpfJ" class=""></span>
+					<input type="text" name="cpf" id="cpfJ" maxlength="8" disable><span id="x_cpfJ" class=""></span>
                                     </div>
                                     <div class="campo">
 					<label for="tipoJ">Tipo:</label><br> 
@@ -94,15 +94,15 @@
                                         <legend>Contato</legend>
                                         <div class="campo">
                                             <label for="telJ">Telefone:</label><br> 
-                                            <input type="text" name="tel" id="telJ" maxlength="8"><span id="x_telJ" class=""></span>
+                                            <input type="text" name="tel" id="telJ" maxlength="8" disable><span id="x_telJ" class=""></span>
                                         </div>
                                         <div class="campo">
                                             <label for="celJ">Celular:</label><br> 
-                                            <input type="text" name="cel" id="celJ" maxlength="8"><span id="x_celJ" class=""></span>
+                                            <input type="text" name="cel" id="celJ" maxlength="8" disable><span id="x_celJ" class=""></span>
                                         </div>
                                         <div class="campo">
                                             <label for="mailJ">E-Mail:</label><br> 
-                                            <input type="text" name="mail" id="mailJ" maxlength="8"><span id="x_mailJ" class=""></span>
+                                            <input type="text" name="mail" id="mailJ" maxlength="8" disable><span id="x_mailJ" class=""></span>
                                         </div>
                                     </fieldset>
 				</fieldset>
@@ -125,8 +125,9 @@
 					
 			</div>
 						
-                        <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
-                        <a href="UI015-Home-AdmMinisterio.jsp"><input type="button" value="Cancelar" name="Limpar" id="limparJ" class="botaoJ"></a>
+						<input type="submit" value="Alterar" name="alterar" id="alterarJ" class="botaoJ">
+                        <input type="reset" value="Limpar" name="limpar" id="limparJ" class="botaoJ">
+                        <a href="UI015-Home-AdmMinisterio.jsp"><input type="button" value="Cancelar" name="Cancelar" id="cancelarJ" class="botaoJ"></a>
                     </form>
 			
 		<!-- SÓ EDITE DAQUI PARA CIMA!-->

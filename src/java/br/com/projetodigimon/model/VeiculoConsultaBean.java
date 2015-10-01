@@ -1,4 +1,4 @@
-package model;
+package br.com.projetodigimon.model;
 
 public class VeiculoConsultaBean {
     private String placa;
@@ -10,7 +10,4 @@ public class VeiculoConsultaBean {
     public void setPlaca(String placa) {
         this.placa = placa;
     }
-    
-    
-    
 }

@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import br.com.projetodigimon.model.Contato;
 import br.com.projetodigimon.model.Usuario;
-import model.UsuarioConsultaBean;
+import br.com.projetodigimon.model.UsuarioConsultaBean;
 
 
 @WebServlet(name = "ServletUI099", urlPatterns = {"/jsp/ServletUI099"})
