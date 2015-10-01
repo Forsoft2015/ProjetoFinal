@@ -1,11 +1,11 @@
-var numeroCampos = 16; //<!-- INSIRA O NÚMERO DE CAMPOS -->
+var numeroCampos = 15; //INSIRA O NÚMERO DE CAMPOS
 
 var formOk = new Array(numeroCampos);
 for (var i = 0; i < numeroCampos; i++) { formOk[i] = false;}
 
 window.onload = function () {
 
-	//<!-- EDITE DAQUI PARA BAIXO -->
+	//EDITE DAQUI PARA BAIXO
 	
 var topo = _$("caixa");
 var regexLETRAS = /^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$/;
@@ -21,41 +21,32 @@ var regexDATA=/^(0[1-9]|1\d|2[0-8]|29(?=-\d\d-(?!1[01345789]00|2[1235679]00)\d\d
 
 //MÁSCARAS setMask(idDoCampo, formatacaoDaMascara
 
-setMask("cnpjJ","##.###.###/####-##");
+//setMask("cnpjJ","##.###.###/####-##");
+setMask("telJ", "## #####-####");
+setMask("cepJ", "##.###-###");
 
 //ValidaTipo(idDoCampo, regexTIPO, numeroDoCampo)
 
-validaChar("nomeJ", regexLETRAS, 0);
-validaCPF("cpfJ", regexCPF, 2);
-validaChar("rntrcJ", regexNUMEROS, 1);
-validaChar("logradouroJ", regexLETRAS, 6);
-validaChar("numeroJ", regexNUMEROS, 7);
-validaChar("complementoJ", regexLETRAS, 8);
-validaChar("cepJ", regexNUMEROS, 9);
-validaChar("bairroJ", regexLETRAS, 10);
-validaChar("cidadeJ", regexLETRAS, 11);
-validaChar("estadoJ", regexLETRAS, 12);
-validaChar("telJ", regexNUMEROS, 5);
-validaChar("celularJ", regexNUMEROS, 5);
+validaChar("logradouroJ", regexLETRAS, 0);
+validaChar("numeroJ", regexNUMEROS, 1);
+validaChar("complementoJ", regexLETRAS, 2);
+validaChar("cepJ", regexCEP,3);
+validaChar("bairroJ", regexLETRAS,4);
+validaChar("cidadeJ", regexLETRAS, 5);
+validaChar("estadoJ", regexLETRAS,6);
 
-validaChar("extensaokmJ", regerNUMEROS, 2);
-validaChar("cinicialJ", regexNUMEROS, 3);
-validaChar("cfinalJ", regexNUMEROS, 4);
-validaChar("telJ", regexNUMEROS, 5);
-
-validaChar("logradouroJ", regexLETRAS, 6);
-validaChar("numeroJ", regexNUMEROS, 7);
-validaChar("complementoJ", regexLETRAS, 8);
-validaChar("cepJ", regexNUMEROS, 9);
-validaChar("bairroJ", regexLETRAS, 10);
-validaChar("cidadeJ", regexLETRAS, 11);
-validaChar("estadoJ", regexLETRAS, 12);
+validaChar("nomerodJ", regexLETRAS, 7);
+validaChar("tipoJ", regexLETRAS, 8);
+validaChar("extensaokmJ", regexNUMEROS, 9);
+validaChar("cinicialJ", regexLETRAS, 10);
+validaChar("cfinalJ", regexLETRAS, 11);
+validaChar("telJ", regexTEL,12);
 validaChar("numserieJ", regexNUMEROS, 13);
-validaChar("descricaopostoJ", regexLETRAS, 14);
-validaChar("kmJ", regexNUMEROS, 15);
+validaChar("kmJ", regexNUMEROS, 14);
 
 
-	
+	//EDITE DAQUI PARA CIMA
 	
 }
+
 
