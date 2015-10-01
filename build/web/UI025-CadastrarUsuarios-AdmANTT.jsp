@@ -1,9 +1,3 @@
-<%-- 
-    Document   : UI146-Home-AdmANTT
-    Created on : 18/09/2015, 07:34:05
-    Author     : Javapos
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
@@ -11,8 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src='js/novo.js' type='text/javascript' DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
@@ -54,30 +47,30 @@
 		
                     <h1>Cadastro de Usuário</h1>
                     
-                    <form name="form" method="post" action="#" id="formularioJ" class="formulario">
+                    <form name="form" method="post" action="ServletUI025.java" id="formularioJ" class="formulario">
 			<div class="tabela">
                             <div class="coluna-esquerda">
 				<fieldset>
                                     <legend>Dados de Usuário</legend>	
                                     <div class="campo">
 					<label for="nomeJ">Nome:</label><br> 
-					<input type="text" name="nome" id="nomeJ" maxlength="40"><span id="x_nomeJ" class=""></span>
+					<input type="text" name="nome" id="nomeJ" class="campoObrig" maxlength="40"><span id="x_nomeJ" class="tSpan"></span>
                                     </div>
                                     <div class="campo">
 					<label for="nomeusuarioJ">Nome de Usuário:</label><br> 
-					<input type="text" name="nomeusuario" id="nomeusuarioJ" maxlength="20"><span id="x_nomeusuarioJ" class=""></span>
+					<input type="text" name="nomeusuario" id="nomeusuarioJ" class="campoObrig" maxlength="20"><span id="x_nomeusuarioJ" class="tSpan"></span>
                                     </div>
                                     <div class="campo">
 					<label for="senhaJ">Senha:</label><br> 
-					<input type="text" name="senha" id="senhaJ" maxlength="8"><span id="x_senhaJ" class=""></span>
+					<input type="text" name="senha" id="senhaJ" class="campoObrig" maxlength="8"><span id="x_senhaJ" class="tSpan"></span>
                                     </div>
                                     <div class="campo">
 					<label for="consenhaJ">Confirme a Senha:</label><br> 
-					<input type="text" name="consenha" id="consenhaJ" maxlength="8"><span id="x_consenhaJ" class=""></span>
+					<input type="text" name="consenha" id="consenhaJ" class="campoObrig" maxlength="8"><span id="x_consenhaJ" class="tSpan"></span>
                                     </div>
                                     <div class="campo">
 					<label for="cpfJ">CPF:</label><br> 
-					<input type="text" name="cpf" id="cpfJ" maxlength="14"><span id="x_cpfJ" class=""></span>
+					<input type="text" name="cpf" id="cpfJ" class="campoObrig" maxlength="14"><span id="x_cpfJ" class="tSpan"></span>
                                     </div>
                                     <div class="campo">
 					<label for="situacaoJ">Situação:</label><br> 
@@ -90,15 +83,15 @@
                                         <legend>Contato</legend>
                                         <div class="campo">
                                             <label for="telJ">Telefone:</label><br> 
-                                            <input type="text" name="tel" id="telJ" maxlength="12"><span id="x_telJ" class=""></span>
+                                            <input type="text" name="tel" id="telJ" class="campoObrig" maxlength="12"><span id="x_telJ" class="tSpan"></span>
                                         </div>
                                         <div class="campo">
                                             <label for="celJ">Celular:</label><br> 
-                                            <input type="text" name="cel" id="celJ" maxlength="13"><span id="x_celJ" class=""></span>
+                                            <input type="text" name="cel" id="celJ" class="campoObrig" maxlength="13"><span id="x_celJ" class="tSpan"></span>
                                         </div>
                                         <div class="campo">
                                             <label for="mailJ">E-Mail:</label><br> 
-                                            <input type="text" name="mail" id="mailJ" maxlength="40"><span id="x_mailJ" class=""></span>
+                                            <input type="text" name="mail" id="mailJ" class="campoObrig" maxlength="40"><span id="x_mailJ" class="tSpan"></span>
                                         </div>
                                     </fieldset>
 				</fieldset>

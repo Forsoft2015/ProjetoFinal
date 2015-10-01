@@ -1,9 +1,3 @@
-<%-- 
-    Document   : ui093-CadastrarRodovia-AgenteDNIT
-    Created on : 18/09/2015, 03:00:53
-    Author     : Javapos
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
@@ -11,8 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Digital Monitoring - Digimon</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <script src="js/framework.js" type='text/javascript' DEFER></script>
-        <script src="js/ui093.js" type="text/javascript" DEFER></script>
+        <script src="js/novo.js" type="text/javascript" DEFER></script>
     </head>
     <body>
         <!-- NÃO EDITAR!-->
@@ -79,9 +72,9 @@
 					
                 </ul>
 
-					<ul class="menu-ativo navigator">
-									<h3>Passagem</h3> 
-									<li><a href="ui114-consultarpassagem-agentednit.jsp">Consultar</a></li>
+				<ul class="menu-ativo navigator">
+					<h3>Passagem</h3> 
+						<li><a href="ui114-consultarpassagem-agentednit.jsp">Consultar</a></li>
 				</ul>	
             </div>
 
@@ -94,19 +87,19 @@
 		
 			<h1>Cadastrar Rodovia</h1>
 			<h4>Preencha corretamente os campos!</h4>
-			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
+			<form name="form" method="post" action="servletui051" id="formularioJ" class="formulario">
 				<div class="tabela">
 					<div class="coluna-esquerda">
 						<fieldset>
 							<legend>Dados da Rodovia</legend>					
 								<div class="campo">
 									<label for="nomeJ">Nome:</label><br> 
-									<input type="text" name="nome" id="nomeJ"><span id="x_nomeJ" class=""></span>
+									<input type="text" name="nome" id="nomeJ" class="campoObrig" maxlength="40"><span id="x_nomeJ" class="tSpan"></span>
 								</div>
 								
 								<div class="campo"> 
 									<label for="extensaokmJ">Extensão em KM:</label><br> 
-									<input type="text" name="extensaokm" id="extensaokmJ"><span id="x_extensaokmJ"></span>
+									<input type="text" name="extensaokm" id="extensaokmJ" class="campoObrig" maxlength="5"><span id="x_extensaokmJ" class="tSpan"></span>
 								</div>
 								
 								
@@ -118,7 +111,7 @@
 							<legend>Dados da Rodovia</legend>
 								<div class="campo"> 
 									<label for="cinicialJ">Cidade Inicial:</label><br> 
-									<input type="text" name="cinicial" id="cinicialJ"><span id="x_cinicialJ"></span>
+									<input type="text" name="cinicial" id="cinicialJ" class="campoObrig" maxlength="40"><span id="x_cinicialJ" class="tSpan"></span>
 								</div>
 								
 								<div class="campo">
@@ -154,12 +147,12 @@
                                         <option value="SE">SE</option>
                                         <option value="TO">TO</option>
                                     </select>
-                                    <span id="x_ufJ"></span>
+                                    <span id="x_ufJ" class="tSpan"></span>
                                 </div>
 								
 								<div class="campo"> 
 									<label for="cfinalJ">Cidade Final:</label><br> 
-									<input type="text" name="cfinal" id="cfinalJ"><span id="x_cfinalJ"></span>
+									<input type="text" name="cfinal" id="cfinalJ" class="campoObrig"><span id="x_cfinalJ" class="tSpan"></span>
 								</div>
 								
 								<div class="campo">
@@ -195,7 +188,7 @@
                                         <option value="SE">SE</option>
                                         <option value="TO">TO</option>
                                     </select>
-                                    <span id="x_ufJ"></span>
+                                    <span id="x_ufJ" class="campoObrig"></span>
                                 </div>
 						</fieldset>
 					</div>

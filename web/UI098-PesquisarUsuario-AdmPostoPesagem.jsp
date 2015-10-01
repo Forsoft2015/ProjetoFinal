@@ -5,9 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
-</head>
+	<script src="js/novo.js" type="text/javascript" DEFER></script></head>
 <body>
 	<!-- NÃO EDITAR!-->
 	
@@ -41,17 +39,17 @@
 		<!-- SÓ EDITE DAQUI PARA BAIXO!-->
 		
                     <h1>Pesquisar Usuário</h1>
-			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
+			<form name="form" method="post" action="ServletUI098.java" id="formularioJ" class="formulario">
 				<div class="tabela">
 				<div class="pesq">
 					<div class="campo">
 						<label for="nomeJ">Número do Usuário:</label>
-						<input type="text" name="nome" id="nomeJ" maxlength="50"><span id="x_nomeJ" class=""></span>
+						<input type="text" name="nome" id="nomeJ" maxlength="50" class="campoObrig"><span id="x_nomeJ" class="tSpan"></span>
 					</div>
 					
 					<div class="campo">
 						<label for="cpfJ">CPF:</label><br>
-						<input type="text" name="cpf" id="cpfJ" maxlength="50"><span id="x_cpfJ" class=""></span>
+						<input type="text" name="cpf" id="cpfJ" maxlength="50" class="campoObrig"><span id="x_cpfJ" class="tSpan"></span>
 					</div>
 					<br>
 					 <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">

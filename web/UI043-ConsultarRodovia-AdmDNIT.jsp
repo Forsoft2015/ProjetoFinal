@@ -5,8 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src="js/novo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
@@ -71,12 +70,12 @@
 							<legend>Dados da Rodovia</legend>					
 								<div class="campo">
 									<label for="nomeJ">Nome:</label><br> 
-									<input type="text" name="nome" id="nomeJ"><span id="x_nomeJ" class=""></span>
+									<input type="text" name="nome" id="nomeJ"class="campoObrig iLetras" ><span id="x_nomeJ" class="tSpan"></span>
 								</div>
 								
 								<div class="campo"> 
 									<label for="extensaokmJ">Extensão em KM:</label><br> 
-									<input type="text" name="extensaokm" id="extensaokmJ"><span id="x_extensaokmJ"></span>
+									<input type="text" name="extensaokm" id="extensaokmJ" class="campoObrig"><span id="x_extensaokmJ" class="tSpan"></span>
 								</div>
 								
 								
@@ -88,7 +87,7 @@
 							<legend>Dados da Rodovia</legend>
 								<div class="campo"> 
 									<label for="cinicialJ">Cidade Inicial:</label><br> 
-									<input type="text" name="cinicial" id="cinicialJ"><span id="x_cinicialJ"></span>
+									<input type="text" name="cinicial" id="cinicialJ"class="campoObrig"><span id="x_cinicialJ" class="tSpan"></span>
 								</div>
 								
 								<div class="campo">
@@ -129,7 +128,7 @@
 								
 								<div class="campo"> 
 									<label for="cfinalJ">Cidade Final:</label><br> 
-									<input type="text" name="cfinal" id="cfinalJ"><span id="x_cfinalJ"></span>
+									<input type="text" name="cfinal" id="cfinalJ" class="campoObrig"><span id="x_cfinalJ"  class="tSpan"></span>
 								</div>
 								
 								<div class="campo">

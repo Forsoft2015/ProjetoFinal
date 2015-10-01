@@ -5,8 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src="js/novo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
@@ -48,17 +47,17 @@
 			<div id="centro" class="esquerda">
 		
 			<h1>Pesquisar Motorista</h1>
-			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
+			<form name="form" method="post" action="servletui062" id="formularioJ" class="formulario">
 				<div class="tabela">
 				<div class="pesq">
 					<div class="campo">
 						<label for="cnhJ">CNH:</label><br>
-						<input type="text" name="cnh" id="cnhJ" maxlength=""><span id="x_chnJ" class=""></span>
+						<input type="text" name="cnh" id="cnhJ" class="campoObrig" maxlength=""><span id="x_chnJ" class="tSpan"></span>
 					</div>
 					
 					<div class="campo">
 						<label for="nomeJ">Nome Completp:</label><br>
-						<input type="text" name="nome" id="nome"><span id="x_nomeJ" class=""></span>
+						<input type="text" name="nome" id="nome" class="campoObrig" maxlength="40"><span id="x_nomeJ" class="tSpan"></span>
 					</div>
 					<br>
 					 <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">

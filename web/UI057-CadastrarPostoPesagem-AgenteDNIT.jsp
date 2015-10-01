@@ -5,8 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Digital Monitoring - Digimon</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <script src="js/framework.js" type='text/javascript' DEFER></script>
-        <script src="js/ui093.js" type="text/javascript" DEFER></script>
+        <script src="js/novo.js" type="text/javascript" DEFER></script>
     </head>
     <body>
         <!-- NÃO EDITAR!-->
@@ -73,9 +72,9 @@
 					
                 </ul>
 
-					<ul class="menu-ativo navigator">
-									<h3>Passagem</h3> 
-									<li><a href="ui114-consultarpassagem-agentednit.jsp">Consultar</a></li>
+				<ul class="menu-ativo navigator">
+					<h3>Passagem</h3> 
+						<li><a href="ui114-consultarpassagem-agentednit.jsp">Consultar</a></li>
 				</ul>	
             </div>
 
@@ -85,27 +84,27 @@
                 <!-- SÓ EDITE DAQUI PARA BAIXO!-->
 
                 <h1>Cadastrar Posto de Pesagem</h1>
-                <form name="form" method="post" action="#" id="formularioJ" class="formulario">
+                <form name="form" method="post" action="servletui057" id="formularioJ" class="formulario">
                     <div class="tabela">
                         <div class="coluna-esquerda">
                             <fieldset>
                                 <legend>Dados do Posto</legend>					
                                 <div class="campo"> 
                                     <label for="logradouroJ">Logradouro:</label><br> 
-                                    <input type="text" name="logradouro" id="logradouroJ"><span id="x_logradouroJ"></span>
+                                    <input type="text" name="logradouro" id="logradouroJ" class="campoObrig" maxlength="40"><span id="x_logradouroJ" class="tSpan"></span>
                                 </div>
                                 <div class="campo"> 
                                     <label for="numJ">Número:</label><br> 
-                                    <input type="text" name="num" id="numJ" maxlength="9"><span id="x_numJ"></span>
+                                    <input type="text" name="num" id="numJ" class="campoObrig" maxlength="9"><span id="x_numJ" class="tSpan"></span>
                                 </div>
                                 <div class="campo"> 
                                     <label for="complementoJ">Complemento:</label><br> 
-                                    <input type="text" name="complemento" id="complementoJ" maxlength="5"><span id="x_complementoJ"></span>
+                                    <input type="text" name="complemento" id="complementoJ" class="campoObrig" maxlength="5"><span id="x_complementoJ" class="tSpan"></span>
                                 </div>
 								
 								<div class="campo"> 
                                     <label for="cepJ">CEP:</label><br> 
-                                    <input type="text" name="cep" id="cepJ" maxlength="10"><span id="x_cepJ"></span>
+                                    <input type="text" name="cep" id="cepJ" class="campoObrig" maxlength="10"><span id="x_cepJ" class="tSpan"></span>
                                 </div>
 
 								<div class="campo"> 
@@ -115,7 +114,7 @@
 
 								<div class="campo"> 
                                     <label for="cidadeJ">Cidade:</label><br> 
-                                    <input type="text" name="cidade" id="cidadeJ"><span id="x_cidadeJ"></span>
+                                    <input type="text" name="cidade" id="cidadeJ" class="campoObrig" maxlength="40"><span id="x_cidadeJ" class="tSpan"></span>
                                 </div>
 
                                 <div class="campo">

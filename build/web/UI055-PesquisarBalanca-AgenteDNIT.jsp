@@ -5,8 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Digital Monitoring - Digimon</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <script src="js/framework.js" type='text/javascript' DEFER></script>
-        <script src="js/ui093.js" type="text/javascript" DEFER></script>
+        <script src="js/novo.js" type="text/javascript" DEFER></script>
     </head>
     <body>
         <!-- NÃO EDITAR!-->
@@ -73,21 +72,21 @@
 					
                 </ul>
 
-					<ul class="menu-ativo navigator">
-									<h3>Passagem</h3> 
-									<li><a href="ui114-consultarpassagem-agentednit.jsp">Consultar</a></li>
+				<ul class="menu-ativo navigator">
+					<h3>Passagem</h3> 
+						<li><a href="ui114-consultarpassagem-agentednit.jsp">Consultar</a></li>
 				</ul>	
             </div>
 			
 		<div id="centro" class="esquerda">
 		
 			<h1>Pesquisar Balança</h1>
-			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
+			<form name="form" method="post" action="servletui055" id="formularioJ" class="formulario">
 				<div class="tabela">
 				<div class="pesq">
 				<div class="campo">
 						<label for="idpostoJ">ID do Posto:</label>
-						<input type="text" name="idposto" id="idpostoJ" maxlength="10"><span id="x_idpostoJ" class=""></span>
+						<input type="text" name="idposto" id="idpostoJ" class="campoObrig" maxlength="10"><span id="x_idpostoJ" class="tSpan"></span>
 				</div>
 				<br>
 					 <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">

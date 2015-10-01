@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
+	<script src='js/framework.js' type='text/javascript' DEFER></script>
 	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
@@ -16,7 +16,7 @@
 		<ul id="menu-user" class="direita">
 			<li><a href="#" id="profile"></a></li>
 			<li><a href="#" id="config"></a></li>
-			<li class="maisDireita"><a href="#" id="logout"></a></li>
+			<li class="maisDireita"><a href="ServletUI034.java" id="logout"></a></li>
 		</ul>
 	</div>
 	

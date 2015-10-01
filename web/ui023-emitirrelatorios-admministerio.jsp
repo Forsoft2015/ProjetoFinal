@@ -1,18 +1,11 @@
-<%-- 
-    Document   : UI017-ConsultarRelatorio-AdmMinisterio
-    Created on : 18/09/2015, 07:08:38
-    Author     : Javapos
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+﻿<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src='js/novo.js' type='text/javascript' DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
@@ -61,7 +54,7 @@
 				<fieldset>				
 						<div class="campo">
 								<label for="idJ">ID:</label><br> 
-									<input type="text" name="id" id="idJ" maxlength="20"><span id="x_idJ" class=""></span>
+									<input type="text" name="id" id="idJ" class="campoObrig" maxlength="20"><span id="x_idJ" class="tSpan"></span>
 								</div>
 								<textarea name="tinfo" rows= "15"  cols="100" placeholder="Insira aqui as informações que constarão no relatório"></textarea>
 								<br><br>

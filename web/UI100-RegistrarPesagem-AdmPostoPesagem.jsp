@@ -5,9 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
-</head>
+	<script src="js/novo.js" type="text/javascript" DEFER></script></head>
 <body>
 	<!-- NÃO EDITAR!-->
 	
@@ -39,7 +37,7 @@
 		
             <h1>Pesagem</h1>
             <h4>Preencha corretamente os campos!</h4>
-            <form name="form" method="post" action="#" id="formularioJ" class="formulario">
+            <form name="form" method="post" action="ServletUI100.java" id="formularioJ" class="formulario">
 
                 <div class="tabela">
 
@@ -47,18 +45,18 @@
                         <fieldset>					
                             <div class="campo">
                                 <label for="nomeJ">Placa:</label><br> 
-                                <input type="text" name="nome" id="nomeJ"><span id="x_nomeJ" class=""></span>
+                                <input type="text" name="nome" id="nomeJ" class="campoObrig"><span id="x_nomeJ" class="tSpan"></span>
                             </div>
 					</fieldset>
                             <fieldset>
                                 <legend>Veículo:</legend>
                                 <div class="campo"> 
                                     <label for="pbtcJ">PBTC:</label><br> 
-                                    <input type="text" name="pbtc" id="pbtcJ"><span id="x_pbtcJ"></span>
+                                    <input type="text" name="pbtc" id="pbtcJ"class="campoObrig"><span id="x_pbtcJ" class="tSpan"></span>
                                 </div>
                                 <div class="campo"> 
                                     <label for="pesoeixoJ">Peso por Eixo:</label><br> 
-                                    <input type="text" name="pesoeixo" id="pesoeixoJ"><span id="x_pesoeixoJ"></span>
+                                    <input type="text" name="pesoeixo" id="pesoeixoJ" class="campoObrig"><span id="x_pesoeixoJ" class="tSpan"></span>
                                 </div>
                             </fieldset>
 
@@ -66,11 +64,11 @@
                                 <legend>Pesagem: </legend>
                                 <div class="campo"> 
                                     <label for="pbtJ">PBT:</label><br> 
-                                    <input type="text" name="pbt" id="pbtJ"><span id="x_pbtJ"></span>
+                                    <input type="text" name="pbt" id="pbtJ" class="campoObrig"><span id="x_pbtJ" class="tSpan"></span>
                                 </div>
                                 <div class="campo"> 
                                     <label for="pesoeixoJ">Peso por Eixo:</label><br> 
-                                    <input type="text" name="pesoeixo" id="pesoeixoJ"><span id="x_pesoeixoJ"></span>
+                                    <input type="text" name="pesoeixo" id="pesoeixoJ"class="campoObrig"><span id="x_pesoeixoJ"class="tSpan"></span>
                                 </div>
                             </fieldset>
 
@@ -83,13 +81,13 @@
                             <legend>Data</legend>
                             <div class="campo"> 
                                 <label for="dataJ">Data:</label><br> 
-                                <input type="text" name="data" id="dataJ"><span id="x_dataJ"></span>
+                                <input type="text" name="data" id="dataJ" class="campoObrig"><span id="x_dataJ"class="tSpan"></span>
                             </div>
                             <div class="campo">
                             </div>
                             <div class="campo"> 
                                 <label for="horaJ">Hora:</label><br> 
-                                <input type="text" name="hora" id="horaJ"><span id="x_horaJ"></span>
+                                <input type="text" name="hora" id="horaJ" class="campoObrig"><span id="x_horaJ" class="tSpan"></span>
                             </div>
 
                            </fieldset>

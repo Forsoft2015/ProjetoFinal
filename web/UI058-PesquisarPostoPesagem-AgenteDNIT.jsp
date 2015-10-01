@@ -6,7 +6,7 @@
         <title>Digital Monitoring - Digimon</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <script src="js/framework.js" type='text/javascript' DEFER></script>
-        <script src="js/ui093.js" type="text/javascript" DEFER></script>
+        <script src="js/novo.js" type="text/javascript" DEFER></script>
     </head>
     <body>
         <!-- NÃO EDITAR!-->
@@ -83,16 +83,16 @@
 	<div id="centro" class="esquerda">
 		
 			<h1>Pesquisar Posto de Pesagem </h1>
-			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
+			<form name="form" method="post" action="servletui058" id="formularioJ" class="formulario">
 				<div class="tabela">
 				<div class="pesq">
 					<div class="campo">
 						<label for="idpostoJ">ID do Posto:</label> <br>
-							<input type="text" name="idposto" id="idpostoJ" maxlength="10"><span id="x_idpostoJ" class=""></span>
+							<input type="text" name="idposto" id="idpostoJ" class="campoObrig" maxlength="10"><span id="x_idpostoJ" class="tSpan"></span>
 					</div>
 					<div>
 						<label for="estadoJ">Estado:</label> <br>
-						<input type="text" name="estado" id="estadoJ"><span id="x_estadoJ" class=""></span>
+						<input type="text" name="estado" id="estadoJ" class="campoObrig" maxlength="40"><span id="x_estadoJ" class="tSpan"></span>
 					</div>
 					<br>
 					 <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">

@@ -5,8 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src="js/novo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
@@ -38,7 +37,7 @@
 				<div class="pesq">
 					<div class="campo">
 						<label for="placaJ">Placa:</label>
-						<input type="text" name="placa" id="placaJ" maxlength="8"><span id="x_placaJ" class=""></span>
+						<input type="text" name="placa" id="placaJ" class="campoObrig" maxlength="8"><span id="x_placaJ" class="tSpan"></span>
 					</div>
 					<br>
 					 <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">

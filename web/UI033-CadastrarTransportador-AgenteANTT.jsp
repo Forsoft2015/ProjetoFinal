@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
+	<script src='js/framework.js' type='text/javascript' DEFER></script>
 	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
@@ -39,7 +39,7 @@
 		
                     <h1>Cadastro de Transportador</h1>
                     
-                    <form name="form" method="post" action="#" id="formularioJ" class="formulario">
+                    <form name="form" method="post" action="ServletUI033.java" id="formularioJ" class="formulario">
 			<div class="tabela">
                             <div class="coluna-esquerda">
 				<fieldset>

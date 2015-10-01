@@ -5,8 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src="js/novo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
@@ -51,7 +50,7 @@
 							<legend>Dados do Veículo</legend>					
 								<div class="campo">
 									<label for="placaJ">Placa:</label><br> 
-									<input type="text" name="placa" id="placaJ" maxlength="8" disabled><span id="x_placaJ" class=""></span>
+									<input type="text" name="placa" id="placaJ" maxlength="8"  class="campoObrig"><span id="x_placaJ" class="tSpan"></span>
 								</div>
 								<br>								
 							<div class="campo">
@@ -94,47 +93,47 @@
 								<br>
 								<div class="campo"> 
 									<label for="renavamJ">RENAVAM:</label><br> 
-									<input type="text" name="renavam" id="renavamJ" maxlength="9" disabled><span id="x_renavamJ"></span>
+									<input type="text" name="renavam" id="renavamJ" maxlength="9"  class="campoObrig"><span id="x_renavamJ" class="tSpan"></span>
 								</div>
 								<br>
 								<div class="campo"> 
 									<label for="marcaJ">Marca:</label><br> 
-									<input type="text" name="marca" id="marcaJ" maxlength="" disabled><span id="x_marcaJ"></span>
+									<input type="text" name="marca" id="marcaJ" maxlength=""  class="campoObrig"><span id="x_marcaJ" class="tSpan"></span>
 								</div>
 								<br>
 								<div class="campo"> 
 									<label for="modeloJ">Modelo:</label><br> 
-									<input type="text" name="modelo" id="modeloJ" maxlength="4" disabled><span id="x_modeloJ"></span>
+									<input type="text" name="modelo" id="modeloJ" maxlength="4"  class="campoObrig"><span id="x_modeloJ" class="tSpan"></span>
 								</div>
 								<br>
 								<div class="campo"> 
 									<label for="anodefabricJ">Ano de Fabricação:</label><br> 
-									<input type="text" name="anodefabric" id="anodefabricJ" maxlength="" disabled><span id="x_anodefabricJ"></span>
+									<input type="text" name="anodefabric" id="anodefabricJ" maxlength=""  class="campoObrig"><span id="x_anodefabricJ" class="tSpan"></span>
 								</div>
 								<br>
 								<div class="campo"> 
 									<label for="numeixosJ">Número de Eixos:</label><br> 
-									<input type="text" name="numeixos" id="numeixosJ" maxlength="" disabled><span id="x_numeixosJ"></span>
+									<input type="text" name="numeixos" id="numeixosJ" maxlength=""  class="campoObrig"><span id="x_numeixosJ" class="tSpan"></span>
 								</div>
 								<br>
 								<div class="campo"> 
 									<label for="limitepesoeixoJ">Limite de Peso por Eixo:</label><br> 
-									<input type="text" name="limitepesoeixo" id="limitepesoeixoJ" maxlength="" disabled><span id="x_limitepesoeixoJ"></span>
+									<input type="text" name="limitepesoeixo" id="limitepesoeixoJ" maxlength=""  class="campoObrig"><span id="x_limitepesoeixoJ"></span>
 								</div>
 								<br>
 								<div class="campo"> 
 									<label for="taraJ">Tara:</label><br> 
-									<input type="text" name="tara" id="taraJ" maxlength="" disabled><span id="x_taraJ"></span>
+									<input type="text" name="tara" id="taraJ" maxlength=""  class="campoObrig"><span id="x_taraJ" class="tSpan"></span>
 								</div>
 								<br>
 								<div class="campo"> 
 									<label for="cmtJ">Capacidade Máxima de Tração:</label><br> 
-									<input type="text" name="cmt" id="cmtJ" maxlength="" disabled><span id="x_cmtJ"></span>
+									<input type="text" name="cmt" id="cmtJ"  class="campoObrig"><span id="x_cmtJ" class="tSpan"></span>
 								</div>
 								<br>
 								<div class="campo"> 
 									<label for="pbtJ">PBT/PBTC:</label><br> 
-									<input type="text" name="pbt" id="pbtJ" maxlength="" disabled><span id="x_pbtJ"></span>
+									<input type="text" name="pbt" id="pbtJ"  class="campoObrig"><span id="x_pbtJ" class="tSpan"></span>
 								</div>
 								<br>
 						</fieldset>

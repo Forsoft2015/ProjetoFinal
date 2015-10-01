@@ -5,8 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src="js/novo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
@@ -70,7 +69,7 @@
 							<legend>Dados do Posto</legend>					
 								<div class="campo"> 
 									<label for="idpostoJ">ID:</label><br> 
-									<input type="text" name="idposto" id="idpostoJ"><span id="x_idpostoJ"></span>
+									<input type="text" name="idposto" id="idpostoJ" class="campoObrig"><span id="x_idpostoJ" class="tSpan"></span>
 								</div>
 						</fieldset>
 					</div>
@@ -80,11 +79,11 @@
 							<legend>Dados da Balança</legend>
 								<div class="campo"> 
 									<label for="numeroserieJ">Número de Série:</label><br> 
-									<input type="text" name="numeroserie" id="numeroserieJ" maxlength="8"><span id="x_numeroserieJ"></span>
+									<input type="text" name="numeroserie" id="numeroserieJ" class="campoObrig" maxlength="8"><span id="x_numeroserieJ" class="tSpan"></span>
 								</div>
 								<div class="campo"> 
 									<label for="fabricanteJ">Fabricante:</label><br> 
-									<input type="text" name="numeroserie" id="numeroserieJ"><span id="x_numeroserieJ"></span>
+									<input type="text" name="numeroserie" id="numeroserieJ" class="campoObrig"><span id="x_numeroserieJ" class="tSpan"></span>
 								</div>
 
 								<div class="campo"> 

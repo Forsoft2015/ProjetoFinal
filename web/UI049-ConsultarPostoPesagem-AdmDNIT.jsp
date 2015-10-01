@@ -5,8 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src="js/novo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
@@ -70,30 +69,30 @@
                                 <legend>Dados do Posto</legend>					
                                 <div class="campo"> 
                                     <label for="logradouroJ">Logradouro:</label><br> 
-                                    <input type="text" name="logradouro" id="logradouroJ"><span id="x_logradouroJ"></span>
+                                    <input type="text" name="logradouro" id="logradouroJ" class="campoObrig"><span id="x_logradouroJ" class="tSpan"></span>
                                 </div>
                                 <div class="campo"> 
                                     <label for="numJ">Número:</label><br> 
-                                    <input type="text" name="num" id="numJ" maxlength="9"><span id="x_numJ"></span>
+                                    <input type="text" name="num" id="numJ" maxlength="9" class="campoObrig"><span id="x_numJ" class="tSpan"></span>
                                 </div>
                                 <div class="campo"> 
                                     <label for="complementoJ">Complemento:</label><br> 
-                                    <input type="text" name="complemento" id="complementoJ" maxlength="5"><span id="x_complementoJ"></span>
+                                    <input type="text" name="complemento" id="complementoJ" class="campoObrig" maxlength="5"><span id="x_complementoJ" class="tSpan"></span>
                                 </div>
 								
 								<div class="campo"> 
                                     <label for="cepJ">CEP:</label><br> 
-                                    <input type="text" name="cep" id="cepJ" maxlength="10"><span id="x_cepJ"></span>
+                                    <input type="text" name="cep" id="cepJ" class="campoObrig" maxlength="10"><span id="x_cepJ" class="tSpan"></span>
                                 </div>
 
 								<div class="campo"> 
                                     <label for="bairroJ">Bairro:</label><br> 
-                                    <input type="text" name="bairro" id="bairroJ"><span id="x_bairroJ"></span>
+                                    <input type="text" name="bairro" id="bairroJ" class="campoObrig iLetras"><span id="x_bairroJ" class="tSpan"></span>
                                 </div>
 
 								<div class="campo"> 
                                     <label for="cidadeJ">Cidade:</label><br> 
-                                    <input type="text" name="cidade" id="cidadeJ"><span id="x_cidadeJ"></span>
+                                    <input type="text" name="cidade" id="cidadeJ" class="campoObrig iLetras"><span id="x_cidadeJ" class="tSpan"></span>
                                 </div>
 
                                 <div class="campo">

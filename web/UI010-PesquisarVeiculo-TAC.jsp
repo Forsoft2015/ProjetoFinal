@@ -1,4 +1,4 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+﻿<%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
@@ -6,8 +6,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/ui010.js" type="text/javascript" DEFER></script>
+	<script src='js/novo.js' type='text/javascript' DEFER></script>
 </head>
 <body>
 	
@@ -53,11 +52,11 @@
 				<div class="pesq">
 					<div class="campo">
 						<label for="placaJ">Número da placa:</label> 
-							<input type="text" name="placa" id="placaJ" maxlength="8"><span id="x_placaJ" class=""></span>
+							<input type="text" name="placa" id="placaJ" class="campoObrig" maxlength="8"><span id="x_placaJ" class="tSpan"></span>
 					</div>
 					<div>
 						<label for="idtranspJ">ID transportador:</label> 
-						<input type="text" name="idtransp" id="idtranspJ" maxlength="50"><span id="x_idtranspJ" class=""></span>
+						<input type="text" name="idtransp" id="idtranspJ" class="campoObrig" maxlength="50"><span id="x_idtranspJ" class="tSpan"></span>
 					</div>
 					<br>
 					 <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">

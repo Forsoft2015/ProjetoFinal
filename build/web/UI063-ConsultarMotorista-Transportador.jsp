@@ -5,8 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src="js/novo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
@@ -52,7 +51,7 @@
 		
                     <h1>Consulta de Motorista</h1>
                     
-                    <form name="form" method="post" action="#" id="formularioJ" class="formulario">
+                    <form name="form" method="post" action="servletui063" id="formularioJ" class="formulario">
 					<div class="tabela">
                             <div class="coluna-esquerda">
 							<fieldset>
@@ -60,27 +59,27 @@
                            
                                     <div class="campo">
                                         <label for="nomeJ">Nome Completo: </label><br>
-                                        <input type="text" name="nome" id="nomeJ" maxlength="12">
+                                        <input type="text" name="nome" id="nomeJ" class="campoObrig" maxlength="12"><span id="x_nomeJ" class="tSpan"></span>
                                     </div>
                                     
 									<div class="campo">
                                         <label for="cnhJ">CNH: </label><br>
-                                        <input type="text" name="cnh" id="cnhJ" maxlength="12">
+                                        <input type="text" name="cnh" id="cnhJ" class="campoObrig" maxlength="12"><span id="x_chnJ" class="tSpan"></span>
                                     </div>
                                     
                                     <div class="campo">
                                         <label for="cpfJ">CPF: </label><br>
-                                        <input type="text" name="cpf" id="cpfJ" maxlength="14">
+                                        <input type="text" name="cpf" id="cpfJ" class="campoObrig" maxlength="14"><span id="x_cpfJ" class="tSpan"></span>
                                     </div>
                                     
                                     <div class="campo">
                                         <label for="rgJ">RG: </label><br>
-                                        <input type="text" name="rg" id="rgJ" maxlength="10">
+                                        <input type="text" name="rg" id="rgJ" class="campoObrig" maxlength="10"><span id="x_rgJ" class="tSpan"></span>
                                     </div>
                                     
                                     <div class="campo">
                                         <label for="emissorJ">Orgão Emissor: </label><br>
-                                        <input type="text" name="emissor" id="emissorJ" maxlength="18">
+                                        <input type="text" name="emissor" id="emissorJ" class="campoObrig iLetras" maxlength="18"><span id="x_emissorJ" class=""></span>
                                     </div>
                                     
 									<div class="campo">
@@ -127,17 +126,17 @@
                                     
                                     <div class="campo">
                                         <label for="telJ">Telefone: </label><br>
-                                        <input type="text" name="tel" id="telJ" maxlength="12">
+                                        <input type="text" name="tel" id="telJ" class="campoObrig" maxlength="12"><span id="x_telJ" class="tSpan"></span>
                                     </div>
                                     
                                     <div class="campo">
                                         <label for="celJ">Celular: </label><br>
-                                        <input type="text" name="cel" id="celJ" maxlength="13">
+                                        <input type="text" name="cel" id="celJ" class="campoObrig" maxlength="13"><span id="x_celJ" class="tSpan"></span>
                                     </div>
                                     
                                     <div class="campo">
                                         <label for="mailJ">E-Mail: </label><br>
-                                        <input type="text" name="mail" id="mailJ" maxlength="40">
+                                        <input type="text" name="mail" id="mailJ" class="campoObrig" maxlength="40"><span id="x_mailJ" class="tSpan"></span>
                                     </div>
                                     
                                 </fieldset>
@@ -149,32 +148,32 @@
                                 
                                 <div class="campo">
                                     <label for="logradouroJ">Logradouro: </label><br>
-                                    <input type="text" name="logradouro" id="logradouroJ" maxlength="40">
+                                    <input type="text" name="logradouro" id="logradouroJ" class="campoObrig" maxlength="40"><span id="x_logradouroJ" class="tSpan"></span>
                                 </div>
                                 
                                 <div class="campo">
                                     <label for="numJ">Número: </label><br>
-                                    <input type="text" name="num" id="numJ" maxlength="10">
+                                    <input type="text" name="num" id="numJ" class="campoObrig" maxlength="10"><span id="x_numJ" class="tSpan"></span>
                                 </div>
                                 
                                 <div class="campo">
                                     <label for="compJ">Complemento: </label><br>
-                                    <input type="text" name="comp" id="compJ" maxlength="40">
+                                    <input type="text" name="comp" id="compJ" class="campoObrig" maxlength="40"><span id="x_compJ" class="tSpan"></span>
                                 </div>
                                 
                                 <div class="campo">
                                     <label for="cepJ">CEP: </label><br>
-                                    <input type="text" name="cep" id="cJ" maxlength="9">
+                                    <input type="text" name="cep" id="cJ" class="campoObrig" maxlength="9"><span id="x_cepJ" class="tSpan"></span>
                                 </div>
                                 
                                 <div class="campo">
                                     <label for="bairroJ">Bairro: </label><br>
-                                    <input type="text" name="bairro" id="bairroJ" maxlength="20">
+                                    <input type="text" name="bairro" id="bairroJ" class="campoObrig" maxlength="20"><span id="x_bairroJ" class="tSpan"></span>
                                 </div>
                                 
                                 <div class="campo">
                                     <label for="cidadeJ">Cidade: </label><br>
-                                    <input type="text" name="cidade" id="cidadeJ" maxlength="20">
+                                    <input type="text" name="cidade" id="cidadeJ" class="campoObrig" maxlength="20"><span id="x_bairroJ" class="tSpan"></span>
                                 </div>
                                 
                                 <div class="campo">
@@ -210,7 +209,7 @@
                                     
                                     <div class="campo">
                                         <label for="paisJ">País: </label><br>
-                                        <input type="text" name="pais" id="paisJ" maxlength="20">
+                                        <input type="text" name="pais" id="paisJ" class="campoObrig iLetras" maxlength="20"><span id="x_paisJ" class="tSpan"></span>
                                     </div>
                                     
                                 </div>

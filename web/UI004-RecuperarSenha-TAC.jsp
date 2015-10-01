@@ -1,12 +1,11 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+﻿<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>	
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src='js/novo.js' type='text/javascript' DEFER></script>
     </head>
     <body>
 	
@@ -27,12 +26,12 @@
                 <fieldset>
                    <div class="campo"> 
                         <label for="novasenhaJ">Insira a nova senha</label> <br>
-                        <input type="text" name="novasenha" id="novasenhaJ" maxlength="8"><span id="x_novasenhaJ"></span>
+                        <input type="text" name="novasenha" id="novasenhaJ" class="campoObrig" maxlength="8"><span id="x_novasenhaJ" class="tSpan"></span>
                     </div>
 
                     <div class="campo"> 
                         <label for="novasenha2J">Repita a nova senha escolhida</label> <br>
-                        <input type="text" name="novasenha" id="novasenhaJ" maxlength="8"><span id="x_novasenhaJ"></span>
+                        <input type="text" name="novasenha" id="novasenhaJ" class="campoObrig" maxlength="8"><span id="x_novasenhaJ" class="tSpan"></span>
                     </div>
 
                     <div class="campo">
@@ -47,7 +46,7 @@
                     </div>
                     <div class="campo"> 
                         <label for="respostaJ">Responda a pergunta secreta:</label> <br>
-                        <input type="text" name="resposta" id="respostaJ"><span id="x_respostaJ"></span>
+                        <input type="text" name="resposta" id="respostaJ" class="campoObrig"><span id="x_respostaJ" class="tSpan"></span>
                     </div>
                     <br><br>
                     <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">

@@ -1,12 +1,12 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+ <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src="js/novo.js" type="text/javascript" DEFER></script>
+
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
@@ -39,28 +39,27 @@
                 
                     <h1>Consulta de Autônomo</h1>
                        
-                <form name="form" method="post" action="#" id="formularioJ" class="formulario">
+                <form name="form" method="post" action="ui036-consultartac-agenteantt.java" id="formularioJ" class="formulario">
                     <div class="tabela">
                     <div class="coluna-esquerda">
                     <div class="campo"> 
                         <label for="rntrcJ">RNTRC</label> <br>
-                        <input type="text" name="rntrc" id="rntrcJ" maxlength="12"><span id="x_rntrcJ"></span>
-                    </div>
+                        <input type="text" name="rntrc" id="rntrcJ"class="campoObrig" class="campoObrig" maxlength="12"><span id="x_rntrcJ" class="tSpan"></span>                    </div>
                 <fieldset>
                     <legend>Dados do Motorista</legend>
                     <div class="campo"> 
                         <label for="rntrcJ">Nome Completo</label> <br>
-                        <input type="text" name="nome" id="nomeJ" maxlength="40"><span id="x_nomeJ"></span>
+                        <input type="text" name="nome" id="nomeJ" class="campoObrig iLetras" maxlength="40"><span id="x_nomeJ"></span><span id="x_nomeJ" class="tSpan"></span>
                     </div>
 
                     <div class="campo"> 
                         <label for="cpfJ">CPF</label> <br>
-                        <input type="text" name="cpf" id="cpfJ" maxlength="14"><span id="x_cpfJ"></span>
+                        <input type="text" name="cpf" id="cpfJ" class="campoObrig" maxlength="14"><span id="x_cpfJ"></span><span id="x_cpfJ" class="tSpan"></span>
                     </div>
 
                     <div class="campo"> 
                         <label for="rgJ">RG</label> <br>
-                        <input type="text" name="rg" id="rgJ" maxlength="11"><span id="x_rgJ"></span>
+                        <input type="text" name="rg" id="rgJ" class="campoObrig" maxlength="11"><span id="x_rgJ"></span><span id="x_rgJ" class="tSpan"></span>
                     </div>
 
                     <div class="campo">
@@ -98,15 +97,15 @@
                     </div>
                     <div class="campo"> 
                         <label for="orgaoEmissorJ">Orgão Emissor</label> <br>
-                        <input type="text" name="orgaoEmissor" id="orgaoEmissorJJ" maxlength="10"><span id="x_orgaoEmissorJ"></span>
+                        <input type="text" name="orgaoEmissor" id="orgaoEmissorJ"  class="campoObrig iLetras" maxlength="10"><span id="x_orgaoEmissorJ" class="tSpan"></span>
                     </div>
                     <div class="campo"> 
                         <label for="cnhJ">CNH</label><br> 
-                        <input type="text" name="cnh" id="cnhJ" maxlength="11"><span id="x_cnhJ"></span>
+                        <input type="text" name="cnh" id="cnhJ" class="campoObrig" maxlength="11"><span id="x_cnhJ" class="tSpan"></span>
                     </div>
                     <div class="campo"> 
                         <label for="dataNascimentoJ">Data de Nascimento</label> <br>
-                        <input type="text" name="dataNascimento" id="dataNascimentoJ" maxlength="10"><span id="x_dataNascimentoJ"></span>
+                        <input type="text" name="dataNascimento" id="dataNascimentoJ" class="campoObrig" maxlength="10"><span id="x_dataNascimentoJ" class="tSpan"></span>
                     </div>
                     <div class="campo"> 
                         <label for="sexoJ">Sexo</label> <br>
@@ -121,42 +120,42 @@
                         <legend>Dados de contato</legend>
                         <div class="campo"> 
                             <label for="telefoneJ">Telefone</label> <br>
-                            <input type="text" name="telefone" id="telefoneJ" maxlength="12"><span id="x_telefoneJ"></span>
+                            <input type="text" name="telefone" id="telefoneJ" class="campoObrig" maxlength="12"><span id="x_telefoneJ" class="tSpan"></span>
                         </div>
                         <div class="campo"> 
                             <label for="celularJ">Celular</label> <br>
-                            <input type="text" name="celular" id="celularJ" maxlength="13"><span id="x_celularJ"></span>
+                            <input type="text" name="celular" id="celularJ" class="campoObrig" maxlength="13"><span id="x_celularJ" class="tSpan"></span>
                         </div>
                         <div class="campo"> 
                             <label for="emailJ">Email</label> <br>
-                            <input type="text" name="email" id="emailJ" maxlength="40"><span id="x_emailJ"></span>
+                            <input type="text" name="email" id="emailJ" class="campoObrig" maxlength="40"><span id="x_emailJ" class="tSpan"></span>
                         </div>
                     </fieldset>
                     <fieldset>
                         <legend>Endereço</legend>					
                         <div class="campo"> 
                             <label for="logradouroJ">Logradouro</label><br> 
-                            <input type="text" name="logradouro" id="logradouroJ" maxlength="40"><span id="x_logradouroJ"></span>
+                            <input type="text" name="logradouro" id="logradouroJ" class="campoObrig" maxlength="40"><span id="x_logradouroJ" class="tSpan"></span>
                         </div>
                         <div class="campo"> 
                             <label for="numeroJ">Número</label><br> 
-                            <input type="text" name="numero" id="numeroJ" maxlength="9"><span id="x_numeroJ"></span>
+                            <input type="text" name="numero" id="numeroJ" class="campoObrig" maxlength="9"><span id="x_numeroJ" class="tSpan"></span>
                         </div>
                         <div class="campo"> 
                             <label for="estadoJ">Complemento</label><br> 
-                            <input type="text" name="estado" id="estadoJ" maxlength="10"><span id="x_estadoJ"></span>
+                            <input type="text" name="estado" id="estadoJ" class="campoObrig" maxlength="10"><span id="x_estadoJ" class="tSpan"></span>
                         </div>
                         <div class="campo"> 
                             <label for="bairroJ">Bairro</label><br> 
-                            <input type="text" name="bairro" id="bairroJ" maxlength="20"><span id="x_bairroJ"></span>
+                            <input type="text" name="bairro" id="bairroJ" class="campoObrig iLetras" maxlength="20"><span id="x_bairroJ" class="tSpan"></span>
                         </div>
                         <div class="campo"> 
                             <label for="cepJ">CEP</label><br> 
-                            <input type="text" name="cep" id="cepJ" maxlength="10"><span id="x_cepJ"></span>
+                            <input type="text" name="cep" id="cepJ" class="campoObrig" maxlength="10"><span id="x_cepJ" class="tSpan"></span>
                         </div>
                         <div class="campo"> 
                             <label for="cidadeJ">Cidade</label><br> 
-                            <input type="text" name="cidade" id="cidadeJ" maxlength="20"><span id="x_cidadeJ"></span>
+                            <input type="text" name="cidade" id="cidadeJ" class="campoObrig iLetras" maxlength="20"><span id="x_cidadeJ" class="tSpan"></span>
                         </div>
                         <div class="campo">
                             <label for="ufJ">UF</label><br>
@@ -193,7 +192,7 @@
                         </div>
                         <div class="campo"> 
                             <label for="paisJ">País</label><br> 
-                            <input type="text" name="pais" id="paisJ" maxlength="20"><span id="x_paisJ"></span>
+                            <input type="text" name="pais" id="paisJ" class="campoObrig iLetras" maxlength="20"><span id="x_rntrcJ" class="tSpan"></span>
                         </div>
 
                     </fieldset>

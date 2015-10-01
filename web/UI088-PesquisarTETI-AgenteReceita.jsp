@@ -5,8 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src="js/novo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
@@ -49,12 +48,12 @@
 				<div class="pesq">
 					<div class="campo">
 						<label for="rntrcJ">RNTRC:</label><br>
-						<input type="text" name="rntrc" id="rntrcJ" maxlength="50"><span id="x_rntrcJ" class=""></span>
+						<input type="text" name="rntrc" id="rntrcJ" maxlength="50" class="campoObrig"><span id="x_rntrcJ" class="tSpan"></span>
 					</div>
 					
 					<div class="campo">
 						<label for="razaosocialJ">Razão Social:</label><br>
-						<input type="text" name="razaosocial" id="razaosocialJ" maxlength="50"><span id="x_razaosocialJ" class=""></span>
+						<input type="text" name="razaosocial" id="razaosocialJ" maxlength="50" class="campoObrig"><span id="x_razaosocialJ" class="tSpan"></span>
 					</div>
 					<br>
 					 <input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">

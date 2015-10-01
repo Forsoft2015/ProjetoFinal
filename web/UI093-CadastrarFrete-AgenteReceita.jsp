@@ -5,8 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src="js/novo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
@@ -55,7 +54,7 @@
 							<legend>Dados do Transportador</legend>					
 								<div class="campo">
 									<label for="transportadorJ">Transportador:</label>
-									<input type="text" name="transportador" id="transportadorJ" class="cadastrocaixa"><span id="x_transportadorJ" class=""></span><br>
+									<input type="text" name="transportador" id="transportadorJ" class="campoObrig"><span id="x_transportadorJ" class="tSpan"></span><br>
 								</div>
 								<div class="campo"> 
 									<label for="MotoristaJ">Motorista:</label>
@@ -68,11 +67,11 @@
 								</div>
 								<div class="campo"> 
 									<label for="veiculoJ">Veículo:</label>
-									<input type="text" name="veiculo" id="veiculoJ" maxlength="14"><span id="x_veiculoJ"></span><br>
+									<input type="text" name="veiculo" id="veiculoJ" maxlength="14"class="campoObrig"><span id="x_veiculoJ" class="tSpan"></span><br>
 								</div>
 								<div class="campo"> 
 									<label for="dataJ">Data:</label>
-									<input type="text" name="data" id="dataJ" maxlength="10"><span id="x_dataJ"></span><br>
+									<input type="text" name="data" id="dataJ" maxlength="10"  class="campoObrig"><span id="x_dataJ" class="tSpan"></span><br>
 								</div>
 								<div class="campo" id="checar">
 									<label  >Tipo de Frete: </label>

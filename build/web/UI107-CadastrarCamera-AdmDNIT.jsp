@@ -5,8 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/UI107.js" type="text/javascript" DEFER></script>
+	<script src="js/novo.js" type="text/javascript" DEFER></script>
 </head>
 <body>
 	<!-- NÃO EDITAR!-->
@@ -70,27 +69,27 @@
                         <legend>Dados da Câmera</legend>	
                             <div class="campo">
 								<label for="fabricanteJ">Fabricante:</label><br> 
-									<input type="text" name="fabricante" id="fabricanteJ" maxlength="40"><span id="x_fabricanteJ" class=""></span>
+									<input type="text" name="fabricante" id="fabricanteJ"class="campoObrig" maxlength="40"><span id="x_fabricanteJ" class="tSpan"></span>
                            	</div>
 
                             <div class="campo">
 								<label for="modeloJ">Modelo:</label><br> 
-									<input type="text" name="modelo" id="modeloJ" maxlength="20"><span id="x_modeloJ" class=""></span>
+									<input type="text" name="modelo" id="modeloJ" maxlength="20"class="campoObrig"><span id="x_modeloJ" class="tSpan"></span>
                             </div>
 
                             <div class="campo">
 								<label for="numserieJ">Número de Série:</label><br> 
-									<input type="text" name="numserie" id="numserieJ" maxlength="15"><span id="x_numserieJ" class=""></span>
+									<input type="text" name="numserie" id="numserieJ" maxlength="15"class="campoObrig"><span id="x_numserieJ" class="tSpan"></span>
                             </div>
 
                            	<div class="campo">
 								<label for="latitudeJ">Latitude:</label><br> 
-									<input type="text" name="latitude" id="latitudeJ" maxlength="50"><span id="x_latitudeJ" class=""></span>
+									<input type="text" name="latitude" id="latitudeJ" maxlength="50" class="campoObrig"><span id="x_latitudeJ" class="tSpan"></span>
                             </div>
 
                             <div class="campo">
 								<label for="longituteJ">Longitude:</label><br> 
-									<input type="text" name="longitude" id="longitudeJ" maxlength="50"><span id="x_longitudeJ" class=""></span>
+									<input type="text" name="longitude" id="longitudeJ" maxlength="50" class="campoObrig"><span id="x_longitudeJ" class="tSpan"></span>
                             </div>
 
                             <div class="campo">
@@ -267,7 +266,7 @@
 
                             <div class="campo">
 								<label for="kmJ">KM:</label><br> 
-									<input type="text" name="km" id="kmJ" maxlength="10"><span id="x_kmJ" class=""></span>
+									<input type="text" name="km" id="kmJ" maxlength="10"class="campoObrig"><span id="x_kmJ" class="tSpan"></span>
                             </div>
                            
 					</fieldset>

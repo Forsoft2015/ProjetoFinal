@@ -1,4 +1,3 @@
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
@@ -6,8 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/ui01.js" type="text/javascript" DEFER></script>
+	<script src='js/novo.js' type='text/javascript' DEFER></script>
 </head>
 		<body>
 			<div class="centralizar">
@@ -23,13 +21,13 @@
 									<h3>Funcionário</h3>
 									<label for="usuarioJ" class="">Usuário</label>
 									<br>
-									<input type="email" name="email1J" class="form-control " id="email1J" placeholder="Usuário" maxlength="20">
-									<span id="x_email1J" class=""></span>
+									<input type="email" name="email1J" class="campoObrig" id="email1J" placeholder="Usuário" maxlength="20">
+									<span id="x_email1J" class="tSpan"></span>
 									<br>
 									<label for="senha">Senha</label>
 									<br>
-									<input type="password" name="senha1J" class="form-control" id="senha1J" placeholder="Senha">
-									<span id="x_senha1J" class=""></span>
+									<input type="password" name="senha1J" class="campoObrig" id="senha1J" placeholder="Senha">
+									<span id="x_senha1J" class="tSpan"></span>
 								</div>
 								<br>
 								<button type="submit" class="centralizar">Entrar</button>
@@ -43,13 +41,13 @@
 									<h3>Autônomo</h3>
 									<label for="usuario" class="">Usuário</label>
 									<br>
-									<input type="email" name="email2J" class="form-control " id="email2J" placeholder="Usuário" maxlength="20">
-									<span id="x_email2J" class=""></span>
+									<input type="email" name="email2J" class="campoObrig" id="email2J" placeholder="Usuário" maxlength="20">
+									<span id="x_email2J" class="tSpan"></span>
 									<br>
 									<label for="senha">Senha</label>
 									<br>
-									<input type="password" name="senha2J" class="form-control" id="senha2J" placeholder="Senha">
-									<span id="x_senha2J" class=""></span>
+									<input type="password" name="senha2J" class="campoObrig" id="senha2J" placeholder="Senha">
+									<span id="x_senha2J" class="tSpan"></span>
 								</div>
 								<br>
 								<button type="submit" class="centralizar">Entrar</button>

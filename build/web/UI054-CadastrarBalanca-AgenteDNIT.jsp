@@ -5,8 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Digital Monitoring - Digimon</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <script src="js/framework.js" type='text/javascript' DEFER></script>
-        <script src="js/ui093.js" type="text/javascript" DEFER></script>
+        <script src="js/novo.js" type="text/javascript" DEFER></script>
     </head>
     <body>
         <!-- NÃO EDITAR!-->
@@ -84,14 +83,14 @@
 		
 			<h1>Cadastrar Balança</h1>
 			<h4>Preencha corretamente os campos!</h4>
-			<form name="form" method="post" action="#" id="formularioJ" class="formulario">
+			<form name="form" method="post" action="servletui054" id="formularioJ" class="formulario">
 				<div class="tabela">
 					<div class="coluna-esquerda">
 						<fieldset>
 							<legend>Dados do Posto</legend>					
 								<div class="campo"> 
 									<label for="idpostoJ">ID:</label><br> 
-									<input type="text" name="idposto" id="idpostoJ"><span id="x_idpostoJ"></span>
+									<input type="text" name="idposto" id="idpostoJ" class="campoObrig" maxlength="10"><span id="x_idpostoJ" class="tSpan"></span>
 								</div>
 						</fieldset>
 					</div>
@@ -101,16 +100,16 @@
 							<legend>Dados da Balança</legend>
 								<div class="campo"> 
 									<label for="numeroserieJ">Número de Série:</label><br> 
-									<input type="text" name="numeroserie" id="numeroserieJ" maxlength="8"><span id="x_numeroserieJ"></span>
+									<input type="text" name="numeroserie" id="numeroserieJ" class="campoObrig" maxlength="8"><span id="x_numeroserieJ" class="tSpan"></span>
 								</div>
 								<div class="campo"> 
 									<label for="fabricanteJ">Fabricante:</label><br> 
-									<input type="text" name="numeroserie" id="numeroserieJ"><span id="x_numeroserieJ"></span>
+									<input type="text" name="numeroserie" id="numeroserieJ" class="campoObrig" maxlength="40"><span id="x_numeroserieJ" class="tSpan"></span>
 								</div>
 
 								<div class="campo"> 
 									<label for="tipobalJ">Modelo da Balança:</label>
-									<select name="tipodebalanca" id="tipobalJ"><!--<span id="x_dataJ"></span>-->
+									<select name="tipodebalanca" id="tipobalJ" class="campoObrig" maxlength="10"><span id="x_dataJ" class="tSpan"></span>
 										<option>Móvel</option>
 										<option>Fixa</option>
 									</select>

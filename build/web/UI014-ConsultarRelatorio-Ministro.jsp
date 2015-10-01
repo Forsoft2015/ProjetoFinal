@@ -1,4 +1,4 @@
-
+﻿
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
@@ -7,8 +7,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/framework.js" type='text/javascript' DEFER></script>
-	<script src="js/js_exemplo.js" type="text/javascript" DEFER></script>
+	<script src='js/novo.js' type='text/javascript' DEFER></script>
 </head>
 <body>
 
@@ -72,13 +71,13 @@
 						<legend>Insira a data que deve ser pesquisa:</legend>
 						<div class="campo"> 
 									<label for="datainicialJ">De:</label><br> 
-									<input type="text" name="datainicial" id="datainicialJ" maxlength="10"><span id="x_datainicialJ"></span>
+									<input type="text" name="datainicial" id="datainicialJ" class="campoObrig" maxlength="10"><span id="x_datainicialJ" class="tSpan"></span>
 								</div>
 						
 						
 						<div class="campo"> 
 									<label for="datafinallJ">Até:</label><br> 
-									<input type="text" name="datafinal" id="datafinalJ" maxlength="10"><span id="x_datafinalJ"></span>
+									<input type="text" name="datafinal" id="datafinalJ" class="campoObrig" maxlength="10"><span id="x_datafinalJ" class="tSpan"></span>
 						</div>
 						<input type="submit" value="Consultar" name="enviar" id="enviarJ" class="botaoJ">
 			</div>
