@@ -10,7 +10,7 @@ package br.com.projetodigimon.model;
  *
  * @author Javapos
  */
-class Transportador {
+public class Transportador {
     private long idTransportador;
     private String rntrc;
     private PessoaFisica pessoaFisica;

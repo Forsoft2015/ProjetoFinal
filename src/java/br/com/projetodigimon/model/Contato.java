@@ -10,7 +10,7 @@ package br.com.projetodigimon.model;
  *
  * @author Javapos
  */
-class Contato {
+public class Contato {
     private long idContato;
     private String telefone;
     private String celular;

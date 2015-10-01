@@ -10,7 +10,7 @@ package br.com.projetodigimon.model;
  *
  * @author Javapos
  */
-class Carga {
+public class Carga {
     private long idCarga;
     private String tipo;
     private Endereco origem;

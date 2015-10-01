@@ -10,7 +10,7 @@ package br.com.projetodigimon.model;
  *
  * @author Javapos
  */
-class Endereco {
+public class Endereco {
     private long idEndereco;
     private String logradouro;
     private String numero;

@@ -10,7 +10,7 @@ package br.com.projetodigimon.model;
  *
  * @author Javapos
  */
-class PessoaFisica {
+public class PessoaFisica {
     private long idPessoaFisica;
     private String nome;
     private String cpf;
