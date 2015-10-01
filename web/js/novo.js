@@ -315,7 +315,7 @@ var x = _gbc("tSpan");/*class de todas as tags span*/
 		if ( cepJ ) {
 			cepJ.onkeypress = function (e) {
 				somenteNumeros(e);
-				mascara(e, "######-###");
+				mascara(e, "##.###-###");
 			}
 		}
 			

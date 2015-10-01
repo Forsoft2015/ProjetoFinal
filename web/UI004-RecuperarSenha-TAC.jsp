@@ -22,7 +22,7 @@
 	</div>
 	<div id="centro" class="conteudo-meio">
                     <h1>Recuperação de Senha </h1>
-                       
+                    <form method="post" id="formularioJ" class="formulario" action="#"></form>     
                 <fieldset>
                    <div class="campo"> 
                         <label for="novasenhaJ">Insira a nova senha</label> <br>
