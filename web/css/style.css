@@ -15,6 +15,18 @@ dl, dt, dd, ol, ul, li, form, label, legend,
 }
 
 
+#img404{
+    width: 600px;
+}
+
+#iderro{
+    width: 600px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /*****************************/
 div.pesq{
 	width:311px;
@@ -24,16 +36,6 @@ div.pesq{
 
 table#tblConsulta{
 	margin: 0 auto;
-}
-
-table#tblConsulta a{
-    color: #fff;
-    font-weight: 800;
-    text-decoration: none;
-}
-
-table#tblConsulta a:hover{
-    text-decoration: underline;
 }
 
 table#tblConsulta td.cabecalh{
@@ -59,7 +61,7 @@ html, body {
 	}
 
 body {
-    background: url("../img/fundo.jpg") repeat-x;
+    background: url('../img/fundo.jpg') repeat-x;
 	margin: 0px;
 	padding: 0px;
 }
@@ -102,37 +104,37 @@ ul#menu-user li {
 }
 
 #profile {
-    background: url("../img/profile.png") no-repeat;
+    background: url('../img/profile.png') no-repeat;
     background-position: center center;
     background-size:50px 50px;
 }
 
 #profile:hover {
-    background: url("../img/profileY.png") no-repeat;
+    background: url('../img/profileY.png') no-repeat;
     background-position: center center;
     background-size:50px 50px;
 }
 
 #config {
-    background: url("../img/config.png") no-repeat;
+    background: url('../img/config.png') no-repeat;
     background-position: center center;
     background-size:50px 50px;
 }
 
 #config:hover {
-    background: url("../img/configY.png") no-repeat;
+    background: url('../img/configY.png') no-repeat;
     background-position: center center;
     background-size:50px 50px;
 }
 
 #logout {
-    background: url("../img/logout.png") no-repeat;
+    background: url('../img/logout.png') no-repeat;
     background-position: center center;
     background-size:50px 50px;
 }
 
 #logout:hover {
-    background: url("../img/logoutY.png") no-repeat;
+    background: url('../img/logoutY.png') no-repeat;
     background-position: center center;
     background-size:50px 50px;
 }
@@ -211,7 +213,7 @@ ul#menu-user li {
 }
 
 .navigator {
-    /*background: url("img/fundomenu.jpg') repeat-x;*/
+    /*background: url('../img/fundomenu.jpg') repeat-x;*/
     margin-bottom: 10px;
     border-radius:3px;
     border-left: 1px solid grey;

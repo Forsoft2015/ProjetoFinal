@@ -6,7 +6,11 @@
 	 version="3.0">
     <welcome-file-list>
         <welcome-file>UI001-Login.jsp</welcome-file>
-    </welcome-file-list>    
+    </welcome-file-list>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error404.html</location>
+    </error-page>    
     <session-config>
         <session-timeout>
             30
