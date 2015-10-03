@@ -15,7 +15,7 @@ public class Usuario {
     private String nome;
     private String usuario;
     private String senha;
-    private String permissoes;
+    private String[] permissoes;
     private String cpf;
     private char situacao;
     private String tipo;
@@ -53,11 +53,11 @@ public class Usuario {
         this.senha = senha;
     }
 
-    public String getPermissoes() {
+    public String[] getPermissoes() {
         return permissoes;
     }
 
-    public void setPermissoes(String permissoes) {
+    public void setPermissoes(String[] permissoes) {
         this.permissoes = permissoes;
     }
 
