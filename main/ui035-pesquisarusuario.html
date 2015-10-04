@@ -85,19 +85,19 @@
             <div class="caixaPesq">
                
                 <center><br>
-					<h1>Pesquisar Frete</h1><br>
+					<h1>Pesquisar Usuário: </h1><br>
 					<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 						<div class="campo"> 
-							<label for="idFreteJ">ID do Frete:</label>
-							<input type="text" name="idFrete" id="idFreteJ"><span id="x_idFreteJ" class=""></span>
+							<label for="nomeJ">Nome:</label>
+							<input type="text" name="nome" id="nomeJ"><span id="x_nomeJ" class=""></span>
+						</div><br>
+						<div class="campo"> 
+							<label for="usuarioJ">Usuário:</label>
+							<input type="text" name="usuario" id="usuarioJ"><span id="x_usuarioJ" class=""></span>
 						</div><br>
 						<div class="campo">
-							<label for="motoristaJ">Motorista:</label>
-							<input type="text" name="motorista" id="motoristaJ"><span id="x_motoristaJ" class=""></span>
-						</div><br>
-						<div class="campo">
-							<label for="veiculoJ">Veículo:</label>
-							<input type="text" name="veiculo" id="veiculoJ"><span id="x_veiculoJ" class=""></span>
+							<label for="cpfJ">CPF:</label>
+							<input type="text" name="cpf" id="cpfJ"><span id="x_cpfJ" class=""></span>
 						</div><br>
 						<input type="submit" value="Pesquisar" name="pesquisar" id="pesquisarJ" class="botaoJ">
 						<input type="reset" value="Limpar" name="Limpar" id="limparJ" class="botaoJ">
@@ -105,14 +105,26 @@
 					
 					<table id="tblConsulta">
 						<tr>
-						<td class="cabecalh" id="">ID do Frete</td>
-							<td class="cabecalh">Motorista</td>
-							<td class="cabecalh">Veículo</td>
+						<td class="cabecalh" id="">Usuário</td>
+							<td class="cabecalh">Nome</td>
+							<td class="cabecalh">Situação</td>
 							<td class="cabecalh">Tipo</td>
-							<td class="cabecalh">Estado de Destino</td>
+							<td class="cabecalh">Permissões</td>
+							<td class="cabecalh">CPF</td>
 							<td class="cabecalh">Abrir</td>
+						
 						</tr>
 						<tr>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>
+							<td>  </td>							
+							<td><a href="servlet?id=5">☼</a></td>
+						</tr>
+						<tr>
+							<td>  </td>
 							<td>  </td>
 							<td>  </td>
 							<td>  </td>
@@ -126,13 +138,6 @@
 							<td>  </td>
 							<td>  </td>
 							<td>  </td>
-							<td><a href="servlet?id=5">☼</a></td>
-						</tr>
-						<tr>
-							<td>  </td>
-							<td>  </td>
-							<td>  </td>
-							<td>  </td>
 							<td>  </td>
 							<td><a href="servlet?id=5">☼</a></td>
 						</tr>
@@ -142,9 +147,11 @@
 							<td>  </td>
 							<td>  </td>
 							<td>  </td>
+							<td>  </td>
 							<td><a href="servlet?id=5">☼</a></td>
 						</tr>
 						<tr>
+							<td>  </td>
 							<td>  </td>
 							<td>  </td>
 							<td>  </td>

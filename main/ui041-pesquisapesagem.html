@@ -85,31 +85,25 @@
             <div class="caixaPesq">
                
                 <center><br>
-					<h1>Pesquisar Frete</h1><br>
+					<h1>Pesquisar Pesagem: </h1><br>
 					<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 						<div class="campo"> 
-							<label for="idFreteJ">ID do Frete:</label>
-							<input type="text" name="idFrete" id="idFreteJ"><span id="x_idFreteJ" class=""></span>
-						</div><br>
-						<div class="campo">
-							<label for="motoristaJ">Motorista:</label>
-							<input type="text" name="motorista" id="motoristaJ"><span id="x_motoristaJ" class=""></span>
-						</div><br>
-						<div class="campo">
-							<label for="veiculoJ">Veículo:</label>
-							<input type="text" name="veiculo" id="veiculoJ"><span id="x_veiculoJ" class=""></span>
-						</div><br>
+							<label for="idPostoPesagemJ">Id Posto de Pesagem:</label>
+							<input type="text" name="idPostoPesagem" id="idPostoPesagemJ"><span id="x_idPostoPesagemJ" class=""></span>
+						</div>
+						<br>
+						
 						<input type="submit" value="Pesquisar" name="pesquisar" id="pesquisarJ" class="botaoJ">
 						<input type="reset" value="Limpar" name="Limpar" id="limparJ" class="botaoJ">
 					</form> 
 					
 					<table id="tblConsulta">
 						<tr>
-						<td class="cabecalh" id="">ID do Frete</td>
-							<td class="cabecalh">Motorista</td>
-							<td class="cabecalh">Veículo</td>
-							<td class="cabecalh">Tipo</td>
-							<td class="cabecalh">Estado de Destino</td>
+						<td class="cabecalh" id="">PBT</td>
+							<td class="cabecalh">Peso por Eixos</td>
+							<td class="cabecalh">Data/Hora</td>
+							<td class="cabecalh">Transbordo</td>
+							<td class="cabecalh">Remanejamento</td>
 							<td class="cabecalh">Abrir</td>
 						</tr>
 						<tr>
@@ -153,9 +147,6 @@
 							<td><a href="servlet?id=5">☼</a></td>
 						</tr>
 					</table>
-					
-					<!--Corrigir quadrado em tela pequena-->
-					<br><br><br>
 					
                  </center>
                     
