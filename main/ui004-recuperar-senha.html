@@ -4,12 +4,12 @@
 	<title>Digital Monitoring - Digimon</title>
 	<link rel="stylesheet" type="text/css" href="dist/css/estilo.css">
 	<link href='https://fonts.googleapis.com/css?family=Cantarell:400,700' rel='stylesheet' type='text/css'>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" >
 </head>
 <body>
 	<div class="wrapper">
 		<div class="barraSuperior">
-			<a href="#"><img src="dist/imagens/logo.png" alt="logo" class="logo"></a>
+			<a href="https://goo.gl/SsAhv"><img src="dist/imagens/logo.png" alt="logo" class="logo"></a>
 			<div class="menu">
 <ul class="menu"> <!-- Esse é o 1 nivel ou o nivel principal -->
     <li><a href="#" class="menuItem">Frete</a>
@@ -86,42 +86,29 @@
             <div class="caixaLogin">
                 <form name="form" method="post" action="#" id="formularioJ" class="formulario">
                     <center>  <br>
-                        <h1>Cadastrar Câmera: </h1><br>
+                        <h1>Recuperação de Senha</h1><br>
                         <div class="campo"> 
-                            <label for="idCameraJ">IDCâmera:</label><br> 
-                            <input type="text" name="idCamera" id="idCameraJ"><span id="x_idCameraJ" class=""></span>
+							<label for="novasenhaJ">Insira a nova senha:</label> <br>
+							<input type="text" name="novasenha" id="novasenhaJ" maxlength="8"><span id="x_novasenhaJ" class=""></span>
                         </div>
+                       
                         <div class="campo"> 
-                            <label for="fabricanteJ">Fabricante :</label><br> 
-                            <input type="text" name="fabricante" id="fabricanteJ" size="40" ><span id="x_fabricanteJ" class=""></span>
-                        </div>
-                        <div class="campo"> 
-                            <label for="modeloJ">Modelo:</label><br> 
-                            <input type="text" name="modelo" id="modeloJ" size="20"><span id="x_modeloJ" class=""></span>
+							 <label for="novasenha2J">Repita a nova senha escolhida:</label> <br>
+							<input type="text" name="novasenha" id="novasenhaJ" maxlength="8"><span id="x_novasenhaJ" class=""></span>
                         </div>
                         <div class="campo"> 
-                            <label for="numserieJ">Numero de Série:</label><br> 
-                            <input type="text" name="numserie" id="numserieJ" size="15" ><span id="x_numserieJ" class=""></span>
-                        </div>
+							<label for="perguntaJ">Pergunta secreta:</label><br>
+							<select name="uf" id="ufJ">
+                                <option value="">Pergunta 1</option>
+                                <option value="">Pergunta 2</option>
+                                <option value="">Pergunta 3</option>
+                                <option value="">Pergunta 4</option>
+							</select><span id="x_ufJ" class=""></span> 
                         <div class="campo"> 
-                            <label for="latitudeJ">Latitude:</label><br> 
-                            <input type="text" name="latitude" id="latitudeJ"><span id="x_latitudeJ" class=""></span>
+							 <label for="respostaJ">Responda a pergunta secreta:</label> <br>
+							<input type="text" name="resposta" id="respostaJ"><span id="x_respostaJ" class=""></span>
                         </div>
-                        <div class="campo"> 
-                            <label for="longitudeJ">Longitude:</label><br> 
-                            <input type="text" name="longitude" id="longitudeJ"><span id="x_longitudeJ" class=""></span>
-                        </div>
-						<div class="campo"> 
-                            <label for="idRodoviaJ">IDRodovia:</label><br> 
-                            <input type="text" name="idRodovia" id="idRodoviaJ"><span id="x_idRodoviaJ" class=""></span>
-                        </div><div class="campo"> 
-                            <label for="kmJ">KM:</label><br> 
-                            <input type="text" name="km" id="kmJ"><span id="x_kmJ" class=""></span>
-                        </div>
-
-                                                
-
-                        <a href="UI002-Home-TAC.jsp"><input type="button" value="Limpar" name="Limpar" id="limparJ" class="botaoJ"></a>
+						<a href="UI002-Home-TAC.jsp"><input type="button" value="Limpar" name="Limpar" id="limparJ" class="botaoJ"></a>
                         <input type="submit" value="Enviar" name="enviar" id="enviarJ" class="botaoJ">
                     </center>
                     <br><Br>		
