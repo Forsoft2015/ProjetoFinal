@@ -4,6 +4,7 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	font-family: "Myriad Pro";
 }
 
 body {
@@ -252,7 +253,8 @@ ul.menu{
 .menu li a{ 
 	display:block; 
 	height:10px; 
-	float:left; 
+	float:left;
+	font-size: 13pt;
 }
 
 /* Configurações nivel 2*/
@@ -278,6 +280,33 @@ ul.menu{
 .menuItem {
 	margin-top: 0px !important;
 }
+
+.caixaPesq {
+
+	width: 1030px;
+	background-color: rgba(0, 0, 0, 0.75);
+	margin: 15px auto;
+
+}
+
+table#tblConsulta{
+	margin: 0 auto;
+}
+
+table#tblConsulta td.cabecalh{
+	background-color: rgba(5,21,41,.85);
+	color: white;
+	font-weight: 700;
+}
+
+table#tblConsulta td{
+	width: 100px;
+	height: 18px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .65);
+	padding: 15px;
+}
+
 /*No geral a página está muito hardcoded nos posicionamentos, ou seja, eu coloquei tudo muito bem definido por pixels, o que não é uma prática
 	lá muito boa. Mas como a página tem poucos elementos que não devem mesmo sair do lugar, eu preferi desta forma. Se alguem quiser experimentar
 	outras formas, como porcentagem, ou brincar com o @media, ou realmente fazer o que quiser na página, sintam-se à vontade. Se alguém fizer algo
