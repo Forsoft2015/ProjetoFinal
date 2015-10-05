@@ -16,7 +16,7 @@
 					</div>
 					<div class="panel-body">
 						
-							<form name="form" method="post" action="#" id="formularioJ" class="formulario treta1">
+							<form name="form" method="post" action="ServletUI001" id="formularioJ" class="formulario treta1">
 								<div>
 									<h3>Funcionário</h3>
 									<label for="usuarioJ" class="">Usuário</label>
