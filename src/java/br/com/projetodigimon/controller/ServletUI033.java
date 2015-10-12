@@ -1,15 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package br.com.projetodigimon.controller;
 
-import br.com.projetodigimon.model.Contato;
-import br.com.projetodigimon.model.Endereco;
-import br.com.projetodigimon.model.PessoaJuridica;
-import br.com.projetodigimon.model.Transportador;
+import br.com.projetodigimon.model.PesquisarRelatorioBean;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -19,71 +10,30 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- *
- * @author Carlitos
+ * @author Alan Lones
+ * @review and correction Alan Lones
  */
-@WebServlet(name = "ServletUI033", urlPatterns = {"/jsp/ServletUI033"})
+
+@WebServlet(name = "ServletUI033", urlPatterns = {"/ServletUI033"})
 public class ServletUI033 extends HttpServlet {
 
-    /**
-     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
-     * methods.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
-        Transportador transportador = new Transportador();
-        String tipo = request.getParameter("tipo");
-        String rntrc = request.getParameter("rntrc");
-        
-       
-        // pesso juridica
-        PessoaJuridica pessoaJuridica = new PessoaJuridica();
-         String nomeFantasia = request.getParameter("nomeFantasia");
-         String razaoSocial = request.getParameter("razaoSocial");
-         String cnpj = request.getParameter("cnpj");
-         
-        // contato
-         
-         Contato contato = new Contato();
-         String telefone = request.getParameter("telefone");
-         String celular = request.getParameter("celular");
-         String email = request.getParameter("email");
-         // endereco
-         
-         Endereco endereco = new Endereco ();
-         String logradouro = request.getParameter("logradouro");
-         String Numero = request.getParameter("numero");
-         String Complemento = request.getParameter("complemento");
-         String Cep = request.getParameter("cep");
-         String Bairro = request.getParameter("bairro");
-         String Cidade = request.getParameter("cidade");
-         String UF = request.getParameter("uf");
-         String Pais = request.getParameter("pais");
-         
-         
-        
-        
-        
-        
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
+        
+        PesquisarRelatorioBean rb = new PesquisarRelatorioBean();
+        
         try {
-            /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet ServletUI033</title>");            
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>Servlet ServletUI033 at " + request.getContextPath() + "</h1>");
-            out.println("</body>");
-            out.println("</html>");
+            
+            rb.setIdRelatorio(Long.parseLong(request.getParameter("idRelatorio")));
+            rb.setNome(request.getParameter("nome"));
+            rb.setAssunto(request.getParameter("assunto"));
+            
+            out.println("ID Relatório: "+ rb.getIdRelatorio() +"<br>");
+            out.println("Assunto: "+ rb.getAssunto() +"<br>");
+            out.println("Nome: "+ rb.getNome() +"<br>");
+            
         } finally {
             out.close();
         }
