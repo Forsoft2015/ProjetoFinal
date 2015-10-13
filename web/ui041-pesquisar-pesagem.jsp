@@ -126,7 +126,7 @@
                             <h1>Pesquisar Pesagem</h1>
                             <fieldset>
                                 <legend>Pesquisar Pesagem: </legend>
-                                <form name="form" method="post" action="#" id="formularioJ" class="formulario">
+                                <form name="form" method="post" action="ServletUI041" id="formularioJ" class="formulario">
                                     <div class="campo"> 
                                         <label for="idPostoPesagemJ">Id do Posto:</label>
                                         <input type="text" name="idPostoPesagem"  class="campoObrig"id="idPostoPesagemJ"><span id="x_idPostoPesagemJ" class="tSpan"></span>

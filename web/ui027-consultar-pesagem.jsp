@@ -125,7 +125,7 @@
                                 
                         </form>		
                 </div>-->
-                <form name="form" method="post" action="#" id="formularioJ" class="formulario">	
+                <form name="form" method="post" action="ServletUI027" id="formularioJ" class="formulario">	
                     <h1>Consultar Pesagem</h1>
                     <div class="centro">
                         <fieldset>

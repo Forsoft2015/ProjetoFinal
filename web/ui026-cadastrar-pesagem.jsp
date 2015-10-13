@@ -120,7 +120,7 @@
             <div id="main">
                 <div class="centro">
 
-                    <form name="form" method="post" action="#" id="formularioJ" class="formulario">
+                    <form name="form" method="post" action="ServletUI026" id="formularioJ" class="formulario">
 
                         <br>
                         <h1>Dados da Pesagem</h1>			

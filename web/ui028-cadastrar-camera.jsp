@@ -120,7 +120,7 @@
             <div id="main">
 
 
-                <form name="form" method="post" action="#" id="formularioJ" class="formulario">	
+                <form name="form" method="post" action="ServletUI028" id="formularioJ" class="formulario">	
                     <h1>Cadastro da Câmera</h1>
                     <div class="esquerda">
                         <fieldset>

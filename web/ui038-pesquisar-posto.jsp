@@ -125,7 +125,7 @@
                         <center><br>
                             <h1>Pesquisar Posto:</h1><br>
                             <fieldset>
-                                <form name="form" method="post" action="#" id="formularioJ" class="formulario">
+                                <form name="form" method="post" action="ServletUI038" id="formularioJ" class="formulario">
                                     <div class="campo"> 
                                         <label for="idPostoPesagemJ">Id do Posto:</label>
                                         <input type="text" name="idPostoPesagem" class="campoObrig" id="idPostoPesagemJ"><span id="x_idPostoPesagemJ" class="tSpan"></span>

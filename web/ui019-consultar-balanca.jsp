@@ -124,7 +124,7 @@
                                 
                         </form>			
                 </div>-->
-                <form name="form" method="post" action="#" id="formularioJ" class="formulario">
+                <form name="form" method="post" action="ServletUI019" id="formularioJ" class="formulario">
                     <h1>Consulta Balança</h1>
                     <div class="centro">
                         <!--Cole os fieldset aqui-->

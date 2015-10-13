@@ -125,7 +125,7 @@
                                 
                         </form>		
                 </div>-->
-                <form name="form" method="post" action="#" id="formularioJ" class="formulario">	
+                <form name="form" method="post" action="ServletUI030" id="formularioJ" class="formulario">	
                     <h1>Consulta de Passagem</h1>
                     <div class="esquerda">
                         <fieldset>

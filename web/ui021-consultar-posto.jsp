@@ -120,7 +120,7 @@
             <div id="main">
 
                 <div class="centro">
-                    <form name="form" method="post" action="#" id="formularioJ" class="formulario">
+                    <form name="form" method="post" action="ServletUI021" id="formularioJ" class="formulario">
                         <h1>Consultar Posto de Pesagem</h1>
                         <fieldset>
                             <legend>Dados do Posto</legend>

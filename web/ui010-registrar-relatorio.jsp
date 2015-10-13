@@ -121,7 +121,7 @@
 
                 <div class="centro">
 
-                    <form name="form" method="post" action="#" id="formularioJ" class="formulario">
+                    <form name="form" method="post" action="ServletUI010" id="formularioJ" class="formulario">
                         <div class="centro">	
                             <br>
                             <h1>Registro de Relatório </h1><br>

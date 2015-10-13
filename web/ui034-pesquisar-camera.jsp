@@ -118,7 +118,7 @@
                 </div>
             </div>
             <div id="main">
-                <form name="form" method="post" action="#" id="formularioJ" class="formulario">	
+                <form name="form" method="post" action="ServletUI034" id="formularioJ" class="formulario">	
                     <div class="centro">
                         <h1>Pesquisar Câmera: </h1><br>
                         <fieldset>
