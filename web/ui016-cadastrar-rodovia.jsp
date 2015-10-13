@@ -114,13 +114,13 @@
 		<div id="main">
 			
 			<!--<div class="centro">
-				<form name="form" method="post" action="#" id="formularioCentro" class="formulario">
+				<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 					Cole os fieldset aqui
 					
 				</form>		
 			</div>-->
 			<div class="centro">
-				<form name="form" method="post" action="#" id="formularioCentro" class="formulario">	
+				<form name="form" method="post" action="#" id="formularioJ" class="formulario">	
 					<h1>Cadastro de Rodovia</h1>
 			
 					<fieldset>
