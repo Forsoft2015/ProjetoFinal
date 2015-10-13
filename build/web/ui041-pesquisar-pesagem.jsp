@@ -18,7 +18,7 @@
         <div id="interface">
             <div id="header">
                 <div class="main">
-                    <a href="https://goo.gl/SsAhv"><img src="dist/imagens/logo.png" class="logo"></a>
+                    <a href="#"><img src="dist/imagens/logo.png" class="logo"></a>
                     <div class="login">
                         <a class="conta" href="#">Minha Conta</a>
                         <a class="sair" href="#">Sair</a>
@@ -126,7 +126,7 @@
                             <h1>Pesquisar Pesagem</h1>
                             <fieldset>
                                 <legend>Pesquisar Pesagem: </legend>
-                                <form name="form" method="post" action="#" id="formularioJ" class="formulario">
+                                <form name="form" method="post" action="ServletUI041" id="formularioJ" class="formulario">
                                     <div class="campo"> 
                                         <label for="idPostoPesagemJ">Id do Posto:</label>
                                         <input type="text" name="idPostoPesagem"  class="campoObrig"id="idPostoPesagemJ"><span id="x_idPostoPesagemJ" class="tSpan"></span>

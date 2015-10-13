@@ -120,12 +120,12 @@
             <div id="main">
 
                 <!--<div class="centro">
-                        <form name="form" method="post" action="#" id="formularioCentro" class="formulario">
+                        <form name="form" method="post" action="#" id="formularioJ" class="formulario">
                                 Cole os fieldset aqui
                                 
                         </form>		
                 </div>-->
-                <form name="form" method="post" action="#" id="formularioJ" class="formulario">	
+                <form name="form" method="post" action="ServletUI011" id="formularioJ" class="formulario">	
                     <h1>Consulta de Relatório</h1>
                     <div class="centro">
                         <fieldset>

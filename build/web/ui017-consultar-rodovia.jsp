@@ -13,7 +13,7 @@
 	<div id="interface">
 		<div id="header">
 			<div class="main">
-				<a href="https://goo.gl/SsAhv"><img src="dist/imagens/logo.png" class="logo"></a>
+				<a href="#"><img src="dist/imagens/logo.png" class="logo"></a>
 				<div class="login">
 				  <a class="conta" href="#">Minha Conta</a>
 				  <a class="sair" href="#">Sair</a>
@@ -116,13 +116,13 @@
 		<div id="main">
 			
 			<!--<div class="centro">
-				<form name="form" method="post" action="#" id="formularioCentro" class="formulario">
+				<form name="form" method="post" action="#" id="formularioJ" class="formulario">
 					Cole os fieldset aqui
 					
 				</form>		
 			</div>-->
 			<div class="centro">
-				<form name="form" method="post" action="#" id="formularioCentro" class="formulario">	
+				<form name="form" method="post" action="ServletUI017" id="formularioJ" class="formulario">	
 					<h1>Consulta de Rodovia</h1>
 			
 					<fieldset>

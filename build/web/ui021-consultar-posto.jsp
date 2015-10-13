@@ -18,7 +18,7 @@
         <div id="interface">
             <div id="header">
                 <div class="main">
-                    <a href="https://goo.gl/SsAhv"><img src="dist/imagens/logo.png" class="logo"></a>
+                    <a href="#"><img src="dist/imagens/logo.png" class="logo"></a>
                     <div class="login">
                        <a class="conta" href="#">Minha Conta</a>
                         <a class="sair" href="#">Sair</a>
@@ -120,7 +120,7 @@
             <div id="main">
 
                 <div class="centro">
-                    <form name="form" method="post" action="#" id="formularioCentro" class="formulario">
+                    <form name="form" method="post" action="ServletUI021" id="formularioJ" class="formulario">
                         <h1>Consultar Posto de Pesagem</h1>
                         <fieldset>
                             <legend>Dados do Posto</legend>

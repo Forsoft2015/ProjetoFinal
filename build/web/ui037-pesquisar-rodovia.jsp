@@ -121,7 +121,7 @@
                         <br>
                         <h1>Pesquisar Rodovia</h1>
                         <fieldset>
-                            <form name="form" method="post" action="Servletui037" id="formularioJ" class="formulario">
+                            <form name="form" method="post" action="ServletUI037" id="formularioJ" class="formulario">
                                 <div class="campo">
                                     <label for="nomeJ">Nome da Rodovia:</label>
                                     <input type="text" name="nome" id="nomeJ" class="campoObrig"><span id="x_nomeJ" class="tSPan"></span>
