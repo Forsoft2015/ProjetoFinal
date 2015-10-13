@@ -21,7 +21,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author Bruna Souza
  */
 @WebServlet(name = "ServletUI030", urlPatterns = {"/ServletUI030"})
-public class Servletui030 extends HttpServlet {
+public class ServletUI030 extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>

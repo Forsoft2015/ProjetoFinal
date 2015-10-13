@@ -18,8 +18,8 @@ import javax.servlet.http.HttpServletResponse;
  * @review and correction Alan Lones
  * 
  */
-@WebServlet(name = "Servletui026", urlPatterns = {"/Servletui026"})
-public class Servletui026 extends HttpServlet {
+@WebServlet(name = "ServletUI026", urlPatterns = {"/ServletUI026"})
+public class ServletUI026 extends HttpServlet {
 
     
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)

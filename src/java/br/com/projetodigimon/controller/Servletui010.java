@@ -15,30 +15,30 @@ import javax.servlet.http.HttpServletResponse;
  * @author Higor
  * @review and correction Alan Lones
  */
-@WebServlet(name = "Servletui010", urlPatterns = {"/Servletui010"})
-public class Servletui010 extends HttpServlet {
+@WebServlet(name = "ServletUI010", urlPatterns = {"/ServletUI010"})
+public class ServletUI010 extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-            response.setContentType("text/html;charset=UTF-8");
-            PrintWriter out = response.getWriter();
-        
-        Relatorio rel = new Relatorio(); 
-        
+        response.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = response.getWriter();
+
+        Relatorio rel = new Relatorio();
+
         String nome = request.getParameter("nome");
         String assunto = request.getParameter("assunto");
         String texto = request.getParameter("texto");
-        
+
         rel.setNome(nome);
         rel.setAssunto(assunto);
         rel.setTexto(texto);
-        
+
         out.println("<html><body>");
-        out.println("Nome: "+rel.getNome()+"<br>");
-        out.println("Assunto: "+rel.getAssunto()+"<br>");
-        out.println("Texto: "+rel.getTexto()+"<br>");
+        out.println("Nome: " + rel.getNome() + "<br>");
+        out.println("Assunto: " + rel.getAssunto() + "<br>");
+        out.println("Texto: " + rel.getTexto() + "<br>");
         out.println("</body></html>");
-  
+
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

@@ -14,8 +14,8 @@ import javax.servlet.http.HttpServletResponse;
  * @author Rodrigo
  * @review and correction Alan Lones
  */
-@WebServlet(name = "Servletui011", urlPatterns = {"/Servletui011"})
-public class Servletui011 extends HttpServlet {
+@WebServlet(name = "ServletUI011", urlPatterns = {"/ServletUI011"})
+public class ServletUI011 extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {

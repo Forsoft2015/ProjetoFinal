@@ -13,8 +13,8 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Helena
  */
-@WebServlet(name = "Servletui016", urlPatterns = {"/Servletui016"})
-public class Servletui016 extends HttpServlet {
+@WebServlet(name = "ServletUI016", urlPatterns = {"/ServletUI016"})
+public class ServletUI016 extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
