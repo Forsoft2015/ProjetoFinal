@@ -203,7 +203,7 @@
                 </form>
             </div>
 
-            /* Inicio do rodapé */
+            
             <div id="rodape">	
                 <div class="main">
                     <div id="footer">
@@ -212,7 +212,7 @@
                     </div>
                 </div>
             </div>
-            /* Fim do rodapé */
+            
         </div>
     </body>
 </html>
