@@ -24,11 +24,11 @@
                         <a class="sair" href="#">Sair</a>
                     </div>
                     <ul id="nav"> <!-- Esse é o 1 nivel ou o nivel principal -->
-                        <li class="menu"><a href="login.aspx">Usuários</a>
+                        <li class="menu"><a href="www2.projetodigimon.com.br/Home/login.cshtml">Usuários</a>
                             <ul class="submenu-1"> <!--Esse é o 2 nivel ou o primeiro Drop Down--> 
-                                <li><a href="ui012-cadastrar-usuario.aspx">Cadastrar</a></li>
-                                <li><a href="ui035-pesquisar-usuario.aspx">Pesquisar</a></li>
-                                <li><a href="ui013-consultar-usuario.aspx">Consultar</a></li>       
+                                <li><a href="www2.projetodigimon.com.br/Home/ui012cadastrarusuario.cshtml">Cadastrar</a></li>
+                                <li><a href="www2.projetodigimon.com.br/Home/ui035pesquisarusuario.cshtml">Pesquisar</a></li>
+                                <li><a href="www2.projetodigimon.com.br/Home/ui013consultarusuario.cshtml">Consultar</a></li>       
                             </ul>
                         </li>
                         <li class="menu"><a href="#">Relatórios</a>
@@ -43,23 +43,23 @@
                             <ul class="submenu-1">
                                 <li><a href="#" class="menuItem">Frete</a>
                                     <ul class="submenu-1"><!--Esse é o 2 nivel ou o primeiro Drop Down -->
-                                        <li><a href="ui014-cadastrar-transp.aspx">Cadastrar</a></li>
-                                        <li><a href="ui036-pesquisar-transp.aspx">Pesquisar</a></li>
-                                        <li><a href="ui015-consultar-transp.aspx">Consultar</a></li>
+                                        <li><a href="www2.projetodigimon.com.br/Home/ui014cadastrartransp.cshtml">Cadastrar</a></li>
+                                        <li><a href="www2.projetodigimon.com.br/Home/ui036pesquisartransp.cshtml">Pesquisar</a></li>
+                                        <li><a href="www2.projetodigimon.com.br/Home/ui015consultartransp.cshtml">Consultar</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#" class="menuItem">Veículo</a>
                                     <ul class="submenu-1"><!--  Esse é o 2 nivel ou o primeiro Drop Down-->
-                                        <li><a href="ui008-cadastrar-veiculo.aspx">Cadastrar</a></li>
-                                        <li><a href="ui032-pesquisar-veiculo.aspx">Pesquisar</a></li>
-                                        <li><a href="ui009-consultar-veiculo.aspx">Consultar</a></li>        
+                                        <li><a href="www2.projetodigimon.com.br/Home/ui008cadastrarveiculo.cshtml">Cadastrar</a></li>
+                                        <li><a href="www2.projetodigimon.com.br/Home/ui032pesquisarveiculo.cshtml">Pesquisar</a></li>
+                                        <li><a href="www2.projetodigimon.com.br/Home/ui009consultarveiculo.cshtml">Consultar</a></li>        
                                     </ul>
                                 </li>
                                 <li><a href="#" class="menuItem">Motorista</a>
                                     <ul class="submenu-1"> <!-- Esse é o 2 nivel ou o primeiro Drop Down -->
                                         <li><a href="ui022-cadastrar-motorista.aspx">Cadastrar</a></li>
-                                        <li><a href="ui050-pesquisar-motorista.aspx">Pesquisar</a></li>
-                                        <li><a href="ui023-consulta-motorista.aspx">Consultar</a></li>        
+                                        <li><a href="www2.projetodigimon.com.br/Home/ui050pesquisarmotorista.cshtml">Pesquisar</a></li>
+                                        <li><a href="www2.projetodigimon.com.br/Home/ui023consultamotorista.cshtml">Consultar</a></li>        
                                     </ul>
                                 </li>
                             </ul>
