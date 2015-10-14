@@ -18,7 +18,7 @@
         <div id="interface">
             <div id="header">
                 <div class="main">
-                    <a href="inicio.jsp"><img src="dist/imagens/logo.png" class="logo"></a>
+                    <a href="#"><img src="dist/imagens/logo.png" alt="logo" class="logo"></a>
                     <div class="login">
                         <a class="conta" href="#">Minha Conta</a>
                         <a class="sair" href="#">Sair</a>
@@ -130,23 +130,23 @@
                     <div class="centro">
                         <fieldset>
                             <legend><b> Dados do Relatório</b> </legend><br>
-                            <div class="campoObrig">
+                            <div class="campo">
                                 <b><label for="idRodoviaJ">ID da Rodovia:</label> </b>
                                 <input type="text" name="idRodovia" id="idRodoviaJ" maxlength="40" class="campoObrig iLetras" disabled><span class="tSpan" id="x_idRodoviaJ" class="tSpan"></span>
                             </div><br>
 
-                            <div class="campoObrig">
+                            <div class="campo">
                                 <b><label for="idRodoviaJ">Assunto:</label></b>
                                 <input type="text" name="assunto" id="assuntoJ" maxlength="40" class="campoObrig iLetras" disabled><span class="tSpan" id="assuntoJ" class="tSpan"></span>
                             </div><br>
 
 
-                            <div class="campoObrig">
+                            <div class="campo">
                                 <b><label for="nomeJ">Nome Rodovia:</label> </b>
                                 <input type="text" name="nome" id="nomeJ" maxlength="40" class="campoObrig iLetras" disabled><span class="tSpan" id="x_nomeJ" class="tSpan"></span>
                             </div><br>
 
-                            <div class="campoObrig">					
+                            <div class="campo">					
                                 <b><label for="tinfoJ">Informações do relatório:</label></b>
                                 <br><br>
                                 <textarea name="tinfo" rows= "15"  id ="tinfoJ" cols="85" disabled></textarea>

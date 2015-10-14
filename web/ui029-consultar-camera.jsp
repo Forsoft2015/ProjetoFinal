@@ -18,7 +18,7 @@
         <div id="interface">
             <div id="header">
                 <div class="main">
-                    <a href="inicio.jsp"><img src="dist/imagens/logo.png" class="logo"></a>
+                    <a href="#"><img src="dist/imagens/logo.png" alt="logo" class="logo"></a>
                     <div class="login">
                         <a class="conta" href="#">Minha Conta</a>
                         <a class="sair" href="#">Sair</a>
@@ -124,35 +124,35 @@
                         <h1>Consultar Câmera</h1>
                         <fieldset>
                             <legend>Dados da Câmera</legend>
-                            <div class="campoObrig">
+                            <div class="campo">
                                 <label for="idCameraJ">ID da Camera:</label> 
                                 <input type="text" name="idCamera" id="idCameraJ" disabled  class="campoObrig iLetras"><span id="x_idCameraJ" class="tSpan"></span>
                             </div>
-                            <div class="campoObrig">
+                            <div class="campo">
                                 <label for="numSerieJ">Número de Série:</label> 
                                 <input type="text" name="numSerie" id="numSerieJ"   class="campoObrig"><span id="x_numSerieJ" class="tSpan"></span>
                             </div>
-                            <div class="campoObrig">
+                            <div class="campo">
                                 <label for="fabricanteJ">Fabricante:</label> 
                                 <input type="text" name="fabricante" id="fabricanteJ"   class="campoObrig iLetras"><span id="x_fabricanteJ" class="tSpan"></span>
                             </div>
-                            <div class="campoObrig">
+                            <div class="campo">
                                 <label for="modeloJ">Modelo:</label> 
                                 <input type="text" name="modelo" id="modeloJ"    class="campoObrig iLetras"><span id="x_modeloJ" class="tSpan"></span>
                             </div>
-                            <div class="campoObrig">
+                            <div class="campo">
                                 <label for="latitudeJ">Latitude:</label> 
                                 <input type="text" name="latitude" id="latitudeJ"   class="campoObrig"><span id="x_latitudeJ" class="tSpan"></span>
                             </div>
-                            <div class="campoObrig">
+                            <div class="campo">
                                 <label for="longitudeJ">Longitude:</label> 
                                 <input type="text" name="longitude" id="longitudeJ"   class="campoObrig"><span id="x_logitudeJ" class="tSpan"></span>
                             </div>
-                            <!--<div class="campoObrig">
+                            <!--<div class="campo">
                                     <label for="idRodoviaJ">ID da Rodovia:</label> 
                                     <input type="text" name="idRodovia" id="idRodoviaJ" disabled  class="campoObrig iLetras"><span id="x_idRodoviaJ" class=""></span>
                             </div>-->
-                            <div class="campoObrig">
+                            <div class="campo">
                                 <label for="kmJ">Extensão em KM:</label> 
                                 <input type="text" name="km" id="kmJ" ><span id="x_kmJ" class=""></span>
                             </div>

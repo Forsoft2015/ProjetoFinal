@@ -18,7 +18,7 @@
         <div id="interface">
             <div id="header">
                 <div class="main">
-                    <a href="inicio.jsp"><img src="dist/imagens/logo.png" class="logo"></a>
+                    <a href="#"><img src="dist/imagens/logo.png" alt="logo" class="logo"></a>
                     <div class="login">
                         <a class="conta" href="#">Minha Conta</a>
                         <a class="sair" href="#">Sair</a>
@@ -140,7 +140,7 @@
                                 </div>	
                                 <br><br>
 
-                                <div class="campoObrig">				
+                                <div class="campo">				
                                     <b><label for="tinfoJ">Insira aqui as informações que constarão no relatório:</label></b>
                                     <br><br>
                                     <textarea name="tinfo" rows= "15"  id ="tinfoJ" cols="85" ></textarea>'	

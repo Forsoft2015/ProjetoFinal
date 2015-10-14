@@ -18,7 +18,7 @@
         <div id="interface">
             <div id="header">
                 <div class="main">
-                    <a href="inicio.jsp"><img src="dist/imagens/logo.png" class="logo"></a>
+                    <a href="#"><img src="dist/imagens/logo.png" alt="logo" class="logo"></a>
                     <div class="login">
                         <a class="conta" href="#">Minha Conta</a>
                         <a class="sair" href="#">Sair</a>
