@@ -34,7 +34,7 @@
                         <li class="menu"><a href="#">Relatórios</a>
                             <ul class="submenu-1"> <!--Esse é o 2 nivel ou o primeiro Drop Down--> 
                                 <li><a href="ui010-registrar-relatorio.jsp">Emitir</a></li>
-                                <li><a href="ui033-pesquisa-relatorio.jsp">Pesquisar</a></li>
+                                <li><a href="ui033-pesquisar-relatorio.jsp">Pesquisar</a></li>
                                 <li><a href="ui011-consultar-relatorio.jsp">Consultar</a></li> 
                                 <li><a href="#">Rota</a></li> 
                             </ul>
