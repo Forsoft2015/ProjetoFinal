@@ -19,7 +19,7 @@
         <ul class="submenu-1"> <!-- Esse é o 2 nivel ou o primeiro Drop Down -->
             <li><a href="http://www2.projetodigimon.com.br/Home/ui006cadastrarfrete.cshtml">Cadastrar</a></li>
             <li><a href="http://www2.projetodigimon.com.br/Home/ui031pesquisarfrete.cshtml">Pesquisar</a></li>
-            <li><a href="ui007-consultar-frete.aspx">Consultar</a></li>
+            <li><a href="http://www2.projetodigimon.com.br/Home/ui007consultarfrete.cshtml">Consultar</a></li>
         </ul>
     </li>
     <li><a href="#" class="menuItem">Veículo</a>
@@ -90,9 +90,9 @@
     </li>
      <li><a href="#" class="menuItem">Motorista</a>
         <ul class="submenu-1"> <!-- Esse é o 2 nivel ou o primeiro Drop Down -->
-            <li><a href="ui022-cadastrar-motorista.aspx">Cadastrar</a></li>
+            <li><a href="http://www2.projetodigimon.com.br/Home/ui022cadastramotorista.cshtml">Cadastrar</a></li>
             <li><a href="http://www2.projetodigimon.com.br/Home/ui050pesquisarmotorista.cshtml">Pesquisar</a></li>
-            <li><a href="ui023-consultar-motorista.aspx">Consultar</a></li>
+            <li><a href="http://www2.projetodigimon.com.br/Home/ui023consultamotorista.cshtml">Consultar</a></li>
         </ul>
     </li>                     
 

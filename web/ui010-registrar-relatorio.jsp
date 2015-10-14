@@ -45,7 +45,7 @@
                                     <ul class="submenu-1"><!--Esse é o 2 nivel ou o primeiro Drop Down -->
                                         <li><a href="http://www2.projetodigimon.com.br/Home/ui006cadastrarfrete.cshtml">Cadastrar</a></li>
                                         <li><a href="http://www2.projetodigimon.com.br/Home/ui031pesquisarfrete.cshtml">Pesquisar</a></li>
-                                        <li><a href="ui007-consultar-frete.aspx">Consultar</a></li>
+                                        <li><a href="http://www2.projetodigimon.com.br/Home/ui007consultarfrete.cshtml">Consultar</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#" class="menuItem">Veículo</a>

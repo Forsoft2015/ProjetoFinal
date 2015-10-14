@@ -57,7 +57,7 @@
                                 </li>
                                 <li><a href="#" class="menuItem">Motorista</a>
                                     <ul class="submenu-1"> <!-- Esse é o 2 nivel ou o primeiro Drop Down -->
-                                        <li><a href="ui022-cadastrar-motorista.aspx">Cadastrar</a></li>
+                                        <li><a href="http://www2.projetodigimon.com.br/Home/ui022cadastramotorista.cshtml">Cadastrar</a></li>
                                         <li><a href="http://www2.projetodigimon.com.br/Home/ui050pesquisarmotorista.cshtml">Pesquisar</a></li>
                                         <li><a href="http://www2.projetodigimon.com.br/Home/ui023consultamotorista.cshtml">Consultar</a></li>        
                                     </ul>
