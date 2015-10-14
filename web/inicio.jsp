@@ -15,8 +15,8 @@
                     <ul>
                         <li><a href="inicio.jsp">Home</a></li>
                         <li><a href="ui001-sobre.jsp">Sobre</a></li>
-                        <li><a href="www2.projetodigimon.com.br/Home/ui002contatenos.cshtml">Contato</a></li>
-                        <li><a href="www2.projetodigimon.com.br/ui003registrotac.cshtml">Registre-se</a></li>
+                        <li><a href="http://www2.projetodigimon.com.br/Home/ui002contatenos.cshtml">Contato</a></li>
+                        <li><a href="http://www2.projetodigimon.com.br/Home/ui003registrotac.cshtml">Registre-se</a></li>
                         <li><a href="login.apsx">Login</a></li>
                     </ul>
                 </div>

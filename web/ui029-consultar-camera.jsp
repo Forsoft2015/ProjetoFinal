@@ -26,9 +26,9 @@
                     <ul id="nav"> <!-- Esse é o 1 nivel ou o nivel principal -->
                         <li class="menu"><a href="#">Usuários</a>
                             <ul class="submenu-1"> <!--Esse é o 2 nivel ou o primeiro Drop Down--> 
-                                <li><a href="www2.projetodigimon.com.br/Home/ui012cadastrarusuario.cshtml">Cadastrar</a></li>
-                                <li><a href="www2.projetodigimon.com.br/Home/ui035pesquisarusuario.cshtml">Pesquisar</a></li>
-                                <li><a href="www2.projetodigimon.com.br/Home/ui013consultarusuario.cshtml">Consultar</a></li>       
+                                <li><a href="http://www2.projetodigimon.com.br/Home/ui012cadastrarusuario.cshtml">Cadastrar</a></li>
+                                <li><a href="http://www2.projetodigimon.com.br/Home/ui035pesquisarusuario.cshtml">Pesquisar</a></li>
+                                <li><a href="http://www2.projetodigimon.com.br/Home/ui013consultarusuario.cshtml">Consultar</a></li>       
                             </ul>
                         </li>
                         <li class="menu"><a href="#">Relatórios</a>
@@ -43,23 +43,23 @@
                             <ul class="submenu-1">
                                 <li><a href="#" class="menuItem">Frete</a>
                                     <ul class="submenu-1"><!--Esse é o 2 nivel ou o primeiro Drop Down -->
-                                        <li><a href="www2.projetodigimon.com.br/Home/ui006cadastrarfrete.cshtml">Cadastrar</a></li>
-                                        <li><a href="www2.projetodigimon.com.br/Home/ui031pesquisarfrete.cshtml">Pesquisar</a></li>
+                                        <li><a href="http://www2.projetodigimon.com.br/Home/ui006cadastrarfrete.cshtml">Cadastrar</a></li>
+                                        <li><a href="http://www2.projetodigimon.com.br/Home/ui031pesquisarfrete.cshtml">Pesquisar</a></li>
                                         <li><a href="ui007-consultar-frete.aspx">Consultar</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#" class="menuItem">Veículo</a>
                                     <ul class="submenu-1"><!--  Esse é o 2 nivel ou o primeiro Drop Down-->
-                                        <li><a href""www2.projetodigimon.com.br/Home/ui008cadastrarveiculo.cshtml">Cadastrar</a></li>
-                                        <li><a href="www2.projetodigimon.com.br/Home/ui032pesquisarveiculo.cshtml">Pesquisar</a></li>
-                                        <li><a href="www2.projetodigimon.com.br/Home/ui009consultarveiculo.cshtml">Consultar</a></li>        
+                                        <li><a href="http://www2.projetodigimon.com.br/Home/ui008cadastrarveiculo.cshtml">Cadastrar</a></li>
+                                        <li><a href="http://www2.projetodigimon.com.br/Home/ui032pesquisarveiculo.cshtml">Pesquisar</a></li>
+                                        <li><a href="http://www2.projetodigimon.com.br/Home/ui009consultarveiculo.cshtml">Consultar</a></li>        
                                     </ul>
                                 </li>
                                 <li><a href="#" class="menuItem">Motorista</a>
                                     <ul class="submenu-1"> <!-- Esse é o 2 nivel ou o primeiro Drop Down -->
-                                        <li><a href="www2.projetodigimon.com.br/Home/ui022cadastramotorista.cshtml">Cadastrar</a></li>
-                                        <li><a href="www2.projetodigimon.com.br/Home/ui050pesquisarmotorista.cshtml">Pesquisar</a></li>
-                                        <li><a href="www2.projetodigimon.com.br/Home/ui023consultamotorista.cshtml">Consultar</a></li>        
+                                        <li><a href="http://www2.projetodigimon.com.br/Home/ui022cadastramotorista.cshtml">Cadastrar</a></li>
+                                        <li><a href="http://www2.projetodigimon.com.br/Home/ui050pesquisarmotorista.cshtml">Pesquisar</a></li>
+                                        <li><a href="http://www2.projetodigimon.com.br/Home/ui023consultamotorista.cshtml">Consultar</a></li>        
                                     </ul>
                                 </li>
                             </ul>
@@ -82,9 +82,9 @@
                                 </li>
                                 <li><a href="#">Transportadores</a>
                                     <ul class="submenu-1"> <!--Esse é o 2 nivel ou o primeiro Drop Down--> 
-                                        <li><a href="www2.projetodigimon.com.br/Home/ui014cadastrartransp.cshtml">Cadastrar</a></li>
-                                        <li><a href="www2.projetodigimon.com.br/Home/ui036pesquisartransp.cshtml">Pesquisar</a></li>
-                                        <li><a href="www2.projetodigimon.com.br/Home/ui015consultartransp.cshtml">Consultar</a></li>       
+                                        <li><a href="http://www2.projetodigimon.com.br/Home/ui014cadastrartransp.cshtml">Cadastrar</a></li>
+                                        <li><a href="http://www2.projetodigimon.com.br/Home/ui036pesquisartransp.cshtml">Pesquisar</a></li>
+                                        <li><a href="http://www2.projetodigimon.com.br/Home/ui015consultartransp.cshtml">Consultar</a></li>       
                                     </ul>
                                 </li>        
                                 <li><a href="#">Câmera</a>
