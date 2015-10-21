@@ -76,20 +76,9 @@ element.style {
 #main h1 {
     text-align: center;
     font-size: 35px;
-    margin-top: 50px;
-	margin-bottom:48px;
+    margin-top: 22px;
 }
 
-fieldset legend{
-	font-size:20px;
-	border-bottom: 2px groove threedface;
-	width:100%;
-	margin-bottom:10px;
-}
-fieldset{
-	margin-bottom:15px;
-	border:none;
-}
 
 /*FIM CONTEUDO CENTRAL*/
 
@@ -134,7 +123,7 @@ fieldset{
 /*MENU*/
 
 #header #darkBox{
-	height:206px;
+	min-height:206px;
 	background:rgba(0,0,0,0.9);
 	display:none;
 }
@@ -165,7 +154,7 @@ img.iconeMenu {
     float: left;
     text-transform: none;
     display: inline;
-    padding: 12px 20px 12px 20px;
+    padding: 12px 18px 12px 20px;
     height: 46px;
     line-height: 45px;
 } 
@@ -177,7 +166,7 @@ img.iconeMenu {
 
 .menu li ul{
 	position:absolute;
-	top:26px;
+	top:42px;
 	left:-40px;
 	display:none;
 }
@@ -195,6 +184,14 @@ img.iconeMenu {
 
 .menu li ul li:hover > .submenu{
 	display:block !important;
+}
+
+/*.menu li:last-child ul:last-child li {
+    width: 86px;
+}*/
+
+#last li{
+ width:86px;
 }
 /*FIM SUBMENU*/
 
@@ -265,6 +262,23 @@ user agent stylesheetkeygen, select {
 input #dataJ .campoObrig {
 	
 }
+
+input {
+	text-transform: uppercase;
+}
+
+fieldset {
+	border: none;
+	margin-bottom: 15px;
+}
+
+legend {
+	border-bottom: 2px groove threedface;
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
 #formularioJ input{
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -437,7 +451,7 @@ Menu*/
 	/*position: relative;
 }*/
 
-#enviarJ:hover {
+#enviarJ:hover, #alterarJ:hover {
     color: #14396A !important;
     background: transparent -moz-linear-gradient(center top , #295178, #E8E7EE) repeat scroll 0% 0%;
 	background: transparent -webkit-linear-gradient(#295178, #E8E7EE) repeat scroll 0% 0%;
@@ -448,7 +462,7 @@ Menu*/
 #limparJ:hover, #enviarJ, #pesquisarJ, #entrarJ {
     cursor: pointer;
 }
-#enviarJ {
+#enviarJ, #alterarJ {
     font-family: "Myriad Pro";
     font-weight: bold;
     font-size: 18px;
@@ -496,8 +510,4 @@ Menu*/
     border: medium none;
     margin: 5px;
     position: relative;
-}
-
-last-child #last li{
- width:86px;
 }

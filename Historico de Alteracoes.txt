@@ -1,3 +1,9 @@
-23:34 - Roberto
+20/10/2015	23:34 - Roberto
 
 Coloquei o novo layout no git e coloquei as páginas antigas na pasta "Telas antigas"
+
+====================================================================================================
+
+21/10/2015	03:02 - Rejane
+
+Corrigido as divs do layout, trocado a <div class="menu"> para <ul class="menu">, adicionado alt no layout e outras correções.
